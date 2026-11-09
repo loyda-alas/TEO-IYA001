@@ -10,9 +10,9 @@
 
 Un computador es un sistema complejo, capaz de realizar múltiples tareas. Desde sus inicios, han sido desarrollados de forma rápida e incesante, lo que ha permitido que en la actualidad se tengan dispositivos con elevadas capacidades de trabajo. A pesar de la evolución, las tareas que realizan los computadores, básicamente pueden ser resumidas en: procesamiento de datos, almacenamiento de datos, transferencia de datos y control de las operaciones mencionadas.
 
-Todavía es común utilizar los términos ordenador, computador y computadora para referirse a laptops, PCs de escritorio y servidores. En realidad cualquier dispositivo que sea capaz de ejecutar un programa es una computadora: teléfonos móviles, calculadoras científicas, televisores digitales y hasta un enrutador wifi.
-
-Téngase en cuenta que la más modesta de las tabletas modernas tiene más poder de cálculo que las computadoras que se utilizaron en las misiones Apollo.
+> Todavía es común utilizar los términos ordenador, computador y computadora para referirse a laptops, PCs de escritorio y servidores. En realidad cualquier dispositivo que sea capaz de ejecutar un programa es una computadora: teléfonos móviles, calculadoras científicas, televisores digitales y hasta un enrutador wifi.
+>
+> Téngase en cuenta que la más modesta de las tabletas modernas tiene más poder de cálculo que las computadoras que se utilizaron en las misiones Apollo.
 
 Por su importancia, este curso empieza con una breve historia de los computadores. Además de caracterizar los antecesores de los computadores actuales, servirá para proporcionar una visión general de la estructura y funcionamiento de un sistema de cómputo.
 
@@ -26,7 +26,7 @@ La ENIAC fue el primer computador sin componentes mecánicos en sus circuitos.
 
 Antes de ENIAC se habían creado varios ordenadores como los Z1 y Z3 de Conrad Zuse en Alemania y la famosa Bomba con la que se descifraron los códigos del ejército alemán.
 
-Estas computadoras de denominaban electromecánicas porque sus circuitos funcionaban con relés (interruptores automáticos) lo que limitaba su velocidad y escalaba su consumo eléctrico; también eran bastante ruidosas.
+Estas computadoras se denominaban electromecánicas porque sus circuitos funcionaban con relés (interruptores automáticos) lo que limitaba su velocidad y escalaba su consumo eléctrico; también eran bastante ruidosas.
 
 Mauchly, fue un catedrático de Ingeniería Eléctrica de la Universidad de Pennsylvania, y Eckert, uno de sus alumnos de licenciatura. Para la construcción del computador, propusieron utilizar tubos de vacío y recibieron aceptación por el ejército en 1943.
 
@@ -50,9 +50,7 @@ En 1947 Eckert y Mauchly formaron la Eckert - Mauchly Computer Corporation para 
 
 Posteriormente la Eckert - Mauchly Computer Corporation formó parte de la división UNIVAC de la Sperry - Rand Corporation, otra de las pioneras de la reciente industria de computadores. Sperry - Rand Corporation siguió construyendo una serie de máquinas sucesoras de la UNIVAC I.
 
-El UNIVAC II, que tenía una capacidad de memoria mayor y más aplicaciones que el UNIVAC I, salió al mercado al final de los cincuenta e ilustra varias tendencias que han permanecido como características de la industria de computadores. Primera, los avances en la tecnología permiten a las compañías seguir construyendo computadores más grandes y más potentes. Segunda, cada compañía intenta hacer sus nuevas máquinas superiores y compatibles con las anteriores. Esto significa que los programas escritos para las viejas máquinas pueden ejecutarse en las nuevas máquinas. Esta estrategia se adopta para retener la base de clientes; es decir, que cuando un
-
-cliente decide comprar una máquina nueva, probablemente la comprará a la misma compañía para evitar perder su inversión en programas.
+El UNIVAC II, que tenía una capacidad de memoria mayor y más aplicaciones que el UNIVAC I, salió al mercado al final de los cincuenta e ilustra varias tendencias que han permanecido como características de la industria de computadores. Primera, los avances en la tecnología permiten a las compañías seguir construyendo computadores más grandes y más potentes. Segunda, cada compañía intenta hacer sus nuevas máquinas superiores y compatibles con las anteriores. Esto significa que los programas escritos para las viejas máquinas pueden ejecutarse en las nuevas máquinas. Esta estrategia se adopta para retener la base de clientes; es decir, que cuando un cliente decide comprar una máquina nueva, probablemente la comprará a la misma compañía para evitar perder su inversión en programas.
 
 Los primeros ordenadores se programaban soldando y conectando literalmente.
 
@@ -138,9 +136,18 @@ En contraste con la arquitectura de conmutador central usada por IBM en sus sist
 
 Más allá de la tercera generación hay menos acuerdo general en la definición de las generaciones de computadores. En la tabla 1.1 se sugieren las que serían la cuarta y la quinta generación, basadas en los avances de la tecnología de los circuitos integrados (CI). Con la introducción de la integración a gran escala (LSI, Large - Scale Integration), podía haber más de 1 000 componentes en un circuito integrado. Con la integración a muy gran escala (VLSI, Verv - Large Scale Integration), se lograron más de 10 000 componentes por integrado y en la actualidad pueden contener más de 100 000.
 
-**Tabla 1.1.** : Generaciones de Computadores.
+**Tabla 1.1.** Generaciones de Computadores.
 
-Generación Fechas Aproximadas Tecnología Velocidad Típica (Operaciones/ segundo) 1 1950 - 1958 Tubos de Vacío 40 000 2 1958 - 1964 Transistores 200 000 3 1965 - 1971 CI de pequeña y media integración 1 000 000 4 1972 - 1977 CI de Gran Integración (LSI) 10 000 000 5 1978 - 1991 CI de Alta Integración (VLSI) 100 000 000 6 1991 - CI de Ultra Alta Integración (ULSI) 1 000 000 000 Con el gran avance de la tecnología, la rápida introducción de nuevos productos, la importancia del software y las comunicaciones, así como del hardware, la clasificación en generaciones se vuelve cada vez menos clara y menos significativa. Sin embargo, la introducción de dos componentes ha sido lo más destacado de este período: la memoria semiconductora y el microprocesador.
+| Generación | Fechas aproximadas | Tecnología | Velocidad típica (operaciones/segundo) |
+| --- | --- | --- | --- |
+| 1 | 1950 – 1958 | Tubos de vacío | 40 000 |
+| 2 | 1958 – 1964 | Transistores | 200 000 |
+| 3 | 1965 – 1971 | CI de pequeña y media integración | 1 000 000 |
+| 4 | 1972 – 1977 | CI de gran integración (LSI) | 10 000 000 |
+| 5 | 1978 – 1991 | CI de alta integración (VLSI) | 100 000 000 |
+| 6 | 1991 – | CI de ultra alta integración (ULSI) | 1 000 000 000 |
+
+Con el gran avance de la tecnología, la rápida introducción de nuevos productos, la importancia del software y las comunicaciones, así como del hardware, la clasificación en generaciones se vuelve cada vez menos clara y menos significativa. Sin embargo, la introducción de dos componentes ha sido lo más destacado de este período: la memoria semiconductora y el microprocesador.
 
 ### 1.6.1. Memoria semiconductora
 
@@ -242,9 +249,7 @@ Casi el 99% de los dispositivos móviles actuales están basados en tecnologías
 
 Lo interesante es que ARM no fabrica los procesadores, solo los diseña y licencia sus diseños a los verdaderos fabricantes como Atmel, Cirrus Logic, Intel, Samsung, HP, IBM, Sony, etc.
 
-Existen varias generaciones de procesadores ARM. Todas ellas diseñadas para ser utilizadas como unidad de control en sistemas embebidos denominados SOC (System on Chip) que consisten fundamentalmente en un contenedor de circuitos integrados que cubren prácticamente
-
-todas las funciones de un sistema de cómputo de propósito específico: reproductores multimedia, sistemas GPS, impresoras, fotocopiadoras.
+Existen varias generaciones de procesadores ARM. Todas ellas diseñadas para ser utilizadas como unidad de control en sistemas embebidos denominados SOC (System on Chip) que consisten fundamentalmente en un contenedor de circuitos integrados que cubren prácticamente todas las funciones de un sistema de cómputo de propósito específico: reproductores multimedia, sistemas GPS, impresoras, fotocopiadoras.
 
 Los sistemas RISC de ARM se caracterizan por el bajo consumo y el manejo inteligente de la programación. Las instrucciones que estos procesadores ejecutan siempre tienen un tamaño fijo y por tanto las demoras de ejecución son calculables. Por este motivo también se les emplea en tarjetas gráficas y hardware de tiempo real.
 
@@ -269,5 +274,3 @@ Finalmente se tienen, cada año, computadores más rápidos y con muy buenas pre
 En este material se ha mostrado una breve reseña de la evolución de los computadores y sus principales características. En este recorrido por la historia se presentaron las generaciones de computadores que han existido, así como los componentes fundamentales que han marcado el desarrollo de cada generación.
 
 Un acápite fue dedicado a INTEL, el primero en fabricar un procesador y que en la actualidad mantiene el liderato mundial en el desarrollo y producción de estos componentes. Se habló también del Power PC, procesador de arquitectura RISC que también fue muy popular.
-
-# Resumen
