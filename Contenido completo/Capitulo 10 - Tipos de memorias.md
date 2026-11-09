@@ -156,6 +156,39 @@ Las memorias caché son conocidas como ultra rápida, pues son 5 o 6 veces más 
 
 Tienen como desventajas su tamaño reducido, en el orden de los megabytes. Tienen un alto precio y no se pueden incrementar en la PC.
 
+
+
+<!-- tabla detectada en PDF p.138 -->
+
+| Marketing name | Naming convention | Speed grades | Speed | Singlechannel bandwidth | Dualchannel bandwidth |
+| --- | --- | --- | --- | --- | --- |
+| DDR200 | PC1600 | PC200 | 200MHz (100Mhzx2) | 16GB/s . | 32GB/s . |
+| DDR266 | PC2100 | PC266 | 266MHz (133Mhzx2) | 21GB/s . | 42GB/s . |
+| DDR333 | PC2700 | PC333 | 333MHz (166Mhzx2) | 27GB/s . | 54GB/s . |
+| DDR400 | PC3200 | PC400 | 400MHz (200Mhzx2) | 32GB/s . | 64GB/s . |
+
+
+
+<!-- tabla detectada en PDF p.139 -->
+
+| Velocidadde memoria | Clasificación delchipde memoria | Clasificación delmódulo | Anchode bandadel módulo | Anchodebandade sistemaDDR2de doblecanal |
+| --- | --- | --- | --- | --- |
+| 400MHz | DDR2 400 - | PC2 3200 - | 32GB/s . | 64GB/s . |
+| 533MHz | DDR2 533 - | PC2 4300 - | 43GB/s . | 86GB/s . |
+| 667MHz | DDR2 667 - | PC2 5300 - | 53GB/s . | 106GB/s . |
+
+
+
+<!-- tabla detectada en PDF p.140 -->
+
+| Nombre estándar | Velocidad delreloj | Tiempoentre señales | Velocidaddel relojdeE/S | Datos transferidos porsegundo | Nombredel módulo | Máxima capacidadde transferencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| DDR3 800 - | 100MHz | 10ns | 400MHz | 800MBs | PC3 6400 - | 640GB/s . |
+| DDR3 1066 - | 133MHz | 75ns . | 533MHz | 1066MBs . | PC3 8500 - | 853GB/s . |
+| DDR3 1333 - | 166MHz | 6ns | 667MHz | 1333MBs . | PC3 10600 - | 1067GB/s . |
+| DDR3 1600 - | 200MHz | 5ns | 800MHz | 1600MBs . | PC3 12800 - | 1280GB/s . |
+| DDR3 2000 - | 250MHz | 4ns | 1000MHz | 2000MBs . | PC3 15000 - | 1500GB/s . |
+
 ## 10.4. Conclusiones
 
 En este material fueron presentados los tipos de memorias que se pueden encontrar en un computador. Se detallaron las memorias tipo SIMM y DIMM y se detallaron las tecnologías desarrolladas en cada caso. Se profundizó en las memorias DDR por ser las que usan los computadores actuales, mostrándose parámetros técnicos de estas, tales como ando de banda y velocidad de trabajo. De igual forma se mostraron las memorias caché, así como las tecnologías de doble y triple canal.

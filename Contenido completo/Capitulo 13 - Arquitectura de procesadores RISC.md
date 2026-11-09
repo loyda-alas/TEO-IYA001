@@ -122,6 +122,24 @@ En ese estado, el procesador comienza todo desde cero. En la figura 13.3 se mues
 
 **Figura 13.3.** Ubicación y función de los vectores de interrupción en ARM.
 
+
+
+<!-- tabla detectada en PDF p.180 -->
+
+| fbits | nbits | nbits | nbits |
+| --- | --- | --- | --- |
+| function | op1addr . | op2addr . | dest addr . . |
+
+
+
+<!-- tabla detectada en PDF p.184 -->
+
+| Bits | Tipo |
+| --- | --- |
+| 8 | Byte |
+| 16 | Word |
+| 32 | Doubleword |
+
 ## 13.6. Conclusiones
 
 Los procesadores ARM incluyen características que los hacen únicos en cuanto a la optimización del funcionamiento y ahorro de energía, como el empaquetado de direcciones, el set de instrucciones simplificado, la técnica carga y almacenamiento. Estas son características ideales para aplicaciones móviles.

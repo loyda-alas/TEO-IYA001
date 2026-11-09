@@ -199,6 +199,14 @@ monitorización de prestaciones.
 - Registros de aplicación: conjuntamente con los del indicador del marco actual, permiten
 configurar lo que se conoce como pila de registros, que facilitan la implementación de la multitarea y el guardado de contextos en los sistemas operativos.
 
+
+
+<!-- tabla detectada en PDF p.153 -->
+
+| Interrupción | Función(Excepción) |
+| --- | --- |
+| 0 6 13 14 19 | Divisiónporcero Códigodeinstrucciónnoválido Errordeproteccióngeneral Fallodepágina ErroreninstrucciónSIMD |
+
 ## 11.4. Conclusiones
 
 La evolución de los sistemas de cómputo no siempre la dictan los avances tecnológicos. Un buen ejemplo es el intento de introducción de IA-64 de Intel. Aunque la tecnología es buena y constituye una mejora importante, no triunfó frente a las extensiones de IA-32, debido sobre todo a la falta de una estrategia de migración y al hecho real que supone un cambio de esa magnitud.

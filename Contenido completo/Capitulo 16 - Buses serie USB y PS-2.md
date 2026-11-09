@@ -90,6 +90,57 @@ USB (v 1.1) Interfaz PS/2 Conexión “en caliente” Sí No Documentación Bien
 
 **Figura 16.3.** Conversor de puerto USB a PS/2.
 
+
+
+<!-- tabla detectada en PDF p.221 -->
+
+| Patas | Señal | E/S | Definición |
+| --- | --- | --- | --- |
+| 1 | Vcc | N/A | Voltajedesuministro |
+| 2 | DATA | I | Entradadedatos |
+| 3 | +DATA | O | Salidadedatos |
+| 4 | GND | N/A | Tierradeseñal |
+
+
+
+<!-- tabla detectada en PDF p.222 -->
+
+|  | Transfer (porseg) . . | Aparición |
+| --- | --- | --- |
+| USB30 . | 600MB/s | 2010 |
+| USB20 . | 60MB/s | 2000 |
+| USB10 . | 15MB/sy187KB/s . | 1996 |
+
+
+
+<!-- tabla detectada en PDF p.222 -->
+
+|  | Song/Pic | 256Flash | USBFlash | SD -Movie | USBFlash | HD -Movie |
+| --- | --- | --- | --- | --- | --- | --- |
+|  | 4MB | 256MB | 1GB | 6GB | 16GB | 25GB |
+| USB10 . | 53sec . | 57min . | 22min | 22hr . | 59hr . | 93hr . |
+| USB20 . | 01sec . | 85sec . | 33sec | 33min . | 89min . | 139min . |
+| USB30 . | 001sec . | 08sec . | 33sec . | 20sec | 533sec . | 70sec |
+
+
+
+<!-- tabla detectada en PDF p.222 -->
+
+|  | USB(v11) . | InterfazPS/2 |
+| --- | --- | --- |
+| N°dedispositivossoportados | Hasta127 | 1 |
+| Máximatasadetransferencia | 12Mbit/s | 40Kbit/s |
+| Máxtensión/corriente | 5V@500mA | 5V@100mA |
+
+
+
+<!-- tabla detectada en PDF p.223 -->
+
+|  | USB(v11) . | InterfazPS/2 |
+| --- | --- | --- |
+| Conexión“encaliente” | Sí | No |
+| Documentación | Biendocumentadoenhttp:// wwwusborg . . | Out -of -Print(IBMTech Reference) |
+
 ## 16.3. Conclusiones
 
 En esta clase se dieron a conocer dos de los más importantes buses de los computadores modernos: el USB y el PS2. Estos buses han permitido la conexión de dispositivos como el mouse y el teclado, aunque en el caso del USB, la diversidad de dispositivos es muy grande.

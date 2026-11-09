@@ -187,3 +187,107 @@ Se puede consultar la bibliografía [1] y [2] para ver el resto de las instrucci
 ![Figura](img/fig-1075.jpg)
 
 ![Figura](img/fig-1099.jpg)
+
+
+<!-- tabla detectada en PDF p.165 -->
+
+| 0 | 1 | 0 | 1 | 1 | 0 | 1 | 0 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+
+
+
+<!-- tabla detectada en PDF p.166 -->
+
+| 32bits | 16bits | 8bits | 8bits | Descripción |
+| --- | --- | --- | --- | --- |
+| EAX | AX | AH | AL | Este registro es el acumulador principal implicado en , granpartedelasoperacionesdearitméticasydeE/S . |
+| EBX | BX | BH | BL | Recibe el nombre de registro base ya que es el único registro de propósito general que se usa como un índice en el direccionamiento indexado Se suele . utilizarparacálculosaritméticos . |
+| ECX | CX | CH | CL | El CX es conocido como registro contador ya que puede contener un valor para controlar el número de vecesqueserepiteunaciertaoperación . |
+| EDX | DX | DH | DL | Se conoce como registro de datos Algunas . operaciones de E/S requieren su uso y las , operaciones de multiplicación y división con cifras grandessuponenqueelDXyelAXtrabajanjuntos . |
+
+
+
+<!-- tabla detectada en PDF p.166 -->
+
+| 32bits | 16bits | 8bits | 8bits |
+| --- | --- | --- | --- |
+| EDX =#:DX |  |  |  |
+| DX =DH:DL | # | DX |  |
+|  | # | DH | DL |
+
+
+
+<!-- tabla detectada en PDF p.169 -->
+
+| Registro | Descripción |
+| --- | --- |
+| CS | Registro Segmento de Código Establece el área de memoria dónde está el . programadurantesuejecución . |
+| DS | Registro Segmento de Datos Especifica la zona donde los programas leen y . escribensusdatos . |
+| SS | Registro Segmento de Pila Permite la colocación en memoria de una pila para . , almacenamientotemporaldedireccionesydatos . |
+| ES | Registro Segmento Extra Para acceder a un segmento distinto de los anteriores sin . necesidaddemodificarlosotrosregistrosdesegmento . |
+
+
+
+<!-- tabla detectada en PDF p.169 -->
+
+| Direccióndelsegmento: | 12340h |
+| --- | --- |
+| Direccióndeldesplazamiento: | + 52h |
+| Direcciónreal: | 12392h |
+
+
+
+<!-- tabla detectada en PDF p.169 -->
+
+| Direccióndelsegmento: | 12350h |
+| --- | --- |
+| Direccióndeldesplazamiento: | + 42h |
+| Direcciónreal: | 12392h |
+
+
+
+<!-- tabla detectada en PDF p.170 -->
+
+| Registro | Descripción |
+| --- | --- |
+| RegistroSI | Registro índice fuente requerido en algunas operaciones con cadenas de caracteres EsteregistroestáasociadoconelregistroDS . . |
+| RegistroDI | Registro índice destino requerido también en determinadas operaciones con cadenasdecaracteres EstáasociadoalregistroDSoES . . |
+
+
+
+<!-- tabla detectada en PDF p.170 -->
+
+| Bit | Operación |
+| --- | --- |
+| OF(11) | BitdeOverflowodesbordamiento Indicadesbordamientodeunbitdeordenalto(mása . laizquierda) despuésdeunaoperaciónaritmética , . |
+| DF(10) | BitdeDirección Designaladirección creciente(0)odecreciente(1) enoperaciones . , , concadenasdecaracteres . |
+| IF(9) | BitdeInterrupción Indicaqueunainterrupciónexterna comolaentradadesdeel . , teclado seaprocesadaoignorada , . |
+| TF(8) | BitdeTrapoDesvío Procesaoignoralainterrupcióninternadetrace(procesamiento . pasoapaso) . |
+| SF(7) | BitdeSigno Indicaelvalordelbitmássignificativodelregistrodespuésdeuna . operaciónaritméticaodedesplazamiento . |
+| ZF(6) | BitCero Seponea1siunaoperaciónproduce0comoresultado . |
+| AF(4) | BitdeCarryAuxiliar Seponea1siunaoperaciónaritméticaproduceunacarreodelbit . 3al4 Seusaparaaritméticaespecializada(ajusteBCD) . . |
+| PF(2) | BitdeParidad Seactivasielresultadodeunaoperacióntieneparidadpar . . |
+| CF(0) | BitdeAcarreo Contieneelacarreodeunaoperaciónaritméticaodedesplazamientode . bits . |
+
+
+
+<!-- tabla detectada en PDF p.170 -->
+
+| 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| - | - | - | - | O | D | I | T | S | Z | - | A | - | P | - | C |
+
+
+
+<!-- tabla detectada en PDF p.171 -->
+
+| Tipo | Nombre | cantidadbits | Valormáximo |
+| --- | --- | --- | --- |
+| DB | byte | 8 | 255 |
+| DW | word | 16 | 65535 |
+| DD | dword | 32 | 4294967295 |
+| DF | farword |  |  |
+| DQ | quadword |  |  |
+| DT | ten |  |  |
+

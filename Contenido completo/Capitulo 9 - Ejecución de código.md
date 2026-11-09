@@ -147,6 +147,14 @@ En algún momento el usuario utilizará el teclado y el controlador correspondie
 
 Dentro de este código de atención a la interrupción, que es como se llama, el procesador leerá el puerto de entrada/salida del teclado para saber que tecla fue utilizada y a continuación “recuerda” que hay un programa esperando por un evento del teclado. Este recordatorio lo hace gracias a que en memoria y como parte del manejo de las interrupciones se ubican en una lista la identificación de todos los programas que se detuvieron por espera de un evento. El dato obtenido del teclado es utilizado por el propio procesador para continuar la ejecución.
 
+
+
+<!-- tabla detectada en PDF p.122 -->
+
+| Procesador | Arquitectura | Tamañodelosregistrosdeusogeneral |
+| --- | --- | --- |
+| Z80 80286 80386 Corei7 | 8bit 16bit 32bit 64bit | 8bit 16bit 32bit 64bit |
+
 ## 9.5. Conclusiones
 
 La ejecución de código es el propósito de todo sistema de cómputo. Para llevar a cabo esta tarea intervienen casi todos los componentes de una manera u otra. En la RAM se almacena el programa en forma de código máquina. Un conjunto de registros y componentes en el procesador permite leer dicho código, decodificarlo y finalmente ejecutarlo. Este proceso jamás se detiene, a menos que se corte el suministro eléctrico o se le ordene al procesador. Para agilizar la ejecución de instrucciones se implementa lo que se conoce como entubamiento, que consiste en segmentar la ejecución de instrucciones en etapas concatenadas pero que pueden utilizarse varias veces durante el ciclo de instrucción, pero con instrucciones diferentes.

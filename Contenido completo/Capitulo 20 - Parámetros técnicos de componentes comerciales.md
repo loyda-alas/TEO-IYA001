@@ -176,6 +176,78 @@ con cartuchos de tinta y está indicada para la impresión en color y de imágen
 - Las webcam: cada vez cobra más importancia con el auge de las videoconferencias de
 ordenador a ordenador. Hay numerosos modelos a precios muy asequibles. No conviene gastar excesivo dinero en ellas porque la calidad de la imagen que transmitan depende más del ancho de banda que de su óptica.
 
+
+
+<!-- tabla detectada en PDF p.264 -->
+
+| ModelosIntel |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
+| PentiumII | 233 -450MHz | 1 | 66 -100MHz | 168 43W . - | 32KB |
+| PentiumIII | 450 MHz-1 .4 GHz | 1 | 100 -133MHz | 17 345W - . | 256 512KB - |
+| Pentium4 | 1 .3 -3 .8 GHz | 1 | 400 -1066MHz | 21 115W - | 12+8 -12+16KB |
+| Pentium4 (Extreme edition) | 3 .2 -3 .73 GHz | 1 | 800 -1066MHz | 92 115W - | 12+8 -12+16KB |
+| Celeron | 266 MHz-3 .6 GHz | 1 2 , | 66 -800MHz | 55 86W . - | 8KB -32KBx2 |
+| Core2Duo | 1 .06 -3 .33 GHz | 1 2 4 , , | 533MHz , 667MHz , 800MHz , 1066MHz , 1333MHz , 1600MHz | 55W 150W . - | 32KBx2 |
+
+
+
+<!-- tabla detectada en PDF p.265 -->
+
+| ModelosIntel |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
+| Corei3 | 1 .4 -3 .4 GHz | 2 | 1066MHz , 1600 MHz 2 .5 , - 5GT/s | 35 73W - | 32x32KBx2 |
+| Corei5 | 1 .06 -3 .6 GHz | 2 4 , | 2 .5 -5 GT/s | 17 95W - | 32x32KBx2 - 32x32KBx4 |
+| Corei7 | 1 .6 -3 .9 GHz | 6 | 48GT/s . , 64GT/s . | 45W 130W - | 32x32KBx4 - 32x32KBx6 |
+
+
+
+<!-- tabla detectada en PDF p.265 -->
+
+| ModelosAMD |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
+| Duron | 600 -1800MHz | 1 | 100 -133MHz | 7W 57W , - | 128KB |
+| Athlon | 500 -1400MHz | 1 | 100 -133MHz | 31W 72W - | 128KB |
+| AthlonXP | 1333 -2333MHz | 1 | 133 -266MHz | 485 768W , - , | 128KB |
+| AthlonXP | 1500 -2200MHz | 1 | 166 -800MHz | 35 62W - | 128KB |
+| SempronLE | 1900 -2200MHz | 1 | 800MHzHT | 45W | 128KB |
+| Athlon64 | 1000MHz | 1 | 800MHzHT - 1GHzHT | 8 89W - | 128KB |
+| SempronX2 | 1800 -2000MHz | 2 | 800MHzHT | 65W | 8KBx2 |
+| Athlon64X2 | 1900 -3100MHz | 2 | 800MHzHT | 35 125W - | 128KBx2 |
+| Athlon64FX | 2600 -3000MHz | 2 | 800MHzHT | 110 125W - | 1MBx2 |
+| AthlonX2 | 1900 -2800MHz | 2 | 800MHzHT | 45 95W - | 512KBx2 |
+| PhenomX3 | 900 -2500MHz | 3 | 18GHzHT , | 65 95W - | 512KBx3 |
+| PhenomX4 | 1800 -2600MHz | 4 | 1 ,6 -2 GHz HT | 65 125W - | 512KBx4 |
+| AthlonIIX2 | 1600 -3400MHz | 2 | 2GHzHT | 25 65W - | 512KBx2 - 1MBx2 |
+| AthlonIIX3 | 2200 -3400MHz | 3 | 2GHzHT | 45 95W - | 12 8KBx3 |
+
+
+
+<!-- tabla detectada en PDF p.266 -->
+
+| ModelosAMD |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
+| PhenomIIX2 | 2800 -3500MHz | 2 | 2 -2 ,2 GHz HT | 65 80W - | 8KBx2 |
+| AthlonIIX4 | 2200 -3200MHz | 4 | 2GHzHT | 45 95W - | 128KBx4 |
+| PhenomIIX3 | 2400 -3200MHz | 3 | 1 ,8 -2 GHz HT | 65 95W - | 512KBx3 |
+| PhenomIIX4 | 2000 -3 ,4 GHz | 4 | 1 ,8 -2 GHz HT | 65 125W - | 128KBx4 |
+| PhenomIIX6 | 2600 -3 ,76 GHz | 6 | 2GHzHT | 95 125W - | 8KBx6 |
+| FX | 2800 -4 ,3 GHz | 4 6 8 , , | 5 2GHzHT , | 95 125W - | 2MBx2 3 4 , , |
+
+
+
+<!-- tabla detectada en PDF p.266 -->
+
+| DDRSDRAM Standard | Busclock (MHz) | Internal rate(MHz) | Prefetch (minburst) | Transfer Rate(MT/s) | Voltage | DIMM pins | Micro MMpins |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| DDR | 100 200 - | 100 200 - | 2n | 200 400 - | 25/26 . . | 184 | 172 |
+| DDR2 | 200 533 - | 100 266 - | 4n | 400 1066 - | 18 . | 240 | 214 |
+| DDR3 | 400 1066 - | 100 266 - | 8n | 800 2133 - | 12/15 . . | 240 | 214 |
+| DDR4 |  |  |  | 2133 4266 - | 105/12 . . |  |  |
+
 ## 20.3. Conclusiones
 
 En esta clase se han presentado los diversos elementos a tener en cuenta a la hora de escoger un computador. Se han dado detalles de los componentes de los computadores modernos, para facilitar la elección, siempre ajustados a las necesidades del usuario final.

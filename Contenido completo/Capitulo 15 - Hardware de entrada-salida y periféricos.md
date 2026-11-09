@@ -187,6 +187,47 @@ que 255 impulsos en 0.025 segundos.
 
 La introducción masiva de los dispositivos móviles ha generado muchas expectativas respecto a las interfaces táctiles. Es probable que en el futuro cercano sea esta la forma de interacción dominante, incluso para el teclado. Es interesante notar sin embargo como los principios se mantienen a pesar de los avances técnicos en introducción de información. Es de esperarse un avance importante esta área apoyado en la comprensión del texto hablado y lectura del pensamiento. Cuestiones en las que hay resultados prometedores. De cualquier modo el software desempeñará un rol protagónico.
 
+
+
+<!-- tabla detectada en PDF p.205 -->
+
+| Dispositivostípicos | Velocidaddetransferencia(bps) |
+| --- | --- |
+| GigabitEthernet | 109 = |
+| Gráficos | <6*108 |
+| Discoduro | <108 |
+| Ethernet | 107 = |
+| Discoóptico | <107 |
+| Escáner | <5*106 |
+| Impresoraláser | <2*106 |
+| Módem | <105 |
+| Ratón | <2*102 |
+| Teclado | <102 |
+
+
+
+<!-- tabla detectada en PDF p.207 -->
+
+| Formfactor | Halfduplexbandwidth | Use |
+| --- | --- | --- |
+| PCI2332 bit . - | 1Gb/s | Commonindesktopandnotebooks |
+| PCIExpressx11 -bit | 25Gb/s . | Slots GbEthernet , |
+| PCIExpressx44 -bit | 10Gb/s | 10GbEthernet links slots , , |
+| PCIExpressx88 -bit | 20Gb/s | Links |
+| PCIExpressx1616 -bit | 40Gb/s | Graphics |
+
+
+
+<!-- tabla detectada en PDF p.209 -->
+
+|  | USB(v11) . | InterfazPS/2 |
+| --- | --- | --- |
+| N°dedispositivossoportados | Hasta127 | 1 |
+| Máximatasadetransferencia | 12/Mbit/s | 40Kbit/s |
+| Máxtensión/corriente | 5V@500mA | 5V@100mA |
+| Conexión“encaliente” | Sí | No |
+| Documentación | Biendocumentadoenhttp:/ wwwusborg . . | Out -of -Print (IBMTechReference) |
+
 ## 15.4. Conclusiones
 
 Los dispositivos de comunicación permiten que el computador intercambie datos con un dispositivo remoto, que puede ser un dispositivo de interacción con humanos, como por ejemplo un terminal, un dispositivo de interacción con máquinas o incluso otro computador.
