@@ -51,11 +51,18 @@ El modo más difundido es utilizar combinaciones de valores específicos de volt
 
 Los sistemas de numeración son metodologías para representar valores numéricos y operaciones sobre estos. En el mundo se ha adoptado el sistema decimal como estándar de facto en la enseñanza aunque quedan remanentes del sistema de numeración romano y se sabe que los egipcios utilizaban un sistema sexagesimal y los mayas otro vigesimal.
 
-La primera computadora electrónica, ENIAC, utilizaba circuitos que “comprendían” el sistema de numeración decimal, aunque muchas de sus predecesoras electromecánicas funcionaban en binario.
+> La primera computadora electrónica, ENIAC, utilizaba circuitos que “comprendían” el sistema de numeración decimal, aunque muchas de sus predecesoras electromecánicas funcionaban en binario.
 
 Los nombres están dados por la cantidad de dígitos del sistema:
 
-Sistema Dígitos Binario 2 Decimal 10 Vigesimal 20 Sexagesimal 60 Estos sistemas de numeración se denominan posicionales, ya que el valor de un dígito está dado por la posición que ocupa en la representación. Por esto sabemos que 1(uno) es menor que 10(diez) y que un número de 20 cifras es mayor que otro de 10.
+| Sistema | Dígitos |
+| --- | --- |
+| Binario | 2 |
+| Decimal | 10 |
+| Vigesimal | 20 |
+| Sexagesimal | 60 |
+
+Estos sistemas de numeración se denominan posicionales, ya que el valor de un dígito está dado por la posición que ocupa en la representación. Por esto sabemos que 1(uno) es menor que 10(diez) y que un número de 20 cifras es mayor que otro de 10.
 
 ### 4.3.1. Sistema binario
 
@@ -67,13 +74,29 @@ En las implementaciones de los sistemas digitales modernos, se ha adoptado el no
 
 Para valores numéricos mayores es necesario combinar bytes y así se obtienen valores de:
 
-Bits Denominación Cantidad de valores 8 Byte 256 16 Word 65536 32 Double Word 4294967296 64 Quad Word 18446744073709551616 Los valores de la derecha se llaman menos significativos, porque codifican las menores potencias de dos. Por el contrario, los de la izquierda son los más significativos. Existen por tanto en un byte los bits más significativos (a la izquierda) y los menos significativos (a la derecha).
+| Bits | Denominación | Cantidad de valores |
+| --- | --- | --- |
+| 8 | Byte | 256 |
+| 16 | Word | 65 536 |
+| 32 | Double Word | 4 294 967 296 |
+| 64 | Quad Word | 18 446 744 073 709 551 616 |
+
+Los valores de la derecha se llaman menos significativos, porque codifican las menores potencias de dos. Por el contrario, los de la izquierda son los más significativos. Existen por tanto en un byte los bits más significativos (a la izquierda) y los menos significativos (a la derecha).
 
 De igual manera cuando un valor numérico se representa con más de un byte, se definen los bytes más significativos y los menos significativos.
 
 Las operaciones aritméticas en binario se rigen por las mismas leyes de acarreo, solo que se debe tener en cuenta que solo hay dos dígitos, de modo que si una suma arroja el valor 2, ocurre acarreo. Por ejemplo: 00101010101 + 11101011101 100010110010
 
-Solo se ha de tener en cuenta que: 0+0=0 0+1=1 1+0=1 1+1=10 (Genera acarreo) Suma 0-0=0 0-1=-1 (Genera acarreo) 1-0=1 1-1=0 Resta 0*0=0 0*1=0 1*0=0 1*1=1 Multiplicación División 0/1=0 1/1=1 La convención más difundida para la representación de valores binarios es añadir el sufijo b al final de la secuencia numérica: 1010101011b. Los ceros a la izquierda se desprecian siempre.
+Solo se ha de tener en cuenta que:
+
+| Suma | Resta | Multiplicación | División |
+| --- | --- | --- | --- |
+| $0+0=0$ | $0-0=0$ | $0 \times 0=0$ | $0/1=0$ |
+| $0+1=1$ | $0-1=-1$ (genera acarreo) | $0 \times 1=0$ | $1/1=1$ |
+| $1+0=1$ | $1-0=1$ | $1 \times 0=0$ |  |
+| $1+1=10$ (genera acarreo) | $1-1=0$ | $1 \times 1=1$ |  |
+
+La convención más difundida para la representación de valores binarios es añadir el sufijo b al final de la secuencia numérica: 1010101011b. Los ceros a la izquierda se desprecian siempre.
 
 ### 4.3.2. Sistema hexadecimal
 
@@ -81,7 +104,26 @@ El sistema binario funciona muy bien para las máquinas, pero es tedioso para la
 
 El sistema hexadecimal se creó como alternativa para la visualización e impresión de información numérica digital. Como dispone de 16 dígitos su formato es más compacto que el decimal. Eso no es todo, cada dígito hexadecimal representa exactamente 4bits (24=16) de modo que en una representación hexadecimal también se indica indirectamente el valor de cada bit. Los dígitos hexadecimales son:
 
-Decimal Binario Hexadecimal 0 1 2 3 4 5 6 7 8 9 A B C D E F 0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 Mientras que para calcular el valor de una representación binaria en decimal (y viceversa) se necesita sumar potencias de dos, en hexadecimal la traducción es casi inmediata, lo que resulta útil no solo para las personas, sino para agilizar el funcionamiento de los programas que manipular datos binarios.
+| Decimal | Binario | Hexadecimal |
+| --- | --- | --- |
+| 0 | 0000 | 0 |
+| 1 | 0001 | 1 |
+| 2 | 0010 | 2 |
+| 3 | 0011 | 3 |
+| 4 | 0100 | 4 |
+| 5 | 0101 | 5 |
+| 6 | 0110 | 6 |
+| 7 | 0111 | 7 |
+| 8 | 1000 | 8 |
+| 9 | 1001 | 9 |
+| 10 | 1010 | A |
+| 11 | 1011 | B |
+| 12 | 1100 | C |
+| 13 | 1101 | D |
+| 14 | 1110 | E |
+| 15 | 1111 | F |
+
+Mientras que para calcular el valor de una representación binaria en decimal (y viceversa) se necesita sumar potencias de dos, en hexadecimal la traducción es casi inmediata, lo que resulta útil no solo para las personas, sino para agilizar el funcionamiento de los programas que manipular datos binarios.
 
 Por ejemplo el número binario de 20 bits: 11001010110101011110 requiere, para convertirlo en decimal sumar potencias como 524288 y 262144. Pero para el hexadecimal, basta con hacer: 1100 1010 1101 0101 1110 C A D 6 E Sin embargo, las operaciones matemáticas son mucho más complejas peor esto no es un problema ya que el sistema hexadecimal está diseñado explícitamente para representar en formato compacto bloques extensos de información almacenada en bytes.
 
@@ -93,7 +135,11 @@ Por definición, el sistema de numeración binario codifica valores enteros posi
 
 Para representar números con signo en binario se utiliza el bit más significativo (extremo izquierdo). Si el bit está en cero, se asume que el valor representado por el resto es positivo; negativo en caso contrario.
 
-Representación binaria Valor 0xxxxxxx xxxxxx 1xxxxxxx -xxxxxxx De este modo el valor -10 podría ser: 10001010b. El problema con este proceder es que para hacer operaciones matemáticas habría que comprobar el signo antes y si alguno es negativo habrá que utilizar la resta en vez de la suma lo que se complica si el valor absoluto del negativo es mayor que el positivo.
+| Representación binaria | Valor |
+| --- | --- |
+| `0xxxxxxx` | $+xxxxxxx$ |
+| `1xxxxxxx` | $-xxxxxxx$ |
+ De este modo el valor -10 podría ser: 10001010b. El problema con este proceder es que para hacer operaciones matemáticas habría que comprobar el signo antes y si alguno es negativo habrá que utilizar la resta en vez de la suma lo que se complica si el valor absoluto del negativo es mayor que el positivo.
 
 Una secuencia binaria puede ser lo mismo un texto, una imagen o valores numéricos de una hoja de cálculo. En realidad, los sistemas cómputo jamás comprenden el significado de los valores que manejan. El programa y su creador son los que explotan la utilidad de las representaciones numéricas.
 
@@ -115,7 +161,12 @@ S E F Dónde S es el bit de signo, E es el exponente y F codifica la parte fracc
 
 La precisión con la que se representa un valor real dependerá de la cantidad de bits utilizados en cada campo. Se definen:
 
-Bits Precisión 16 Media 32 Simple 64 Doble 80 Doble Extendida
+| Bits | Precisión |
+| --- | --- |
+| 16 | Media |
+| 32 | Simple |
+| 64 | Doble |
+| 80 | Doble extendida |
 
 La cantidad de bits y el formato de cada representación de coma flotante está normada internacionalmente, para garantizar que los sistemas sean compatibles, mediante la norma IEEE 754.
 
@@ -139,7 +190,11 @@ En base a este problema se crearon varios formatos, desdichadamente poco o nada 
 
 Normado bajo ISO 8859. Incorpora codificación universal para casi todos los idiomas y símbolos matemáticos. Aunque usa 31bit para codificar cada símbolo, es compatible con el ASCII original de 7bit.
 
-Unicode UTF-32 Incompatible con ASCII, utiliza 32bit por símbolo UTF-8 Compatible con ASCII, emplea una cantidad variable de bytes que depende del grupo de símbolos que se codifiquen.
+| Codificación | Descripción |
+| --- | --- |
+| Unicode | Normado bajo ISO 8859. Incorpora codificación universal para casi todos los idiomas y símbolos matemáticos. Aunque usa 31 bit para codificar cada símbolo, es compatible con el ASCII original de 7 bit. |
+| UTF-32 | Incompatible con ASCII, utiliza 32 bit por símbolo. |
+| UTF-8 | Compatible con ASCII, emplea una cantidad variable de bytes que depende del grupo de símbolos que se codifiquen. |
 
 La información digital puede codificar datos binarios, en vez de texto. Es decir que los valores leídos a nivel de bit sean los que interesan. Este es caso de las imágenes, los vídeos y del tráfico en una red de computadoras. A modo de generalización, cada tipo de código o codificación requiere un formato que consta al menos de un encabezado que describe o indica cómo deben utilizarse el resto de los datos.
 
@@ -154,5 +209,3 @@ La mínima unidad de información es el bit, que en los sistemas actuales se man
 Los valores reales requieren un formato más complejo que el de los enteros con signo, destacándose las variantes de coma fija y coma flotante, esta última la más extendida y flexible; se basa en la notación científica.
 
 Una vez que se dispone de un sistema digital, es posible codificar la misma información de diferente modo, según las necesidades. En la práctica esto acarrea incompatibilidades que pueden menguarse de alguna manera utilizando estándares internacionales.
-
-# Resumen
