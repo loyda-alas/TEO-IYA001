@@ -11,7 +11,7 @@
 
 El funcionamiento de todo sistema de cómputo se basa en ejecutar un programa codificado en memoria. El programa es en realidad una secuencia de valores numéricos que el procesador interpreta como instrucciones y datos. El procesador mismo es el encargado de buscar, interpretar y actuar según indiquen estas instrucciones.
 
-En su forma básica, el ciclo de instrucción no ha cambiado desde que se creó la ENIAC.
+> En su forma básica, el ciclo de instrucción no ha cambiado desde que se creó la ENIAC.
 
 En su forma más simple, el proceso de ejecución tiene tres etapas: la búsqueda (captación) de la siguiente instrucción en la secuencia. La decodificación, para determinar la acción a ejecutar y si fuera necesario buscar parámetros; finalmente la verdadera ejecución, luego de la cual se puede considerar cumplida la orden del programa. La culminación de estos tres pasos se denomina ciclo de instrucción. Por tanto, la ejecución de un programa cualquiera consiste en la repetición del proceso de captación, decodificación y ejecución de cada instrucción, o la repetición ininterrumpida de ciclos de instrucción.
 
@@ -19,15 +19,11 @@ En su forma más simple, el proceso de ejecución tiene tres etapas: la búsqued
 
 **Figura 9.1.** Ciclo de instrucción simplificado.
 
-Cada una de estas etapas necesita de varios ciclos del reloj del CPU para funcionar, por lo que no se deben confundir los términos ciclo de instrucción y ciclo de CPU. Originalmente, la etapa de búsqueda funcionaba después de cada ciclo de instrucción, pero los procesadores modernos están diseñados para evitar el tiempo ocioso y acelerar la ejecución del programa. Esto se logra incluyendo un desvío al final de cada etapa de modo que se ejecute a sí misma si no hay que esperar por otra. El efecto es que se puede comenzar un nuevo ciclo de instrucción antes que haya terminado el anterior, por eso se le denomina tubería (pipeline, en inglés). En la figura 9.2 se comparan las ejecuciones de tres ciclos de instrucción en ambas variantes: con y sin tuberías.
-
-Aunque el ciclo de cada instrucción se mantiene más o menos constante, la demora total puede ser notablemente mayor.
+Cada una de estas etapas necesita de varios ciclos del reloj del CPU para funcionar, por lo que no se deben confundir los términos ciclo de instrucción y ciclo de CPU. Originalmente, la etapa de búsqueda funcionaba después de cada ciclo de instrucción, pero los procesadores modernos están diseñados para evitar el tiempo ocioso y acelerar la ejecución del programa. Esto se logra incluyendo un desvío al final de cada etapa de modo que se ejecute a sí misma si no hay que esperar por otra. El efecto es que se puede comenzar un nuevo ciclo de instrucción antes que haya terminado el anterior, por eso se le denomina tubería (pipeline, en inglés). En la figura 9.2 se comparan las ejecuciones de tres ciclos de instrucción en ambas variantes: con y sin tuberías. Aunque el ciclo de cada instrucción se mantiene más o menos constante, la demora total puede ser notablemente mayor.
 
 ![Figura 9.2](img/fig-763.jpg)
 
-**Figura 9.2.** La ventaja del pipeline radica en reutilizar los circuitos de una etapa antes que el ciclo de
-
-instrucción haya concluido. En la figura se ilustra que la demora de tres ciclos de instrucción aleatorios sin pipeline (arriba) es mayor que con pipeline (debajo).
+**Figura 9.2.** La ventaja del pipeline radica en reutilizar los circuitos de una etapa antes que el ciclo de instrucción haya concluido. En la figura se ilustra que la demora de tres ciclos de instrucción aleatorios sin pipeline (arriba) es mayor que con pipeline (debajo).
 
 En la práctica, cada etapa puede incluir un número arbitrario de pasos que también se ejecutan en modo entubado, con lo que la eficiencia teórica puede aumentarse al lograrse mayores promedios de ejecución de instrucciones por ciclo.
 
@@ -54,7 +50,12 @@ Existen por tanto registros con diferentes funciones, que dependerán del tipo d
 
 - Registros de propósito general. Son registros que pueden utilizarse para cualquier tipo de operación lógica y aritmética o simplemente para almacenar valores directos o leídos de la memoria. Un programa en ejecución necesitará utilizar estos registros casi todo el tiempo y son tan relevantes que el tamaño o la cantidad de bits que puedan contender define parte de la 'Arquitectura' del procesador:
 
-Procesador Arquitectura Tamaño de los registros de uso general 8bit 16bit 32bit 64bit 8bit 16bit 32bit 64bit Z80 80286 80386 Corei7
+| Procesador | Arquitectura | Tamaño de los registros de uso general |
+| --- | --- | --- |
+| Z80 | 8bit | 8bit |
+| 80286 | 16bit | 16bit |
+| 80386 | 32bit | 32bit |
+| Corei7 | 64bit | 64bit |
 
 - Registro de propósito específico. Estos registros son muy diversos y dependen del tipo de procesador. Se puede considerar son embargo que fungen como apoyo a las operaciones de los registros de propósito general y monitorean el estado de la ejecución de código. Esto significa que se utilizan con menor frecuencia en un programa pero son igual de importantes. Un registro especial es el llamado registro de banderas (Flag register, en inglés). Cada bit de este registro indica una condición temporal relacionada con la ejecución de la última instrucción: acarreos, paridad, resultado nulo, resultado negativo… La cantidad de banderas depende del tipo de procesador pero las funciones siempre se relacionan con la ejecución del programa o el estado inmediato del procesador. Un registro muy importante de propósito específico es el puntero de instrucción, cuya función es contener la dirección de la instrucción que se procesa.
 - Registros de control. La cantidad y función de estos registros depende completamente del tipo de procesador. Su propósito es actuar como configuración del funcionamiento del procesador o de sus componentes. Pueden establecer la manera en que se maneja la memoria, el formato con que se interpreten las instrucciones, restringir el uso de determinados circuitos. En algunos procesadores se puede configurar el consumo de potencia y la velocidad de funcionamiento.
@@ -97,7 +98,7 @@ Ningún dispositivo de entrada/salida es tan rápido como el CPU, ni siquiera la
 
 Las interrupciones con la solución a este problema. Permiten que los controladores soliciten ellos mismos la atención del procesador solo cuando tengan listos los datos. La manera en la que se implementan varía de sistema en sistema, pero el principio es siempre el mismo. Existe un componente llamado controlador de interrupciones cuya función es intermediar entre los controladores y el procesador. Los controladores se conectan a este mediante líneas independientes del bus de control. Con estas líneas, cada dispositivo indica al controlador de interrupciones la solicitud de interrupción (interrupt request, en inglés o IRQ abreviado). El controlador establece un código para cada línea y por un pin especial del CPU le comunica la solicitud mientras en el bus de datos está el código. Con el aviso del pin, el procesador interrumpe el programa y con el código leído en el bus de datos decide qué hacer.
 
-El mecanismo de interrupciones es lo que hace posible que un sistema de un solo procesador ejecute tareas que parecen simultáneas. De hecho se pueden considerar como tal en un número razonable de casos prácticos.
+> El mecanismo de interrupciones es lo que hace posible que un sistema de un solo procesador ejecute tareas que parecen simultáneas. De hecho se pueden considerar como tal en un número razonable de casos prácticos.
 
 En la figura 9.4 se ilustra un diagrama de configuración del hardware de un sistema PC en el que están presentes las tres formas de manejar la entrada/salida. Se indican los puertos de cada componente (a la derecha); las direcciones del mapeo de memoria (en este caso para el controlador de viseo, a la izquierda) y la manera en que los controladores de entrada/salida están conectados mediante las líneas IRQ a los controladores de interrupciones.
 
@@ -105,11 +106,17 @@ En la figura 9.4 se ilustra un diagrama de configuración del hardware de un sis
 
 Con un ejemplo concreto, se examinará el funcionamiento de todo el sistema durante la ejecución de código. Se analizará la ejecución de un sencillo programa:
 
+![Programa en C](img/fig-803.jpg)
+
 Lo primero es que el programa escrito de esta manera no es entendible por ningún procesador real, debe compilarse, que significa traducir, por lo general al código máquina. A continuación se muestra el código compilado:
+
+![Código compilado](img/fig-804.jpg)
+
+![Código compilado (continuación)](img/fig-812.jpg)
 
 Se han marcado en azul las instrucciones en lenguaje máquina y el código de la derecha son sus equivalentes en lenguaje ensamblador. El código del programa que se ejecutará son los valores hexadecimales de la izquierda y por tanto serán los valores que deben escribirse en la memoria.
 
-Por razones históricas, las herramientas que traducen lenguajes de programación se denominan compiladores. Los compiladores traducen lenguajes entendibles por los humanos (alto nivel de abstracción) a lenguajes entendibles por el procesador (lenguaje de máquina o de bajo nivel de abstracción). El proceso inverso se denomina descompilación. Cada familia de procesadores está diseñada para “entender” nativamente su propio lenguaje de máquina.
+> Por razones históricas, las herramientas que traducen lenguajes de programación se denominan compiladores. Los compiladores traducen lenguajes entendibles por los humanos (alto nivel de abstracción) a lenguajes entendibles por el procesador (lenguaje de máquina o de bajo nivel de abstracción). El proceso inverso se denomina descompilación. Cada familia de procesadores está diseñada para “entender” nativamente su propio lenguaje de máquina.
 
 Cuando se ordena ejecutar un programa, el registro apuntador de instrucciones del CPU se inicializa en la dirección de la primera instrucción. La etapa de búsqueda del procesador escribe esta dirección en el bus de direcciones y mediante el bus de control le indica a la memoria que desea hacer una lectura.
 
@@ -130,14 +137,6 @@ En algún momento el usuario utilizará el teclado y el controlador correspondie
 
 Dentro de este código de atención a la interrupción, que es como se llama, el procesador leerá el puerto de entrada/salida del teclado para saber que tecla fue utilizada y a continuación “recuerda” que hay un programa esperando por un evento del teclado. Este recordatorio lo hace gracias a que en memoria y como parte del manejo de las interrupciones se ubican en una lista la identificación de todos los programas que se detuvieron por espera de un evento. El dato obtenido del teclado es utilizado por el propio procesador para continuar la ejecución.
 
-
-
-<!-- tabla detectada en PDF p.122 -->
-
-| Procesador | Arquitectura | Tamañodelosregistrosdeusogeneral |
-| --- | --- | --- |
-| Z80 80286 80386 Corei7 | 8bit 16bit 32bit 64bit | 8bit 16bit 32bit 64bit |
-
 ## 9.5. Conclusiones
 
 La ejecución de código es el propósito de todo sistema de cómputo. Para llevar a cabo esta tarea intervienen casi todos los componentes de una manera u otra. En la RAM se almacena el programa en forma de código máquina. Un conjunto de registros y componentes en el procesador permite leer dicho código, decodificarlo y finalmente ejecutarlo. Este proceso jamás se detiene, a menos que se corte el suministro eléctrico o se le ordene al procesador. Para agilizar la ejecución de instrucciones se implementa lo que se conoce como entubamiento, que consiste en segmentar la ejecución de instrucciones en etapas concatenadas pero que pueden utilizarse varias veces durante el ciclo de instrucción, pero con instrucciones diferentes.
@@ -147,11 +146,3 @@ El procesador dispone de registros de diferente propósito, que son la interfaz 
 La comunicación del procesador con los controladores de entrada/salida se lleva a cabo por medio de los buses de dirección, datos y control. Dependiendo de la manera en que se conectan los componentes con estos buses se definen dos arquitecturas: Harvard y Von Neumann, esta última es la más utilizada en sistemas de cómputo mientras la primera se emplea dentro de los controladores y procesadores.
 
 El manejo de la entrada salida tiene tres formas: directamente a través de los puertos, que son las direcciones de cada dispositivo. Mediante mapeo en memoria o a través de interrupciones. Las interrupciones solo funcionan para la lectura, pero optimizan la ejecución de código al permitir que el procesador continúe la ejecución de código.
-
-## Resumen
-
-![Figura](img/fig-803.jpg)
-
-![Figura](img/fig-804.jpg)
-
-![Figura](img/fig-812.jpg)
