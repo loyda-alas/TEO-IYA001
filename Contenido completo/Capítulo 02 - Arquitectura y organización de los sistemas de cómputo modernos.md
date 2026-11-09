@@ -22,17 +22,13 @@ En las placas base de los sistemas de escritorio y muchos servidores hay instala
 
 ![Figura 2.1](img/fig-157.jpg)
 
-**Figura 2.1.** Placa base de PC. 1) Sockets o base del microprocesador; 2) Conectores de memoria;
-
-3) Chipset de control; 4) BIOS; 5) Conectores de expansión; 6) Conectores externos.
+**Figura 2.1.** Placa base de PC. 1) Sockets o base del microprocesador; 2) Conectores de memoria; 3) Chipset de control; 4) BIOS; 5) Conectores de expansión; 6) Conectores externos.
 
 En las placas base de los dispositivos móviles en cambio, la superficie es menor y las capacidades fundamentales ya están embebidas en el SOC (System on Chip). Los conectores fundamentales son para puertos de comunicación USB, inalámbricos y tarjetas de memoria y de telefonía.
 
 ![Figura 2.2](img/fig-165.jpg)
 
-**Figura 2.2.** Placa base de iPhone. 1) System on Chip (SoC); 2) Sensores y componentes de
-
-comunicación (telefonía celular, WiFi, Bluetooth…); 3) Conector para la tarjeta SIM.
+**Figura 2.2.** Placa base de iPhone. 1) System on Chip (SoC); 2) Sensores y componentes de comunicación (telefonía celular, WiFi, Bluetooth…); 3) Conector para la tarjeta SIM.
 
 #### 2.2.1.1. Socket (base o zócalo) del microprocesador
 
@@ -41,16 +37,12 @@ Lugar donde se inserta el “cerebro” del ordenador. Durante varios años ha c
 Algunos tipos más comunes de bases, zócalo, o socket son:
 
 - PGA: son el modelo clásico, usado en el 386 y el 486; consiste en un cuadrado de conectores en forma de agujero donde se insertan las patitas del chip por pura presión.
-
-Según el chip, tiene más o menos agujeritos.
-
+  Según el chip, tiene más o menos agujeritos.
 - ZIF: Zero Insertion Force (socket), es decir, zócalo de fuerza de inserción nula.
-
-Eléctricamente es como un PGA, aunque gracias a un sistema mecánico permite introducir el micro sin necesidad de fuerza alguna, con lo que el peligro de roturas del chip por romperle una patita desaparece.
-
+  Eléctricamente es como un PGA, aunque gracias a un sistema mecánico permite introducir el micro sin necesidad de fuerza alguna, con lo que el peligro de roturas del chip por romperle una patita desaparece.
 - Tipo ranura: es un invento de Intel para enchufar los Pentium II, o más bien para desenchufar a su competencia, AMD y Cyrix.
 
-Antes del PC, el procesador se soldaba en la placa base como cualquier otro componente. La generación PC introdujo la posibilidad de intercambiar al procesador y ello también influyó en el ámbito de los servidores.
+> Antes del PC, el procesador se soldaba en la placa base como cualquier otro componente. La generación PC introdujo la posibilidad de intercambiar al procesador y ello también influyó en el ámbito de los servidores.
 
 #### 2.2.1.2. Ranuras de memoria
 
@@ -62,18 +54,16 @@ A continuación se muestra una imagen de unas ranuras para memorias RAM.
 
 **Figura 2.3.** Ranuras para memorias RAM.
 
-En la actualidad, la tecnología de memoria RAM dominante es la SDRAM-DDR, independientemente del formato físico y capacidad.
-
-Ello se debe a la excelente combinación de costo de producción por bit, capacidad de integración y velocidad de comunicación con el procesador.
+> En la actualidad, la tecnología de memoria RAM dominante es la SDRAM-DDR, independientemente del formato físico y capacidad.
+>
+> Ello se debe a la excelente combinación de costo de producción por bit, capacidad de integración y velocidad de comunicación con el procesador.
 
 #### 2.2.1.3. Chipset de control
 
 El Chipset es un conjunto de circuitos integrados que se encarga de realizar las funciones que el microprocesador delega en ellos. En los PC y otros sistemas él chipset está formado por 2 circuitos auxiliares al procesador principal:
 
 - El puente norte se usa como puente de enlace entre dicho procesador y la memoria.
-
-Controla las funciones de acceso hacia y entre el microprocesador, la memoria RAM, el puerto gráfico AGP, y las comunicaciones con el puente sur.
-
+  Controla las funciones de acceso hacia y entre el microprocesador, la memoria RAM, el puerto gráfico AGP, y las comunicaciones con el puente sur.
 - El puente sur controla los dispositivos asociados como son la controladora de discos IDE, puertos USB, Firewire, SATA, RAID, ranuras PCI, ranura AMR, ranura CNR, puertos infrarrojos, disquetera, LAN y una larga lista de todos los elementos que podamos imaginar integrados en la placa madre. Es el encargado de comunicar el procesador con el resto de los periféricos.
 
 ![Figura 2.4](img/fig-180.jpg)
@@ -86,7 +76,7 @@ Se debe destacar que en las motherboard modernas, el puente norte ha desaparecid
 
 **Figura 2.5.** Chipset.
 
-El Chipset es fácilmente identificable en una motherboard, pues son los únicos circuitos integrados que usan disipador térmico a parte del procesador. El puente norte es el circuito integrado más cercano al procesador.
+> El Chipset es fácilmente identificable en una motherboard, pues son los únicos circuitos integrados que usan disipador térmico a parte del procesador. El puente norte es el circuito integrado más cercano al procesador.
 
 #### 2.2.1.4. BIOS y Pila
 
@@ -102,7 +92,7 @@ La BIOS del sistema es la encargada de realizar los tests post-arranque (llamado
 
 Para mantener la configuración del BIOS y que al encender la PC todos los datos estén actualizados, se hace necesaria una fuente de alimentación continua. Para esto se utiliza la pila, que en su mayoría son de litio por su alta eficiencia y por su durabilidad.
 
-Una forma de identificar al BIOS es localizando la Pila. Regularmente se ubican en las motherboard muy cerca una de la otra.
+> Una forma de identificar al BIOS es localizando la Pila. Regularmente se ubican en las motherboard muy cerca una de la otra.
 
 #### 2.2.1.5. Ranuras de expansión
 
@@ -112,6 +102,7 @@ Las ranuras de expansión son unos conectores de cubierta plástica dónde se in
 - Ranuras PCI.
 - Ranuras AGP.
 - PCI Express.
+
 ![Figura 2.7](img/fig-203.jpg)
 
 **Figura 2.7.** Ranuras ISA, PCI y AGP. Se les denomina Slots en la bibliografía en inglés.
@@ -169,9 +160,7 @@ Los procesadores Sandy Brigde, están compuestos por transistores cuadrados de 3
 Algunas de las principales tecnologías incorporadas son:
 
 - Soporte de instrucciones: se han añadido nuevas instrucciones que trabajan a 256 bits.
-
-Permiten cálculos complejos, para acelerar el tratamiento de imágenes, audio, vídeo y 3D.
-
+  Permiten cálculos complejos, para acelerar el tratamiento de imágenes, audio, vídeo y 3D.
 - Tarjeta gráfica integrada: en muchos casos incide en que no haga falta utilizar Tarjetas Gráficas, lo cual permite reducir costos.
 - Quick Sync: para acelerar la creación, edición y conversión de vídeos.
 - Overclock: permiten modificar la frecuencia de funcionamiento. Se puede aumentar mucho la velocidad, sin llegar a quemarse, incluso usando ventilación por aire.

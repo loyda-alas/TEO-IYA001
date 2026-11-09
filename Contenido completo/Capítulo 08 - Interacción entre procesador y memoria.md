@@ -10,7 +10,7 @@
 
 El microprocesador es uno de los logros más importantes del siglo XX desde su invención en la década del 70. Hace un unas décadas atrás tal afirmación habría parecido absurda. Pero con el paso del tiempo, el microprocesador se acerca más al centro de nuestras vidas. Su presencia ha comenzado a cambiar la forma en que percibimos el mundo e incluso a nosotros mismos. Cada vez se hace más difícil pasar por alto el microprocesador como otro simple producto en una larga línea de innovaciones tecnológicas.
 
-En los microprocesadores se duplica la cantidad de componentes cada 18 meses aproximadamente. Esto lo predijo el cofundador de Intel Gordon Moore y se denomina Ley de Moore.
+> En los microprocesadores se duplica la cantidad de componentes cada 18 meses aproximadamente. Esto lo predijo el cofundador de Intel Gordon Moore y se denomina Ley de Moore.
 
 No existe otra invención en la historia que haya avanzado tan aprisa por todo el mundo o haya llegado tan profundamente a tantos aspectos de la existencia humana. Hoy existen millones de microchips de algún tipo en uso. Nadie puede dudar que el microprocesador no sólo esté transformando los productos que usamos, sino también nuestra forma de vivir. Los Microprocesadores se utilizan en:
 
@@ -88,9 +88,7 @@ Cuando la CPU necesita leer o escribir en una determinada posición de memoria, 
 
 ### 8.3.1. Buses
 
-Un bus es un camino de comunicación entre dos o más dispositivos. Una característica clave de un bus es que se trata de un medio de transmisión compartido. Al bus se conectan varios dispositivos, y cualquier señal transmitida por uno de esos dispositivos está disponible para que los otros dispositivos conectados al bus puedan acceder a ella. Si dos dispositivos transmiten durante el mismo periodo de tiempo, sus señales pueden solaparse y distorsionarse.
-
-Consiguientemente, solo un dispositivo puede transmitir con éxito en un momento dado.
+Un bus es un camino de comunicación entre dos o más dispositivos. Una característica clave de un bus es que se trata de un medio de transmisión compartido. Al bus se conectan varios dispositivos, y cualquier señal transmitida por uno de esos dispositivos está disponible para que los otros dispositivos conectados al bus puedan acceder a ella. Si dos dispositivos transmiten durante el mismo periodo de tiempo, sus señales pueden solaparse y distorsionarse. Consiguientemente, solo un dispositivo puede transmitir con éxito en un momento dado.
 
 Usualmente, un bus está constituido por varios caminos de comunicación, o líneas. Cada línea es capaz de transmitir señales binarias representadas por 1 y por 0. En un intervalo de tiempo, se puede transmitir una secuencia de dígitos binarios a través de una única línea. Se pueden utilizar varias líneas del bus para transmitir dígitos binarios simultáneamente (en paralelo). Por ejemplo, un dato de 8 bits puede transmitirse mediante ocho líneas del bus.
 
@@ -100,11 +98,9 @@ Las estructuras de interconexión más comunes dentro de un computador están ba
 
 Además, pueden existir líneas de alimentación para suministrar energía a los módulos conectados al bus.
 
-Todos los componentes de un sistema de cómputo se construyen teniendo en cuenta su comunicación con el procesador. Para ello las interfaces o conectores internos de que dispone, deben ser compatibles con los tres tipos de buses: datos, dirección y control.
+> Todos los componentes de un sistema de cómputo se construyen teniendo en cuenta su comunicación con el procesador. Para ello las interfaces o conectores internos de que dispone, deben ser compatibles con los tres tipos de buses: datos, dirección y control.
 
-Las líneas de datos proporcionan un camino para transmitir datos entre los módulos del sistema.
-
-El conjunto constituido por estas líneas se denomina bus de datos. El bus de datos puede incluir entre 32 y cientos de líneas, cuyo número se conoce como anchura del bus de datos. Puesto que cada línea solo puede transportar un bit cada vez, el número de líneas determina cuántos bits se pueden transferir al mismo tiempo. La anchura del bus es un factor clave a la hora de determinar las prestaciones del conjunto del sistema. Por ejemplo, si el bus de datos tiene una anchura de ocho bits, y las instrucciones son de 16 bits, entonces el procesador debe acceder al módulo de memoria dos veces por cada ciclo de instrucción.
+Las líneas de datos proporcionan un camino para transmitir datos entre los módulos del sistema. El conjunto constituido por estas líneas se denomina bus de datos. El bus de datos puede incluir entre 32 y cientos de líneas, cuyo número se conoce como anchura del bus de datos. Puesto que cada línea solo puede transportar un bit cada vez, el número de líneas determina cuántos bits se pueden transferir al mismo tiempo. La anchura del bus es un factor clave a la hora de determinar las prestaciones del conjunto del sistema. Por ejemplo, si el bus de datos tiene una anchura de ocho bits, y las instrucciones son de 16 bits, entonces el procesador debe acceder al módulo de memoria dos veces por cada ciclo de instrucción.
 
 Las líneas de dirección se utilizan para designar la fuente o el destino del dato situado en el bus de datos. Por ejemplo, si el procesador desea leer una palabra (8, 16 o 32 bits) de datos de la memoria, sitúa la dirección de la palabra deseada en las líneas de direcciones. Claramente, la anchura del bus de direcciones determina la máxima capacidad de memoria posible en el sistema. Además, las líneas de direcciones generalmente se utilizan también para direccionar los puertos de E/S. Usualmente, los bits de orden más alto se utilizan para seleccionar una posición de memoria o un puerto de E/S dentro de un módulo. Por ejemplo, en un bus de 8 bits, la dirección 01111111 e inferiores harían referencia a posiciones dentro de un módulo de memoria (el módulo 0) con 128 palabras de memoria, y las direcciones 10000000 y superiores designarían dispositivos conectados a un módulo de E/S (módulo 1).
 

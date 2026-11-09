@@ -22,11 +22,11 @@ El primer computador electrónico de propósito general del mundo, fue conocido 
 
 El proyecto fue una respuesta a las necesidades del Laboratorio de Investigación de Balística (del inglés BRL) del ejército de los Estados Unidos durante la Segunda Guerra Mundial. El BRL era una agencia responsable del desarrollo de tablas de tiro y de trayectoria para nuevas armas y tenía dificultades para elaborarlas con exactitud y en poco tiempo.
 
-La ENIAC fue el primer computador sin componentes mecánicos en sus circuitos.
-
-Antes de ENIAC se habían creado varios ordenadores como los Z1 y Z3 de Conrad Zuse en Alemania y la famosa Bomba con la que se descifraron los códigos del ejército alemán.
-
-Estas computadoras se denominaban electromecánicas porque sus circuitos funcionaban con relés (interruptores automáticos) lo que limitaba su velocidad y escalaba su consumo eléctrico; también eran bastante ruidosas.
+> La ENIAC fue el primer computador sin componentes mecánicos en sus circuitos.
+>
+> Antes de ENIAC se habían creado varios ordenadores como los Z1 y Z3 de Conrad Zuse en Alemania y la famosa Bomba con la que se descifraron los códigos del ejército alemán.
+>
+> Estas computadoras se denominaban electromecánicas porque sus circuitos funcionaban con relés (interruptores automáticos) lo que limitaba su velocidad y escalaba su consumo eléctrico; también eran bastante ruidosas.
 
 Mauchly, fue un catedrático de Ingeniería Eléctrica de la Universidad de Pennsylvania, y Eckert, uno de sus alumnos de licenciatura. Para la construcción del computador, propusieron utilizar tubos de vacío y recibieron aceptación por el ejército en 1943.
 
@@ -52,9 +52,9 @@ Posteriormente la Eckert - Mauchly Computer Corporation formó parte de la divis
 
 El UNIVAC II, que tenía una capacidad de memoria mayor y más aplicaciones que el UNIVAC I, salió al mercado al final de los cincuenta e ilustra varias tendencias que han permanecido como características de la industria de computadores. Primera, los avances en la tecnología permiten a las compañías seguir construyendo computadores más grandes y más potentes. Segunda, cada compañía intenta hacer sus nuevas máquinas superiores y compatibles con las anteriores. Esto significa que los programas escritos para las viejas máquinas pueden ejecutarse en las nuevas máquinas. Esta estrategia se adopta para retener la base de clientes; es decir, que cuando un cliente decide comprar una máquina nueva, probablemente la comprará a la misma compañía para evitar perder su inversión en programas.
 
-Los primeros ordenadores se programaban soldando y conectando literalmente.
-
-Varios operadores hacían las conexiones eléctricas que representaban el programa a ejecutar. El resultado eran números y cifras que debían ser decodificados por otros operadores para entregarlos al programador original. Las combinaciones posibles de estas soldaduras, conexiones y códigos se denominaron lenguaje o código máquina. Todas las computadoras modernas tienen su propio lenguaje de máquina que por suerte necesita utilizarse muy poco gracias a herramientas llamadas compiladores.
+> Los primeros ordenadores se programaban soldando y conectando literalmente.
+>
+> Varios operadores hacían las conexiones eléctricas que representaban el programa a ejecutar. El resultado eran números y cifras que debían ser decodificados por otros operadores para entregarlos al programador original. Las combinaciones posibles de estas soldaduras, conexiones y códigos se denominaron lenguaje o código máquina. Todas las computadoras modernas tienen su propio lenguaje de máquina que por suerte necesita utilizarse muy poco gracias a herramientas llamadas compiladores.
 
 En este período otra compañía se convirtió en el principal fabricante de equipos de procesamiento con tarjetas perforadas: IBM. En 1953 sacó su primer computador con programas almacenados electrónicamente, el 701, que fue diseñado principalmente para aplicaciones científicas. En 1955, presentó los productos 702, que tenían varias características hardware que lo hacían adecuado para aplicaciones de gestión. Estos fueron los primeros de una larga serie de computadores 700/7000 que situaron a IBM como el principal fabricante de computadores, con gran dominio del mercado.
 
@@ -115,9 +115,9 @@ Las principales características de la familia Sistema/360 fueron:
 
 Los miembros bajos de la familia de los que se hace alusión más arriba son los de menores prestaciones y los más altos son los de mejores características de trabajo. Nótese que muchas de estas características han perdurado hasta la actualidad en las diferentes familias de computadores de la mayoría de los fabricantes de la industria. Por tal razón se considera que la familia que de los computadores Sistema/360 es un referente en la historia de los computadores.
 
-Una consecuencia importante del uso de los circuitos integrados fue la estandarización. Como se encapsulan determinadas funcionalidades en un solo componente, varios fabricantes pueden dotar a sus sistemas de iguales prestaciones y por tanto ser compatibles entre sí.
-
-Esto resultó así no solo para los ordenadores y sus arquitecturas, también para los dispositivos de entrada/salida que se requieren en su manejo.
+> Una consecuencia importante del uso de los circuitos integrados fue la estandarización. Como se encapsulan determinadas funcionalidades en un solo componente, varios fabricantes pueden dotar a sus sistemas de iguales prestaciones y por tanto ser compatibles entre sí.
+>
+> Esto resultó así no solo para los ordenadores y sus arquitecturas, también para los dispositivos de entrada/salida que se requieren en su manejo.
 
 En el mismo año que IBM lanzó su primer Sistema/360 tuvo lugar otro lanzamiento trascendental: el PDP-8 de DEC. En aquella época, cuando la mayoría de los computadores requerían una habitación con aire acondicionado, el PDP-8 (llamado por la industria minicomputador) era lo suficientemente pequeño para ser colocado en sobre una mesa de laboratorio o sobre otro equipo. No podía hacer todo lo que hacían los grandes computadores, pero era lo suficientemente barato para que cada técnico de laboratorio tuviera uno.
 
@@ -214,11 +214,11 @@ Existen varias generaciones de procesadores ARM. Todas ellas diseñadas para ser
 
 Los sistemas RISC de ARM se caracterizan por el bajo consumo y el manejo inteligente de la programación. Las instrucciones que estos procesadores ejecutan siempre tienen un tamaño fijo y por tanto las demoras de ejecución son calculables. Por este motivo también se les emplea en tarjetas gráficas y hardware de tiempo real.
 
-El modelo de negocios de ARM es el resultado de la evolución en la industria electrónica y su integración con la informática.
-
-Los diseños de ARM se denominan Propiedad Intelectual y consisten a grandes rasgos en código fuente que describe la manera en que se deben construirse y conectarse los componentes integrados.
-
-Los lenguajes utilizados para este propósito se denominan lenguajes de descripción del hardware. Uno de los lenguajes más conocidos y utilizados en este rubro es VHDL.
+> El modelo de negocios de ARM es el resultado de la evolución en la industria electrónica y su integración con la informática.
+>
+> Los diseños de ARM se denominan Propiedad Intelectual y consisten a grandes rasgos en código fuente que describe la manera en que se deben construirse y conectarse los componentes integrados.
+>
+> Los lenguajes utilizados para este propósito se denominan lenguajes de descripción del hardware. Uno de los lenguajes más conocidos y utilizados en este rubro es VHDL.
 
 #### 1.6.2.4. Puntos claves de la evolución de los computadores
 
