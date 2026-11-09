@@ -8,6 +8,14 @@ PDF de la presentación: [Tema 7.pdf](Tema%207.pdf)
 
 ## Circuitos Secuenciales Sincrónicos (CSS)
 
+**Vídeo:** Latch — circuitos secuenciales
+
+[![Latch — circuitos secuenciales](https://img.youtube.com/vi/FN4ctCaa-cQ/hqdefault.jpg)](https://www.youtube.com/watch?v=FN4ctCaa-cQ)
+
+Enlace: [https://www.youtube.com/watch?v=FN4ctCaa-cQ](https://www.youtube.com/watch?v=FN4ctCaa-cQ)
+
+
+
 ## Circuitos Lógicos
 
 Circuitos Secuenciales Sincrónicos (CSS)
@@ -320,6 +328,3 @@ Implementación del contador
 
 ![Figura](img/fig-s69-p1.png)
 
-![Figura](img/fig-s71-p1.jpg)
-
-![Figura](img/fig-s71-p2.png)

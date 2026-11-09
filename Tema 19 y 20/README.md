@@ -96,10 +96,6 @@ Tipos de computadoras personales
 
 ![Figura](img/fig-s21-p1.jpg)
 
-![Figura](img/fig-s24-p1.jpg)
-
-![Figura](img/fig-s24-p2.png)
-
 ## Parámetros técnicos de componentes comerciales
 
 ## Clasificación de los sistemas de cómputo

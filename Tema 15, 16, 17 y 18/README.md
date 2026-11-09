@@ -238,6 +238,3 @@ Interfaces internas y externas
 
 ![Figura](img/fig-s37-p2.jpg)
 
-![Figura](img/fig-s39-p1.jpg)
-
-![Figura](img/fig-s39-p2.png)

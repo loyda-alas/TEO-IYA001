@@ -8,9 +8,15 @@ PDF de la presentación: [Tema 5.pdf](Tema%205.pdf)
 
 ## Lógica binaria y Álgebra de Boole
 
-## Circuitos Combinacionales y Secuenciales
+**Vídeo:** Álgebra de Boole — George Boole
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
+[![Álgebra de Boole — George Boole](https://img.youtube.com/vi/LggsK5Tk4jY/hqdefault.jpg)](https://www.youtube.com/watch?v=LggsK5Tk4jY)
+
+Enlace: [https://www.youtube.com/watch?v=LggsK5Tk4jY](https://www.youtube.com/watch?v=LggsK5Tk4jY)
+
+
+
+## Circuitos Combinacionales y Secuenciales
 
 ![Figura](img/fig-s04-p1.png)
 
@@ -20,25 +26,17 @@ El valor de la salida depende del estado de las entradas, es decir de la combina
 
 Estos circuitos se dividen en circuitos combinacionales uniterminales (una salida) y circuitos combinacionales multiterminales (varias salidas).
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 ## Circuitos Secuenciales:
 
 El valor de la salida depende del estado de las entradas y del estado anterior de la propia salida, es decir de la secuencia por la que haya pasado la salida.
 
 Se dividen en circuitos secuenciales sincrónicos y circuitos secuenciales asincrónicos.
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 ## Ejemplo de Circuito Combinacional
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 ![Figura](img/fig-s07-p1.jpg)
 
 ## Ejemplo de Circuito Secuencial
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 ![Figura](img/fig-s08-p1.jpg)
 
@@ -58,8 +56,6 @@ mediante una barra encima de la misma.Por ejemplo: si A = 1; entonces A = 0
 
 También puede escribirse como A
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 _
 
 ,
@@ -74,8 +70,6 @@ Es una variable o complemento de una variable.
 
 OR (Suma booleana): La combinación OR de dos variables resulta verdadera ó 1 cuando al menos una de ellas es verdadera ó 1.
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 | SUMA - OR |  |  |
 | --- | --- | --- |
 | X | Y | X+Y |
@@ -87,8 +81,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 ## Operaciones
 
 Puerta lógica - OR (Suma booleana)
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 | SUMA - OR |  |  |
 | --- | --- | --- |
@@ -105,8 +97,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 ## Puerta lógica - OR
 
 Funcionamiento
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 Funcionamiento con tren de impulsos
 
@@ -130,8 +120,6 @@ Sistema que detecta las puertas abiertas en un coche.
 
 AND (Multiplicación booleana):La combinación AND de dos variables resulta verdadera ó 1 cuando las dos variables son verdaderas ó 1.
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 | MULTIPLICACIÓN - AND |  |  |
 | --- | --- | --- |
 | X | Y | X . Y |
@@ -141,8 +129,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 | 1 | 1 | 1 |
 
 ## Puerta lógica - AND (Multiplicación booleana)
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 | MULTIPLICACIÓN - AND |  |  |
 | --- | --- | --- |
@@ -157,8 +143,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 ## Puerta lógica - AND
 
 Funcionamiento
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 Funcionamiento con tren de impulsos
 
@@ -182,8 +166,6 @@ Sistema que detecta el no abrocharse los cinturones de seguridad en los coches
 
 NOT: Negado o complemento de una variable o función
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 | NOT |  |
 | --- | --- |
 | X | X' |
@@ -191,8 +173,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 | 1 | 0 |
 
 ## Puerta lógica - NOT (El inversor)
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 | NOT |  |
 | --- | --- |
@@ -205,8 +185,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 ![Figura](img/fig-s27-p1.jpg)
 
 ## Puerta lógica - NAND
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 | Entradas |  | Salida |
 | --- | --- | --- |
@@ -221,8 +199,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 ## Puerta lógica - NOR
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 | Entradas |  | Salida |
 | --- | --- | --- |
 | A | B | X |
@@ -236,8 +212,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 ## Puerta lógica - OR Exclusiva XOR
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 | Entradas |  | Salida |
 | --- | --- | --- |
 | A | B | X |
@@ -249,8 +223,6 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 ![Figura](img/fig-s30-p1.jpg)
 
 ## Puerta lógica - NOR Exclusiva XNOR
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 | Entradas |  | Salida |
 | --- | --- | --- |
@@ -264,15 +236,11 @@ Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 ## Resumen
 
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
-
 ![Figura](img/fig-s32-p1.jpg)
 
 ## Operaciones
 
 Función de conmutación:
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 Expresiones de conmutación:
 
@@ -281,8 +249,6 @@ Una función booleana o de conmutación es una expresión algebraica de variable
 ## Tabla de verdad:
 
 Representa a una sola función de conmutación, pero esta función puede escribirse con diferentes expresiones equivalentes entre sí.
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 ## Álgebra de Boole
 
@@ -293,8 +259,6 @@ Es considerado como uno de los fundadores del campo de las ciencias de la comput
 1938 → Sharon (álgebra de conmutación)
 
 Demostró que se podía utilizar en el análisis y la síntesis de la conmutación y de los circuitos digitales
-
-Lógica binaria y Álgebra de Boole. Circuitos Lógicos
 
 Leyes conmutativas
 

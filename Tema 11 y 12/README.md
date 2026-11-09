@@ -58,11 +58,29 @@ Cuando se habla de una mayor velocidad, no significa que las aplicaciones instal
 
 ## Introducción
 
-Set de Instrucciones Intel
-
 Se realizará una introducción al set de instrucciones de Intel. Se examinarán las operaciones básicas y sobre todo aquellas que tienen relación directa con las estructuras de los lenguajes de alto nivel.
 
 ## Lenguaje ensamblador y Lenguaje Máquina
+
+**Vídeo:** Lenguaje ensamblador
+
+[![Lenguaje ensamblador](https://img.youtube.com/vi/KbEqb2utOFU/hqdefault.jpg)](https://www.youtube.com/watch?v=KbEqb2utOFU)
+
+Enlace: [https://www.youtube.com/watch?v=KbEqb2utOFU](https://www.youtube.com/watch?v=KbEqb2utOFU)
+
+**Vídeo:** Lenguaje ensamblador (II)
+
+[![Lenguaje ensamblador (II)](https://img.youtube.com/vi/Fkz_2RxHYCc/hqdefault.jpg)](https://www.youtube.com/watch?v=Fkz_2RxHYCc)
+
+Enlace: [https://www.youtube.com/watch?v=Fkz_2RxHYCc](https://www.youtube.com/watch?v=Fkz_2RxHYCc)
+
+**Vídeo:** Lenguaje ensamblador (vídeo adicional)
+
+[![Lenguaje ensamblador (vídeo adicional)](https://img.youtube.com/vi/i15kfJPhG0Y/hqdefault.jpg)](https://www.youtube.com/watch?v=i15kfJPhG0Y)
+
+Enlace: [https://www.youtube.com/watch?v=i15kfJPhG0Y](https://www.youtube.com/watch?v=i15kfJPhG0Y)
+
+
 
 Se denomina lenguaje máquina a los valores numéricos que la parte física de la computadora o hardware es capaz de interpretar.
 
@@ -70,15 +88,11 @@ Para los humanos es más difícil de lidiar y nada eficiente.
 
 Se ideó el lenguaje ensamblador identificando las operaciones con un texto comprensible llamado nemotécnico
 
-Set de Instrucciones Intel
-
 Para realizar una operación de suma o resta, el procesador lo codifica con un número
 
 determinado, en ensamblador se determina con add y subs.
 
 ## Lenguaje ensamblador
-
-Set de Instrucciones Intel
 
 Simulador:
 
@@ -96,8 +110,6 @@ ADD reg, constant
 
 Add A, 5, reg,
 
-Set de Instrucciones Intel
-
 ## Modos de direccionamiento Directo
 
 La instrucción contiene la dirección donde está el operando.
@@ -106,13 +118,9 @@ Absoluto: El operando se aloja en memoria
 
 Mediante registro: El operando se aloja en un registro
 
-Set de Instrucciones Intel
-
 ## Juegos de instrucciones
 
 label: instruction operands ; Comment
-
-Set de Instrucciones Intel
 
 ## Juegos de instrucciones Constantes:
 
@@ -130,8 +138,6 @@ Character: 'A'
 
 String: "Hello World!"
 
-Set de Instrucciones Intel
-
 Registros de propósito general: A, B, C, D
 
 Registro puntero de Pila: Stack pointer register: SP
@@ -140,23 +146,15 @@ Registro puntero de Instrucción: IP
 
 ## Copiar un valor Copiar el valor desde origen a destino
 
-Set de Instrucciones Intel
-
 ![Figura](img/fig-s19-p1.jpg)
 
 ## Definición de variable / Constante
 
-Set de Instrucciones Intel
-
 ## Sumar / Restar Sumar o Restar dos números (afecta a Zero y Carry Flag)
-
-Set de Instrucciones Intel
 
 ![Figura](img/fig-s21-p1.jpg)
 
 ## Incrementar / Decrementar Incrementa o decrementa un registro en una unidad (afecta a Zero y Carry Flag)
-
-Set de Instrucciones Intel
 
 ## Multiplicación / División Multiplica o divide el registro A entre el valor dado. (afecta a Zero y Carry Flag)
 
@@ -171,8 +169,6 @@ Set de Instrucciones Intel
 - DIV address
 
 - DIV constant
-
-Set de Instrucciones Intel
 
 - Operaciones lógicas (afecta a Zero y Carry Flag)
 
@@ -210,8 +206,6 @@ Set de Instrucciones Intel
 
 - SHR reg, constant
 
-Set de Instrucciones Intel
-
 ## Comparaciones
 
 - CMP reg, reg
@@ -222,19 +216,13 @@ Set de Instrucciones Intel
 
 Compara dos valores y activa el Flag Zero si son iguales. Se usa esta instrucción conjuntamente con la de salto.
 
-Set de Instrucciones Intel
-
 ## Salto incondicional
 
 - jmp address
 
 Realiza un salto incondicional a otro punto de memoria definida.
 
-Set de Instrucciones Intel
-
 ## Salto Condicional
-
-Set de Instrucciones Intel
 
 ![Figura](img/fig-s28-p1.jpg)
 
@@ -252,13 +240,9 @@ Set de Instrucciones Intel
 
 - PUSH constant
 
-Set de Instrucciones Intel
-
 ## Para la ejecución del programa
 
 - HLT
-
-Set de Instrucciones Intel
 
 ## Ejemplo Hola Mundo!
 
@@ -304,18 +288,11 @@ C= 34
 
 D= 232
 
-Set de Instrucciones Intel
-
 ![Figura](img/fig-s31-p1.jpg)
 
 ## Lenguaje Ensamblador
-
-Set de Instrucciones Intel
 
 ![Figura](img/fig-s32-p1.jpg)
 
 ![Figura](img/fig-s33-p1.jpg)
 
-![Figura](img/fig-s35-p1.jpg)
-
-![Figura](img/fig-s35-p2.png)

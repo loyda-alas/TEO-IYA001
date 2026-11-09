@@ -10,8 +10,6 @@ PDF de la presentación: [Tema 13 y 14.pdf](Tema%2013%20y%2014.pdf)
 
 ## Arquitectura de ARM
 
-Arquitectura de procesadores RISC
-
 La arquitectura ARM incorpora varias características, algunas únicas y otras muy optimizadas respecto al resto de arquitecturas:
 
 Arquitectura de carga y almacenamiento (load-store).
@@ -36,12 +34,12 @@ Arquitectura “Thumb”.
 
 ## Funcionamiento
 
-Arquitectura de procesadores RISC
-
 Modo usuario, USR, User Mode
 
 Modos “excepciones”
 
 ## Acceso a la memoria
 
-Arquitectura de procesadores RISC
+![Acceso a la memoria](img/fig-acceso-memoria.jpg)
+
+
