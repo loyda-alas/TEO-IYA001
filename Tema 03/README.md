@@ -269,7 +269,7 @@ El número 10111001<sub>2</sub> = B9<sub>16</sub>
 
 **Ejemplo:** Convierte 11 1100 0000 1110<sub>2</sub>
 
-El número 111 1100 0000 1110<sub>2</sub> = 3C0E<sub>16</sub>
+El número 11 1100 0000 1110<sub>2</sub> = 3C0E<sub>16</sub>
 
 ### Conversión de Hexadecimal a Binario
 

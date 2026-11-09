@@ -131,7 +131,7 @@ Los sistemas Intel y compatibles dominan<sup>1</sup> el mercado por lo que en el
 
 IA-64 se basaba en el concepto de unidades de ejecución, un concepto más o menos cercano al multinúcleo, pero en este caso cada unidad estaba especializada en un tipo concreto de instrucción. Se definen cuatro tipos de unidades de ejecución:
 
-- Unidad 1: para instrucciones aritméticas con enteros, de desplazamiento y suma, lógicas, de comparación, y multimedia con enteros.
+- Unidad I: para instrucciones aritméticas con enteros, de desplazamiento y suma, lógicas, de comparación, y multimedia con enteros.
 - Unidad M: cargas y almacenamientos entre registros y memoria; y algunas operaciones de la ALU con enteros.
 - Unidad B: instrucciones de salto.
 - Unidad F: instrucciones de coma flotante.

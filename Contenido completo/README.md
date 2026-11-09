@@ -63,7 +63,7 @@ Documento completo de la asignatura **Tecnología y Estructura de Ordenadores (I
     - [5.3.1. Equivalencias entre compuertas](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#531-equivalencias-entre-compuertas)
   - [5.4. Formas canónicas](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#54-formas-canonicas)
     - [5.4.1. Forma disyuntiva normal](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#541-forma-disyuntiva-normal)
-    - [5.4.2. Forma disyuntiva normal](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#542-forma-disyuntiva-normal)
+    - [5.4.2. Forma conjuntiva normal](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#542-forma-conjuntiva-normal)
   - [5.5. Algunos teoremas en el álgebra de boole](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#55-algunos-teoremas-en-el-algebra-de-boole)
     - [5.5.1. Teoremas del álgebra de conmutación](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#551-teoremas-del-algebra-de-conmutacion)
   - [5.6. Conclusiones](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md#56-conclusiones)

@@ -49,7 +49,7 @@ Solución: con N = 4, se puede contar hasta $2^4 - 1 = 15$. Es decir, hasta el n
 
 En el sistema decimal, la primera posición a la izquierda del punto decimal se conoce como posición de las unidades. Cada columna a la izquierda aumenta por un factor de diez (sistema de base diez). Por tanto, al moverse hacia la izquierda, los valores decimales pueden expresarse en términos de la base diez como $10^0$, $10^1$, $10^2$, $10^3$ y así sucesivamente. Con esto, el número decimal 3954 tiene el significado siguiente:
 
-$$3954 = (3 \times 10^3) + (9 \times 10^2) + (5 \times 10^1) + (4 \times 10^0) = 3000 + 900 + 50 + 4$$
+$$3954 = (3 \times 10^3) + (9 \times 10^2) + (5 \times 10^1) + (4 \times 10^0) = 3000 + 900 + 50 + 4 = 3954$$
 
 En el sistema binario la primera posición a la izquierda del punto binario, también es la posición de las unidades. El valor asociado con cada columna se incrementa hacia la izquierda por un factor de dos (sistema de base dos). Al moverse hacia la izquierda a partir del punto binario, los valores asociados con las columnas son 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 y así sucesivamente.
 
@@ -63,7 +63,7 @@ Para convertir un número binario en uno decimal, se hace la lista con los valor
 
 EJEMPLO:
 
-Convierta 1000111, en un número decimal.
+Convierta 1000111<sub>2</sub>, en un número decimal.
 
 Solución:
 
@@ -84,7 +84,7 @@ $1000111_2 = 71_{10}$
 
 Existen varios métodos para convertir números decimales en binario. A continuación se presenta uno muy sencillo, rápido y efectivo.
 
-El número decimal se divide repetidamente entre 2, ignorando los residuos, hasta que se tiene un cociente igual a cero. Después se emplean éstos para obtener la respuesta. Por ejemplo, para convertir 10110, en un número binario:
+El número decimal se divide repetidamente entre 2, ignorando los residuos, hasta que se tiene un cociente igual a cero. Después se emplean éstos para obtener la respuesta. Por ejemplo, para convertir 101<sub>10</sub>, en un número binario:
 
 ```
 101/2 = 50 residuo 1. Se toma este valor (1) con bit menos significativo (LSB)
@@ -200,7 +200,7 @@ La representación de un número binario de ocho bits puede hacerse con tres dí
 
 EJEMPLO:
 
-Transforme 10101010, en un número octal.
+Transforme 10101010<sub>2</sub>, en un número octal.
 
 Solución:
 
@@ -208,7 +208,7 @@ El número 10101010 binario es el 252 octal.
 
 ### 3.2.2. Conversión de octal a binario
 
-La conversión de octal a binario es igual de fácil. Por cada dígito octal se escriben los tres dígitos binarios correspondientes. Por ejemplo, para convertir 3062, en un número binario:
+La conversión de octal a binario es igual de fácil. Por cada dígito octal se escriben los tres dígitos binarios correspondientes. Por ejemplo, para convertir 3062<sub>8</sub>, en un número binario:
 
 | 3 | 0 | 6 | 2 |
 | --- | --- | --- | --- |
@@ -218,7 +218,7 @@ Por tanto, $3062_8 = 011000110010_2$. Nótese que el 2 se escribe como 010, con 
 
 EJEMPLO:
 
-Convierta 377, en un número binario.
+Convierta 377<sub>8</sub>, en un número binario.
 
 Solución:
 

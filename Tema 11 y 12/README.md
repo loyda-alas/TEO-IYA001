@@ -19,7 +19,7 @@ PDF de la presentación: [Tema 11 y 12.pdf](Tema%2011%20y%2012.pdf)
 
 ## Características de IA-64
 
-- Generalmente, la arquitectura de computadora de 64 bits comprende unidades de datos que llegan hasta los 24 bits o, en su defecto, ocho octetos de ancho en total.
+- Generalmente, la arquitectura de computadora de 64 bits comprende unidades de datos que llegan hasta los 64 bits o, en su defecto, ocho octetos de ancho en total.
 - Los procesadores de 64 bits tienen alrededor de una década en el mercado, siendo introducidos masivamente en los ordenadores. Ya que, desde 1960, han existido en las supercomputadoras.
 - En cuanto a la seguridad y agilidad, esta tecnología es la mejor que existe, hasta el momento.
 - Este tipo de procesadores presentan la capacidad de direccionar teóricamente hasta 16 exabytes de memoria.
@@ -46,11 +46,9 @@ Se realizará una introducción al set de instrucciones de Intel. Se examinarán
 
 [![Lenguaje ensamblador](https://img.youtube.com/vi/KbEqb2utOFU/hqdefault.jpg)](https://www.youtube.com/watch?v=KbEqb2utOFU)
 
-
 **Vídeo:** Lenguaje ensamblador (II)
 
 [![Lenguaje ensamblador (II)](https://img.youtube.com/vi/Fkz_2RxHYCc/hqdefault.jpg)](https://www.youtube.com/watch?v=Fkz_2RxHYCc)
-
 
 **Vídeo:** Lenguaje ensamblador (vídeo adicional)
 
@@ -196,11 +194,11 @@ Realiza un salto incondicional a otro punto de memoria definida.
 
 - RET
 
-**Apilar**
+**Desapilar**
 
 - POP reg
 
-**Desapilar**
+**Apilar**
 
 - PUSH reg
 - PUSH address

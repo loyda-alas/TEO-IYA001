@@ -112,8 +112,8 @@ Las líneas de control se utilizan para controlar el acceso y el uso de las lín
 
 - Escritura en memoria (Memory write): hace que el dato del bus se escriba en la posición direccionada.
 - Lectura de memoria (Memory read): hace que el dato de la posición direccionada se sitúe en bus.
-- Escritura de EIS (I/O write): hace que el dato del bus se transfiera a través del puerto de E/S direccionado.
-- Lectura de E/S (F/S read): hace que el dato del puerto de E/S direccionado se sitúe en el bus.
+- Escritura de E/S (I/O write): hace que el dato del bus se transfiera a través del puerto de E/S direccionado.
+- Lectura de E/S (I/O read): hace que el dato del puerto de E/S direccionado se sitúe en el bus.
 - Transferencia reconocida (Transfer ACK): indica que el dato se ha aceptado o se ha situado en el bus.
 - Petición de bus (Bus request): indica que un módulo necesita disponer del control del bus.
 - Cesión de bus (Bus grant): indica que se cede el control del bus a un módulo que lo había solicitado.

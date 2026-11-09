@@ -256,7 +256,7 @@ Representa a una sola función de conmutación, pero esta función puede escribi
 
 - **1854 → George Boole**
   Es considerado como uno de los fundadores del campo de las ciencias de la computación
-- **1938 → Sharon (álgebra de conmutación)**
+- **1938 → Shannon (álgebra de conmutación)**
   Demostró que se podía utilizar en el análisis y la síntesis de la conmutación y de los circuitos digitales
 
 ![Figura](img/fig-s35-p2.jpg)

@@ -203,7 +203,7 @@ A continuación se muestran las instrucciones de desplazamiento y rotación disp
 ![ASR #5, operando negativo](img/fig-1257.jpg)
 
 - **ROR**, *Rotate Right*, rotación a la derecha, el bit que se pierde se realimenta.
-- **RRX**, *Rotate Right Extenden*, Rotación a la derecha extendida a la bandera de acarreo.
+- **RRX**, *Rotate Right Extended*, Rotación a la derecha extendida a la bandera de acarreo.
 
 ![ROR #5 y RRX](img/fig-1256.jpg)
 

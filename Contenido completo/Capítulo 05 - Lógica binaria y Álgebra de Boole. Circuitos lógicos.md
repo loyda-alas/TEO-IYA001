@@ -221,7 +221,7 @@ Por tanto, la **Forma canónica de productos de suma o Forma conjuntiva normal (
 
 A partir de la TV sustituir X por 0 y $\overline{X}$ por 1 para cada SE.
 
-$F_2 = f(X,Y,Z) = (X+Y+Z) \cdot (X+Y+\overline{Z}) \cdot (X+\overline{Y}+\overline{Z}) \cdot (\overline{X}+Y+\overline{Z}) \cdot (\overline{X}+\overline{T}+Z)$
+$F_2 = f(X,Y,Z) = (X+Y+Z) \cdot (X+Y+\overline{Z}) \cdot (X+\overline{Y}+\overline{Z}) \cdot (\overline{X}+Y+\overline{Z}) \cdot (\overline{X}+\overline{Y}+Z)$
 
 #### 5.4.2.1. Notación Mi (forma abreviada)
 
@@ -260,7 +260,7 @@ De las dos formas está bien, lo que se debe especificar cuál es la referencia 
 
 Como se ha visto una función lógica puede expresarse en diferentes formas boleanas. Evidentemente las expresiones dadas por F<sub>1</sub> y F<sub>2</sub> son equivalentes, pero, ¿cómo unas de ellas puede deducirse de la otra? Para esta tarea de manipulaciones de expresiones conviene acudir a las siguientes equivalencias y teoremas. En este epígrafe las variables negadas se representan como (x').
 
-> Charles Boole estableció los principios de la lógica binaria mucho antes que existieran las computadoras electrónicas, en el siglo XVII. Fue el ingeniero norteamericano Claude E. Shannon quién demostró en 1935, como podía utilizarse para modelar circuitos lógicos. Estos principios y su aplicación en la electrónica constituyen la base de los diseños modernos.
+> George Boole estableció los principios de la lógica binaria mucho antes que existieran las computadoras electrónicas, en el siglo XIX. Fue el ingeniero norteamericano Claude E. Shannon quién demostró en 1938, como podía utilizarse para modelar circuitos lógicos. Estos principios y su aplicación en la electrónica constituyen la base de los diseños modernos.
 
 ### 5.5.1. Teoremas del álgebra de conmutación
 
