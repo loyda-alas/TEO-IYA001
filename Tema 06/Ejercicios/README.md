@@ -10,19 +10,17 @@ PDF de la presentación: [Tema 06 - Ejercicios.pdf](Tema%2006%20-%20Ejercicios.p
 
 ## Ejercicios de Diseño y síntesis de Circuitos lógicos Combinacionales
 
-## Ejercicio
+### Ejercicio
 
 1) Dada la siguiente TV, sintetizar el circuito.
 
-Ejercicios de Diseño y síntesis de Circuitos lógicos Combinacionales
+![Figura](img/fig-s04-p1.jpg)
 
 2) Dada la siguiente TV, sintetizar el circuito
 
-3) Dada la siguiente TV, sintetizar el circuito
-
-![Figura](img/fig-s04-p1.jpg)
-
 ![Figura](img/fig-s05-p1.jpg)
+
+3) Dada la siguiente TV, sintetizar el circuito
 
 ![Figura](img/fig-s06-p1.jpg)
 
