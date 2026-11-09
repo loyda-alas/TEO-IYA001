@@ -16,7 +16,9 @@ A continuación se hará un análisis de los principales rasgos a tener en cuent
 
 ## 20.2. Componentes comerciales
 
-Motherboard La tarjeta madre es él componente principal de la computadora, de ella dependen todos los demás componentes para funcionar y estar conectados entre sí, así como también de ella dependen el tipo de procesador, memoria RAM, puertos de expansión, y demás componentes que se integren al equipo. Él no dimensionar tal importancia sumado a la cantidad de marcas, modelos, tamaños y características actuales, hacen difícil la tarea de elegir alguna, es por esto que mayormente se desvía toda la atención al precio. ¿Cómo identificar la tarjeta madre adecuada?
+#### Motherboard
+
+La tarjeta madre es él componente principal de la computadora, de ella dependen todos los demás componentes para funcionar y estar conectados entre sí, así como también de ella dependen el tipo de procesador, memoria RAM, puertos de expansión, y demás componentes que se integren al equipo. Él no dimensionar tal importancia sumado a la cantidad de marcas, modelos, tamaños y características actuales, hacen difícil la tarea de elegir alguna, es por esto que mayormente se desvía toda la atención al precio. ¿Cómo identificar la tarjeta madre adecuada?
 
 Otros factores además del precio se deben considerar, pero es importante comenzar por determinar el desempeño que se requiere, lo que se define básicamente en 5 niveles:
 
@@ -43,7 +45,9 @@ Hay también otros aspectos que debes considerar para adquirir una Motherboard:
 
 **Figura 20.1.** Dos vistas del Intel® Desktop Board DQ77KB.
 
-Procesador El procesador es el cerebro del ordenador. De sus capacidades dependerá tanto la velocidad a la que funcione como sus límites para poder ejecutar más o menos cosas. Actualmente existen dos grandes competidores que se disputan la supremacía del mercado: Intel y AMD.
+#### Procesador
+
+El procesador es el cerebro del ordenador. De sus capacidades dependerá tanto la velocidad a la que funcione como sus límites para poder ejecutar más o menos cosas. Actualmente existen dos grandes competidores que se disputan la supremacía del mercado: Intel y AMD.
 
 Algunas de las características esenciales para describir su funcionamiento son: cantidad de núcleos, marca y modelo del procesador, frecuencia de reloj y la memoria de segundo nivel.
 
@@ -56,9 +60,24 @@ Algunas de las características esenciales para describir su funcionamiento son:
 
 **Tabla 20.1.** : Algunos de los principales productos de Intel.
 
-Modelos Intel Procesador Frec. Reloj Núcleos Veloc. Bus Pot. Térmica Mem. Caché Pentium II 233-450 MHz 1 66-100 MHz 16.8-43 W 32 KB Pentium III 450 MHz-1.4 GHz 1 100-133 MHz 17-34.5 W 256-512 KB Pentium 4 1.3-3.8 GHz 1 400-1066 MHz 21-11 5 W 12+8-12+16 KB Pentium 4 (Extreme 3.2-3.73 GHz 1 800-1066 MHz 92-11 5 W 12+8-12+16 KB edition) Celeron 266 MHz-3.6 GHz 1, 2 66-800 MHz 5.5-86 W 8 KB-32 KB x2 533 MHz, 667 MHz, 800 MHz, 1066 MHz, 1333 MHz, 1600 MHz Core 2 Duo 1.06-3.33 GHz 1, 2, 4 5.5 W-150 W 32 KB x2
+**Modelos Intel**
 
-Modelos Intel Procesador Frec. Reloj Núcleos Veloc. Bus Pot. Térmica Mem. Caché Core i3 1.4-3.4 GHz 2 1066 MHz, 1600 MHz, 2.55 GT/s 35-73 W 32x32 KB x2 Core i5 1.06-3.6 GHz 2, 4 2.5-5 GT/s 17-95 W 32x32 KB x232x32 KB x4 Core i7 1.6-3.9 GHz 6 4.8 GT/s, 6.4 GT/s 45W-130W 32x32 KB x432x32 KB x6
+| Procesador | Frec. Reloj | Núcleos | Veloc. Bus | Pot. Térmica | Mem. Caché |
+| --- | --- | --- | --- | --- | --- |
+| Pentium II | 233-450 MHz | 1 | 66-100 MHz | 16.8-43 W | 32 KB |
+| Pentium III | 450 MHz-1.4 GHz | 1 | 100-133 MHz | 17-34.5 W | 256-512 KB |
+| Pentium 4 | 1.3-3.8 GHz | 1 | 400-1066 MHz | 21-115 W | 12+8-12+16 KB |
+| Pentium 4 (Extreme edition) | 3.2-3.73 GHz | 1 | 800-1066 MHz | 92-115 W | 12+8-12+16 KB |
+| Celeron | 266 MHz-3.6 GHz | 1, 2 | 66-800 MHz | 5.5-86 W | 8 KB-32 KB x2 |
+| Core 2 Duo | 1.06-3.33 GHz | 1, 2, 4 | 533 MHz, 667 MHz, 800 MHz, 1066 MHz, 1333 MHz, 1600 MHz | 5.5 W-150 W | 32 KB x2 |
+
+**Modelos Intel**
+
+| Procesador | Frec. Reloj | Núcleos | Veloc. Bus | Pot. Térmica | Mem. Caché |
+| --- | --- | --- | --- | --- | --- |
+| Core i3 | 1.4-3.4 GHz | 2 | 1066 MHz, 1600 MHz, 2.5-5 GT/s | 35-73 W | 32x32 KB x2 |
+| Core i5 | 1.06-3.6 GHz | 2, 4 | 2.5-5 GT/s | 17-95 W | 32x32 KB x2-32x32 KB x4 |
+| Core i7 | 1.6-3.9 GHz | 6 | 4.8 GT/s, 6.4 GT/s | 45W-130W | 32x32 KB x4-32x32 KB x6 |
 
 ![Figura 20.3](img/fig-1741.jpg)
 
@@ -66,21 +85,55 @@ Modelos Intel Procesador Frec. Reloj Núcleos Veloc. Bus Pot. Térmica Mem. Cach
 
 **Tabla 20.2.** : Algunos de los principales productos de AMD.
 
-Modelos AMD Procesador Frec. Reloj Núcleos Veloc. Bus Pot. Térmica Mem. Caché Duron 600-1800 MHz 1 100-133 MHz ,7 W-57 W 128 KB Athlon 500-1400 MHz 1 100-133 MHz 31 W-72 W 128 KB Athlon XP 1333-2333 MHz 1 133-266 MHz 48,5-76,8 W 128 KB Athlon XP 1500-2200 MHz 1 166-800 MHz 35-62 W 128 KB Sempron LE 1900-2200 MHz 1 800 MHz HT 45 W 128 KB Athlon 64 1000 MHz 1 800 MHz HT1 GHz HT 8-89 W 128 KB Sempron X2 1800-2000 MHz 2 800 MHz HT 65 W 8 KB x 2 Athlon 64 X2 1900-3100 MHz 2 800 MHz HT 35-12 5 W 128 KB x 2 Athlon 64 FX 2600-3000 MHz 2 800 MHz HT 110-12 5 W 1 MB x 2 Athlon X2 1900-2800 MHz 2 800 MHz HT 45-95 W 512 KB x 2 Phenom X3 900-2500 MHz 3 1,8 GHz HT 65-95 W 512 KB x 3 Phenom X4 1800-2600 MHz 4 1,6-2 GHz HT 65-12 5 W 512 KB x 4 Athlon II X2 1600-3400 MHz 2 2 GHz HT 25-65 W 512 KB x 21 MB x2 Athlon II X3 2200-3400 MHz 3 2 GHz HT 45-95 W 12 8 KB x 3
+**Modelos AMD**
 
-Modelos AMD Procesador Frec. Reloj Núcleos Veloc. Bus Pot. Térmica Mem. Caché Phenom II X2 2800-3500 MHz 2 2-2,2 GHz HT 65-80 W 8 KB x 2 Athlon II X4 2200-3200 MHz 4 2 GHz HT 45-95 W 128 KB x 4 Phenom II X3 2400-3200 MHz 3 1,8-2 GHz HT 65-95 W 512 KB x 3 Phenom II X4 2000-3,4 GHz 4 1,8-2 GHz HT 65-12 5 W 128 KB x 4 Phenom II X6 2600-3,76 GHz 6 2 GHz HT 95-12 5 W 8 KB x 6 FX 2800-4,3 GHz 4, 6, 8 5, 2 GHz HT 95-12 5 W 2 MB x 2, 3, 4 3.
+| Procesador | Frec. Reloj | Núcleos | Veloc. Bus | Pot. Térmica | Mem. Caché |
+| --- | --- | --- | --- | --- | --- |
+| Duron | 600-1800 MHz | 1 | 100-133 MHz | ,7 W-57 W | 128 KB |
+| Athlon | 500-1400 MHz | 1 | 100-133 MHz | 31 W-72 W | 128 KB |
+| Athlon XP | 1333-2333 MHz | 1 | 133-266 MHz | 48,5-76,8 W | 128 KB |
+| Athlon XP | 1500-2200 MHz | 1 | 166-800 MHz | 35-62 W | 128 KB |
+| Sempron LE | 1900-2200 MHz | 1 | 800 MHz HT | 45 W | 128 KB |
+| Athlon 64 | 1000 MHz | 1 | 800 MHz HT-1 GHz HT | 8-89 W | 128 KB |
+| Sempron X2 | 1800-2000 MHz | 2 | 800 MHz HT | 65 W | 8 KB x 2 |
+| Athlon 64 X2 | 1900-3100 MHz | 2 | 800 MHz HT | 35-125 W | 128 KB x 2 |
+| Athlon 64 FX | 2600-3000 MHz | 2 | 800 MHz HT | 110-125 W | 1 MB x 2 |
+| Athlon X2 | 1900-2800 MHz | 2 | 800 MHz HT | 45-95 W | 512 KB x 2 |
+| Phenom X3 | 900-2500 MHz | 3 | 1,8 GHz HT | 65-95 W | 512 KB x 3 |
+| Phenom X4 | 1800-2600 MHz | 4 | 1,6-2 GHz HT | 65-125 W | 512 KB x 4 |
+| Athlon II X2 | 1600-3400 MHz | 2 | 2 GHz HT | 25-65 W | 512 KB x 2-1 MB x2 |
+| Athlon II X3 | 2200-3400 MHz | 3 | 2 GHz HT | 45-95 W | 128 KB x 3 |
 
-La frecuencia de reloj: es muy común que uno de los principales datos que se mencionan en catálogos y publicidad de ordenadores sea que cuenta con un procesador de, por ejemplo, 2 Megaherzios. Este dato se refiere a la frecuencia de reloj del procesador, es decir, la cantidad de información que es capaz de gestionar el procesador por segundo. Su importancia no es determinante para un usuario medio. 4.
+**Modelos AMD**
 
-La memoria de segundo nivel: junto a la frecuencia de reloj, define la eficiencia del procesador. Su capacidad se mide en Megabytes (millones de bytes, la unidad de información básica más usada) y se sitúa entre los 256 Kilobytes y los dos Megabytes (diez veces más). Siempre que se encuentre entre estos dos parámetros, no habrá problema alguno.
+| Procesador | Frec. Reloj | Núcleos | Veloc. Bus | Pot. Térmica | Mem. Caché |
+| --- | --- | --- | --- | --- | --- |
+| Phenom II X2 | 2800-3500 MHz | 2 | 2-2,2 GHz HT | 65-80 W | 8 KB x 2 |
+| Athlon II X4 | 2200-3200 MHz | 4 | 2 GHz HT | 45-95 W | 128 KB x 4 |
+| Phenom II X3 | 2400-3200 MHz | 3 | 1,8-2 GHz HT | 65-95 W | 512 KB x 3 |
+| Phenom II X4 | 2000-3,4 GHz | 4 | 1,8-2 GHz HT | 65-125 W | 128 KB x 4 |
+| Phenom II X6 | 2600-3,76 GHz | 6 | 2 GHz HT | 95-125 W | 8 KB x 6 |
+| FX | 2800-4,3 GHz | 4, 6, 8 | 5, 2 GHz HT | 95-125 W | 2 MB x 2, 3, 4 |
 
-La memoria RAM Junto con el procesador y el disco duro, la memoria RAM es uno de los elementos clave en los que se debe fijar el comprador, puesto que indica cuánta información puede manejar el ordenador a la vez. Su capacidad debe situarse entre los 512 Megabytes y los 2048. Un buen procesador no puede trabajar de forma correcta sin una RAM amplia, aunque una RAM excesiva puede sobrecalentar a un procesador poco potente (en mayor medida si es portátil), por lo que conviene fijarse en que ambos datos estén compensados. En la siguiente tabla se muestra un resumen de la tecnología de fabricación.
+3. La frecuencia de reloj: es muy común que uno de los principales datos que se mencionan en catálogos y publicidad de ordenadores sea que cuenta con un procesador de, por ejemplo, 2 Megaherzios. Este dato se refiere a la frecuencia de reloj del procesador, es decir, la cantidad de información que es capaz de gestionar el procesador por segundo. Su importancia no es determinante para un usuario medio. 4.
+4. La memoria de segundo nivel: junto a la frecuencia de reloj, define la eficiencia del procesador. Su capacidad se mide en Megabytes (millones de bytes, la unidad de información básica más usada) y se sitúa entre los 256 Kilobytes y los dos Megabytes (diez veces más). Siempre que se encuentre entre estos dos parámetros, no habrá problema alguno.
+
+#### La memoria RAM
+
+Junto con el procesador y el disco duro, la memoria RAM es uno de los elementos clave en los que se debe fijar el comprador, puesto que indica cuánta información puede manejar el ordenador a la vez. Su capacidad debe situarse entre los 512 Megabytes y los 2048. Un buen procesador no puede trabajar de forma correcta sin una RAM amplia, aunque una RAM excesiva puede sobrecalentar a un procesador poco potente (en mayor medida si es portátil), por lo que conviene fijarse en que ambos datos estén compensados. En la siguiente tabla se muestra un resumen de la tecnología de fabricación.
 
 **Tabla 20.3.** : Características de los tipos de memoria DDR.
 
-DDR SDRAM Bus clock Internal rate (MHz) Prefetch (min burst) Transfer Rate (MT/s) Voltage DIMM Micro MM pins Standard (MHz) pins DDR 100-200 100-200 $2^n$ 200-400 2.5/2.6 184 172 DDR2 200-533 100-266 4n 400-1066 1.8 240 214 DDR3 400-1066 100-266 8n 800-2133 1.2/1.5 240 214 DDR4 2133-4266 1.05/1.2
+| DDR SDRAM Standard | Bus clock (MHz) | Internal rate (MHz) | Prefetch (min burst) | Transfer Rate (MT/s) | Voltage | DIMM pins | Micro MM pins |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| DDR | 100-200 | 100-200 | 2n | 200-400 | 2.5/2.6 | 184 | 172 |
+| DDR2 | 200-533 | 100-266 | 4n | 400-1066 | 1.8 | 240 | 214 |
+| DDR3 | 400-1066 | 100-266 | 8n | 800-2133 | 1.2/1.5 | 240 | 214 |
+| DDR4 | | | | 2133-4266 | 1.05/1.2 | | |
 
-Disco duro El disco duro es el gran almacén de datos del ordenador. Su capacidad se mide en Gigabytes (un Gigabyte equivale a mil millones de bytes) y puede alcanzar valores de cientos de Gigabytes.
+#### Disco duro
+
+El disco duro es el gran almacén de datos del ordenador. Su capacidad se mide en Gigabytes (un Gigabyte equivale a mil millones de bytes) y puede alcanzar valores de cientos de Gigabytes.
 
 Las características que se deben tener en cuenta en un disco duro son:
 
@@ -93,9 +146,7 @@ Las características que se deben tener en cuenta en un disco duro son:
 
 ![Figura 20.4](img/fig-1754.jpg)
 
-**Figura 20.4.** Diferentes tipos de discos. A la izquierda un disco de estado sólido, y a la derecha un
-
-disco duro estándar.
+**Figura 20.4.** Diferentes tipos de discos. A la izquierda un disco de estado sólido, y a la derecha un disco duro estándar.
 
 Actualmente se ha introducido la tecnología de las unidades de estado sólido, las tienen el mismo uso que los discos duros y emplean las mismas interfaces, pero no están formadas por discos mecánicos, sino por memorias de circuitos integrados para almacenar la información. El uso de esta clase de dispositivos anteriormente se limitaba a las supercomputadoras, por su elevado precio, aunque hoy en día ya son muchísimo más asequibles para el mercado doméstico. Hoy en las modernas computadoras se pueden mezclar estas dos tecnologías, teniendo los discos tradicionales para almacenar los datos y uno de estado sólido para la velocidad de lectura/ escritura.
 
@@ -112,7 +163,9 @@ Actualmente se ha introducido la tecnología de las unidades de estado sólido, 
 
 **Figura 20.6.** La gráfica ordena los modelos de algunas tarjetas según su potencia/precio. Marzo 2013.
 
-La pantalla Hoy prácticamente han desaparecido las pantallas “de tubo” (CRT) por su excesivo peso y volumen. Nuevas tecnologías de fabricación han desplazado a estos, las más notables son LCD y LED.
+#### La pantalla
+
+Hoy prácticamente han desaparecido las pantallas “de tubo” (CRT) por su excesivo peso y volumen. Nuevas tecnologías de fabricación han desplazado a estos, las más notables son LCD y LED.
 
 Los LCD son por norma general mucho más económicos y fáciles de fabricar. En contraposición, OLED, aun es una tecnología complicada de fabricar, y aunque ahora son mucho más asequibles que hace algunos años, en términos de precio siempre salen perdiendo ante LCD.
 
@@ -120,84 +173,12 @@ Los LCD son por norma general mucho más económicos y fáciles de fabricar. En 
 
 **Figura 20.7.** Diferentes monitores OLED.
 
-Otros complementos interesantes
+#### Otros complementos interesantes
 
 - El teclado: aunque no se repara demasiado en él, es de los más importantes.
 - El ratón: los ópticos han sustituido a los engorrosos de rueda que siempre hay que estar limpiando, pero necesitan superficies opacas y rugosas para funcionar de forma óptima. Los inalámbricos eliminan el problema del cable, siempre molesto, pero suelen perder la conexión y hay que sintonizarlos con demasiada frecuencia. Por otro lado, la forma del ratón puede provocar dolores en manos y dedos.
 - La impresora: las tecnologías de impresión: el chorro de tinta y la láser. La primera funciona con cartuchos de tinta y está indicada para la impresión en color y de imágenes, aunque los consumibles son caros. Para imprimir textos en blanco y negro, la impresión láser es más barata a largo plazo. Conviene recordar que resulta más económico llevar las fotografías digitales a revelar a comercios donde cuenten con máquinas para tal fin.
 - Las webcam: cada vez cobra más importancia con el auge de las videoconferencias de ordenador a ordenador. Hay numerosos modelos a precios muy asequibles. No conviene gastar excesivo dinero en ellas porque la calidad de la imagen que transmitan depende más del ancho de banda que de su óptica.
-
-
-
-<!-- tabla detectada en PDF p.264 -->
-
-| ModelosIntel |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
-| PentiumII | 233 -450MHz | 1 | 66 -100MHz | 168 43W . - | 32KB |
-| PentiumIII | 450 MHz-1 .4 GHz | 1 | 100 -133MHz | 17 345W - . | 256 512KB - |
-| Pentium4 | 1 .3 -3 .8 GHz | 1 | 400 -1066MHz | 21 115W - | 12+8 -12+16KB |
-| Pentium4 (Extreme edition) | 3 .2 -3 .73 GHz | 1 | 800 -1066MHz | 92 115W - | 12+8 -12+16KB |
-| Celeron | 266 MHz-3 .6 GHz | 1 2 , | 66 -800MHz | 55 86W . - | 8KB -32KBx2 |
-| Core2Duo | 1 .06 -3 .33 GHz | 1 2 4 , , | 533MHz , 667MHz , 800MHz , 1066MHz , 1333MHz , 1600MHz | 55W 150W . - | 32KBx2 |
-
-
-
-<!-- tabla detectada en PDF p.265 -->
-
-| ModelosIntel |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
-| Corei3 | 1 .4 -3 .4 GHz | 2 | 1066MHz , 1600 MHz 2 .5 , - 5GT/s | 35 73W - | 32x32KBx2 |
-| Corei5 | 1 .06 -3 .6 GHz | 2 4 , | 2 .5 -5 GT/s | 17 95W - | 32x32KBx2 - 32x32KBx4 |
-| Corei7 | 1 .6 -3 .9 GHz | 6 | 48GT/s . , 64GT/s . | 45W 130W - | 32x32KBx4 - 32x32KBx6 |
-
-
-
-<!-- tabla detectada en PDF p.265 -->
-
-| ModelosAMD |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
-| Duron | 600 -1800MHz | 1 | 100 -133MHz | 7W 57W , - | 128KB |
-| Athlon | 500 -1400MHz | 1 | 100 -133MHz | 31W 72W - | 128KB |
-| AthlonXP | 1333 -2333MHz | 1 | 133 -266MHz | 485 768W , - , | 128KB |
-| AthlonXP | 1500 -2200MHz | 1 | 166 -800MHz | 35 62W - | 128KB |
-| SempronLE | 1900 -2200MHz | 1 | 800MHzHT | 45W | 128KB |
-| Athlon64 | 1000MHz | 1 | 800MHzHT - 1GHzHT | 8 89W - | 128KB |
-| SempronX2 | 1800 -2000MHz | 2 | 800MHzHT | 65W | 8KBx2 |
-| Athlon64X2 | 1900 -3100MHz | 2 | 800MHzHT | 35 125W - | 128KBx2 |
-| Athlon64FX | 2600 -3000MHz | 2 | 800MHzHT | 110 125W - | 1MBx2 |
-| AthlonX2 | 1900 -2800MHz | 2 | 800MHzHT | 45 95W - | 512KBx2 |
-| PhenomX3 | 900 -2500MHz | 3 | 18GHzHT , | 65 95W - | 512KBx3 |
-| PhenomX4 | 1800 -2600MHz | 4 | 1 ,6 -2 GHz HT | 65 125W - | 512KBx4 |
-| AthlonIIX2 | 1600 -3400MHz | 2 | 2GHzHT | 25 65W - | 512KBx2 - 1MBx2 |
-| AthlonIIX3 | 2200 -3400MHz | 3 | 2GHzHT | 45 95W - | 12 8KBx3 |
-
-
-
-<!-- tabla detectada en PDF p.266 -->
-
-| ModelosAMD |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| Procesador | Frec Reloj . | Núcleos | Veloc Bus . | Pot Térmica . | Mem Caché . |
-| PhenomIIX2 | 2800 -3500MHz | 2 | 2 -2 ,2 GHz HT | 65 80W - | 8KBx2 |
-| AthlonIIX4 | 2200 -3200MHz | 4 | 2GHzHT | 45 95W - | 128KBx4 |
-| PhenomIIX3 | 2400 -3200MHz | 3 | 1 ,8 -2 GHz HT | 65 95W - | 512KBx3 |
-| PhenomIIX4 | 2000 -3 ,4 GHz | 4 | 1 ,8 -2 GHz HT | 65 125W - | 128KBx4 |
-| PhenomIIX6 | 2600 -3 ,76 GHz | 6 | 2GHzHT | 95 125W - | 8KBx6 |
-| FX | 2800 -4 ,3 GHz | 4 6 8 , , | 5 2GHzHT , | 95 125W - | 2MBx2 3 4 , , |
-
-
-
-<!-- tabla detectada en PDF p.266 -->
-
-| DDRSDRAM Standard | Busclock (MHz) | Internal rate(MHz) | Prefetch (minburst) | Transfer Rate(MT/s) | Voltage | DIMM pins | Micro MMpins |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| DDR | 100 200 - | 100 200 - | 2n | 200 400 - | 25/26 . . | 184 | 172 |
-| DDR2 | 200 533 - | 100 266 - | 4n | 400 1066 - | 18 . | 240 | 214 |
-| DDR3 | 400 1066 - | 100 266 - | 8n | 800 2133 - | 12/15 . . | 240 | 214 |
-| DDR4 |  |  |  | 2133 4266 - | 105/12 . . |  |  |
 
 ## 20.3. Conclusiones
 
@@ -205,12 +186,9 @@ En esta clase se han presentado los diversos elementos a tener en cuenta a la ho
 
 Se describieron casi todos los componentes de los computadores modernos, los principales y más usados, que son los que determinan el funcionamiento de los computadores.
 
-## Resumen
-
 ## Bibliografía
 
-[1] Thomas L. Floyd. (2006). Fundamentos de sistemas digitales 9ª Edición. Ed. PrenticeHall. [2] William Stallings (2006). Organización y arquitectura de computadores 7ª Edición. Ed.
-
-Prentice-Hall. [3] Prieto, A., Rojas, F., Castillo, P. A. y Prieto, B. (2010). Tecnología y Estructura de computadores. Madrid: Ed. Udima. [4] Hennessy, J. Y Patterson, D. (2007). Computer Architecture. A Quantitative Approach. Ed.
-
-Morgan Kaufmann.
+- [1] Thomas L. Floyd. (2006). Fundamentos de sistemas digitales 9ª Edición. Ed. PrenticeHall.
+- [2] William Stallings (2006). Organización y arquitectura de computadores 7ª Edición. Ed. Prentice-Hall.
+- [3] Prieto, A., Rojas, F., Castillo, P. A. y Prieto, B. (2010). Tecnología y Estructura de computadores. Madrid: Ed. Udima.
+- [4] Hennessy, J. Y Patterson, D. (2007). Computer Architecture. A Quantitative Approach. Ed. Morgan Kaufmann.
