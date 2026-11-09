@@ -12,7 +12,6 @@ PDF de la presentación: [Tema 7.pdf](Tema%207.pdf)
 
 [![Latch — circuitos secuenciales](https://img.youtube.com/vi/FN4ctCaa-cQ/hqdefault.jpg)](https://www.youtube.com/watch?v=FN4ctCaa-cQ)
 
-Enlace: [https://www.youtube.com/watch?v=FN4ctCaa-cQ](https://www.youtube.com/watch?v=FN4ctCaa-cQ)
 
 
 

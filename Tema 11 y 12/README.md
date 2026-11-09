@@ -66,19 +66,16 @@ Se realizará una introducción al set de instrucciones de Intel. Se examinarán
 
 [![Lenguaje ensamblador](https://img.youtube.com/vi/KbEqb2utOFU/hqdefault.jpg)](https://www.youtube.com/watch?v=KbEqb2utOFU)
 
-Enlace: [https://www.youtube.com/watch?v=KbEqb2utOFU](https://www.youtube.com/watch?v=KbEqb2utOFU)
 
 **Vídeo:** Lenguaje ensamblador (II)
 
 [![Lenguaje ensamblador (II)](https://img.youtube.com/vi/Fkz_2RxHYCc/hqdefault.jpg)](https://www.youtube.com/watch?v=Fkz_2RxHYCc)
 
-Enlace: [https://www.youtube.com/watch?v=Fkz_2RxHYCc](https://www.youtube.com/watch?v=Fkz_2RxHYCc)
 
 **Vídeo:** Lenguaje ensamblador (vídeo adicional)
 
 [![Lenguaje ensamblador (vídeo adicional)](https://img.youtube.com/vi/i15kfJPhG0Y/hqdefault.jpg)](https://www.youtube.com/watch?v=i15kfJPhG0Y)
 
-Enlace: [https://www.youtube.com/watch?v=i15kfJPhG0Y](https://www.youtube.com/watch?v=i15kfJPhG0Y)
 
 
 

@@ -18,7 +18,6 @@ PDF de la presentación: [Tema 1 y 2.pdf](Tema%201%20y%202.pdf)
 
 [![ENIAC — primer computador electrónico](https://img.youtube.com/vi/uRtt7xxZL8w/hqdefault.jpg)](https://www.youtube.com/watch?v=uRtt7xxZL8w)
 
-Enlace: [https://www.youtube.com/watch?v=uRtt7xxZL8w](https://www.youtube.com/watch?v=uRtt7xxZL8w)
 
 Primer Computador Electrónico
 
@@ -30,7 +29,6 @@ Primer Computador Electrónico
 
 [![Primera generación — tubos de vacío](https://img.youtube.com/vi/OmNaQPWpaKQ/hqdefault.jpg)](https://www.youtube.com/watch?v=OmNaQPWpaKQ)
 
-Enlace: [https://www.youtube.com/watch?v=OmNaQPWpaKQ](https://www.youtube.com/watch?v=OmNaQPWpaKQ)
 
 Tubo de Vacío 1946 - 1958
 
@@ -52,7 +50,6 @@ Tarjetas Perforadas
 
 [![UNIVAC — primer computador comercial](https://img.youtube.com/vi/s7VBoVpKhi4/hqdefault.jpg)](https://www.youtube.com/watch?v=s7VBoVpKhi4)
 
-Enlace: [https://www.youtube.com/watch?v=s7VBoVpKhi4](https://www.youtube.com/watch?v=s7VBoVpKhi4)
 
 Primer Computador Comercial
 
@@ -64,7 +61,6 @@ Primer Computador Comercial
 
 [![Segunda generación — transistores](https://img.youtube.com/vi/slXlx0o0JZA/hqdefault.jpg)](https://www.youtube.com/watch?v=slXlx0o0JZA)
 
-Enlace: [https://www.youtube.com/watch?v=slXlx0o0JZA](https://www.youtube.com/watch?v=slXlx0o0JZA)
 
 Los Transistores
 
@@ -84,7 +80,6 @@ Opera a mayor velocidad
 
 [![Relación con la actualidad](https://img.youtube.com/vi/KLJxAY8bsCk/hqdefault.jpg)](https://www.youtube.com/watch?v=KLJxAY8bsCk)
 
-Enlace: [https://www.youtube.com/watch?v=KLJxAY8bsCk](https://www.youtube.com/watch?v=KLJxAY8bsCk)
 
 ![Figura](img/fig-s13-p1.jpg)
 
@@ -94,31 +89,26 @@ Enlace: [https://www.youtube.com/watch?v=KLJxAY8bsCk](https://www.youtube.com/wa
 
 [![Tercera generación — circuitos integrados](https://img.youtube.com/vi/cFEKrYvrr7U/hqdefault.jpg)](https://www.youtube.com/watch?v=cFEKrYvrr7U)
 
-Enlace: [https://www.youtube.com/watch?v=cFEKrYvrr7U](https://www.youtube.com/watch?v=cFEKrYvrr7U)
 
 **Vídeo:** Vídeo adicional (short)
 
 [![Vídeo adicional (short)](https://img.youtube.com/vi/pjqoYyZhbtY/hqdefault.jpg)](https://www.youtube.com/watch?v=pjqoYyZhbtY)
 
-Enlace: [https://www.youtube.com/watch?v=pjqoYyZhbtY](https://www.youtube.com/watch?v=pjqoYyZhbtY)
 
 **Vídeo:** Vídeo adicional (short)
 
 [![Vídeo adicional (short)](https://img.youtube.com/vi/xkypLAJDnEY/hqdefault.jpg)](https://www.youtube.com/watch?v=xkypLAJDnEY)
 
-Enlace: [https://www.youtube.com/watch?v=xkypLAJDnEY](https://www.youtube.com/watch?v=xkypLAJDnEY)
 
 **Vídeo:** Vídeo adicional (short)
 
 [![Vídeo adicional (short)](https://img.youtube.com/vi/5hRs28Fx27c/hqdefault.jpg)](https://www.youtube.com/watch?v=5hRs28Fx27c)
 
-Enlace: [https://www.youtube.com/watch?v=5hRs28Fx27c](https://www.youtube.com/watch?v=5hRs28Fx27c)
 
 **Vídeo:** Vídeo adicional
 
 [![Vídeo adicional](https://img.youtube.com/vi/xrVPSCZ-Z-0/hqdefault.jpg)](https://www.youtube.com/watch?v=xrVPSCZ-Z-0)
 
-Enlace: [https://www.youtube.com/watch?v=xrVPSCZ-Z-0](https://www.youtube.com/watch?v=xrVPSCZ-Z-0)
 
 Los Circuitos Integrados
 
@@ -144,7 +134,6 @@ Multiprogramación
 
 [![Últimas generaciones (nota del presentador, desde 4:36)](https://img.youtube.com/vi/VJ3qydWTmvA/hqdefault.jpg)](https://www.youtube.com/watch?v=VJ3qydWTmvA)
 
-Enlace: [https://www.youtube.com/watch?v=VJ3qydWTmvA](https://www.youtube.com/watch?v=VJ3qydWTmvA)
 
 - Memoria Semiconductora
 

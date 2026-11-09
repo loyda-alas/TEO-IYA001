@@ -12,7 +12,6 @@ PDF de la presentación: [Tema 5.pdf](Tema%205.pdf)
 
 [![Álgebra de Boole — George Boole](https://img.youtube.com/vi/LggsK5Tk4jY/hqdefault.jpg)](https://www.youtube.com/watch?v=LggsK5Tk4jY)
 
-Enlace: [https://www.youtube.com/watch?v=LggsK5Tk4jY](https://www.youtube.com/watch?v=LggsK5Tk4jY)
 
 ## Circuitos Combinacionales y Secuenciales
 
