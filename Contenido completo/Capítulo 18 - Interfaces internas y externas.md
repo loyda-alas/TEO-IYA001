@@ -25,15 +25,20 @@ Algunos de los componentes y conexiones que forman parte de la placa y que se va
 - Conectores internos y conectores eléctricos.
 - Chipset de control.
 
-Microprocesador El microprocesador es el elemento más importante del computador, es el cerebro de la máquina, se encarga de controlar todo el sistema. Un parámetro importante es la velocidad del procesador que se mide en mega-herzios (Mhz), es decir cantidad de “ordenes” por segundo que pueden ser ejecutadas por el procesador. Atendiendo a sus características físicas existen dos tipos:
+#### Microprocesador
+
+El microprocesador es el elemento más importante del computador, es el cerebro de la máquina, se encarga de controlar todo el sistema. Un parámetro importante es la velocidad del procesador que se mide en mega-herzios (Mhz), es decir cantidad de “ordenes” por segundo que pueden ser ejecutadas por el procesador. Atendiendo a sus características físicas existen dos tipos:
 
 - Microprocesadores de slot.
 - Microprocesadores de pastilla.
+
 ![Figura 18.1](img/fig-1548.jpg)
 
 **Figura 18.1.** Tipos de microprocesadores.
 
-Socket El zócalo o socket es el lugar en la placa donde se conecta el procesador, como es lógico el zócalo de un procesador de pastilla es diferente al de uno de slot.
+#### Socket
+
+El zócalo o socket es el lugar en la placa donde se conecta el procesador, como es lógico el zócalo de un procesador de pastilla es diferente al de uno de slot.
 
 En la figura siguiente se muestran distintas placas con distintos tipos de zócalo. Normalmente en cada placa solo hay un procesador a excepción de computadoras más potentes que pueden disponer de varios.
 
@@ -41,7 +46,9 @@ En la figura siguiente se muestran distintas placas con distintos tipos de zóca
 
 **Figura 18.2.** Tipos de sockets.
 
-Memorias y ranuras de memoria La memoria principal o RAM (acrónimo de Random Access Memory, Memoria de Acceso Aleatorio) es el lugar donde el computador almacena los datos de usuario, del sistema y aplicaciones que se están utilizando en el momento presente. La unidad de medida es el Mega-bit indica el tamaño o cantidad de datos que se pueden almacenar, ejemplos del tamaño de las memorias son 32Mb, 64Mb, estos tamaños siempre son múltiplos de 2. La memoria RAM es imprescindible para el funcionamiento del computador y se borra cuando apagamos el computador. Debido a que todos los datos necesarios para la ejecución de programas y del sistema deben estar cargados en la memoria para ser ejecutados el rendimiento del computador depende en gran medida del tamaño en Mb de esta. Físicamente son pequeñas láminas finas de materiales sintéticos compuestas de varios chips soldados, cada una de ellas se denomina módulo. Existen diferentes tipos de memorias SIMM DIMM o RIMM entre otras que se diferencian en tamaño físico, velocidad de acceso, numero de conectores etc.
+#### Memorias y ranuras de memoria
+
+La memoria principal o RAM (acrónimo de Random Access Memory, Memoria de Acceso Aleatorio) es el lugar donde el computador almacena los datos de usuario, del sistema y aplicaciones que se están utilizando en el momento presente. La unidad de medida es el Mega-bit indica el tamaño o cantidad de datos que se pueden almacenar, ejemplos del tamaño de las memorias son 32Mb, 64Mb, estos tamaños siempre son múltiplos de 2. La memoria RAM es imprescindible para el funcionamiento del computador y se borra cuando apagamos el computador. Debido a que todos los datos necesarios para la ejecución de programas y del sistema deben estar cargados en la memoria para ser ejecutados el rendimiento del computador depende en gran medida del tamaño en Mb de esta. Físicamente son pequeñas láminas finas de materiales sintéticos compuestas de varios chips soldados, cada una de ellas se denomina módulo. Existen diferentes tipos de memorias SIMM DIMM o RIMM entre otras que se diferencian en tamaño físico, velocidad de acceso, numero de conectores etc.
 
 A la hora de ampliar la memoria de un computador es importante averiguar el tipo que se tiene, y cuanto se puede ampliar como máximo. Estos parámetros los establece el Chipset que estamos usando y la placa madre. Estos datos se encuentran en el manual de la placa que viene cuando se compra el computador. La siguiente figura muestra dos módulos de memoria.
 
@@ -59,7 +66,9 @@ A la hora de poner la memoria hay que fijarse en la forma de la ranura ya que es
 
 **Figura 18.4.** Nótese como están distribuidas las ranuras de memoria en la placa base.
 
-BIOS BIOS (acrónimo de Basic Input-Output System, Sistema Básico de Entrada y Salida) es un pequeño programa incorporado en un chip de la placa base. Su finalidad es mantener cierta información básica en el arranque de la computadora. Esta información puede ser la configuración de nuestro disco duro, fecha hora del sistema prioridad de arranque, arranque desde la red, etc.
+#### BIOS
+
+BIOS (acrónimo de Basic Input-Output System, Sistema Básico de Entrada y Salida) es un pequeño programa incorporado en un chip de la placa base. Su finalidad es mantener cierta información básica en el arranque de la computadora. Esta información puede ser la configuración de nuestro disco duro, fecha hora del sistema prioridad de arranque, arranque desde la red, etc.
 
 Una de las características de esta memoria es que es una memoria ROM, que significa que no se borra cuando se apaga el computador. Cuando esto ocurre, la configuración permanece grabada gracias a una pila de 3 voltios que incorpora el computador. Esto permite tener actualizada la configuración acerca del arranque de la PC y además mantiene actualizada la fecha y hora del sistema. A veces fallos en el arranque se pueden deber al desgaste de la pila y es necesario reemplazarla.
 
@@ -69,21 +78,25 @@ Cuando se instala un disco nuevo, memoria o un CD-ROM la BIOS guarda la configur
 
 **Figura 18.5.** Pila del Sistema.
 
-Ranuras de expansión Son las ranuras donde se conectan diversas tarjetas en el sistema. Ejemplos de tarjetas que se pueden instalar son tarjetas de video, audio, o red.
+#### Ranuras de expansión
 
-Recuerde que:
+Son las ranuras donde se conectan diversas tarjetas en el sistema. Ejemplos de tarjetas que se pueden instalar son tarjetas de video, audio, o red.
 
-Existen diferentes tipos de ranuras, las más habituales en los computadores son las siguientes:
-
-- ISA: son las más antiguas, aunque hoy en día casi no se utilizan algunas placas las incorporan para insertar dispositivos antiguos.
-- PCI: son las habituales en los computadores actuales.
-- AGP: normalmente solo hay una porque estas ranuras son de uso exclusivo para tarjetas de video: estas ranuras son aceleradoras de gráficos 3D.
+> **Recuerde que:**
+>
+> Existen diferentes tipos de ranuras, las más habituales en los computadores son las siguientes:
+>
+> - ISA: son las más antiguas, aunque hoy en día casi no se utilizan algunas placas las incorporan para insertar dispositivos antiguos.
+> - PCI: son las habituales en los computadores actuales.
+> - AGP: normalmente solo hay una porque estas ranuras son de uso exclusivo para tarjetas de video: estas ranuras son aceleradoras de gráficos 3D.
 
 ![Figura 18.6](img/fig-1581.jpg)
 
 **Figura 18.6.** Ranuras de expansión.
 
-Conectores internos y conectores eléctricos Hay dos tipos de conectores, los conectores o interfaces de datos y los conectores propiamente eléctricos.
+#### Conectores internos y conectores eléctricos
+
+Hay dos tipos de conectores, los conectores o interfaces de datos y los conectores propiamente eléctricos.
 
 Las interfaces de datos conectan los dispositivos a la placa y las conexiones eléctricas conectan la fuente de alimentación a los dispositivos incluida la placa. Todos los dispositivos excepto las tarjetas de las ranuras de expansión se conectan a la fuente de alimentación. Las tarjetas reciben la tensión a través de las ranuras de expansión.
 
@@ -99,13 +112,17 @@ La fuente de alimentación proporciona la tensión al computador. Cada dispositi
 
 Los cables que se utilizan para las interfaces de datos con la placa son diferentes según el tipo de dispositivos que se conecte.
 
-Interfaz IDE Las interfaces IDE (Integrated Drive Electronics, electrónica de unidades integradas) se utilizan para conectar a al ordenador discos duros y grabadoras o lectores de CD/DVD. Estas interfaces son de bajo coste y alto rendimiento. Para la conexión de estos dispositivos es necesario un cable IDE. Ver figura siguiente.
+#### Interfaz IDE
+
+Las interfaces IDE (Integrated Drive Electronics, electrónica de unidades integradas) se utilizan para conectar a al ordenador discos duros y grabadoras o lectores de CD/DVD. Estas interfaces son de bajo coste y alto rendimiento. Para la conexión de estos dispositivos es necesario un cable IDE. Ver figura siguiente.
 
 ![Figura 18.9](img/fig-1592.jpg)
 
 **Figura 18.9.** Cable IDE.
 
-Interfaz Serial ATA Está diseñada para mejorar la interfaz IDE, y es totalmente compatible con el sistema operativo que se quiera utilizar, además las placas bases actuales soportan tanto IDE como Serial ATA.
+#### Interfaz Serial ATA
+
+Está diseñada para mejorar la interfaz IDE, y es totalmente compatible con el sistema operativo que se quiera utilizar, además las placas bases actuales soportan tanto IDE como Serial ATA.
 
 Son unidades que operan a mayor velocidad, tienen mayor capacidad y reducen el consumo eléctrico. Además, el cable mediante el cual la unidad se conecta a la placa base es mucho más pequeño lo cual mejorar la ventilación y es menos sensible a las interferencias, por lo que permite crear cables más largos.
 
@@ -121,7 +138,9 @@ Los discos duros Serial ATA utilizan los cables serial ATA. Estos cables son dif
 
 **Figura 18.11.** Cable de datos SATA.
 
-Chipset de control Está formado por un conjunto de chips cuya finalidad es controlar algunas funciones concretas del computador y como interactúa el microprocesador con las memorias, puertos externos y ranuras de expansión. Que se obtenga el máximo rendimiento del microprocesador o que se puedan utilizar tecnologías avanzadas de memorias y periféricos depende del chipset.
+#### Chipset de control
+
+Está formado por un conjunto de chips cuya finalidad es controlar algunas funciones concretas del computador y como interactúa el microprocesador con las memorias, puertos externos y ranuras de expansión. Que se obtenga el máximo rendimiento del microprocesador o que se puedan utilizar tecnologías avanzadas de memorias y periféricos depende del chipset.
 
 ![Figura 18.12](img/fig-1609.jpg)
 
