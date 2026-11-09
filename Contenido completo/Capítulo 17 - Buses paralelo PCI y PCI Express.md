@@ -10,6 +10,8 @@
 
 Como se ha visto en la conferencia pasada se puede definir un bus (o canal) como un sistema digital que transfiere datos entre los componentes de una computadora o entre varias computadoras. Está formado por cables o pistas en un circuito impreso, dispositivos como resistores y condensadores además de circuitos integrados. Se pueden clasificar atendiendo a su modo de trabajo en serie o paralelo.
 
+![Figura](img/fig-1472.jpg)
+
 En los primeros computadores electrónicos, todos los buses eran de tipo paralelo, de manera que la comunicación entre las partes del computador se hacía por medio de cintas o muchas pistas en el circuito impreso, en los cuales cada conductor tiene una función fija y la conexión es sencilla requiriendo únicamente puertos de entrada y de salida para cada dispositivo.
 
 ## 17.2. Arquitectura de los buses paralelos
@@ -34,7 +36,7 @@ Intel empezó a trabajar en el PCI en 1990 pensando en sus sistemas basados en e
 
 Puesto que las especificaciones son de dominio público y están soportadas por una amplia banda de la industria de procesadores y periféricos, los productos PCI fabricados por compañías diferentes son compatibles.
 
-![Figura 17.1](img/fig-1472.jpg)
+![Figura 17.1](img/fig-1485.jpg)
 
 **Figura 17.1.** Arquitectura del bus PCI.
 
@@ -64,17 +66,15 @@ A continuación se muestran algunas de las especificaciones más importantes de 
 
 Estas características son visibles en las siguientes figuras. La primera muestra la evolución desde PCI 2.1 hasta la 2.3 (figura 17.2) y en la figura 17.3 se muestra algunas de sus modos más usados.
 
-![Figura 17.2](img/fig-1485.jpg)
+![Figura 17.2](img/fig-1492.jpg)
 
 **Figura 17.2.** Bus PCI 2.1 - 2.3.
 
 El PCI está diseñado para permitir una cierta variedad de configuraciones basadas en microprocesadores, incluyendo sistemas tanto de uno como de varios procesadores. Por consiguiente, proporciona un conjunto de funciones de uso general. Utiliza temporización síncrona y un esquema de arbitraje centralizado.
 
-![Figura 17.3](img/fig-1492.jpg)
+![Figura 17.3](img/fig-1500.jpg)
 
-**Figura 17.3.** Evolución de PCI, nótese como la capacidad de transferencia aumenta y el consumo de
-
-energía disminuye.
+**Figura 17.3.** Evolución de PCI, nótese como la capacidad de transferencia aumenta y el consumo de energía disminuye.
 
 ## 17.4. PCI Express
 
@@ -91,6 +91,8 @@ Sus características más importantes son:
 - Compatibilidad software con PCI. La interfaz software del bus (el “driver model”) permanece igual, no hay que cambiar los drivers del sistema operativo ni el software de sistema, todo queda exactamente igual.
 - Conexión y cambio de tarjetas en caliente.
 
+![Figura](img/fig-1507.jpg)
+
 PCI Express ofrece un conjunto de conectores, que son 1x, 2x, 4x, 8x, 16x y 32x. el prefijo numérico expresa el factor de multiplicación, logrando velocidades de procesamientos altamente configurables a diferentes entornos. A continuación se muestran algunos de estos conectores y su uso.
 
 - PCI Express 1x ofrece una tasa de transferencia de 250 Mb/s. Existen 1 o dos de estos en todas las placas madre actuales.
@@ -99,20 +101,15 @@ PCI Express ofrece un conjunto de conectores, que son 1x, 2x, 4x, 8x, 16x y 32x.
 - PCI Express 16x ofrece una tasa de transferencia de 4000 Mb/s es muy utilizado, está presente en todas las placas madre modernas, es el formato estándar de las tarjetas gráficas.
 - PCI Express 32x ofrece una tasa de transferencia de 8000 Mb/s posee el mismo formato que el PCI Express 16x, a menudo es utilizado en las placas madre de gama alta para alimentar el bus SLI o Crossfire. Las referencias de estas placas madre por lo general poseen la mención “32”. Esto permite tener dos puertos PCI Express con formato 16 y cableados en 16 líneas, al contrario de los SLI clásicos, cableados en 2 x 8 líneas o Crossfire básicos, cableados en 1x16 + 1x4 líneas. Estas placas madre se caracterizan también por la presencia de un puente sur adicional, únicamente dedicado a este bus 32x.
 
+![Figura](img/fig-1516.jpg)
+
+![Figura](img/fig-1517.jpg)
+
+![Figura](img/fig-1524.jpg)
+
 ## 17.5. Conclusiones
 
 En esta clase se trataron temas relacionados con los buses paralelos y PCI, de muy alto empleo en los computadores. Se mostraron detalles técnicos del funcionamiento de los mismos, así como una breve descripción de la evolución de estos.
 
 La tendencia en el desarrollo de los computadores es la imponer el bus PCI express, por su bajo consumo de corriente y por sobre todo, su elevada velocidad de transmisión.
 
-## Resumen
-
-![Figura](img/fig-1500.jpg)
-
-![Figura](img/fig-1507.jpg)
-
-![Figura](img/fig-1516.jpg)
-
-![Figura](img/fig-1517.jpg)
-
-![Figura](img/fig-1524.jpg)
