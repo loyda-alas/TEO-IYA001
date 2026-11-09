@@ -12,29 +12,23 @@ Las memorias tienen como objeto el almacenamiento de datos. Han sido ampliamente
 
 Según la forma en que almacenan los datos, las memorias se clasifican en “solo lectura” (ROM), “de acceso aleatorio” (RAM) y “operativa o ultrarrápida” (Caché).
 
-## 10.2. Memoria de solo lectura: rom
+## 10.2. Memoria de solo lectura: ROM
 
 Este tipo de memoria es de solo lectura, de ahí su clasificación según sus siglas en inglés: Read Only Memory. Por sus características de fabricación son un tipo de memoria no volátil, por lo que no pierden los datos almacenados cuando la memoria se queda sin alimentación eléctrica. Se debe destacar, que en estas memorias no se pueden escribir datos libremente, solo si se hace por fabricantes o diseñadores de sistemas. Un ejemplo de este tipo de memoria en los computadores es el BIOS.
 
-Las memorias ROM han evolucionado y se han clasificado según la tecnología con las cuales se han implementado: 1.
+Las memorias ROM han evolucionado y se han clasificado según la tecnología con las cuales se han implementado:
 
-PROM: Memorias programables de solo lectura. Estas memorias podían ser programadas a través de equipos que los fabricantes de estas suministraban a los usuarios. Tenían una gran desventaja, y es que solo se podían grabar una vez, lo que implicaba que si el dato o programa que se le escribía no era correcto, esa memoria quedaba inutilizable, lo que encarecía el desarrollo de sistemas.
-
-2.
-
-EPROM: Memorias borrables y programables de solo lectura. Con la aparición de este tipo de memoria los costos de los diseños de sistemas disminuyeron considerablemente. Al tener una memoria que podía ser borrada, cuando un dato o programa no era correcto, se podía hacer una corrección sin perder la memoria ya grabada. Para borrar estas memorias, se hacía necesario una luz ultravioleta. Nótese en la figura 10.1, que la memoria EPROM que se muestra contiene una celda fotovoltaica, que al recibir la radiación ultravioleta, permitía el borrado de la misma.
+1. PROM: Memorias programables de solo lectura. Estas memorias podían ser programadas a través de equipos que los fabricantes de estas suministraban a los usuarios. Tenían una gran desventaja, y es que solo se podían grabar una vez, lo que implicaba que si el dato o programa que se le escribía no era correcto, esa memoria quedaba inutilizable, lo que encarecía el desarrollo de sistemas.
+2. EPROM: Memorias borrables y programables de solo lectura. Con la aparición de este tipo de memoria los costos de los diseños de sistemas disminuyeron considerablemente. Al tener una memoria que podía ser borrada, cuando un dato o programa no era correcto, se podía hacer una corrección sin perder la memoria ya grabada. Para borrar estas memorias, se hacía necesario una luz ultravioleta. Nótese en la figura 10.1, que la memoria EPROM que se muestra contiene una celda fotovoltaica, que al recibir la radiación ultravioleta, permitía el borrado de la misma.
 
 ![Figura 10.1](img/fig-852.jpg)
 
 **Figura 10.1.** Memoria EPROM.
 
-3.
+3. EEPROM: Memorias borrables por mecanismos eléctricos y programables. Estas memorias evolucionaron directamente de las EPROM. Podían ser grabadas y borradas mediante mecanismos eléctricos, regularmente suministrados por los fabricantes que se comunicaban con las PC a través de los puertos series y paralelos de los computadores. Al igual que sus antecesoras EPROM, permitían que los diseños con memorias fueran factibles en costos, al no tener que desechar memorias por errores o pruebas de los mismos. 4.
+4. Flash EEPROM: Memorias borrables por mecanismos eléctricos y programables mediante tecnología Flash. Esta tecnología fue creada por Toshiba en 1980 y a finales de los años 90 tomó gran popularidad al diseñarse con la posibilidad de comunicarse mediante puerto USB. En sus inicios sus tamaños eran de pocos Megabytes de capacidad y en la actualidad sobrepasan los 64 Gb de almacenamiento. En el caso del BIOS de los computadores modernos, esta tecnología ha permitido que los mismos sean actualizables, es decir, reprogramables, para así mejorar el funcionamiento de las motherboards.
 
-EEPROM: Memorias borrables por mecanismos eléctricos y programables. Estas memorias evolucionaron directamente de las EPROM. Podían ser grabadas y borradas mediante mecanismos eléctricos, regularmente suministrados por los fabricantes que se comunicaban con las PC a través de los puertos series y paralelos de los computadores. Al igual que sus antecesoras EPROM, permitían que los diseños con memorias fueran factibles en costos, al no tener que desechar memorias por errores o pruebas de los mismos. 4.
-
-Flash EEPROM: Memorias borrables por mecanismos eléctricos y programables mediante tecnología Flash. Esta tecnología fue creada por Toshiba en 1980 y a finales de los años 90 tomó gran popularidad al diseñarse con la posibilidad de comunicarse mediante puerto USB. En sus inicios sus tamaños eran de pocos Megabytes de capacidad y en la actualidad sobrepasan los 64 Gb de almacenamiento. En el caso del BIOS de los computadores modernos, esta tecnología ha permitido que los mismos sean actualizables, es decir, reprogramables, para así mejorar el funcionamiento de las motherboards.
-
-## 10.3. Memoria de acceso aleatorio: ram
+## 10.3. Memoria de acceso aleatorio: RAM
 
 El nombre abreviado de este tipo de memoria viene del inglés Random Access Memory, es decir, Memoria de Acceso Aleatorio. En estas se cargan los datos con los que trabajará el procesador: sistema operativo y programas que utilicen los usuarios. Son volátiles, lo que implica que en ausencia de alimentación eléctrica pierden los datos almacenados, a diferencia de las ROM. Por sus características de fabricación deben ser “refrescadas” frecuentemente, es decir, los datos contenidos deben ser actualizados. Se han diseñado bajo tres estándares: SIMM, DIMM y DDR.
 
@@ -88,13 +82,18 @@ En la figura 10.4 se puede observar una memoria DDR1. Estas siguen midiendo 13 c
 
 **Figura 10.5.** Envío de datos por cada ciclo de reloj.
 
-En la tabla siguiente, se pueden observar algunas características técnicas de las memorias DDR.
-
-Se hacen notar los nombres comerciales, la velocidad de trabajo y el ancho de banda de operación.
+En la tabla siguiente, se pueden observar algunas características técnicas de las memorias DDR. Se hacen notar los nombres comerciales, la velocidad de trabajo y el ancho de banda de operación.
 
 **Tabla 10.1.** : Datos técnicos de DDR.
 
-Marketing Naming convention Speed grades Speed Single channel Dual channel name bandwidth bandwidth DDR200 PC1600 PC200 200 MHz (100 Mhz x 2) 1.6 GB/s 3.2 GB/s DDR266 PC2100 PC266 266 MHz (133 Mhz x 2) 2.1 GB/s 4.2 GB/s DDR333 PC2700 PC333 333 MHz (166 Mhz x 2) 2.7 GB/s 5.4 GB/s DDR400 PC3200 PC400 400 MHz (200 Mhz x 2) 3.2 GB/s 6.4 GB/s Poco tiempo después de las aparición de las DDR, surgieron las DDR2. Las memorias DDR y DDR2 no son compatibles entre sí. Existen diferencias en el voltaje, de 2.5 bajó a 1.8 V, la cantidad de pines y las señales. Las DDR2 tienen 240 pines y son capaces de realizar 4 transferencias por ciclo. Tienen un menor consumo de energía que DDR y desempeño térmico mejorado. La ranura que guía la inserción de la memoria en la motherboard, en las DDR2 no está en la misma posición que en las DDR1.
+| Marketing name | Naming convention | Speed grades | Speed | Single channel bandwidth | Dual channel bandwidth |
+| --- | --- | --- | --- | --- | --- |
+| DDR200 | PC1600 | PC200 | 200 MHz (100 Mhz x 2) | 1.6 GB/s | 3.2 GB/s |
+| DDR266 | PC2100 | PC266 | 266 MHz (133 Mhz x 2) | 2.1 GB/s | 4.2 GB/s |
+| DDR333 | PC2700 | PC333 | 333 MHz (166 Mhz x 2) | 2.7 GB/s | 5.4 GB/s |
+| DDR400 | PC3200 | PC400 | 400 MHz (200 Mhz x 2) | 3.2 GB/s | 6.4 GB/s |
+
+Poco tiempo después de las aparición de las DDR, surgieron las DDR2. Las memorias DDR y DDR2 no son compatibles entre sí. Existen diferencias en el voltaje, de 2.5 bajó a 1.8 V, la cantidad de pines y las señales. Las DDR2 tienen 240 pines y son capaces de realizar 4 transferencias por ciclo. Tienen un menor consumo de energía que DDR y desempeño térmico mejorado. La ranura que guía la inserción de la memoria en la motherboard, en las DDR2 no está en la misma posición que en las DDR1.
 
 ![Figura 10.6](img/fig-884.jpg)
 
@@ -104,7 +103,13 @@ A continuación una tabla con algunas características de las memorias DDR2. Nó
 
 **Tabla 10.2.** : Datos técnicos de DDR2.
 
-Clasificación Ancho de banda del Ancho de banda de Velocidad de Clasificación del chip de sistema DDR2 de memoria del módulo memoria módulo doble canal 400 MHz DDR2-400 PC2-3200 3.2 GB/s 6.4 GB/s 533 MHz DDR2-533 PC2-4300 4.3 GB/s 8.6 GB/s 667 MHz DDR2-667 PC2-5300 5.3 GB/s 10.6 GB/s Las DDR2 evolucionaron y dieron lugar a las DDR3. Estas, tienen al igual que la DDR2 240 pines; sin embargo, los DIMM son físicamente incompatibles, pues la ranura está en una posición diferente. Este tipo de memorias, son las que permiten la interacción con procesadores multinúcleos.
+| Velocidad de memoria | Clasificación del chip de memoria | Clasificación del módulo | Ancho de banda del módulo | Ancho de banda de sistema DDR2 de doble canal |
+| --- | --- | --- | --- | --- |
+| 400 MHz | DDR2-400 | PC2-3200 | 3.2 GB/s | 6.4 GB/s |
+| 533 MHz | DDR2-533 | PC2-4300 | 4.3 GB/s | 8.6 GB/s |
+| 667 MHz | DDR2-667 | PC2-5300 | 5.3 GB/s | 10.6 GB/s |
+
+Las DDR2 evolucionaron y dieron lugar a las DDR3. Estas, tienen al igual que la DDR2 240 pines; sin embargo, los DIMM son físicamente incompatibles, pues la ranura está en una posición diferente. Este tipo de memorias, son las que permiten la interacción con procesadores multinúcleos.
 
 Poseen un mayor ancho de banda debido a que puede trabajar con mayores tasas de señal de reloj. El voltaje bajó de 1.8 a 1.5 V, lo cual reduce el consumo eléctrico en un 40%, así como la disipación del calor. Pueden transferir datos a una tasa de reloj efectiva de 800-2000 MHz, comparado con el rango del DDR2 de 533-800 MHz. Se pueden diseñar módulos de hasta 16 GB.
 
@@ -116,7 +121,15 @@ En la tabla siguiente se pueden encontrar algunos datos técnicos de las memoria
 
 **Tabla 10.3.** : Datos técnicos de DDR3.
 
-Velocidad del capacidad de Tiempo entre transferidos transferencia Nombre del por segundo reloj de E/S Velocidad Nombre Máxima estándar del reloj señales módulo Datos DDR3-800 100 MHz 10 ns 400 MHz 800 MBs PC3-6400 6.40 GB/s DDR3-1066 133 MHz 7.5 ns 533 MHz 1.066 MBs PC3-8500 8.53 GB/s DDR3-1333 166 MHz 6 ns 667 MHz 1.333 MBs PC3-10600 10.67 GB/s DDR3-1600 200 MHz 5 ns 800 MHz 1.600 MBs PC3-12800 12.80 GB/s DDR3-2000 250 MHz 4 ns 1000 MHz 2.000 MBs PC3-15000 15.00 GB/s Cada generación DDR-SDRAM, está construida para un rango de frecuencias de reloj diferente y a la vez aprovecha la ley de Moore en la que se enuncia la duplicación de la cantidad de elementos integrados por unidad de superficie.
+| Nombre estándar | Velocidad del reloj | Tiempo entre señales | Velocidad del reloj de E/S | Datos transferidos por segundo | Nombre del módulo | Máxima capacidad de transferencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| DDR3-800 | 100 MHz | 10 ns | 400 MHz | 800 MBs | PC3-6400 | 6.40 GB/s |
+| DDR3-1066 | 133 MHz | 7.5 ns | 533 MHz | 1.066 MBs | PC3-8500 | 8.53 GB/s |
+| DDR3-1333 | 166 MHz | 6 ns | 667 MHz | 1.333 MBs | PC3-10600 | 10.67 GB/s |
+| DDR3-1600 | 200 MHz | 5 ns | 800 MHz | 1.600 MBs | PC3-12800 | 12.80 GB/s |
+| DDR3-2000 | 250 MHz | 4 ns | 1000 MHz | 2.000 MBs | PC3-15000 | 15.00 GB/s |
+
+Cada generación DDR-SDRAM, está construida para un rango de frecuencias de reloj diferente y a la vez aprovecha la ley de Moore en la que se enuncia la duplicación de la cantidad de elementos integrados por unidad de superficie.
 
 Este es el motivo por el que en cada generación DDR aumentan la capacidad y la velocidad.
 
@@ -124,9 +137,7 @@ El incremento de la velocidad, el trabajo a altas frecuencias de intercambio de 
 
 ![Figura 10.8](img/fig-905.jpg)
 
-**Figura 10.8.** Memorias DDR3. Disipación de alto nivel sin ensanchar los módulos o sin aumentar
-
-demasiado sus dimensiones.
+**Figura 10.8.** Memorias DDR3. Disipación de alto nivel sin ensanchar los módulos o sin aumentar demasiado sus dimensiones.
 
 ### 10.3.4. Tecnologías dual channel y triple channel
 
@@ -155,39 +166,6 @@ La última de las memorias que se presentan en este tópico son las Memorias Cac
 Las memorias caché son conocidas como ultra rápida, pues son 5 o 6 veces más rápidas que las RAM. Se utiliza de puente entre el procesador y la memoria RAM y se empezaron a implantar en la época del Intel 386.
 
 Tienen como desventajas su tamaño reducido, en el orden de los megabytes. Tienen un alto precio y no se pueden incrementar en la PC.
-
-
-
-<!-- tabla detectada en PDF p.138 -->
-
-| Marketing name | Naming convention | Speed grades | Speed | Singlechannel bandwidth | Dualchannel bandwidth |
-| --- | --- | --- | --- | --- | --- |
-| DDR200 | PC1600 | PC200 | 200MHz (100Mhzx2) | 16GB/s . | 32GB/s . |
-| DDR266 | PC2100 | PC266 | 266MHz (133Mhzx2) | 21GB/s . | 42GB/s . |
-| DDR333 | PC2700 | PC333 | 333MHz (166Mhzx2) | 27GB/s . | 54GB/s . |
-| DDR400 | PC3200 | PC400 | 400MHz (200Mhzx2) | 32GB/s . | 64GB/s . |
-
-
-
-<!-- tabla detectada en PDF p.139 -->
-
-| Velocidadde memoria | Clasificación delchipde memoria | Clasificación delmódulo | Anchode bandadel módulo | Anchodebandade sistemaDDR2de doblecanal |
-| --- | --- | --- | --- | --- |
-| 400MHz | DDR2 400 - | PC2 3200 - | 32GB/s . | 64GB/s . |
-| 533MHz | DDR2 533 - | PC2 4300 - | 43GB/s . | 86GB/s . |
-| 667MHz | DDR2 667 - | PC2 5300 - | 53GB/s . | 106GB/s . |
-
-
-
-<!-- tabla detectada en PDF p.140 -->
-
-| Nombre estándar | Velocidad delreloj | Tiempoentre señales | Velocidaddel relojdeE/S | Datos transferidos porsegundo | Nombredel módulo | Máxima capacidadde transferencia |
-| --- | --- | --- | --- | --- | --- | --- |
-| DDR3 800 - | 100MHz | 10ns | 400MHz | 800MBs | PC3 6400 - | 640GB/s . |
-| DDR3 1066 - | 133MHz | 75ns . | 533MHz | 1066MBs . | PC3 8500 - | 853GB/s . |
-| DDR3 1333 - | 166MHz | 6ns | 667MHz | 1333MBs . | PC3 10600 - | 1067GB/s . |
-| DDR3 1600 - | 200MHz | 5ns | 800MHz | 1600MBs . | PC3 12800 - | 1280GB/s . |
-| DDR3 2000 - | 250MHz | 4ns | 1000MHz | 2000MBs . | PC3 15000 - | 1500GB/s . |
 
 ## 10.4. Conclusiones
 
