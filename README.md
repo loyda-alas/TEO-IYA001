@@ -3,12 +3,13 @@
 **Asignatura:** Tecnología y Estructura de Ordenadores (IYA001)  
 **Universidad:** Universidad Europea del Atlántico  
 
-Material de clase en formato legible para GitHub: cada presentación incluye el texto en Markdown, una imagen por diapositiva y el PDF original exportado.
+Material de clase en formato legible para GitHub: el documento de contenido completo de la asignatura y las presentaciones (texto en Markdown, imágenes y PDF).
 
 ## Índice de presentaciones
 
 | # | Presentación | Markdown | PDF | Diapositivas |
 |---|--------------|----------|-----|--------------|
+| — | Contenido completo | [00-contenido-completo/README.md](00-contenido-completo/README.md) | [ContenidoCompleto.pdf](00-contenido-completo/ContenidoCompleto.pdf) | 276 págs. |
 | 1 | Tema 1 y 2 | [01-tema-1-y-2/README.md](01-tema-1-y-2/README.md) | [Tema 1 y 2.pdf](01-tema-1-y-2/Tema%201%20y%202.pdf) | 28 |
 | 2 | Tema 3 | [02-tema-3/README.md](02-tema-3/README.md) | [Tema 3.pdf](02-tema-3/Tema%203.pdf) | 49 |
 | 3 | Tema 3 - Ejercicios | [03-tema-3-ejercicios/README.md](03-tema-3-ejercicios/README.md) | [Tema 3 - Ejercicios.pdf](03-tema-3-ejercicios/Tema%203%20-%20Ejercicios.pdf) | 9 |
