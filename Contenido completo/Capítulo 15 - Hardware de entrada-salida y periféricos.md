@@ -50,10 +50,15 @@ Como se nota del esquema general del periférico este agrupa dos elementos funda
 Hay muchas maneras de caracterizar al hardware de Entrada/Salida; pero debido a su gran diversidad, ninguna es infalible. Por ejemplo no todos los dispositivos son puramente de entrada o de salida, ni todos se comunican de forma serie o son direccionables.
 
 Así mismo, no todos los dispositivos de E/S tienen un componente mecánico. Por ejemplo el reloj de tiempo real y una tarjeta aceleradora de video.
+
 - El dispositivo es el hardware que interactúa con el entorno (mouse, webcam, teclado).
 - El módulo de E/S también denominado Controlador, es la interfaz de comunicación eléctrica entre el dispositivo y el procesador. Su función más importante es la de traducir ordenes entre el contexto de ejecución del CPU y el componente mecánico del dispositivo.
 
-Un módulo de E/S es un procesador de propósito específico y debe contar con al menos 3 registros que permite la decodificación de órdenes provenientes del CPU, la actualización de la información de estado, control y temporización del dispositivo: Registro de control: este registro permite controlar el uso del periférico, es el encargado de mandar a escribir, leer, actualizar los registros necesarios para su funcionamiento, etc. Registro de estado: este registro guarda el estado desde la última orden permitiendo que se tenga siempre el estado en el cual se encuentra el dispositivo. Brinda además la información necesaria para establecer el orden de ejecución y el buen funcionamiento del dispositivo. Registro de datos: este registro controla el conjunto de datos intercambiados entre el CPU y el periférico.
+Un módulo de E/S es un procesador de propósito específico y debe contar con al menos 3 registros que permite la decodificación de órdenes provenientes del CPU, la actualización de la información de estado, control y temporización del dispositivo:
+
+- Registro de control: este registro permite controlar el uso del periférico, es el encargado de mandar a escribir, leer, actualizar los registros necesarios para su funcionamiento, etc.
+- Registro de estado: este registro guarda el estado desde la última orden permitiendo que se tenga siempre el estado en el cual se encuentra el dispositivo. Brinda además la información necesaria para establecer el orden de ejecución y el buen funcionamiento del dispositivo.
+- Registro de datos: este registro controla el conjunto de datos intercambiados entre el CPU y el periférico.
 
 En la práctica, por la naturaleza diversa y en ocasiones compleja de los periféricos y hardware externo, los controladores de E/S cuentan con cientos de registros que parametrizan su funcionamiento.
 
