@@ -40,7 +40,6 @@ En estas condiciones, la etapa se divide en dos: búsqueda y prebúsqueda (fetch
 El funcionamiento de la decodificación es totalmente dependiente del tipo de procesador. Se pueden resaltar sin embargo, dos variantes:
 
 - Instrucciones de longitud fija. Son comunes en procesadores RISC (Reduced Instruction Set Computer, en inglés) son procesadores diseñados para ejecutar instrucciones con ciclos de instrucción breves, lo que se traduce en que cada etapa debe ser ágil y en lo que a la decodificación respecta, la mejor manera de lograrlo es interpretando un solo valor por instrucción. En este caso, las instrucciones se codifican con valores numéricos de tamaño fijo y la etapa de decodificación funciona como un switch/case sobre los valores o sobre un determinado grupos de bits del valor.
-
 - Instrucciones de longitud variable. Son comunes en procesadores CISC (Complex Instruction Set Computer, en inglés) son procesadores capaces de ejecutar instrucciones que requieran ciclos de instrucción largos. En este caso la decodificación debe ser capaz de analizar más de un valor y se torna compleja. Por eso en estos tipos de sistema se optimiza mucho el entubamiento y el acceso a memoria caché. Acá es crítico el diseño óptimo de una tubería: muy corta limita el rendimiento por falta de información; muy larga limita el rendimiento por exceso.
 
 ## 9.3. Etapa de ejecución
@@ -58,7 +57,6 @@ Existen por tanto registros con diferentes funciones, que dependerán del tipo d
 Procesador Arquitectura Tamaño de los registros de uso general 8bit 16bit 32bit 64bit 8bit 16bit 32bit 64bit Z80 80286 80386 Corei7
 
 - Registro de propósito específico. Estos registros son muy diversos y dependen del tipo de procesador. Se puede considerar son embargo que fungen como apoyo a las operaciones de los registros de propósito general y monitorean el estado de la ejecución de código. Esto significa que se utilizan con menor frecuencia en un programa pero son igual de importantes. Un registro especial es el llamado registro de banderas (Flag register, en inglés). Cada bit de este registro indica una condición temporal relacionada con la ejecución de la última instrucción: acarreos, paridad, resultado nulo, resultado negativo… La cantidad de banderas depende del tipo de procesador pero las funciones siempre se relacionan con la ejecución del programa o el estado inmediato del procesador. Un registro muy importante de propósito específico es el puntero de instrucción, cuya función es contener la dirección de la instrucción que se procesa.
-
 - Registros de control. La cantidad y función de estos registros depende completamente del tipo de procesador. Su propósito es actuar como configuración del funcionamiento del procesador o de sus componentes. Pueden establecer la manera en que se maneja la memoria, el formato con que se interpreten las instrucciones, restringir el uso de determinados circuitos. En algunos procesadores se puede configurar el consumo de potencia y la velocidad de funcionamiento.
 
 ### 9.3.2. Buses del sistema
@@ -72,7 +70,6 @@ El bus del sistema es el conjunto de conductores eléctricos que permiten la com
 **Figura 9.3.** Diferencias entre las arquitecturas de Von Neumann (arriba) y Harvard (debajo).
 
 - Bus de datos. Son las líneas eléctricas que portan en todo momento datos y órdenes para y desde cada componente.
-
 - Bus de direcciones. En estas líneas se escriben códigos mediante los que se identifica cada componente. Los controladores se construyen para reconocer determinados valores en el bus de direcciones y responder adecuadamente a las órdenes o datos en el bus de datos.
 
 En el caso de la memoria el bus de direcciones se utiliza para apuntar a cada byte. Para distinguir entre direcciones a memoria y a controladores de entrada/salida, la literatura identifica las direcciones de los dispositivos como puertos de entrada/salida.
@@ -90,7 +87,6 @@ El procesador puede acceder a los dispositivos externos de varias maneras, la m�
 Aunque este método es universal y técnicamente claro, resulta tedioso implementarlo con algunos dispositivos. Sucede que los controladores se implementan para responder o detectar determinados valores del bus de direcciones (sus puertos de entrada/salida) y los comandos y datos los almacenan en registros propios para funcionar de acuerdo a la solicitud. Si el dispositivo maneja mucha información, como por ejemplo el hardware de vídeo o de red, habrá que indicarle mediante sus registros la acción que desea realizarse y los parámetros lo que equivaldría a dibujar bit a bit en la pantalla o enviar trama a trama la información en la red. Afortunadamente hay dos alternativas para el manejo de algunos dispositivos de entrada/salida.
 
 - Entrada/salida mapeada en memoria. Esta consiste en detectar segmentos de direcciones en las solicitudes a memoria para redirigirlas a los registros de los dispositivos de entrada/ salida y utilizar los valores del bus de datos como parámetros. De este modo, una instrucción que indique la lectura o escritura a memoria en el rango de direcciones utilizado, tendrá el efecto de que todos los datos escritos serán traducidos como datos o incluso órdenes para un determinado dispositivo de entrada/salida. A pesar que se pierden estas direcciones en memoria mientras el dispositivo esté activo, facilita en gran medida la programación.
-
 - Interrupciones. Las interrupciones son un mecanismo avanzado para el manejo de los controladores de entrada/salida. Todos los demás métodos son síncronos, lo que significa que se accede al controlador durante la ejecución de una instrucción o durante un ciclo de instrucción. Esto no es problema para la salida de información, pero si se utilizara este método para leer datos hay que sincronizar la ejecución del programa con el funcionamiento del controlador, es decir habrá que esperar a que esté listo el dato.
 
 Ningún dispositivo de entrada/salida es tan rápido como el CPU, ni siquiera la memoria. Esta espera significa entonces que el procesador no puede ejecutar más código hasta que no esté listo el dato esperado, traduciéndose en una baja eficiencia. La situación empeora si se tiene en cuenta la necesidad de utilizar diferentes dispositivos simultáneamente, como en un cliente de chat o en un juego de vídeo.
@@ -121,15 +117,12 @@ Como el procesador no puede saber el tamaño de la instrucción (si es una máqu
 
 El algún momento de la ejecución, el conjunto de código solicita el manejo del hardware de video para mostrar el texto. En este caso puede hacerse uso del mapeo de entrada/salida en memoria.
 
-Significa que aunque el procesador escribe aparentemente en alguna dirección de memoria, el hardware de vídeo intercepta las direcciones y obtiene del bus de datos el parámetro de visualización, en este caso cada carácter. Para representar el texto hará falta entonces un ciclo que en cada iteración hace: 1.
+Significa que aunque el procesador escribe aparentemente en alguna dirección de memoria, el hardware de vídeo intercepta las direcciones y obtiene del bus de datos el parámetro de visualización, en este caso cada carácter. Para representar el texto hará falta entonces un ciclo que en cada iteración hace:
 
-El procesador lee de la RAM, en una dirección específica, los caracteres del texto y los almacena en cada iteración en un registro de propósito general. La dirección se indica en el bus de direcciones y en el bus de datos se lee el caracter. 2.
-
-El procesador escribe en una dirección específica cada carácter leído. La dirección se indica en el bus de direcciones y el código del carácter en el bus de datos. 3.
-
-El hardware de vídeo detecta una dirección conocida por él como su espacio de entrada/ salida mapeado en memoria e intercepta el dato en el bus de datos. 4.
-
-Con los parámetros obtenidos, se dibuja un carácter en la pantalla.
+1. El procesador lee de la RAM, en una dirección específica, los caracteres del texto y los almacena en cada iteración en un registro de propósito general. La dirección se indica en el bus de direcciones y en el bus de datos se lee el caracter.
+2. El procesador escribe en una dirección específica cada carácter leído. La dirección se indica en el bus de direcciones y el código del carácter en el bus de datos.
+3. El hardware de vídeo detecta una dirección conocida por él como su espacio de entrada/ salida mapeado en memoria e intercepta el dato en el bus de datos.
+4. Con los parámetros obtenidos, se dibuja un carácter en la pantalla.
 
 El ciclo continúa hasta que se escribe todo el texto. La ejecución prosigue con la espera de un dato externo, en este caso el uso de alguna tecla. Como este dato requiere el uso del teclado que es muy lento comparado con el CPU, este deja el programa suspendido y continúa la ejecución de otro.
 
@@ -155,7 +148,7 @@ La comunicación del procesador con los controladores de entrada/salida se lleva
 
 El manejo de la entrada salida tiene tres formas: directamente a través de los puertos, que son las direcciones de cada dispositivo. Mediante mapeo en memoria o a través de interrupciones. Las interrupciones solo funcionan para la lectura, pero optimizan la ejecución de código al permitir que el procesador continúe la ejecución de código.
 
-# Resumen
+## Resumen
 
 ![Figura](img/fig-803.jpg)
 

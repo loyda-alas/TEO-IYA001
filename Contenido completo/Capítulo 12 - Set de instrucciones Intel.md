@@ -36,15 +36,12 @@ BH=01011000 0 1 0 1 1 0 1 0 7 6 5 4 3 2 1 0 Ejemplo de registro de 8 bits (AL, A
 
 ## 12.4. Clasificación de los registros
 
-Los diferentes registros del 8086 se clasifican en: 1.
+Los diferentes registros del 8086 se clasifican en:
 
-Propósito general o de datos. 2.
-
-De segmento. 3.
-
-De Índice. 4.
-
-Banderas.
+1. Propósito general o de datos.
+2. De segmento.
+3. De Índice.
+4. Banderas.
 
 Los procesadores de Intel se caracterizan por el solapamiento de registros.
 
@@ -116,7 +113,7 @@ Registro DI Registro índice destino requerido también en determinadas operacio
 
 Hay un tipo especial de registro índice que se emplea para apuntar al código en ejecución, es el contador de programa o apuntador de instrucciones (ip). Este registro contiene siempre la dirección en memoria de la instrucción en ejecución. Para modificarlo se deben utilizar instrucciones específicas llamadas instrucciones de control de flujo de ejecución.
 
-### 12.4.4. Registro de banderas, flags, o registro de estado (fl)
+### 12.4.4. Registro de banderas, flags, o registro de estado (FL)
 
 Este es un registro de 16 bits, pero se utilizan solamente 9 de ellos, indica en todo momento el estado de la máquina y el resultado del procesamiento. Casi todas las instrucciones aritméticas y de comparación utilizan este registro. 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 - - - - O D I T S Z - A - P - C Los bits 0, 2, 4, 6, 7 y 11 son indicadores de condición que reflejan los resultados de las operaciones del programa; los bits 8 al 10 son indicadores de control que, modificados por el programador, sirven para controlar ciertos modos de procesamiento, y el resto no se utilizan.
 
@@ -182,7 +179,7 @@ Sumar: add ax,cx loop sumar ; con cada iteración cx decrementa en uno (DEC CX) 
 
 Se puede consultar la bibliografía [1] y [2] para ver el resto de las instrucciones que se pueden utilizar.
 
-# Resumen
+## Resumen
 
 ![Figura](img/fig-1075.jpg)
 

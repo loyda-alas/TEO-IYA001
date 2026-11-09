@@ -14,7 +14,7 @@ A fines de los años 90 Intel comienza una sociedad con Hewlett Packard que deri
 
 Adoptaron la estrategia de hacer el código de máquina incompatible con IA-32, por eso la acogida fue mucho menos importante de lo esperado. En cambio AMD, que hasta ese momento se había apoyado de licencias de Intel para hacer versiones propias y compatibles de los mismos procesadores IA-32 apostó por realizar extensiones al set de instrucciones de IA-32 para 64 bits y la llamó x86-64 y más tarde AMD64. Esto fue un éxito rotundo pues lograron compatibilidad binaria entre las arquitecturas, prácticamente sin sacrificar rendimiento. Intel debió incorporar a sus propios procesadores funciones desarrolladas por AMD, denominando a la arquitectura modificada Intel64.
 
-## 11.2. Características de ia-32
+## 11.2. Características de IA-32
 
 Los procesadores IA-32 tienen tres modos de operación, cada uno define y activa capacidades específicas y modos de codificación de instrucciones diferentes:
 
@@ -67,7 +67,6 @@ La figura 11.5 ofrece un resumen del formato numérico y su escritura en memoria
 Manejo de la memoria Todo acceso a memoria se realiza mediante una dirección. En los procesadores Intel, esta dirección se conforma a partir de un par que depende del modo de trabajo.
 
 - Modo Real. Utiliza el par segmento:desplazamiento. El segmento lo define un registro de uso específico denominado registro de segmento, puede ser CS, DS, CS, ES, FS o GS y su valor especifica un área de memoria de hasta 64K de tamaño. Para el desplazamiento en cambio, se puede utilizar cualquier registro de propósito general.
-
 - Modo Protegido. Utiliza el par selector:desplazamiento. En este modo el direccionamiento es más complejo. El selector también es un registro de segmento, pero esta vez su contenido apunta a una entrada en una tabla de valores de 64bit denominados descriptores de segmento. En estos se codifica la manera de acceder a la memoria y entre los valores que contiene se encuentran la dirección inicial del segmento y su tamaño. De este modo desplazamiento también es un registro de uso general e indica la posición dentro del segmento descrito en el selector. La tabla de descriptores globales se apunta con un registro de propósito específico llamado GDTR.
 
 El 386 también introdujo una nueva forma de gestión de memoria: la paginación. Esta es la forma de manejo de memoria más flexible y versátil hasta el momento pues facilita enormemente la implementación de memoria virtual. Con la paginación el procesador separa explícitamente el espacio de direcciones de un programa de las direcciones válidas para la memoria instalada. Esto significa por ejemplo que el programa puede utilizar las direcciones de 3G a 4G aunque en el sistema solo haya instalados 258M de RAM ¡o 32M!
@@ -85,9 +84,7 @@ Para guardar un dato en la pila, se puede utilizar la instrucción PUSH, y para 
 La pila se utiliza para:
 
 - Guardar parámetros y la dirección de retorno cuando se llama a un método (subrutina) con la instrucción CALL.
-
 - Guardar el estado de las banderas la dirección de retorno y posiblemente algún código de error durante la ocurrencia de una interrupción.
-
 - Preservar el valor de algún registro por un periodo breve de tiempo dentro de un segmento de código.
 
 Con la evolución de los procesadores IA-32 se han creado instrucciones especializadas en determinadas operaciones sobre conjuntos grandes de valores. El primer grupo de estas vio la luz con el procesador Pentium MMX, que incluyó instrucciones para extensiones multimedia (MMX instructions) Básicamente eran instrucciones que manipulaban los registros de la unidad de punto flotante (R0 al R7) como números enteros de 80bit, mediante los nombres MM0-MM7. Estas instrucciones fueron las precursoras de Intel para de las llamadas instrucciones SIMD, que son las siglas de Single Instruction Multiple Data. Significa que una misma acción puede hacerse sobre varios bytes a la vez, lo que es muy útil y eficiente en el tratamiento digital de vídeo y sonido. Con el tiempo las instrucciones SIMD de Intel han evolucionado mediante extensiones SSE (Siglas de Streaming SIMD Extensions) que cada vez utilizan registros de mayor tamaño e incorporan operaciones más complejas.
@@ -102,7 +99,7 @@ En el Modo Real, el procesador siempre asume que las direcciones para las rutina
 
 En el modo protegido las interrupciones funcionan diferente. De debe crear una tabla llamada tabla de descriptores de interrupción (IDT, por sus siglas en inglés) en la que se escriben descriptores de 64bit con un formato más complejo que en el modo real. De todos modos, dentro de los valores que se encuentran el descriptor están: el selector que indica el segmento de memoria dónde está escrito el código para la interrupción y el desplazamiento o la dirección dónde se ubica la primera instrucción. La tabla de descriptores de interrupción está apuntada por el registro IDTR y cada vez que ocurre una interrupción el CPU la consulta para calcular la dirección del código a ejecutar. Como cada descriptor es de 8byte, la dirección del descriptor para la interrupción n se calcula haciendo n*8 + IDTR.
 
-## 11.3. Características de ia-64
+## 11.3. Características de IA-64
 
 La motivación detrás de IA-64 era explotar el paralelismo y deshacerse del lastre de la compatibilidad hacia atrás. La compatibilidad hacia atrás es lo que permite ejecutar código viejo en sistemas nuevos. Irónicamente esta es una de las cosas en las que Intel se destacó y también una de las ventajas de sus sistemas. Quizás el cambio más importante fue diseñar IA-64 como una arquitectura RISC. De todos modos IA-64 no es totalmente incompatible con IA-32, puede emularlo pero con una reducción notable en el rendimiento respecto a un procesador con ejecución nativa.
 
@@ -115,9 +112,7 @@ Los sistemas Intel y compatibles dominan1 el mercado por lo que en el mejor de l
 IA-64 se basaba en el concepto de unidades de ejecución, un concepto más o menos cercano al multinúcleo, pero en este caso cada unidad estaba especializada en un tipo concreto de instrucción. Se definen cuatro tipos de unidades de ejecución:
 
 - Unidad 1: para instrucciones aritméticas con enteros, de desplazamiento y suma, lógicas, de comparación, y multimedia con enteros.
-
 - Unidad M: cargas y almacenamientos entre registros y memoria; y algunas operaciones de la ALU con enteros.
-
 - Unidad B: instrucciones de salto.
 - Unidad F: instrucciones de coma flotante.
 
@@ -139,13 +134,11 @@ Al final de este camino hay un salto incondicional que evita el siguiente bloque
 
 Los dos flujos de instrucciones se juntan tras el final del bloque del else.
 
-Un compilador de IA-64 sin embargo hace lo siguiente: 1.
+Un compilador de IA-64 sin embargo hace lo siguiente:
 
-En el punto del programa del if, inserta una instrucción de comparación que crea dos predicados. Si la comparación es verdadera, el primer predicado se ajusta a verdadero y el segundo a falso; si la comparación es falsa, el primer predicado se ajusta a falso y el segundo a verdadero. 2.
-
-Añade a cada instrucción del camino del then una referencia a un registro de predicado que contiene el valor del primer predicado, y añade a cada instrucción del camino del else una referencia a un registro de predicado que contiene el valor del segundo predicado. 3.
-
-El procesador ejecuta instrucciones de los dos caminos. Cuando el resultado de la comparación se conoce, el procesador desecha los resultados de un camino y entrega los resultados del otro camino. Esto permite al procesador introducir instrucciones de ambos caminos en el cauce de instrucciones sin esperar a que termine la operación de comparación.
+1. En el punto del programa del if, inserta una instrucción de comparación que crea dos predicados. Si la comparación es verdadera, el primer predicado se ajusta a verdadero y el segundo a falso; si la comparación es falsa, el primer predicado se ajusta a falso y el segundo a verdadero.
+2. Añade a cada instrucción del camino del then una referencia a un registro de predicado que contiene el valor del primer predicado, y añade a cada instrucción del camino del else una referencia a un registro de predicado que contiene el valor del segundo predicado.
+3. El procesador ejecuta instrucciones de los dos caminos. Cuando el resultado de la comparación se conoce, el procesador desecha los resultados de un camino y entrega los resultados del otro camino. Esto permite al procesador introducir instrucciones de ambos caminos en el cauce de instrucciones sin esperar a que termine la operación de comparación.
 
 La figura 11.7 ilustra el proceso, que evita los saltos imprescindibles de otra manera apoyándose en el paralelismo.
 
@@ -168,20 +161,13 @@ Si ld.s detecta una excepción, ajusta un bit de recuerdo asociado con el regist
 IA-64 dispone de un gran número de registros, estos se pueden clasificar como sigue:
 
 - Registros generales: 128 registros de uso general de 64 bits. Asociado a cada registro hay un bit NaT usado para rastrear las excepciones especulativas aplazadas, tal como se explicó antes. A los registros r0 hasta r31 se les conoce como registros estáticos; una referencia de un programa a cualquiera de ellos se interpreta literalmente. Los registros r32 hasta r127 pueden usarse como registros virtuales y el hardware puede realizar renombramiento dinámico.
-
 - Registros de coma flotante: 128 registros de 82 bits para números en coma flotante. Este tamaño es suficiente para manejar números en el formato doble extendido de IEEE 754. Los registros fr0 hasta fr31 son estáticos, y los registros fr32 hasta fr127 también son virtuales.
-
 - Registros de predicado: 64 registros de 1 bit usados como predicados. El registro pr0 siempre vale uno para habilitar instrucciones no asociadas a predicados. Los registros pr0 hasta pr15 son estáticos, y los registros pr0 hasta pr63 son virtuales.
-
 - Registros de salto: ocho registros de 64 bits usados para saltos.
 - Puntero de instrucciones (Instruction Pointer, IP): guarda la dirección del paquete de la instrucción IA-64 que se ejecuta actualmente, de igual modo que en IA-32.
-
 - Indicador de marco actual (Current frame marker, CFM): guarda información de estado relacionada con la pila de registros generales en curso.
-
 - Máscara de usuario: un conjunto de valores de un solo bit usado para excepciones de alineación, monitores de prestaciones y para monitorizar el uso de los registros de coma flotante.
-
 - Registros de datos del monitor de prestaciones: usados como apoyo al hardware de monitorización de prestaciones.
-
 - Identificadores del procesador: describen características del procesador.
 - Registros de aplicación: conjuntamente con los del indicador del marco actual, permiten configurar lo que se conoce como pila de registros, que facilitan la implementación de la multitarea y el guardado de contextos en los sistemas operativos.
 

@@ -76,7 +76,6 @@ Recuerde que:
 Existen diferentes tipos de ranuras, las más habituales en los computadores son las siguientes:
 
 - ISA: son las más antiguas, aunque hoy en día casi no se utilizan algunas placas las incorporan para insertar dispositivos antiguos.
-
 - PCI: son las habituales en los computadores actuales.
 - AGP: normalmente solo hay una porque estas ranuras son de uso exclusivo para tarjetas de video: estas ranuras son aceleradoras de gráficos 3D.
 

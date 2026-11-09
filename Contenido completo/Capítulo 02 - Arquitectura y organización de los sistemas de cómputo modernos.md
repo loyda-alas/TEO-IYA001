@@ -128,19 +128,14 @@ Los principales conectores son:
 
 - Teclado y mouse: mini-DIN o PS/2 en placas ATX y muchos diseños propietarios.
 - Puerto paralelo: también llamado “LPT1” (en los pocos casos que existen más de uno, el segundo sería LPT2). Es un conector hembra de unos 38 mm, con 25 pines agrupados en 2 hileras.
-
 - Puertos serie: o bien puertos “COM” o “RS232”. Suelen ser dos, uno estrecho de unos 17 mm, con 9 pines agrupados en 2 hileras (habitualmente “COM1”). Puerto de juegos: o puerto para joystick o teclado midi. De tamaño algo mayor que el puerto serie estrecho, de unos 25 mm, con 15 pines agrupados en 2 hileras.
-
 - Puerto VGA: suponiendo que nuestra tarjeta de vídeo sea de este tipo (incluyendo SVGA, XGA...). Aunque lo común es que no esté integrada en la placa base sino en una tarjeta de expansión, vamos a describirlo para evitar confusiones: de unos 17 mm, con 15 pines agrupados en 3 hileras.
-
 - Conectores de panel frontal: en estos pines se conectan todos los leds y pulsadores que encontramos en el frontal de nuestra caja, como el Reset o, en las cajas con fuente de alimentación ATX, el Power.
 
 En las placas más modernas (ni siquiera en todas las ATX) pueden existir otros tipos de puertos como son:
 
 - Puerto USB: de forma estrecha y rectangular. Se supone que en unos años casi todo se conectará al USB, en una cadena de periféricos conectados al mismo cable.
-
 - Conector Wake-On-LAN: este conector, al que se enchufa un cable desde la tarjeta de red, ofrece la posibilidad de poner en marcha un equipo de forma remota enviando un determinado paquete a la tarjeta de red compatible con esta función.
-
 - Conector de módulo de infrarrojos. A estos conectores se enchufa el módulo de infrarrojos para enviar y recibir datos mediante luz infrarroja. Permite la misma velocidad que un puerto serie y de hecho la BIOS lo identifica como tal en el sistema.
 
 Los conectores internos son los que permiten la conexión de la motheboard con la fuente de alimentación, con los puertos USB delanteros de los chasis de los computadores, entre otros.
@@ -160,13 +155,9 @@ Nehalem es el nombre de la arquitectura de los primeros Core i. En estos, la mem
 Algunas de las principales tecnologías incorporadas son:
 
 - Escalabilidad dinámica: núcleos administrables, subprocesos, caché, interfaces y alimentación de energía para el desempeño ecológico a pedido.
-
 - Escalabilidad del diseño y desempeño: para PCs compatibles con dos y más de ocho núcleos, y hasta más de 16 subprocesos mediante Intel® Hyper-Threading Technology, así como tamaños de caché escalables, interconexiones del sistema y controladores de memoria integrados.
-
 - Desempeño inteligente a pedido: con Intel® Turbo Boost Technology que saca provecho de la energía y el margen térmico del procesador. Se aumenta el desempeño para las cargas de trabajo que ejecutan uno o varios subprocesos.
-
 - Memoria compartida escalable: que se distribuye entre cada procesador con los controladores de memoria integrados y las interconexiones de punto a punto de alta velocidad de Intel.
-
 - Caché compartida a multinivel: que aumenta el desempeño y la eficacia al reducir la latencia de acceso a los datos más utilizados.
 
 ### 2.3.2. Sandy Bridge
@@ -182,7 +173,6 @@ Algunas de las principales tecnologías incorporadas son:
 Permiten cálculos complejos, para acelerar el tratamiento de imágenes, audio, vídeo y 3D.
 
 - Tarjeta gráfica integrada: en muchos casos incide en que no haga falta utilizar Tarjetas Gráficas, lo cual permite reducir costos.
-
 - Quick Sync: para acelerar la creación, edición y conversión de vídeos.
 - Overclock: permiten modificar la frecuencia de funcionamiento. Se puede aumentar mucho la velocidad, sin llegar a quemarse, incluso usando ventilación por aire.
 
@@ -193,12 +183,10 @@ Ivy Brigde es el nombre en clave para la microarquitectura de microprocesadores 
 Han incorporado:
 
 - Tecnología Transistores Tri-Gate: menos del 50% de consumo energético al mismo nivel de rendimiento respecto de los transistores planos.
-
 - Soporte para PCI Express 3.0.
 - Soporte para memoria RAM hasta 2800 MT/s en incrementos de 200 MHz.
 - Intel HD Graphics con soporte para DirectX 11, OpenGL 3.1, y OpenCL 1.1.
 - La GPU se tiene que posee hasta 16 unidades de ejecución, comparado con Sandy Bridge que su máximo es de 12.
-
 - DDR3L de baja tensión para procesadores móviles.
 
 ### 2.3.4. Haswell
@@ -208,18 +196,15 @@ Haswell es una versión mejorada de Ivy Brigde. Mantiene la tecnología de fabri
 Se les ha dotado de:
 
 - Menor consumo en standby. Esta es una de las razones por las que Haswell puede ser una auténtica revolución. Se puede dejar la PC encendido, actualizando twitter, Facebook, correo y otro tipo de aplicaciones sin que consuma la batería.
-
 - Chipset junto con CPU y GPU, todo en el mismo chip, logrando un consumo sensiblemente menor. Esta solución da lugar a un SoC más eficiente y que les permite ahorrar espacio. Esto es ideal para portátiles, pues permite que los equipos son cada vez sean más finos y pequeños, menos pesados y les dure más la batería.
 
 ## 2.4. Unidades de discos
 
-Las unidades de discos, permiten el almacenamiento masivo de datos. Pueden ser: 1.
+Las unidades de discos, permiten el almacenamiento masivo de datos. Pueden ser:
 
-Discos Duros (HDD). 2.
-
-Unidades ópticas (CD, DVD, Blu Ray). 3.
-
-Unidades de estado sólido.
+1. Discos Duros (HDD).
+2. Unidades ópticas (CD, DVD, Blu Ray).
+3. Unidades de estado sólido.
 
 ![Figura 2.9](img/fig-228.jpg)
 
@@ -235,13 +220,11 @@ Las unidades de estado sólido son de reciente aparición y se diseñan sobre la
 
 ## 2.5. Fuentes de alimentación
 
-La misión de las fuentes de alimentación se divide en tres funciones diferentes: 1.
+La misión de las fuentes de alimentación se divide en tres funciones diferentes:
 
-Rectificar la corriente que recibe de la red (alterna) a corriente directa (DC). 2.
-
-Transformar de 110/220 V a 3.3, -5, +5 -12 y +12 V. 3.
-
-Estabilizar esa corriente de salida para que el voltaje que entrega por los diferentes canales sea siempre el mismo, independientemente de las fluctuaciones que pueda sufrir la corriente eléctrica de entrada.
+1. Rectificar la corriente que recibe de la red (alterna) a corriente directa (DC).
+2. Transformar de 110/220 V a 3.3, -5, +5 -12 y +12 V.
+3. Estabilizar esa corriente de salida para que el voltaje que entrega por los diferentes canales sea siempre el mismo, independientemente de las fluctuaciones que pueda sufrir la corriente eléctrica de entrada.
 
 Se clasifican en:
 
@@ -250,11 +233,10 @@ Se clasifican en:
 
 En los sistenas de cómputo de escritorio y servidores, la fuente de alimentación es tan importante como cualquier otro componente. En los primeros para soportar la expansión de hardware de alto consumo como las tarjetas de vídeo de gama alta y en los segundos para mantener un servicio estable y bajo nivel de roturas.
 
-Existen de dos tipos fundamentales: 1.
+Existen de dos tipos fundamentales:
 
-AT: el suministro de corriente a la placa lo hacen mediante dos conectores planos de 6 pines cada uno. Esto provocaba errores de colocación, que podían llegar a provocar averías. Están en desuso. Se usaron hasta la llegada del Pentium MMX. 2.
-
-ATX: siempre están suministrando un canal de 5 v a la placa base para mantener constante su funcionamiento función. También permiten activarse mediante otros medios, como puede ser mediante la tarjeta de red o mediante el módem. Sus conectores, pasaron de ser dos de 6 pines a uno de 20. Con la salida del Pentium 4 se les añadió un conector independiente de 4 pines y 12 V.
+1. AT: el suministro de corriente a la placa lo hacen mediante dos conectores planos de 6 pines cada uno. Esto provocaba errores de colocación, que podían llegar a provocar averías. Están en desuso. Se usaron hasta la llegada del Pentium MMX.
+2. ATX: siempre están suministrando un canal de 5 v a la placa base para mantener constante su funcionamiento función. También permiten activarse mediante otros medios, como puede ser mediante la tarjeta de red o mediante el módem. Sus conectores, pasaron de ser dos de 6 pines a uno de 20. Con la salida del Pentium 4 se les añadió un conector independiente de 4 pines y 12 V.
 
 ![Figura 2.10](img/fig-241.jpg)
 

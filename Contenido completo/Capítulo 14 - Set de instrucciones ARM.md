@@ -10,7 +10,7 @@
 
 Una de las principales ventajas de la arquitectura ARM sobre otras arquitecturas es el manejo eficiente que se le hace a las instrucciones hasta tal punto que todas demoran un ciclo de reloj. Su arquitectura está pensada para optimizar el código que se desee ejecutar, logrando una escalabilidad en el diseño debido a la flexibilidad que se puede lograr con el uso de las instrucciones y los registros. En esta conferencia se abordarán algunos temas referentes al set de instrucciones de los procesadores ARM.
 
-## 14.2. Set de instrucciones de arm
+## 14.2. Set de instrucciones de ARM
 
 Para mantener el concepto tradicional de RISC, se estableció la ejecución de una orden en un tiempo, por lo general, de un ciclo. La característica más interesante es el uso de los 4 bits superiores como código de condición, haciendo que cualquier instrucción pueda ser condicional.
 
@@ -176,7 +176,7 @@ El primero muestra un algoritmo basado en el famoso algoritmo de Euclides, para 
 
 En esta conferencia se ha hecho un breve resumen del set de instrucciones de ARM. Así como las principales instrucciones que se utilizan. Como se puede observar ARM provee una arquitectura flexible soportada por un set de instrucciones muy robusto y diseñado para un uso de alto rendimiento con bajas prestaciones. Los procesadores basados en esta arquitectura proporcionan la potencia necesaria para que los productos electrónicos puedan desempeñar las funciones para las que fueron ideados. En la arquitectura ARM, con diseños en los que se integran más de 30.000 transistores, está presente en un gran número de dispositivos electrónicos en manos o utilizados por usuarios particulares y profesionales, y a diario se venden más de 16 millones de productos basados en esta arquitectura.
 
-# Resumen
+## Resumen
 
 ![Figura](img/fig-1247.jpg)
 

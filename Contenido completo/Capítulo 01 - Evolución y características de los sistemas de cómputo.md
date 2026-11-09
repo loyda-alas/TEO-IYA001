@@ -16,7 +16,7 @@ Un computador es un sistema complejo, capaz de realizar múltiples tareas. Desde
 
 Por su importancia, este curso empieza con una breve historia de los computadores. Además de caracterizar los antecesores de los computadores actuales, servirá para proporcionar una visión general de la estructura y funcionamiento de un sistema de cómputo.
 
-## 1.2. Eniac: el primer computador electrónico
+## 1.2. ENIAC: el primer computador electrónico
 
 El primer computador electrónico de propósito general del mundo, fue conocido como ENIAC (del inglés Electronic Numerical Integrator and Computer). Fue diseñado y construido bajo la supervisión de John Mauchly y John Presper Eckert en la Universidad de Pennsylvania.
 
@@ -107,13 +107,9 @@ El Sistema/360 fue la primera familia de computadores de la historia que se plan
 Las principales características de la familia Sistema/360 fueron:
 
 - Conjunto de instrucciones similar o idéntico: en muchos casos, se encuentran exactamente el mismo conjunto de instrucciones de máquina en todos los miembros de la familia. Así, un programa que se ejecuta en una máquina, se podrá ejecutar en cualquier otra. En algunos casos el computador más bajo de la familia tiene un conjunto de instrucciones que es un subconjunto del computador más alto de la familia. Esto quiere decir que los programas se pueden mover hacia arriba pero no hacia abajo.
-
 - Sistemas operativos similares o idénticos: el mismo sistema operativo básico está disponible para todos los miembros de la familia. En algunos casos, se añaden características complementarias a los miembros más altos.
-
 - Velocidad creciente: la velocidad de ejecución de las instrucciones se incrementa conforme se sube desde los miembros más bajos a los más altos de la familia.
-
 - Número creciente de puertos de E/S: conforme se va desde lo más bajo a los más alto de la familia.
-
 - Tamaño de memoria creciente: conforme se va de lo más bajo a lo más alto de la familia.
 - Coste creciente: conforme se va de lo más bajo a lo más alto de la familia.
 
@@ -179,28 +175,17 @@ A continuación se hará énfasis en dos familias de procesadores que han tenido
 Intel ha sido el número uno de los fabricantes de microprocesadores durante décadas, posición que ha mantenido por la calidad de sus productos. A continuación se presenta un resumen de las características de sus principales productos:
 
 - 8080: procesador de ocho bits, con datos de memoria de ocho bits. Se uso en el primer computador personal, el Altair.
-
 - 8086: tenía una caché de instrucción, o cola, que precaptaba algunas instrucciones antes de ser ejecutadas. Una variante de este procesador, el 8088, se utilizó en el primer computador personal de IBM, asegurando el éxito de Intel.
-
 - 80286: esta ampliación del 8086 permitía direccionar una memoria de 16 MB en lugar de solo 1 MB.
-
 - 80386: primer procesador de INTEL que admitió multitarea, significando esto que podría ejecutar varios programas a la vez.
-
 - 80486: introduce el uso de tecnología de caché mucho más sofisticada y potente e instrucciones de segmentación. Incluyó un coprocesador matemático, liberando a la CPU de las operaciones matemáticas complejas.
-
 - Pentium: introdujo el uso de técnicas superescalares que permiten que varias instrucciones se ejecuten en paralelo.
-
 - Pentium Pro: continuó la tendencia iniciada con el Pentium hacia la organización superescalar, con el uso del renombrado de registros, predicción de ramificaciones, análisis del flujo de datos y ejecución especulativa.
-
 - Pentium II: incorporó la tecnología INTEL MMX, que se diseñó específicamente para procesar de forma eficiente datos de vídeo, audio y gráficos.
-
 - Pentium III: incorpora instrucciones adicionales en coma flotante para procesar software de gráficos 3D.
-
 - Pentium 4: incluye coma flotante adicional y otras mejoras multimedia.
 - Itanium: procesador con una organización de 64 bits con arquitectura IA-64, que se estudiará con más detalles posteriormente.
-
 - Itanium II: esta actualización del Itanium, original incluye una serie de mejoras en el hardware para aumentar la velocidad.
-
 - Procesadores de las serie Core: procesadores multinúcleos, arquitectura de 64 bits y memoria caché de varios niveles.
 
 #### 1.6.2.2. PowerPC
@@ -213,17 +198,13 @@ Como siguiente paso, IBM se alió con Motorola, que había desarrollado las seri
 
 - 601: es una máquina de 32 bits.
 - 603: pensado para computadores de aplicación final de sobremesa y portátiles. Es también una máquina de 32 bits, comparable en prestaciones con el 601, pero con coste más bajo e implementación más eficiente.
-
 - 604: pensado para computadores de aplicación final de sobremesa y portátiles. También es una máquina de 32 bits, pero utiliza técnicas de diseño superescalares, mucho más avanzadas para lograr mayores prestaciones.
-
 - 620: pensado para servidores de aplicación final. Primer miembro de la familia PowerPC que implementa una arquitectura completa de 64 bits, incluyendo registros y buses de datos de 64 bits.
-
 - 740/750: también conocido como procesador G3. Integra dos niveles de caché en el procesador principal, ofreciendo mejoras significativas en las prestaciones sobre otras máquinas comparables con organización de caché fuera del chip.
-
 - G4: incrementa el paralelismo y la velocidad interna del procesador.
 - G5: introduce mejoras adicionales en el paralelismo, en la velocidad interna y constituye una organización de 64 bits.
 
-#### 1.6.2.3. Arm
+#### 1.6.2.3. ARM
 
 Casi el 99% de los dispositivos móviles actuales están basados en tecnologías desarrolladas por ARM. Estas con las siglas en inglés de Advanced RISC Machines Ltd. Es una compañía inglesa fundada en 1990 por Apple Computer, Acorn Computer Group y VLSI Technology. Dedicada al desarrollo de procesadores RISC, software y tecnologías relacionadas. Actualmente cubre casi el 85 % del mercado mundial de procesadores RISC.
 

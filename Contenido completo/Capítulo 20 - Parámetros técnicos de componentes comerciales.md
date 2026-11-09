@@ -18,38 +18,25 @@ A continuación se hará un análisis de los principales rasgos a tener en cuent
 
 Motherboard La tarjeta madre es él componente principal de la computadora, de ella dependen todos los demás componentes para funcionar y estar conectados entre sí, así como también de ella dependen el tipo de procesador, memoria RAM, puertos de expansión, y demás componentes que se integren al equipo. Él no dimensionar tal importancia sumado a la cantidad de marcas, modelos, tamaños y características actuales, hacen difícil la tarea de elegir alguna, es por esto que mayormente se desvía toda la atención al precio. ¿Cómo identificar la tarjeta madre adecuada?
 
-Otros factores además del precio se deben considerar, pero es importante comenzar por determinar el desempeño que se requiere, lo que se define básicamente en 5 niveles: 1.
+Otros factores además del precio se deben considerar, pero es importante comenzar por determinar el desempeño que se requiere, lo que se define básicamente en 5 niveles:
 
-Nivel Básico: generalmente estos usuarios ocupan la computadora para actividades hogareñas, es decir, no requieren de mayor performance para realizar las actividades. Para equipos de este nivel, se recomienda ensamblar procesadores con desempeño similar al de la motherboard. 2.
-
-Nivel Medio: aquí se concentran los usuarios empresariales, es decir, personas que tienen necesidades más exigentes que un nivel básico, en cuanto a rendimiento se refiere, por lo mismo, se requieren ensamblar procesadores de nivel más alto, pero no el más poderoso. 3.
-
-Estudiantes especializados: los usuarios de este nivel requieren tarjetas madre que incluyan los puertos más actualizados (USB 3.0 por ejemplo) y preferentemente componentes de última generación, ya que demandan una transferencia de datos más veloz. 4.
-
-Gamers: para este nivel, se buscan Motherboards con chips de audio específicos para alta definición, al igual que soporte para tarjetas de video y la expansibilidad de las mismas, así como distintos puertos de red, es decir, todo enfocado al mejor rendimiento en videojuegos o entretenimiento. 5.
-
-Overclock: las necesidades para este nivel son más robustas, ya que él objetivo es aumentar el rendimiento del procesador, por lo que busca tarjetas madre con diferentes botones o funciones automáticas cómo encendido, apagado, reiniciar, guardar configuraciones, entre otras cosas para facilitar esta tarea.
+1. Nivel Básico: generalmente estos usuarios ocupan la computadora para actividades hogareñas, es decir, no requieren de mayor performance para realizar las actividades. Para equipos de este nivel, se recomienda ensamblar procesadores con desempeño similar al de la motherboard.
+2. Nivel Medio: aquí se concentran los usuarios empresariales, es decir, personas que tienen necesidades más exigentes que un nivel básico, en cuanto a rendimiento se refiere, por lo mismo, se requieren ensamblar procesadores de nivel más alto, pero no el más poderoso.
+3. Estudiantes especializados: los usuarios de este nivel requieren tarjetas madre que incluyan los puertos más actualizados (USB 3.0 por ejemplo) y preferentemente componentes de última generación, ya que demandan una transferencia de datos más veloz.
+4. Gamers: para este nivel, se buscan Motherboards con chips de audio específicos para alta definición, al igual que soporte para tarjetas de video y la expansibilidad de las mismas, así como distintos puertos de red, es decir, todo enfocado al mejor rendimiento en videojuegos o entretenimiento.
+5. Overclock: las necesidades para este nivel son más robustas, ya que él objetivo es aumentar el rendimiento del procesador, por lo que busca tarjetas madre con diferentes botones o funciones automáticas cómo encendido, apagado, reiniciar, guardar configuraciones, entre otras cosas para facilitar esta tarea.
 
 Hay también otros aspectos que debes considerar para adquirir una Motherboard:
 
 - Tipo de procesador: las tarjetas madre se fabrican para una marca de procesador en específico (Intel o AMD), por lo que es primordial conocer los modelos y generación compatibles con ella.
-
 - Capacidad máxima de memoria: la memoria RAM es él componente más fácil de cambiar, y se acostumbra que conforme pasa el tiempo se le va agregando más a la computadora, por lo que conocer la cantidad máxima de memoria RAM y los tipos que soporta es un buen consejo.
-
 - Conectores de Disco Duro: asegúrate que él disco duro que deseas integrar sea soportado por la tarjeta madre, los cuales pueden ser un disco duro tradicional o unidad SSD.
-
 - Cantidad de ranuras de expansión: estas ranuras permiten agregarle otros componentes a la tarjeta madre, cómo una tarjeta de WIFI, tarjeta de video o de sonido, etc. Asegúrate que tengan las necesarias para los componentes que deseas agregar a la PC.
-
 - Soporte para RAID: esto permite utilizar 2 o más discos duros en conjunto cómo si fuera uno solo, ya sea para maximizar el espacio de almacenamiento y/o cómo respaldo en caso de falla de alguno de ellos.
-
 - Overclocking: como se mencionó anteriormente el Overclocking, sirve para modificar la velocidad del procesador y aumentar su desempeño. Algunas tarjetas madre ya vienen preparadas para este propósito.
-
 - Chipset: este conjunto de chips es el encargado de comunicar todos los componentes de la PC con el procesador. Cada tarjeta trae uno en especial, identificarlo e investigar sus características es una buena idea. Un ejemplo de esto son las nuevas tarjetas Asus con chipset Intel Z87.
-
 - Cantidad de sistemas On-Board: cuanto menos cosas tenga integrada la tarjeta madre, mejor. Actualmente lo que integran de forma estándar las tarjetas madres de alta calidad son los puertos USB, la Red y él Audio.
-
 - Marca: existen muchas marcas de fabricantes actualmente, como Asus, Gigabyte, ASRock, Biostar, ECS, entre otras. Cada una ofrece distintos precios, modelos y características diferentes, lo importante es identificar tus necesidades y requerimientos para elegir una buena opción.
-
 - Características extras: algunas marcas incluyen características especiales o novedosas para aumentar la experiencia del usuario, cómo él caso de hasta 6 BIOS en algunas tarjetas Gigabyte o él Fan control en él modelo P8Z77 de Asus:
 
 ![Figura 20.1](img/fig-1726.jpg)
@@ -60,11 +47,8 @@ Procesador El procesador es el cerebro del ordenador. De sus capacidades depende
 
 Algunas de las características esenciales para describir su funcionamiento son: cantidad de núcleos, marca y modelo del procesador, frecuencia de reloj y la memoria de segundo nivel.
 
-1.
-
-Núcleo simple/Multinúcleo: indica si el ordenador tiene varios procesadores trabajando a la vez o sólo uno. Que un ordenador tenga un procesador de doble núcleo no significa que vaya a tener el doble de capacidad que uno simple, aunque sí que mostrará una mejora notable para realizar operaciones complejas. Además, evita que se caliente más de la cuenta y facilita su refrigeración, por lo que alargará más su vida útil. La tendencia actual es que todos sean multinúcleos, pero los de núcleo simple todavía son más baratos y cumplen las expectativas de la mayoría de usuarios. 2.
-
-Marca y modelo del procesador: las marcas de procesadores para ordenador más extendidas son Intel y AMD. Las dos ofrecen excelentes productos en toda la gama de capacidades y ambas cuentan con procesadores de doble núcleo y núcleo simple. Para ordenadores de sobremesa, a partir del Pentium III (en Intel) y del Athlon 64 (en AMD) el rendimiento es óptimo. En casos concretos, como la edición de vídeo, audio o los videojuegos de última generación, hay que tender a modelos superiores. Los Intel ostentan por el momento la primacía en cuanto a velocidad de funcionamiento, mientras que AMD goza de mejor reputación entre los amantes de los juegos, y es reconocido por ofrecer precios más accesibles que los de su competidor.
+1. Núcleo simple/Multinúcleo: indica si el ordenador tiene varios procesadores trabajando a la vez o sólo uno. Que un ordenador tenga un procesador de doble núcleo no significa que vaya a tener el doble de capacidad que uno simple, aunque sí que mostrará una mejora notable para realizar operaciones complejas. Además, evita que se caliente más de la cuenta y facilita su refrigeración, por lo que alargará más su vida útil. La tendencia actual es que todos sean multinúcleos, pero los de núcleo simple todavía son más baratos y cumplen las expectativas de la mayoría de usuarios.
+2. Marca y modelo del procesador: las marcas de procesadores para ordenador más extendidas son Intel y AMD. Las dos ofrecen excelentes productos en toda la gama de capacidades y ambas cuentan con procesadores de doble núcleo y núcleo simple. Para ordenadores de sobremesa, a partir del Pentium III (en Intel) y del Athlon 64 (en AMD) el rendimiento es óptimo. En casos concretos, como la edición de vídeo, audio o los videojuegos de última generación, hay que tender a modelos superiores. Los Intel ostentan por el momento la primacía en cuanto a velocidad de funcionamiento, mientras que AMD goza de mejor reputación entre los amantes de los juegos, y es reconocido por ofrecer precios más accesibles que los de su competidor.
 
 ![Figura 20.2](img/fig-1733.jpg)
 
@@ -101,15 +85,10 @@ Disco duro El disco duro es el gran almacén de datos del ordenador. Su capacida
 Las características que se deben tener en cuenta en un disco duro son:
 
 - Tiempo medio de acceso: tiempo medio que tarda la aguja en situarse en la pista y el sector deseado; es la suma del Tiempo medio de búsqueda (situarse en la pista), Tiempo de lectura/escritura y la Latencia media (situarse en el sector).
-
 - Tiempo medio de búsqueda: tiempo medio que tarda la aguja en situarse en la pista deseada; es la mitad del tiempo empleado por la aguja en ir desde la pista más periférica hasta la más central del disco.
-
 - Tiempo de lectura/escritura: tiempo medio que tarda el disco en leer o escribir nueva información: Depende de la cantidad de información que se quiere leer o escribir, el tamaño de bloque, el número de cabezales, el tiempo por vuelta y la cantidad de sectores por pista.
-
 - Latencia media: tiempo medio que tarda la aguja en situarse en el sector deseado; es la mitad del tiempo empleado en una rotación completa del disco.
-
 - Velocidad de rotación: revoluciones por minuto de los platos. A mayor velocidad de rotación, menor latencia media.
-
 - Tasa de transferencia: velocidad a la que puede transferir la información a la computadora una vez que la aguja está situada en la pista y sector correctos. Puede ser velocidad sostenida o de pico.
 
 ![Figura 20.4](img/fig-1754.jpg)
@@ -121,11 +100,8 @@ disco duro estándar.
 Actualmente se ha introducido la tecnología de las unidades de estado sólido, las tienen el mismo uso que los discos duros y emplean las mismas interfaces, pero no están formadas por discos mecánicos, sino por memorias de circuitos integrados para almacenar la información. El uso de esta clase de dispositivos anteriormente se limitaba a las supercomputadoras, por su elevado precio, aunque hoy en día ya son muchísimo más asequibles para el mercado doméstico. Hoy en las modernas computadoras se pueden mezclar estas dos tecnologías, teniendo los discos tradicionales para almacenar los datos y uno de estado sólido para la velocidad de lectura/ escritura.
 
 - La refrigeración: sirve para mantener la temperatura del procesador en valores bajos. El mecanismo habitual es un ventilador, que es el principal generador de ruido. Los modelos de refrigeración líquida son más eficientes, pero elevan bastante el consumo general de energía. Sin embargo, son recomendables para los videojugadores que fuerzan mucho el procesador.
-
 - La conectividad inalámbrica: permite conectarse a Internet como para transmitir y recibir datos sin necesidad de cables. WIFI es la tecnología que permite acceder a las redes inalámbricas, y es importante contar con ella, sobre todo en portátiles. Bluetooth es la tecnología que pone al ordenador en contacto con dispositivos móviles como teléfonos o agendas electrónicas. No es muy usual encontrarla integrada en el equipo, pero un simple adaptador externo por USB (que no supera los 30 euros) cumple su función.
-
 - Los dispositivos de lectura/grabación óptica: el lector/grabador suele serlo de CD y DVD. Si es “dual”, también llamado “multiformato”, puede leer y grabar los formatos comerciales DVD+/-R. De “doble capa” significa que puede grabar más de una capa de información en el disco óptico y por tanto puede guardar más datos. Es importante que el dispositivo sea “multiformato” y cumpla funciones de grabador además de lector. Si es de “doble capa”, tanto mejor, pero no es fundamental a no ser que se deba descargar periódicamente el disco duro a causa, por ejemplo, de un uso intensivo de las redes P2P.
-
 - La tarjeta gráfica: interpreta las imágenes gráficas y es en sí misma un pequeño ordenador con procesador propio. Las principales marcas son ATI/AMD, NVIDIA e Intel. Aunque los ordenadores suelen disponer de una tarjeta gráfica incorporada de calidad suficiente para la mayoría de las funciones.
 
 ![Figura 20.5](img/fig-1761.jpg)
@@ -148,9 +124,7 @@ Otros complementos interesantes
 
 - El teclado: aunque no se repara demasiado en él, es de los más importantes.
 - El ratón: los ópticos han sustituido a los engorrosos de rueda que siempre hay que estar limpiando, pero necesitan superficies opacas y rugosas para funcionar de forma óptima. Los inalámbricos eliminan el problema del cable, siempre molesto, pero suelen perder la conexión y hay que sintonizarlos con demasiada frecuencia. Por otro lado, la forma del ratón puede provocar dolores en manos y dedos.
-
 - La impresora: las tecnologías de impresión: el chorro de tinta y la láser. La primera funciona con cartuchos de tinta y está indicada para la impresión en color y de imágenes, aunque los consumibles son caros. Para imprimir textos en blanco y negro, la impresión láser es más barata a largo plazo. Conviene recordar que resulta más económico llevar las fotografías digitales a revelar a comercios donde cuenten con máquinas para tal fin.
-
 - Las webcam: cada vez cobra más importancia con el auge de las videoconferencias de ordenador a ordenador. Hay numerosos modelos a precios muy asequibles. No conviene gastar excesivo dinero en ellas porque la calidad de la imagen que transmitan depende más del ancho de banda que de su óptica.
 
 
@@ -231,9 +205,9 @@ En esta clase se han presentado los diversos elementos a tener en cuenta a la ho
 
 Se describieron casi todos los componentes de los computadores modernos, los principales y más usados, que son los que determinan el funcionamiento de los computadores.
 
-# Resumen
+## Resumen
 
-# Bibliografía
+## Bibliografía
 
 [1] Thomas L. Floyd. (2006). Fundamentos de sistemas digitales 9ª Edición. Ed. PrenticeHall. [2] William Stallings (2006). Organización y arquitectura de computadores 7ª Edición. Ed.
 

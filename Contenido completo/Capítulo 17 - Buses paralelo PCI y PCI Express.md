@@ -21,12 +21,10 @@ En este tipo de bus, los datos son enviados por bytes al mismo tiempo, con la ay
 Poseen 3 tipos de líneas para su funcionamiento:
 
 - Líneas de dirección: encargadas de indicar la posición de memoria o el dispositivo con el que se desea establecer comunicación.
-
 - Líneas de control: encargadas de enviar señales de arbitraje entre los dispositivos. Entre las más importantes están las líneas de interrupción, DMA y los indicadores de estado.
-
 - Líneas de datos: transmiten los bits, de manera que por lo general un bus tiene un ancho que es potencia de 2.
 
-## 17.3. Bus pci
+## 17.3. Bus PCI
 
 El bus PCI (Peripheral Component Interconnect, Interconexión de Componente Periférico) es un bus de ordenador estándar para conectar dispositivos periféricos directamente a su placa base.
 
@@ -40,12 +38,11 @@ Puesto que las especificaciones son de dominio público y están soportadas por 
 
 **Figura 17.1.** Arquitectura del bus PCI.
 
-### 17.3.1. Especificaciones de hardware de los buses pci
+### 17.3.1. Especificaciones de hardware de los buses PCI
 
 El bus PCI es un bus que ofrece altas prestaciones, por sus características especiales, dos de ellas son las más importantes:
 
 - El modo ráfaga. Esta es una característica especial que permite que una vez que se le proporciona una dirección inicial, puede transferir múltiples conjuntos de datos, de manera similar al modo ráfaga que ofrecen las memorias caché.
-
 - La segunda característica es el soporte para el llamado arbitraje del bus (Bus mastering).
 
 Esta es una característica que permite que si múltiples dispositivos están habilitados para dominar el bus, tiene que haber un sistema de arbitraje para evitar que múltiples dispositivos intenten manejar el bus de manera simultánea. Un número de esquemas diferentes son usados para esto. Esta característica debe estar soportada por el chipset de la placa base. Actualmente todas las placas base modernas incluyen esta característica.
@@ -59,7 +56,6 @@ A continuación se muestran algunas de las especificaciones más importantes de 
 - Reloj de 33,33 MHz con transferencias síncronas.
 - Ancho de bus de 32 bits o 64 bits.
 - Tasa de transferencia máxima de 133 MB por segundo en el bus de 32 bits (33,33 MHz × 32 bits ÷ 8 bits/byte = 133 MB/s).
-
 - Tasa de transferencia máxima de 266 MB/s en el bus de 64 bits.
 - Espacio de dirección de 32 bits (4 GB).
 - Espacio de puertos I/O de 32 bits (actualmente obsoleto).
@@ -80,7 +76,7 @@ El PCI está diseñado para permitir una cierta variedad de configuraciones basa
 
 energía disminuye.
 
-## 17.4. Pci express
+## 17.4. PCI Express
 
 La elevada demanda de la velocidad que requieren muchas de las tarjetas de expansión del PC hizo necesaria la evolución del bus PCI, que comenzó a quedarse obsoleto, lo que provocó que en muchos casos se creara un verdadero cuello de botella a la hora de comunicar placa base y tarjetas de expansión.
 
@@ -92,21 +88,15 @@ Sus características más importantes son:
 
 - Es una red punto a punto de conmutación de paquetes.
 - La red se construye mediante enlaces punto a punto full-dúplex + conmutadores. Cada enlace está compuesto por líneas. Cada línea es full-dúplex y consiste en dos pares de hilos, un par de transmisión y otro de recepción. Cada par es un canal símplex en el que la señal de tensión transmitida es diferencial (LVDS - Low Voltage Diferential Signaling), lo que mejora la inmunidad al ruido.
-
 - Compatibilidad software con PCI. La interfaz software del bus (el “driver model”) permanece igual, no hay que cambiar los drivers del sistema operativo ni el software de sistema, todo queda exactamente igual.
-
 - Conexión y cambio de tarjetas en caliente.
 
 PCI Express ofrece un conjunto de conectores, que son 1x, 2x, 4x, 8x, 16x y 32x. el prefijo numérico expresa el factor de multiplicación, logrando velocidades de procesamientos altamente configurables a diferentes entornos. A continuación se muestran algunos de estos conectores y su uso.
 
 - PCI Express 1x ofrece una tasa de transferencia de 250 Mb/s. Existen 1 o dos de estos en todas las placas madre actuales.
-
 - PCI Express 2x ofrece una tasa de transferencia de 500 Mb/s. Este bus no es tan común y está reservado a los servidores.
-
 - PCI Express 4x ofrece una tasa de transferencia de 1000 Mb/s también está reservado a los servidores.
-
 - PCI Express 16x ofrece una tasa de transferencia de 4000 Mb/s es muy utilizado, está presente en todas las placas madre modernas, es el formato estándar de las tarjetas gráficas.
-
 - PCI Express 32x ofrece una tasa de transferencia de 8000 Mb/s posee el mismo formato que el PCI Express 16x, a menudo es utilizado en las placas madre de gama alta para alimentar el bus SLI o Crossfire. Las referencias de estas placas madre por lo general poseen la mención “32”. Esto permite tener dos puertos PCI Express con formato 16 y cableados en 16 líneas, al contrario de los SLI clásicos, cableados en 2 x 8 líneas o Crossfire básicos, cableados en 1x16 + 1x4 líneas. Estas placas madre se caracterizan también por la presencia de un puente sur adicional, únicamente dedicado a este bus 32x.
 
 ## 17.5. Conclusiones
@@ -115,7 +105,7 @@ En esta clase se trataron temas relacionados con los buses paralelos y PCI, de m
 
 La tendencia en el desarrollo de los computadores es la imponer el bus PCI express, por su bajo consumo de corriente y por sobre todo, su elevada velocidad de transmisión.
 
-# Resumen
+## Resumen
 
 ![Figura](img/fig-1500.jpg)
 

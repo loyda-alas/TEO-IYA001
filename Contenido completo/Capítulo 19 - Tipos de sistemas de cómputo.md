@@ -54,11 +54,10 @@ Híbridos: los sistemas de cómputo híbridos son sistemas digitales que procesa
 
 Son utilizadas para control de procesos y en robótica. Combinan las características más favorables de las computadoras digitales y analógicas tienen la velocidad de las analógicas y la precisión de las digitales. Generalmente se usan en problemas especiales en los que los datos de entrada provienen de mediciones convertidas a dígitos y son procesados por una Computadora por ejemplo las Computadoras Híbridas controlan el radar de la defensa de Estados Unidos y de los vuelos comerciales.
 
-Capacidad de procesamiento Atendiendo a este criterio los sistemas de cómputo pueden clasificarse en: microcomputadoras, minicomputadoras, macrocomputadoras, mainframe y supercomputadoras. 1.
+Capacidad de procesamiento Atendiendo a este criterio los sistemas de cómputo pueden clasificarse en: microcomputadoras, minicomputadoras, macrocomputadoras, mainframe y supercomputadoras.
 
-Minicomputadoras: se desarrollaron en la década de 1960 para llevar a cabo tareas especializadas, tales como el manejo de datos de comunicación. Son más pequeñas, más baratas y más fáciles de mantener e instalar que los “mainframes”, Usadas para dar servicios a empresas medianas y pequeñas que necesitan conexión de estaciones de trabajo y manejo considerable de información. Su mercado ha ido disminuyendo desde que surgieron las microcomputadoras. Son el punto intermedio entre una microcomputadora y una macrocomputadora, en cuanto a su forma de operar se asemeja más a una macrocomputadora ya que fueron diseñadas para: - Entornos de múltiples usuarios, apoyando múltiples actividades de proceso al mismo tiempo. - Ofrecer ciertos servicios más específicos. - Soportar un número limitado de dispositivos. - Pequeñas y de bajo costo. - Para múltiples aplicaciones. 2.
-
-Macrocomputadoras: la macrocomputadora es un sistema de aplicación general cuya característica principal es el hecho de que el CPU es el centro de casi todas las actividades de procesamiento secundario.
+1. Minicomputadoras: se desarrollaron en la década de 1960 para llevar a cabo tareas especializadas, tales como el manejo de datos de comunicación. Son más pequeñas, más baratas y más fáciles de mantener e instalar que los “mainframes”, Usadas para dar servicios a empresas medianas y pequeñas que necesitan conexión de estaciones de trabajo y manejo considerable de información. Su mercado ha ido disminuyendo desde que surgieron las microcomputadoras. Son el punto intermedio entre una microcomputadora y una macrocomputadora, en cuanto a su forma de operar se asemeja más a una macrocomputadora ya que fueron diseñadas para: - Entornos de múltiples usuarios, apoyando múltiples actividades de proceso al mismo tiempo. - Ofrecer ciertos servicios más específicos. - Soportar un número limitado de dispositivos. - Pequeñas y de bajo costo. - Para múltiples aplicaciones.
+2. Macrocomputadoras: la macrocomputadora es un sistema de aplicación general cuya característica principal es el hecho de que el CPU es el centro de casi todas las actividades de procesamiento secundario.
 
 Por lo general cuenta con varias unidades de disco para procesar y almacenar grandes cantidades de información. El CPU actúa como árbitro de todas las solicitudes y controla el acceso a todos los archivos, lo mismo hace con las operaciones de Entrada/Salida cuando se preparan salidas impresas o efímeras. El usuario se dirige a la computadora central de la organización cuando requiere apoyo de procesamiento.
 
@@ -98,13 +97,11 @@ Las microcomputadoras son las computadoras más accesibles para cualquier tipo d
 
 En un principio solo era posible utilizarlas en ambiente monousuario, esto es un solo usuario a la vez, pero con los avances tecnológicos desde hace ya bastante tiempo este tipo de máquinas pueden ser utilizadas en ambientes multiusuarios, incluso como servidores de una red de computadoras. Pequeñas de bajo costo y para múltiples aplicaciones.
 
-Tipos de Computadoras personales Los tipos de computadores personales pueden clasificarse en: escritorio, portátil, laptop y notebook. 1.
+Tipos de Computadoras personales Los tipos de computadores personales pueden clasificarse en: escritorio, portátil, laptop y notebook.
 
-Escritorio: es el nombre para la PC que se usa en el escritorio, la que más conocemos. 2.
-
-Portátil: pequeñas computadoras de mano, se les llama en inglés “Palmtop” o “Pock etPC”, es decir, de mano o de bolsillo. Realizan todas las funciones básicas de una computadora. Tiene capacidad limitada y la mayoría usa una batería como fuente de poder. 3.
-
-Laptop: se traduce como plegable, son más grandes que las anteriores pero realiza las funciones básicas también. La “Laptop” tiene pantalla plana. 4. “Notebook”: se traduce como cuaderno, libreta. Es la más pequeña del grupo.
+1. Escritorio: es el nombre para la PC que se usa en el escritorio, la que más conocemos.
+2. Portátil: pequeñas computadoras de mano, se les llama en inglés “Palmtop” o “Pock etPC”, es decir, de mano o de bolsillo. Realizan todas las funciones básicas de una computadora. Tiene capacidad limitada y la mayoría usa una batería como fuente de poder.
+3. Laptop: se traduce como plegable, son más grandes que las anteriores pero realiza las funciones básicas también. La “Laptop” tiene pantalla plana. 4. “Notebook”: se traduce como cuaderno, libreta. Es la más pequeña del grupo.
 
 ## 19.3. Conclusiones
 
@@ -112,6 +109,6 @@ En el mundo actual, se hace imprescindible conocer cómo elegir un sistema de c�
 
 Debe quedar claro, que el mejor computador es aquel que se ajusta a nuestras necesidades y para ello se debe revisar el presupuesto, así como el tipo de uso que se les va a dar.
 
-# Resumen
+## Resumen
 
 ![Figura](img/fig-1691.jpg)

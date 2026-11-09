@@ -15,7 +15,6 @@ En los microprocesadores se duplica la cantidad de componentes cada 18 meses apr
 No existe otra invención en la historia que haya avanzado tan aprisa por todo el mundo o haya llegado tan profundamente a tantos aspectos de la existencia humana. Hoy existen millones de microchips de algún tipo en uso. Nadie puede dudar que el microprocesador no sólo esté transformando los productos que usamos, sino también nuestra forma de vivir. Los Microprocesadores se utilizan en:
 
 - Industria: en equipos automatizados controlados por microprocesador por ejemplo en un UPS de alta capacidad.
-
 - Informática: se utilizan en las computadoras personales o servidores.
 - Consumo Doméstico: televisores de plasma, LED o LCD, consolas de juego, etc.
 - Comercio y Banca: cajeros automáticos, sistemas contraincendios, circuito cerrado de TV.
@@ -30,19 +29,14 @@ El Microprocesador físicamente es un circuito integrado o chip, formado por mil
 
 Desde el punto de vista lógico, singular y funcional, el microprocesador está compuesto básicamente por: varios registros, buses de comunicación, una unidad de control, una unidad aritmético lógica, y dependiendo del procesador, puede contener una unidad en coma flotante.
 
-El microprocesador ejecuta instrucciones almacenadas como números binarios organizados secuencialmente en la memoria principal. La ejecución de las instrucciones se puede realizar en varias fases: 1.
+El microprocesador ejecuta instrucciones almacenadas como números binarios organizados secuencialmente en la memoria principal. La ejecución de las instrucciones se puede realizar en varias fases:
 
-PreFetch: pre lectura de la instrucción desde la memoria principal. 2.
-
-Fetch: envío de la instrucción al decodificador. 3.
-
-Decodificación de la instrucción, es decir, determinar qué instrucción es y qué se debe hacer. 4.
-
-Lectura de operandos (si los hay). 5.
-
-Ejecución, lanzamiento de las máquinas de estado que llevan a cabo el procesamiento. 6.
-
-Escritura de los resultados en la memoria principal o en los registros.
+1. PreFetch: pre lectura de la instrucción desde la memoria principal.
+2. Fetch: envío de la instrucción al decodificador.
+3. Decodificación de la instrucción, es decir, determinar qué instrucción es y qué se debe hacer.
+4. Lectura de operandos (si los hay).
+5. Ejecución, lanzamiento de las máquinas de estado que llevan a cabo el procesamiento.
+6. Escritura de los resultados en la memoria principal o en los registros.
 
 Cada una de estas fases se realiza en uno o varios ciclos de CPU (ciclos de reloj), dependiendo de la estructura del procesador, y concretamente de su grado de segmentación. La duración de estos ciclos viene determinada por la frecuencia de reloj y nunca podrá ser inferior al tiempo requerido para realizar la tarea individual (realizada en un solo ciclo) de mayor coste temporal.
 
@@ -50,7 +44,7 @@ En los sistemas modernos no solo se explota la alta velocidad de funcionamiento 
 
 Al microprocesador también se le conoce como Unidad Central de Procesamiento (CPU), pues constituye el cerebro de un computador digital, pues realiza todas las operaciones aritméticas y lógicas sobre los datos y además controla todos los procesos que se desarrollan en esta. Por ejemplo, para que se ejecute una instrucción, ésta debe estar en el interior de la CPU, concretamente en la Unidad de Control (UC) y si hay que realizar cálculos, interviene la Unidad Aritmética Lógica (ALU). A continuación, una descripción de cómo funciona cada una de ellas.
 
-### 8.2.1. Unidad de control (uc)
+### 8.2.1. Unidad de control (UC)
 
 Para realizar su tarea la UC necesita conocer, por un lado, la instrucción y, por otro, una serie de informaciones adicionales que deberá tener en cuenta para coordinar, de forma correcta, la ejecución de la instrucción. El resultado de la interpretación de dichas informaciones son una serie de órdenes a los diferentes elementos de la computadora.
 
@@ -70,7 +64,7 @@ La UC por otra parte deberá conocer cuál es la dirección de la próxima instr
 
 **Figura 8.1.** Elementos básicos de la Unidad de Control.
 
-### 8.2.2. Unidad aritmética lógica (alu)
+### 8.2.2. Unidad aritmética lógica (ALU)
 
 La unidad Aritmético - Lógica (ALU, por sus siglas en inglés) es la encargada de realizar los cálculos. Los datos sobre los que se realizan las operaciones se denominan operandos. Al elemento encargado de ejecutar las operaciones se le denomina operador, y está formado por una serie de circuitos electrónicos que son capaces de sumar dos números binarios o hacer las operaciones lógicas elementales: disyunción, conjunción y negación. Incluso, algunos operadores son también capaces de multiplicar, dividir y realizar otras operaciones más complejas.
 
@@ -117,21 +111,14 @@ Las líneas de dirección se utilizan para designar la fuente o el destino del d
 Las líneas de control se utilizan para controlar el acceso y el uso de las líneas de datos y de direcciones. Puesto que las líneas de datos y de direcciones son compartidas por todos los componentes, debe existir una forma de controlar su uso. Las señales de control transmiten tanto órdenes como información de temporización entre los módulos del sistema. Las señales de temporización indican la validez de los datos y las direcciones. Las señales de órdenes especifican las operaciones a realizar. Algunas líneas de control típicas son:
 
 - Escritura en memoria (Memory write): hace que el dato del bus se escriba en la posición direccionada.
-
 - Lectura de memoria (Memory read): hace que el dato de la posición direccionada se sitúe en bus.
-
 - Escritura de EIS (I/O write): hace que el dato del bus se transfiera a través del puerto de E/S direccionado.
-
 - Lectura de E/S (F/S read): hace que el dato del puerto de E/S direccionado se sitúe en el bus.
-
 - Transferencia reconocida (Transfer ACK): indica que el dato se ha aceptado o se ha situado en el bus.
-
 - Petición de bus (Bus request): indica que un módulo necesita disponer del control del bus.
 - Cesión de bus (Bus grant): indica que se cede el control del bus a un módulo que lo había solicitado.
-
 - Petición de interrupción (Interrupt request): indica si hay una interrupción pendiente.
 - Interrupción reconocida (Interrupt ACK): señala que la interrupción pendiente se ha aceptado.
-
 - Reloj (clock): se utiliza para sincronizar las operaciones.
 - Inicio (reset): pone los módulos conectados en su estado inicial.
 
@@ -145,21 +132,15 @@ Tienen varias clasificaciones, según sus usos: registros generales, de segmento
 
 Los procesadores de tipo RISC se caracterizan por disponer de muchos más registros que los de tipo CISC. Por ejemplo un procesador Intel típico provee alrededor de 16 registros de propósito general, mientras que el un procesador SPARC puede tener más de 80.
 
-### 8.4.1. Registros de propósitos generales de intel
+### 8.4.1. Registros de propósitos generales de Intel
 
 - EAX: Acumulador, es el más utilizado, soporta cualquier operación, pero es imprescindible en las operaciones con puertos, divisiones y multiplicaciones, en los primeros microprocesadores no podía ser utilizado para direccionar memoria.
-
 - EBX: Registro base, ya que en los modelos anteriores su uso fundamental era como puntero.
 - ECX: Contador, su función fundamental es soportar las operaciones con ciclos, al igual que EAX, en los modelos anteriores no podía ser usado como puntero.
-
 - EDX: De datos, es un segundo acumulador, apoya a EAX en las operaciones con puertos, multiplicaciones y divisiones, tampoco podía ser usado como puntero.
-
 - ESP: Puntero al stack, como su nombre lo indica, es el encargado de apuntar a la primera posición libre en el stack, como curiosidad se debe decir, que en el 8086 este registro apuntaba al último ocupado, a partir de aquí se puede saber si la máquina posee un 8086 o un microprocesador superior
-
 - EBP: Puntero auxiliar al stack, este registro está preparado para el trabajo con el stack, usado fundamentalmente en el proceso de sacar del stack parámetros de procedimientos; aunque puede ser usado como puntero si se siguen determinadas convenciones.
-
 - EDI: Índice destino, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el DS.
-
 - ESI: Índice fuente, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el ES.
 
 ### 8.4.2. Registros de segmento

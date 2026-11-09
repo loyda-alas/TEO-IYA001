@@ -40,7 +40,7 @@ El nombre abreviado de este tipo de memoria viene del inglés Random Access Memo
 
 En realidad SIMM y DIMM son tipos de encapsulado. Para referirse técnicamente a la forma en que funciona la RAM deberían distinguirse SRAM (RAM estática) y DRAM (RAM Dinámica). La primera es costosa y muy rápida, se emplea en memorias caché y se construye con biestables. La segunda es la de más amplio uso en módulos RAM y es la que debe refrescarse porque se basa en principios capacitivos para el almacenamiento de carga eléctrica. Cada celda es mucho más pequeña y por tanto barata de construir.
 
-### 10.3.1. Simm
+### 10.3.1. SIMM
 
 El nombre de SIMM viene del inglés: “Single In-line Memory Module”, lo que español significa “Único módulo de memoria en línea”. Fueron de las primeras que utilizaron los computadores y existieron con 30 ó 72 contactos. Las de 30 contactos, permiten leer y escribir 8 bits (1 byte) en paralelo y las de 72 contactos, permiten acceder a 32 bits (4 bytes) en paralelo. Aunque los contactos de esta memoria eran por ambas caras, la conexión era solo a través de una. Las computadoras actuales no usan este tipo de memorias. Nótese que el caso de la de 72 contactos, se le insertó una ranura para que sirviera de guía a la conectarla.
 
@@ -54,7 +54,7 @@ Por su parte, las memorias SIMM de 72 contactos fueron conocidas como SIMM FPM, 
 
 Físicamente aparece como SIMM de 30 (Intel 386, 486) y 72 contactos (Intel 486 D y primeros Pentium).
 
-### 10.3.2. Dimm
+### 10.3.2. DIMM
 
 El término DIMM viene del inglés “Dual In-line Memory Module”, que al español se traduce como “Módulo de Memoria en línea doble”. Están dotadas de 168 contactos (84 por cara), los cuales no están unidos entre sí, y forman contactos separados. Proporcionan por tanto, un acceso paralelo a 64 bits de memoria. Miden 13 cm. Dentro de la categoría DIMM, se pueden encontrar múltiples variantes, todas asociadas a alguna tecnología, las cuales fueron evolucionando hasta llegar a las memorias actuales. A pesar de la evolución, siguen midiendo 13 cm.
 
@@ -74,7 +74,7 @@ A partir del año 2003 se insertaron en el mercado las memorias DIMM DDR (Double
 
 Para finalizar este punto relacionado con las DIMM, se debe destacar que como parte del desarrollo de estas, se implementaron algunas técnicas como el chequeo de paridad y la corrección de errores. Las memorias con paridad, se distinguen porque tienen un número impar de chips. El chip que hace el número par, no es de memoria, sino que es el chip de paridad, que se utiliza para comprobar el flujo de datos y eliminar los errores que se pueden producir. Las memorias con corrección de errores (Memorias ECC) pueden ser de cualquier tipo. Detectan errores de datos y los corrige. Usada en servidores.
 
-### 10.3.3. Ddr
+### 10.3.3. DDR
 
 Las memorias DDR han evolucionado en 3 generaciones: DDR (o DDR1), DDR2 y DDR3. Se parecen a las antiguas DIMM, pero tienen solo una ranura en lugar de dos. No son compatibles con los DIMM anteriores. Tienen 184 pines y envían datos 2 veces por cada señal de reloj. Lo anterior significa que duplican la velocidad de operación respecto a la tecnología DIMM sin aumentar la frecuencia del reloj.
 

@@ -16,7 +16,7 @@ En esta arquitectura cada módulo se conecta al bus del sistema o a un conmutado
 
 En los primeros días de las PC, se incluía muy poco soporte en la tarjeta madre para los dispositivos periféricos. Los controladores y adaptadores utilizados para manejar y conectarse en interfaz con otros dispositivos periféricos, como el monitor, el disco duro, el disco flexible, etcétera, tenían que ser agregados al sistema de circuitos de la tarjeta madre través de las tarjetas de expansión. Actualmente, gran parte del soporte para los periféricos está incorporado dentro de la tarjeta madre, pero en computadoras personales más antiguas agrupar un dispositivo periférico generalmente significa agregar una tarjeta de expansión. En esta clase se abordará algunos de los elementos esenciales acerca de la arquitectura de E/S así como de los principales periféricos de una computadora.
 
-## 15.2. Arquitectura de e/s
+## 15.2. Arquitectura de E/S
 
 La arquitectura de E/S permite la conexión con los dispositivos externos e internos del computador, de manera que la información pueda ser transferida desde y hasta ella. Los puertos de E/S de la PC son los terminales por los cuáles se conectan los diferentes dispositivos a la computadora. Estos componentes han variado a través de los años desarrollándose nuevos terminales que permiten el uso más eficiente del bus de datos, mientras que la concepción se ha mantenido casi inalterable. En la siguiente figura se muestran algunos dispositivos que se siguen utilizando.
 
@@ -30,7 +30,7 @@ La arquitectura de E/S permite la conexión con los dispositivos externos e inte
 
 En la anterior figura se muestra un esquema de cómo se conecta el CPU y los dispositivos de E/S a través de los circuitos de interfaz de E/S.
 
-### 15.2.1. Características de los dispositivos de e/s
+### 15.2.1. Características de los dispositivos de E/S
 
 Los periféricos son los dispositivos externos que se conectan a una CPU a través de las unidades o módulos de E/S, y permite al procesador su interacción con el entorno o almacenar información.
 
@@ -125,7 +125,6 @@ USB (v 1.1) Interfaz PS/2 N° de dispositivos soportados Hasta 127 1 Máxima tas
 #### 15.3.1.2. Funcionamiento básico del teclado
 
 - El chip del teclado chequea la matriz de contactos para comprobar cuando se pulsa o se suelta una tecla.
-
 - Escribe el código a un buffer interno.
 - Después se retransmite el código a la interfaz del PC.
 - Con la recepción del código, la interfaz produce una interrupción. Cada tecla tiene asignado un código scan que es el que la interfaz transmite.
@@ -169,10 +168,8 @@ El funcionamiento del mouse es muy básico, tres bytes de datos se envían como 
 El primer byte del paquete de datos del ratón contiene:
 
 - Dos bits que indican si se pulsó el botón derecho o el izquierdo del ratón (0 = no se pulsó, 1 = se pulsó).
-
 - Dos bits para el ID del paquete (01).
 - Dos bits para la direcci6n de los ejes X y Y (0 = negativo (hacia atrás/izquierda) y 1 = positivo (hacia delante / derecha)).
-
 - Dos bits que indican que la velocidad del ratón a lo largo de los ejes X y Y fue más rápida que 255 impulsos en 0.025 segundos.
 
 ![Figura 15.10](img/fig-1367.jpg)

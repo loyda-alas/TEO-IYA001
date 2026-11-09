@@ -16,7 +16,7 @@ El primer procesador ARM fue desarrollado, entre 1983 y 1985, por Acorn Computer
 
 De este modo el mérito tecnológico de ARM es doble, primero por la propia tecnología avanzada que permite diseños escalables y eficientes. Segundo porque ellos mismos no fabrican los procesadores, en vez de eso los diseñan y preservan lo que se llama propiedad intelectual, son algo así como una empresa de diseño a pedido de alta tecnología.
 
-## 13.2. Arquitectura de arm
+## 13.2. Arquitectura de ARM
 
 La arquitectura ARM incorpora varias características, algunas únicas y otras muy optimizadas respecto al resto de arquitecturas:  Arquitectura de carga y almacenamiento (load-store). Las instrucciones que acceden a memoria están separadas de las instrucciones que procesan los datos, ya que en este último caso los datos necesariamente están en registros.  Instrucciones de longitud fija de 32 bits. Campos de instrucciones uniforme y de longitud fija, para simplificar la decodificación de las instrucciones.  Formatos de instrucción de 3 direcciones. Consta de “f” bits para el código de operación, “n” bits para especificar la dirección del primer operando, “n” bits para especificar la dirección del segundo operando y “n” bits para especificar la dirección del resultado (el destino).
 
@@ -30,7 +30,7 @@ Esto maximiza el uso de la ALU y a la vez que optimiza la ejecución de código 
 
  Carga y almacenamiento de múltiples instrucciones, para maximizar el rendimiento de los datos. Ejecución condicional de todas las instrucciones, para maximizar el rendimiento de la ejecución.  Set de instrucciones ortogonal, regular o simétrico. En este tipo de set no hay restricciones en los registros usados en las instrucciones, son todos registros de propósitos generales, con muy pocas excepciones. Esto facilita las etapas de ejecución, el desarrollo de compiladores y la optimización de bajo nivel.  Arquitectura “Thumb”. Algunas variantes ARM tienen esta característica para aplicaciones que necesiten mejorar la densidad de código. Consiste en usar un set de instrucciones de 16 bits como una forma comprimida del set de instrucciones ARM de 32 bits.
 
-### 13.2.1. Registros en arm
+### 13.2.1. Registros en ARM
 
 ARM tiene 37 registros, 31 de ellos son registros de 32 bits de propósito general, los 6 restantes son registros de estado. Estos registros también son de 32 bits pero solo se utilizan 12 bits.
 
@@ -48,7 +48,7 @@ Otro registro visible para el usuario es el registro de estado del programa (CPS
 
 Los registros pueden cambiar su significado de acuerdo con el modo de funcionamiento del procesador.
 
-## 13.3. Modos de funcionamiento de un procesador arm
+## 13.3. Modos de funcionamiento de un procesador ARM
 
 En ARM existen varios modos de funcionamiento, el cambio entre modos se puede hacer bajo control del software o puede ser causado por interrupciones externas. La mayoría de los programas de aplicaciones se ejecutan en modo usuario, es decir con bajos privilegios.
 
@@ -70,13 +70,11 @@ Para cada modo está disponible un subconjunto concreto de registros, la figura 
 
 **Figura 13.2.** Registros disponibles en cada modo de los procesadores con arquitectura ARM.
 
-Todas las instrucciones en ARM incluyen condicionales, lo que significa que una sola operación sobre los registros puede hacer tres cosas, no necesariamente en ese orden, depende de la instrucción: 1.
+Todas las instrucciones en ARM incluyen condicionales, lo que significa que una sola operación sobre los registros puede hacer tres cosas, no necesariamente en ese orden, depende de la instrucción:
 
-La propia operación (sumar, multiplicar, asignar…). 2.
-
-Una operación lógica sobre el mismo valor u otro registro, como se mencionó antes. 3.
-
-Una comparación.
+1. La propia operación (sumar, multiplicar, asignar…).
+2. Una operación lógica sobre el mismo valor u otro registro, como se mencionó antes.
+3. Una comparación.
 
 ## 13.4. Acceso a la memoria
 
@@ -88,33 +86,25 @@ Bits Tipo 8 16 32 Byte Word Double word ARM utiliza exclusivamente paginación p
 
 ## 13.5. Gestión de interrupciones
 
-ARM utiliza un esquema de manejo de interrupciones que recuerda la tabla de vectores de interrupción del Modo Real en Intel. Excepto para el reset, el modo en que se manejan las interrupciones y las excepciones es igual en todos los casos: 1.
+ARM utiliza un esquema de manejo de interrupciones que recuerda la tabla de vectores de interrupción del Modo Real en Intel. Excepto para el reset, el modo en que se manejan las interrupciones y las excepciones es igual en todos los casos:
 
-Se finaliza la ejecución de la instrucción en curso. 2.
-
-Se entra en el estado ARM. El modo de operación del procesador se cambia al modo apropiado de la excepción. 3.
-
-El estado actual del PC se guarda copiándolo en r14 y el CPSR en el SPSR (dependiendo del tipo de excepción que haya ocurrido). 4.
-
-Se inhabilitan las excepciones IRQ y si la fuente de la excepción era una FIQ también éstas se inhabilitan. 5.
-
-Se guarda la dirección de retorno en el registro link. 6.
-
-El registro PC se fuerza a un valor entre 0x00 y 0x1C que corresponde a una dirección de la tabla de vectores de interrupción. El valor particular depende del tipo de excepción.
+1. Se finaliza la ejecución de la instrucción en curso.
+2. Se entra en el estado ARM. El modo de operación del procesador se cambia al modo apropiado de la excepción.
+3. El estado actual del PC se guarda copiándolo en r14 y el CPSR en el SPSR (dependiendo del tipo de excepción que haya ocurrido).
+4. Se inhabilitan las excepciones IRQ y si la fuente de la excepción era una FIQ también éstas se inhabilitan.
+5. Se guarda la dirección de retorno en el registro link.
+6. El registro PC se fuerza a un valor entre 0x00 y 0x1C que corresponde a una dirección de la tabla de vectores de interrupción. El valor particular depende del tipo de excepción.
 
 La instrucción que está en la posición en la que se forzó al registro PC (la dirección del vector) usualmente contendrá un salto a una rutina de atención de la excepción.
 
 Para retornar se recupera el valor del registro CPSR que se había guardado y luego se restaura el valor de PC para continuar la ejecución en el mismo punto de la interrupción.
 
-Cuando se produce un reset: 1.
+Cuando se produce un reset:
 
-Se activa el modo supervisor. 2.
-
-Se pasa al estado ARM. 3.
-
-Se inhabilitan las excepciones IRQ y FIQ. 4.
-
-Se carga en el PC la dirección del vector del reset, 0x00000000.
+1. Se activa el modo supervisor.
+2. Se pasa al estado ARM.
+3. Se inhabilitan las excepciones IRQ y FIQ.
+4. Se carga en el PC la dirección del vector del reset, 0x00000000.
 
 En ese estado, el procesador comienza todo desde cero. En la figura 13.3 se muestra la ubicación de los vectores de interrupción.
 
