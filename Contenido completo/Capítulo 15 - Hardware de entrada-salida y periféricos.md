@@ -64,8 +64,7 @@ Dispositivos típicos Velocidad de transferencia (bps) Gigabit Ethernet = 109 Gr
 
 - Uso de caché y almacenamientos intermedios.
 - Buses de interconexión de mayor velocidad con estructuras más complejas.
-- Uso de configuraciones en modo multiprocesador que permiten equilibrar las altas
-demandas de la E/S.
+- Uso de configuraciones en modo multiprocesador que permiten equilibrar las altas demandas de la E/S.
 
 Estos dispositivos para interactuar se conectan al computador a través de diferentes tipos de interfaces. Las interfaces proveen un mecanismo para utilizar gran variedad de periféricos con normas de funcionamiento diferentes, donde son capaces de utilizar dispositivos que funcionen a diferentes velocidades. Estas interfaces son o de uso único o multiuso.
 
@@ -100,10 +99,10 @@ Como se ha abordado anteriormente, un periférico agrupa a un dispositivo y su m
 Estos se clasifican atendiendo a sus características en varios tipos, pero una de las clasificaciones más usadas es el cuanto a su uso. Atendiendo a esta característica se pueden delimitar dos grupos, los periféricos que son de comunicación o almacenamiento:
 
 - Comunicación: esta clasificación agrupa diversas subcategorías.
+
 Hombre-Máquina: teclado o mouse (entrada), o monitor, impresora (salida). Máquina-Máquina: módem, etc. Medio Físico: sensores, actuadores, etc.
 
-- Almacenamiento
-DVD, CDs, memorias USB, etc.
+- Almacenamiento DVD, CDs, memorias USB, etc.
 
 ### 15.3.1. Periféricos de uso frecuente
 
@@ -125,13 +124,11 @@ USB (v 1.1) Interfaz PS/2 N° de dispositivos soportados Hasta 127 1 Máxima tas
 
 #### 15.3.1.2. Funcionamiento básico del teclado
 
-- El chip del teclado chequea la matriz de contactos para comprobar cuando se pulsa o se
-suelta una tecla.
+- El chip del teclado chequea la matriz de contactos para comprobar cuando se pulsa o se suelta una tecla.
 
 - Escribe el código a un buffer interno.
 - Después se retransmite el código a la interfaz del PC.
-- Con la recepción del código, la interfaz produce una interrupción. Cada tecla tiene asignado
-un código scan que es el que la interfaz transmite.
+- Con la recepción del código, la interfaz produce una interrupción. Cada tecla tiene asignado un código scan que es el que la interfaz transmite.
 
 ![Figura 15.7](img/fig-1351.jpg)
 
@@ -171,15 +168,12 @@ El funcionamiento del mouse es muy básico, tres bytes de datos se envían como 
 
 El primer byte del paquete de datos del ratón contiene:
 
-- Dos bits que indican si se pulsó el botón derecho o el izquierdo del ratón (0 = no se pulsó, l
-= se pulsó).
+- Dos bits que indican si se pulsó el botón derecho o el izquierdo del ratón (0 = no se pulsó, l = se pulsó).
 
 - Dos bits para el ID del paquete (01).
-- Dos bits para la direcci6n de los ejes X y Y (0 = negativo (hacia atrás/izquierda) y 1 = positivo
-(hacia delante / derecha)).
+- Dos bits para la direcci6n de los ejes X y Y (0 = negativo (hacia atrás/izquierda) y 1 = positivo (hacia delante / derecha)).
 
-- Dos bits que indican que la velocidad del ratón a lo largo de los ejes X y Y fue más rápida
-que 255 impulsos en 0.025 segundos.
+- Dos bits que indican que la velocidad del ratón a lo largo de los ejes X y Y fue más rápida que 255 impulsos en 0.025 segundos.
 
 ![Figura 15.10](img/fig-1367.jpg)
 

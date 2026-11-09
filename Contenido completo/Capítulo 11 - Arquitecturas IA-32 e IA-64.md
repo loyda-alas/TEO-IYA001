@@ -66,11 +66,9 @@ La figura 11.5 ofrece un resumen del formato numérico y su escritura en memoria
 
 Manejo de la memoria Todo acceso a memoria se realiza mediante una dirección. En los procesadores Intel, esta dirección se conforma a partir de un par que depende del modo de trabajo.
 
-- Modo Real. Utiliza el par segmento:desplazamiento. El segmento lo define un registro de uso
-específico denominado registro de segmento, puede ser CS, DS, CS, ES, FS o GS y su valor especifica un área de memoria de hasta 64K de tamaño. Para el desplazamiento en cambio, se puede utilizar cualquier registro de propósito general.
+- Modo Real. Utiliza el par segmento:desplazamiento. El segmento lo define un registro de uso específico denominado registro de segmento, puede ser CS, DS, CS, ES, FS o GS y su valor especifica un área de memoria de hasta 64K de tamaño. Para el desplazamiento en cambio, se puede utilizar cualquier registro de propósito general.
 
-- Modo Protegido. Utiliza el par selector:desplazamiento. En este modo el direccionamiento es
-más complejo. El selector también es un registro de segmento, pero esta vez su contenido apunta a una entrada en una tabla de valores de 64bit denominados descriptores de segmento. En estos se codifica la manera de acceder a la memoria y entre los valores que contiene se encuentran la dirección inicial del segmento y su tamaño. De este modo desplazamiento también es un registro de uso general e indica la posición dentro del segmento descrito en el selector. La tabla de descriptores globales se apunta con un registro de propósito específico llamado GDTR.
+- Modo Protegido. Utiliza el par selector:desplazamiento. En este modo el direccionamiento es más complejo. El selector también es un registro de segmento, pero esta vez su contenido apunta a una entrada en una tabla de valores de 64bit denominados descriptores de segmento. En estos se codifica la manera de acceder a la memoria y entre los valores que contiene se encuentran la dirección inicial del segmento y su tamaño. De este modo desplazamiento también es un registro de uso general e indica la posición dentro del segmento descrito en el selector. La tabla de descriptores globales se apunta con un registro de propósito específico llamado GDTR.
 
 El 386 también introdujo una nueva forma de gestión de memoria: la paginación. Esta es la forma de manejo de memoria más flexible y versátil hasta el momento pues facilita enormemente la implementación de memoria virtual. Con la paginación el procesador separa explícitamente el espacio de direcciones de un programa de las direcciones válidas para la memoria instalada. Esto significa por ejemplo que el programa puede utilizar las direcciones de 3G a 4G aunque en el sistema solo haya instalados 258M de RAM ¡o 32M!
 
@@ -86,14 +84,11 @@ Para guardar un dato en la pila, se puede utilizar la instrucción PUSH, y para 
 
 La pila se utiliza para:
 
-- Guardar parámetros y la dirección de retorno cuando se llama a un método (subrutina) con
-la instrucción CALL.
+- Guardar parámetros y la dirección de retorno cuando se llama a un método (subrutina) con la instrucción CALL.
 
-- Guardar el estado de las banderas la dirección de retorno y posiblemente algún código de
-error durante la ocurrencia de una interrupción.
+- Guardar el estado de las banderas la dirección de retorno y posiblemente algún código de error durante la ocurrencia de una interrupción.
 
-- Preservar el valor de algún registro por un periodo breve de tiempo dentro de un segmento
-de código.
+- Preservar el valor de algún registro por un periodo breve de tiempo dentro de un segmento de código.
 
 Con la evolución de los procesadores IA-32 se han creado instrucciones especializadas en determinadas operaciones sobre conjuntos grandes de valores. El primer grupo de estas vio la luz con el procesador Pentium MMX, que incluyó instrucciones para extensiones multimedia (MMX instructions) Básicamente eran instrucciones que manipulaban los registros de la unidad de punto flotante (R0 al R7) como números enteros de 80bit, mediante los nombres MM0-MM7. Estas instrucciones fueron las precursoras de Intel para de las llamadas instrucciones SIMD, que son las siglas de Single Instruction Multiple Data. Significa que una misma acción puede hacerse sobre varios bytes a la vez, lo que es muy útil y eficiente en el tratamiento digital de vídeo y sonido. Con el tiempo las instrucciones SIMD de Intel han evolucionado mediante extensiones SSE (Siglas de Streaming SIMD Extensions) que cada vez utilizan registros de mayor tamaño e incorporan operaciones más complejas.
 
@@ -119,14 +114,13 @@ Los sistemas Intel y compatibles dominan1 el mercado por lo que en el mejor de l
 
 IA-64 se basaba en el concepto de unidades de ejecución, un concepto más o menos cercano al multinúcleo, pero en este caso cada unidad estaba especializada en un tipo concreto de instrucción. Se definen cuatro tipos de unidades de ejecución:
 
-- Unidad 1: para instrucciones aritméticas con enteros, de desplazamiento y suma, lógicas,
-de comparación, y multimedia con enteros.
+- Unidad 1: para instrucciones aritméticas con enteros, de desplazamiento y suma, lógicas, de comparación, y multimedia con enteros.
 
-- Unidad M: cargas y almacenamientos entre registros y memoria; y algunas operaciones de
-la ALU con enteros.
+- Unidad M: cargas y almacenamientos entre registros y memoria; y algunas operaciones de la ALU con enteros.
 
 - Unidad B: instrucciones de salto.
 - Unidad F: instrucciones de coma flotante.
+
 Esto permite ejecutar instrucciones diferentes de manera paralela, sobre todo si se le suma que IA-64 implementa un número considerablemente mayor de registros, que permiten agilizar la ejecución al limitar la cantidad de accesos a memoria.
 
 La arquitectura IA-64 define un paquete de 128 bits que contiene tres instrucciones llamadas sílabas, y un campo plantilla (figura 11.6a). El procesador puede captar uno o más paquetes de instrucciones a la vez; y cada captación de paquete contiene tres instrucciones. El campo plantilla contiene información que indica qué instrucciones se pueden ejecutar en paralelo.
@@ -173,31 +167,23 @@ Si ld.s detecta una excepción, ajusta un bit de recuerdo asociado con el regist
 
 IA-64 dispone de un gran número de registros, estos se pueden clasificar como sigue:
 
-- Registros generales: 128 registros de uso general de 64 bits. Asociado a cada registro hay
-un bit NaT usado para rastrear las excepciones especulativas aplazadas, tal como se explicó antes. A los registros r0 hasta r31 se les conoce como registros estáticos; una referencia de un programa a cualquiera de ellos se interpreta literalmente. Los registros r32 hasta r127 pueden usarse como registros virtuales y el hardware puede realizar renombramiento dinámico.
+- Registros generales: 128 registros de uso general de 64 bits. Asociado a cada registro hay un bit NaT usado para rastrear las excepciones especulativas aplazadas, tal como se explicó antes. A los registros r0 hasta r31 se les conoce como registros estáticos; una referencia de un programa a cualquiera de ellos se interpreta literalmente. Los registros r32 hasta r127 pueden usarse como registros virtuales y el hardware puede realizar renombramiento dinámico.
 
-- Registros de coma flotante: 128 registros de 82 bits para números en coma flotante. Este
-tamaño es suficiente para manejar números en el formato doble extendido de IEEE 754. Los registros fr0 hasta fr31 son estáticos, y los registros fr32 hasta fr127 también son virtuales.
+- Registros de coma flotante: 128 registros de 82 bits para números en coma flotante. Este tamaño es suficiente para manejar números en el formato doble extendido de IEEE 754. Los registros fr0 hasta fr31 son estáticos, y los registros fr32 hasta fr127 también son virtuales.
 
-- Registros de predicado: 64 registros de 1 bit usados como predicados. El registro pr0
-siempre vale uno para habilitar instrucciones no asociadas a predicados. Los registros pr0 hasta pr15 son estáticos, y los registros pr0 hasta pr63 son virtuales.
+- Registros de predicado: 64 registros de 1 bit usados como predicados. El registro pr0 siempre vale uno para habilitar instrucciones no asociadas a predicados. Los registros pr0 hasta pr15 son estáticos, y los registros pr0 hasta pr63 son virtuales.
 
 - Registros de salto: ocho registros de 64 bits usados para saltos.
-- Puntero de instrucciones (Instruction Pointer, IP): guarda la dirección del paquete de la
-instrucción IA-64 que se ejecuta actualmente, de igual modo que en IA-32.
+- Puntero de instrucciones (Instruction Pointer, IP): guarda la dirección del paquete de la instrucción IA-64 que se ejecuta actualmente, de igual modo que en IA-32.
 
-- Indicador de marco actual (Current frame marker, CFM): guarda información de estado
-relacionada con la pila de registros generales en curso.
+- Indicador de marco actual (Current frame marker, CFM): guarda información de estado relacionada con la pila de registros generales en curso.
 
-- Máscara de usuario: un conjunto de valores de un solo bit usado para excepciones de
-alineación, monitores de prestaciones y para monitorizar el uso de los registros de coma flotante.
+- Máscara de usuario: un conjunto de valores de un solo bit usado para excepciones de alineación, monitores de prestaciones y para monitorizar el uso de los registros de coma flotante.
 
-- Registros de datos del monitor de prestaciones: usados como apoyo al hardware de
-monitorización de prestaciones.
+- Registros de datos del monitor de prestaciones: usados como apoyo al hardware de monitorización de prestaciones.
 
 - Identificadores del procesador: describen características del procesador.
-- Registros de aplicación: conjuntamente con los del indicador del marco actual, permiten
-configurar lo que se conoce como pila de registros, que facilitan la implementación de la multitarea y el guardado de contextos en los sistemas operativos.
+- Registros de aplicación: conjuntamente con los del indicador del marco actual, permiten configurar lo que se conoce como pila de registros, que facilitan la implementación de la multitarea y el guardado de contextos en los sistemas operativos.
 
 
 

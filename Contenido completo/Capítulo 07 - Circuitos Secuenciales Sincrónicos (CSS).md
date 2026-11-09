@@ -4,18 +4,15 @@
 
 ## Objetivo
 
-- Describir las estructuras, características y funcionamiento de los biestables RS, D, T y JK y su
-uso en el diseño de contadores sincrónicos.
+- Describir las estructuras, características y funcionamiento de los biestables RS, D, T y JK y su uso en el diseño de contadores sincrónicos.
 
 ## 7.1. Introducción
 
 En clases anteriores se conoció que los circuitos lógicos se dividen en 2 grupos, los combinacionales y los secuenciales, como se puede apreciar en el siguiente esquema.
 
-- Circuitos combinacionales: el valor de la salida depende del estado de las entradas, es decir
-de la combinación de las entradas.
+- Circuitos combinacionales: el valor de la salida depende del estado de las entradas, es decir de la combinación de las entradas.
 
-- Circuitos secuenciales: el valor de la salida depende del estado de las entradas y del estado
-anterior de la propia salida, es decir de la secuencia por la que haya pasado la salida.
+- Circuitos secuenciales: el valor de la salida depende del estado de las entradas y del estado anterior de la propia salida, es decir de la secuencia por la que haya pasado la salida.
 
 En la conferencia de hoy comenzará el estudio del otro grupo de circuitos lógicos, los circuitos secuenciales, y específicamente los circuitos secuenciales sincrónicos.
 

@@ -18,6 +18,7 @@ Una clasificación evidente de puertos y buses es su modo de funcionamiento: par
 
 - Paralelo: una línea por bit del dato y todos simultáneos.
 - Serie: todos los datos a través de la misma línea y multiplexados en el tiempo.
+
 En la transmisión en serie se transmite bit a bit (de manera secuencial), a modo de un flujo de datos. Entre las ventajas más evidentes de este tipo de transmisión se puede mencionar el hecho de que se necesita un menor cableado respecto a la paralela (muy importante al aumentar la distancia) y además se simplifica el control de la transmisión. Esto es debido a que en las transmisiones en paralelo si un dato no llega correctamente en uno de sus canales, se necesita enviar todos los datos de sus canales simultáneamente. Esto se evita en el uso de las transmisiones serie. Aunque tiene ventajas evidentes respecto a los buses paralelos, un puerto serie debe funcionar a una velocidad mayor que el bus o puerto paralelo equivalente que logra la misma velocidad efectiva.
 
 Tradicionalmente se utilizó la tecnología serie para dispositivos lentos (como teclados y ratones) o bien para aquellas ocasiones en las que la distancia a cubrir es significativa. Sin embargo, los nuevos desarrollos en las tecnologías serie han conseguido un aumento espectacular de las velocidades de transmisión manteniendo muchas de sus ventajas iniciales. Estos nuevos buses serie en muchas ocasiones reemplazan a los antiguos buses paralelo.
@@ -54,16 +55,14 @@ Su concepción estuvo basado en un paradigma totalmente nuevo que permitiría el
 
 Patas Señal E/S Definición 1 Vcc N/A Voltaje de suministro 2 DATA I Entrada de datos 3 +DATA O Salida de datos 4 GND N/A Tierra de señal Los dispositivos USB se clasifican en cuatro tipos según su velocidad de transferencia de datos:
 
-- Baja velocidad (1.0): tasa de transferencia de hasta 1,5 Mbit/s (188 kB/s). Utilizado en su
-mayor parte por dispositivos de interfaz humana (Human Interface Device, en inglés) como los teclados, los ratones (mouse), las cámaras web, etc.
+- Baja velocidad (1.0): tasa de transferencia de hasta 1,5 Mbit/s (188 kB/s). Utilizado en su mayor parte por dispositivos de interfaz humana (Human Interface Device, en inglés) como los teclados, los ratones (mouse), las cámaras web, etc.
 
-- Velocidad completa (1.1): tasa de transferencia de hasta 12 Mbit/s (1,5 MB/s) según este
-estándar, pero se dice en fuentes independientes que habría que realizar nuevamente las mediciones. Ésta fue la más rápida antes de la especificación USB 2.0. Estos dispositivos dividen el ancho de banda de la conexión USB entre ellos, basados en un algoritmo de impedancias LIFO (Last In First Out).
+- Velocidad completa (1.1): tasa de transferencia de hasta 12 Mbit/s (1,5 MB/s) según este estándar, pero se dice en fuentes independientes que habría que realizar nuevamente las mediciones. Ésta fue la más rápida antes de la especificación USB 2.0. Estos dispositivos dividen el ancho de banda de la conexión USB entre ellos, basados en un algoritmo de impedancias LIFO (Last In First Out).
 
-- Alta velocidad (2.0): tasa de transferencia de hasta 480 Mbit/s (60 MB/s) pero con una tasa
-real práctica máxima de 280 Mbit/s (35 MB/s). El cable USB 2.0 dispone de cuatro líneas, un par para datos, y otro par de alimentación. Casi todos los dispositivos fabricados en la actualidad trabajan a esta velocidad.
+- Alta velocidad (2.0): tasa de transferencia de hasta 480 Mbit/s (60 MB/s) pero con una tasa real práctica máxima de 280 Mbit/s (35 MB/s). El cable USB 2.0 dispone de cuatro líneas, un par para datos, y otro par de alimentación. Casi todos los dispositivos fabricados en la actualidad trabajan a esta velocidad.
 
 - Superalta velocidad (3.0): tiene una tasa de transferencia de hasta 4,8 Gbit/s (600 MB/s).
+
 La velocidad del bus es diez veces más rápida que la del USB 2.0, debido a que han incluido 5 contactos adicionales, desechando el conector de fibra óptica propuesto inicialmente, y será compatible con los estándares anteriores. En octubre de 2009 la compañía taiwanesa ASUS lanzó la primera placa base que incluía puertos USB 3.0, tras ella muchas otras le han seguido y actualmente se ve cada vez más en placas base y portátiles nuevos, conviviendo junto con el USB 2.0. En las siguientes tablas se muestran algunos detalles interesantes respecto a las velocidades de transferencias que soportan cada uno de estos.
 
 Transfer. (por seg.) Aparición USB 3.0 600 MB/s 2010 USB 2.0 60 MB/s 2000 USB 1.0 1.5 MB/s y 187 KB/s 1996 Song/Pic 256 Flash USB Flash SD-Movie USB Flash HD-Movie 4MB 256 MB 1 GB 6 GB 16 GB 25 GB USB 1.0 5.3 sec 5.7 min 22 min 2.2 hr 5.9 hr 9.3 hr USB 2.0 0.1 sec 8.5 sec 33 sec 3.3 min 8.9 min 13.9 min USB 3.0 0.01 sec 0.8 sec 3.3 sec 20 sec 53.3 sec 70 sec

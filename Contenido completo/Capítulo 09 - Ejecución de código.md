@@ -39,11 +39,9 @@ En estas condiciones, la etapa se divide en dos: búsqueda y prebúsqueda (fetch
 
 El funcionamiento de la decodificación es totalmente dependiente del tipo de procesador. Se pueden resaltar sin embargo, dos variantes:
 
-- Instrucciones de longitud fija. Son comunes en procesadores RISC (Reduced Instruction Set
-Computer, en inglés) son procesadores diseñados para ejecutar instrucciones con ciclos de instrucción breves, lo que se traduce en que cada etapa debe ser ágil y en lo que a la decodificación respecta, la mejor manera de lograrlo es interpretando un solo valor por instrucción. En este caso, las instrucciones se codifican con valores numéricos de tamaño fijo y la etapa de decodificación funciona como un switch/case sobre los valores o sobre un determinado grupos de bits del valor.
+- Instrucciones de longitud fija. Son comunes en procesadores RISC (Reduced Instruction Set Computer, en inglés) son procesadores diseñados para ejecutar instrucciones con ciclos de instrucción breves, lo que se traduce en que cada etapa debe ser ágil y en lo que a la decodificación respecta, la mejor manera de lograrlo es interpretando un solo valor por instrucción. En este caso, las instrucciones se codifican con valores numéricos de tamaño fijo y la etapa de decodificación funciona como un switch/case sobre los valores o sobre un determinado grupos de bits del valor.
 
-- Instrucciones de longitud variable. Son comunes en procesadores CISC (Complex Instruction
-Set Computer, en inglés) son procesadores capaces de ejecutar instrucciones que requieran ciclos de instrucción largos. En este caso la decodificación debe ser capaz de analizar más de un valor y se torna compleja. Por eso en estos tipos de sistema se optimiza mucho el entubamiento y el acceso a memoria caché. Acá es crítico el diseño óptimo de una tubería: muy corta limita el rendimiento por falta de información; muy larga limita el rendimiento por exceso.
+- Instrucciones de longitud variable. Son comunes en procesadores CISC (Complex Instruction Set Computer, en inglés) son procesadores capaces de ejecutar instrucciones que requieran ciclos de instrucción largos. En este caso la decodificación debe ser capaz de analizar más de un valor y se torna compleja. Por eso en estos tipos de sistema se optimiza mucho el entubamiento y el acceso a memoria caché. Acá es crítico el diseño óptimo de una tubería: muy corta limita el rendimiento por falta de información; muy larga limita el rendimiento por exceso.
 
 ## 9.3. Etapa de ejecución
 
@@ -55,16 +53,13 @@ Los registros son circuitos que pueden considerarse como memorias especiales. No
 
 Existen por tanto registros con diferentes funciones, que dependerán del tipo de procesador. Se pueden destacar sin embargo tres tipos bien definidos:
 
-- Registros de propósito general. Son registros que pueden utilizarse para cualquier tipo de
-operación lógica y aritmética o simplemente para almacenar valores directos o leídos de la memoria. Un programa en ejecución necesitará utilizar estos registros casi todo el tiempo y son tan relevantes que el tamaño o la cantidad de bits que puedan contender define parte de la 'Arquitectura' del procesador:
+- Registros de propósito general. Son registros que pueden utilizarse para cualquier tipo de operación lógica y aritmética o simplemente para almacenar valores directos o leídos de la memoria. Un programa en ejecución necesitará utilizar estos registros casi todo el tiempo y son tan relevantes que el tamaño o la cantidad de bits que puedan contender define parte de la 'Arquitectura' del procesador:
 
 Procesador Arquitectura Tamaño de los registros de uso general 8bit 16bit 32bit 64bit 8bit 16bit 32bit 64bit Z80 80286 80386 Corei7
 
-- Registro de propósito específico. Estos registros son muy diversos y dependen del tipo de
-procesador. Se puede considerar son embargo que fungen como apoyo a las operaciones de los registros de propósito general y monitorean el estado de la ejecución de código. Esto significa que se utilizan con menor frecuencia en un programa pero son igual de importantes. Un registro especial es el llamado registro de banderas (Flag register, en inglés). Cada bit de este registro indica una condición temporal relacionada con la ejecución de la última instrucción: acarreos, paridad, resultado nulo, resultado negativo… La cantidad de banderas depende del tipo de procesador pero las funciones siempre se relacionan con la ejecución del programa o el estado inmediato del procesador. Un registro muy importante de propósito específico es el puntero de instrucción, cuya función es contener la dirección de la instrucción que se procesa.
+- Registro de propósito específico. Estos registros son muy diversos y dependen del tipo de procesador. Se puede considerar son embargo que fungen como apoyo a las operaciones de los registros de propósito general y monitorean el estado de la ejecución de código. Esto significa que se utilizan con menor frecuencia en un programa pero son igual de importantes. Un registro especial es el llamado registro de banderas (Flag register, en inglés). Cada bit de este registro indica una condición temporal relacionada con la ejecución de la última instrucción: acarreos, paridad, resultado nulo, resultado negativo… La cantidad de banderas depende del tipo de procesador pero las funciones siempre se relacionan con la ejecución del programa o el estado inmediato del procesador. Un registro muy importante de propósito específico es el puntero de instrucción, cuya función es contener la dirección de la instrucción que se procesa.
 
-- Registros de control. La cantidad y función de estos registros depende completamente del
-tipo de procesador. Su propósito es actuar como configuración del funcionamiento del procesador o de sus componentes. Pueden establecer la manera en que se maneja la memoria, el formato con que se interpreten las instrucciones, restringir el uso de determinados circuitos. En algunos procesadores se puede configurar el consumo de potencia y la velocidad de funcionamiento.
+- Registros de control. La cantidad y función de estos registros depende completamente del tipo de procesador. Su propósito es actuar como configuración del funcionamiento del procesador o de sus componentes. Pueden establecer la manera en que se maneja la memoria, el formato con que se interpreten las instrucciones, restringir el uso de determinados circuitos. En algunos procesadores se puede configurar el consumo de potencia y la velocidad de funcionamiento.
 
 ### 9.3.2. Buses del sistema
 
@@ -76,16 +71,13 @@ El bus del sistema es el conjunto de conductores eléctricos que permiten la com
 
 **Figura 9.3.** Diferencias entre las arquitecturas de Von Neumann (arriba) y Harvard (debajo).
 
-- Bus de datos. Son las líneas eléctricas que portan en todo momento datos y órdenes para y
-desde cada componente.
+- Bus de datos. Son las líneas eléctricas que portan en todo momento datos y órdenes para y desde cada componente.
 
-- Bus de direcciones. En estas líneas se escriben códigos mediante los que se identifica cada
-componente. Los controladores se construyen para reconocer determinados valores en el bus de direcciones y responder adecuadamente a las órdenes o datos en el bus de datos.
+- Bus de direcciones. En estas líneas se escriben códigos mediante los que se identifica cada componente. Los controladores se construyen para reconocer determinados valores en el bus de direcciones y responder adecuadamente a las órdenes o datos en el bus de datos.
 
 En el caso de la memoria el bus de direcciones se utiliza para apuntar a cada byte. Para distinguir entre direcciones a memoria y a controladores de entrada/salida, la literatura identifica las direcciones de los dispositivos como puertos de entrada/salida.
 
-- Bus de control. Con este grupo de líneas, el procesador organiza y sincroniza el trabajo de
-todos los controladores. Selecciona si las direcciones en el bus de direcciones van dirigidas a la memoria o a los controladores; indica a la memoria si lo que se solicita es una lectura o una escritura. Hace posible también deshabilitar temporalmente algún controlador e incluso permitir que un controlador interrumpa la ejecución del programa actual si fuera necesario.
+- Bus de control. Con este grupo de líneas, el procesador organiza y sincroniza el trabajo de todos los controladores. Selecciona si las direcciones en el bus de direcciones van dirigidas a la memoria o a los controladores; indica a la memoria si lo que se solicita es una lectura o una escritura. Hace posible también deshabilitar temporalmente algún controlador e incluso permitir que un controlador interrumpa la ejecución del programa actual si fuera necesario.
 
 La manera más extendida del uso de los buses se denomina arquitectura Von Neumann y se caracteriza porque los tres buses enlazan cada controlador y la memoria con el procesador. Esta estructura es simple y barata de construir, pero tiene el problema de generar cuellos de botella en la ejecución debido a que no es posible el uso simultáneo de la memoria para ejecutar código y leer o escribir datos. La arquitectura Harvard en cambio utiliza memorias diferentes para datos e instrucciones con lo que se supera el problema mencionado por a mayor costo. La figura 9.3 ilustra las diferencias.
 
@@ -97,11 +89,9 @@ El procesador puede acceder a los dispositivos externos de varias maneras, la m�
 
 Aunque este método es universal y técnicamente claro, resulta tedioso implementarlo con algunos dispositivos. Sucede que los controladores se implementan para responder o detectar determinados valores del bus de direcciones (sus puertos de entrada/salida) y los comandos y datos los almacenan en registros propios para funcionar de acuerdo a la solicitud. Si el dispositivo maneja mucha información, como por ejemplo el hardware de vídeo o de red, habrá que indicarle mediante sus registros la acción que desea realizarse y los parámetros lo que equivaldría a dibujar bit a bit en la pantalla o enviar trama a trama la información en la red. Afortunadamente hay dos alternativas para el manejo de algunos dispositivos de entrada/salida.
 
-- Entrada/salida mapeada en memoria. Esta consiste en detectar segmentos de direcciones
-en las solicitudes a memoria para redirigirlas a los registros de los dispositivos de entrada/ salida y utilizar los valores del bus de datos como parámetros. De este modo, una instrucción que indique la lectura o escritura a memoria en el rango de direcciones utilizado, tendrá el efecto de que todos los datos escritos serán traducidos como datos o incluso órdenes para un determinado dispositivo de entrada/salida. A pesar que se pierden estas direcciones en memoria mientras el dispositivo esté activo, facilita en gran medida la programación.
+- Entrada/salida mapeada en memoria. Esta consiste en detectar segmentos de direcciones en las solicitudes a memoria para redirigirlas a los registros de los dispositivos de entrada/ salida y utilizar los valores del bus de datos como parámetros. De este modo, una instrucción que indique la lectura o escritura a memoria en el rango de direcciones utilizado, tendrá el efecto de que todos los datos escritos serán traducidos como datos o incluso órdenes para un determinado dispositivo de entrada/salida. A pesar que se pierden estas direcciones en memoria mientras el dispositivo esté activo, facilita en gran medida la programación.
 
-- Interrupciones. Las interrupciones son un mecanismo avanzado para el manejo de los
-controladores de entrada/salida. Todos los demás métodos son síncronos, lo que significa que se accede al controlador durante la ejecución de una instrucción o durante un ciclo de instrucción. Esto no es problema para la salida de información, pero si se utilizara este método para leer datos hay que sincronizar la ejecución del programa con el funcionamiento del controlador, es decir habrá que esperar a que esté listo el dato.
+- Interrupciones. Las interrupciones son un mecanismo avanzado para el manejo de los controladores de entrada/salida. Todos los demás métodos son síncronos, lo que significa que se accede al controlador durante la ejecución de una instrucción o durante un ciclo de instrucción. Esto no es problema para la salida de información, pero si se utilizara este método para leer datos hay que sincronizar la ejecución del programa con el funcionamiento del controlador, es decir habrá que esperar a que esté listo el dato.
 
 Ningún dispositivo de entrada/salida es tan rápido como el CPU, ni siquiera la memoria. Esta espera significa entonces que el procesador no puede ejecutar más código hasta que no esté listo el dato esperado, traduciéndose en una baja eficiencia. La situación empeora si se tiene en cuenta la necesidad de utilizar diferentes dispositivos simultáneamente, como en un cliente de chat o en un juego de vídeo.
 

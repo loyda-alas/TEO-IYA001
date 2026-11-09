@@ -32,35 +32,25 @@ Overclock: las necesidades para este nivel son más robustas, ya que él objetiv
 
 Hay también otros aspectos que debes considerar para adquirir una Motherboard:
 
-- Tipo de procesador: las tarjetas madre se fabrican para una marca de procesador en
-específico (Intel o AMD), por lo que es primordial conocer los modelos y generación compatibles con ella.
+- Tipo de procesador: las tarjetas madre se fabrican para una marca de procesador en específico (Intel o AMD), por lo que es primordial conocer los modelos y generación compatibles con ella.
 
-- Capacidad máxima de memoria: la memoria RAM es él componente más fácil de cambiar, y
-se acostumbra que conforme pasa el tiempo se le va agregando más a la computadora, por lo que conocer la cantidad máxima de memoria RAM y los tipos que soporta es un buen consejo.
+- Capacidad máxima de memoria: la memoria RAM es él componente más fácil de cambiar, y se acostumbra que conforme pasa el tiempo se le va agregando más a la computadora, por lo que conocer la cantidad máxima de memoria RAM y los tipos que soporta es un buen consejo.
 
-- Conectores de Disco Duro: asegúrate que él disco duro que deseas integrar sea soportado
-por la tarjeta madre, los cuales pueden ser un disco duro tradicional o unidad SSD.
+- Conectores de Disco Duro: asegúrate que él disco duro que deseas integrar sea soportado por la tarjeta madre, los cuales pueden ser un disco duro tradicional o unidad SSD.
 
-- Cantidad de ranuras de expansión: estas ranuras permiten agregarle otros componentes a
-la tarjeta madre, cómo una tarjeta de WIFI, tarjeta de video o de sonido, etc. Asegúrate que tengan las necesarias para los componentes que deseas agregar a la PC.
+- Cantidad de ranuras de expansión: estas ranuras permiten agregarle otros componentes a la tarjeta madre, cómo una tarjeta de WIFI, tarjeta de video o de sonido, etc. Asegúrate que tengan las necesarias para los componentes que deseas agregar a la PC.
 
-- Soporte para RAID: esto permite utilizar 2 o más discos duros en conjunto cómo si fuera uno
-solo, ya sea para maximizar el espacio de almacenamiento y/o cómo respaldo en caso de falla de alguno de ellos.
+- Soporte para RAID: esto permite utilizar 2 o más discos duros en conjunto cómo si fuera uno solo, ya sea para maximizar el espacio de almacenamiento y/o cómo respaldo en caso de falla de alguno de ellos.
 
-- Overclocking: como se mencionó anteriormente el Overclocking, sirve para modificar la
-velocidad del procesador y aumentar su desempeño. Algunas tarjetas madre ya vienen preparadas para este propósito.
+- Overclocking: como se mencionó anteriormente el Overclocking, sirve para modificar la velocidad del procesador y aumentar su desempeño. Algunas tarjetas madre ya vienen preparadas para este propósito.
 
-- Chipset: este conjunto de chips es el encargado de comunicar todos los componentes de la
-PC con el procesador. Cada tarjeta trae uno en especial, identificarlo e investigar sus características es una buena idea. Un ejemplo de esto son las nuevas tarjetas Asus con chipset Intel Z87.
+- Chipset: este conjunto de chips es el encargado de comunicar todos los componentes de la PC con el procesador. Cada tarjeta trae uno en especial, identificarlo e investigar sus características es una buena idea. Un ejemplo de esto son las nuevas tarjetas Asus con chipset Intel Z87.
 
-- Cantidad de sistemas On-Board: cuanto menos cosas tenga integrada la tarjeta madre,
-mejor. Actualmente lo que integran de forma estándar las tarjetas madres de alta calidad son los puertos USB, la Red y él Audio.
+- Cantidad de sistemas On-Board: cuanto menos cosas tenga integrada la tarjeta madre, mejor. Actualmente lo que integran de forma estándar las tarjetas madres de alta calidad son los puertos USB, la Red y él Audio.
 
-- Marca: existen muchas marcas de fabricantes actualmente, como Asus, Gigabyte, ASRock,
-Biostar, ECS, entre otras. Cada una ofrece distintos precios, modelos y características diferentes, lo importante es identificar tus necesidades y requerimientos para elegir una buena opción.
+- Marca: existen muchas marcas de fabricantes actualmente, como Asus, Gigabyte, ASRock, Biostar, ECS, entre otras. Cada una ofrece distintos precios, modelos y características diferentes, lo importante es identificar tus necesidades y requerimientos para elegir una buena opción.
 
-- Características extras: algunas marcas incluyen características especiales o novedosas para
-aumentar la experiencia del usuario, cómo él caso de hasta 6 BIOS en algunas tarjetas Gigabyte o él Fan control en él modelo P8Z77 de Asus:
+- Características extras: algunas marcas incluyen características especiales o novedosas para aumentar la experiencia del usuario, cómo él caso de hasta 6 BIOS en algunas tarjetas Gigabyte o él Fan control en él modelo P8Z77 de Asus:
 
 ![Figura 20.1](img/fig-1726.jpg)
 
@@ -110,23 +100,17 @@ Disco duro El disco duro es el gran almacén de datos del ordenador. Su capacida
 
 Las características que se deben tener en cuenta en un disco duro son:
 
-- Tiempo medio de acceso: tiempo medio que tarda la aguja en situarse en la pista y el sector
-deseado; es la suma del Tiempo medio de búsqueda (situarse en la pista), Tiempo de lectura/escritura y la Latencia media (situarse en el sector).
+- Tiempo medio de acceso: tiempo medio que tarda la aguja en situarse en la pista y el sector deseado; es la suma del Tiempo medio de búsqueda (situarse en la pista), Tiempo de lectura/escritura y la Latencia media (situarse en el sector).
 
-- Tiempo medio de búsqueda: tiempo medio que tarda la aguja en situarse en la pista
-deseada; es la mitad del tiempo empleado por la aguja en ir desde la pista más periférica hasta la más central del disco.
+- Tiempo medio de búsqueda: tiempo medio que tarda la aguja en situarse en la pista deseada; es la mitad del tiempo empleado por la aguja en ir desde la pista más periférica hasta la más central del disco.
 
-- Tiempo de lectura/escritura: tiempo medio que tarda el disco en leer o escribir nueva
-información: Depende de la cantidad de información que se quiere leer o escribir, el tamaño de bloque, el número de cabezales, el tiempo por vuelta y la cantidad de sectores por pista.
+- Tiempo de lectura/escritura: tiempo medio que tarda el disco en leer o escribir nueva información: Depende de la cantidad de información que se quiere leer o escribir, el tamaño de bloque, el número de cabezales, el tiempo por vuelta y la cantidad de sectores por pista.
 
-- Latencia media: tiempo medio que tarda la aguja en situarse en el sector deseado; es la
-mitad del tiempo empleado en una rotación completa del disco.
+- Latencia media: tiempo medio que tarda la aguja en situarse en el sector deseado; es la mitad del tiempo empleado en una rotación completa del disco.
 
-- Velocidad de rotación: revoluciones por minuto de los platos. A mayor velocidad de rotación,
-menor latencia media.
+- Velocidad de rotación: revoluciones por minuto de los platos. A mayor velocidad de rotación, menor latencia media.
 
-- Tasa de transferencia: velocidad a la que puede transferir la información a la computadora
-una vez que la aguja está situada en la pista y sector correctos. Puede ser velocidad sostenida o de pico.
+- Tasa de transferencia: velocidad a la que puede transferir la información a la computadora una vez que la aguja está situada en la pista y sector correctos. Puede ser velocidad sostenida o de pico.
 
 ![Figura 20.4](img/fig-1754.jpg)
 
@@ -136,17 +120,13 @@ disco duro estándar.
 
 Actualmente se ha introducido la tecnología de las unidades de estado sólido, las tienen el mismo uso que los discos duros y emplean las mismas interfaces, pero no están formadas por discos mecánicos, sino por memorias de circuitos integrados para almacenar la información. El uso de esta clase de dispositivos anteriormente se limitaba a las supercomputadoras, por su elevado precio, aunque hoy en día ya son muchísimo más asequibles para el mercado doméstico. Hoy en las modernas computadoras se pueden mezclar estas dos tecnologías, teniendo los discos tradicionales para almacenar los datos y uno de estado sólido para la velocidad de lectura/ escritura.
 
-- La refrigeración: sirve para mantener la temperatura del procesador en valores bajos. El
-mecanismo habitual es un ventilador, que es el principal generador de ruido. Los modelos de refrigeración líquida son más eficientes, pero elevan bastante el consumo general de energía. Sin embargo, son recomendables para los videojugadores que fuerzan mucho el procesador.
+- La refrigeración: sirve para mantener la temperatura del procesador en valores bajos. El mecanismo habitual es un ventilador, que es el principal generador de ruido. Los modelos de refrigeración líquida son más eficientes, pero elevan bastante el consumo general de energía. Sin embargo, son recomendables para los videojugadores que fuerzan mucho el procesador.
 
-- La conectividad inalámbrica: permite conectarse a Internet como para transmitir y recibir
-datos sin necesidad de cables. WIFI es la tecnología que permite acceder a las redes inalámbricas, y es importante contar con ella, sobre todo en portátiles. Bluetooth es la tecnología que pone al ordenador en contacto con dispositivos móviles como teléfonos o agendas electrónicas. No es muy usual encontrarla integrada en el equipo, pero un simple adaptador externo por USB (que no supera los 30 euros) cumple su función.
+- La conectividad inalámbrica: permite conectarse a Internet como para transmitir y recibir datos sin necesidad de cables. WIFI es la tecnología que permite acceder a las redes inalámbricas, y es importante contar con ella, sobre todo en portátiles. Bluetooth es la tecnología que pone al ordenador en contacto con dispositivos móviles como teléfonos o agendas electrónicas. No es muy usual encontrarla integrada en el equipo, pero un simple adaptador externo por USB (que no supera los 30 euros) cumple su función.
 
-- Los dispositivos de lectura/grabación óptica: el lector/grabador suele serlo de CD y DVD. Si
-es “dual”, también llamado “multiformato”, puede leer y grabar los formatos comerciales DVD+/-R. De “doble capa” significa que puede grabar más de una capa de información en el disco óptico y por tanto puede guardar más datos. Es importante que el dispositivo sea “multiformato” y cumpla funciones de grabador además de lector. Si es de “doble capa”, tanto mejor, pero no es fundamental a no ser que se deba descargar periódicamente el disco duro a causa, por ejemplo, de un uso intensivo de las redes P2P.
+- Los dispositivos de lectura/grabación óptica: el lector/grabador suele serlo de CD y DVD. Si es “dual”, también llamado “multiformato”, puede leer y grabar los formatos comerciales DVD+/-R. De “doble capa” significa que puede grabar más de una capa de información en el disco óptico y por tanto puede guardar más datos. Es importante que el dispositivo sea “multiformato” y cumpla funciones de grabador además de lector. Si es de “doble capa”, tanto mejor, pero no es fundamental a no ser que se deba descargar periódicamente el disco duro a causa, por ejemplo, de un uso intensivo de las redes P2P.
 
-- La tarjeta gráfica: interpreta las imágenes gráficas y es en sí misma un pequeño ordenador
-con procesador propio. Las principales marcas son ATI/AMD, NVIDIA e Intel. Aunque los ordenadores suelen disponer de una tarjeta gráfica incorporada de calidad suficiente para la mayoría de las funciones.
+- La tarjeta gráfica: interpreta las imágenes gráficas y es en sí misma un pequeño ordenador con procesador propio. Las principales marcas son ATI/AMD, NVIDIA e Intel. Aunque los ordenadores suelen disponer de una tarjeta gráfica incorporada de calidad suficiente para la mayoría de las funciones.
 
 ![Figura 20.5](img/fig-1761.jpg)
 
@@ -167,14 +147,11 @@ Los LCD son por norma general mucho más económicos y fáciles de fabricar. En 
 Otros complementos interesantes
 
 - El teclado: aunque no se repara demasiado en él, es de los más importantes.
-- El ratón: los ópticos han sustituido a los engorrosos de rueda que siempre hay que estar
-limpiando, pero necesitan superficies opacas y rugosas para funcionar de forma óptima. Los inalámbricos eliminan el problema del cable, siempre molesto, pero suelen perder la conexión y hay que sintonizarlos con demasiada frecuencia. Por otro lado, la forma del ratón puede provocar dolores en manos y dedos.
+- El ratón: los ópticos han sustituido a los engorrosos de rueda que siempre hay que estar limpiando, pero necesitan superficies opacas y rugosas para funcionar de forma óptima. Los inalámbricos eliminan el problema del cable, siempre molesto, pero suelen perder la conexión y hay que sintonizarlos con demasiada frecuencia. Por otro lado, la forma del ratón puede provocar dolores en manos y dedos.
 
-- La impresora: las tecnologías de impresión: el chorro de tinta y la láser. La primera funciona
-con cartuchos de tinta y está indicada para la impresión en color y de imágenes, aunque los consumibles son caros. Para imprimir textos en blanco y negro, la impresión láser es más barata a largo plazo. Conviene recordar que resulta más económico llevar las fotografías digitales a revelar a comercios donde cuenten con máquinas para tal fin.
+- La impresora: las tecnologías de impresión: el chorro de tinta y la láser. La primera funciona con cartuchos de tinta y está indicada para la impresión en color y de imágenes, aunque los consumibles son caros. Para imprimir textos en blanco y negro, la impresión láser es más barata a largo plazo. Conviene recordar que resulta más económico llevar las fotografías digitales a revelar a comercios donde cuenten con máquinas para tal fin.
 
-- Las webcam: cada vez cobra más importancia con el auge de las videoconferencias de
-ordenador a ordenador. Hay numerosos modelos a precios muy asequibles. No conviene gastar excesivo dinero en ellas porque la calidad de la imagen que transmitan depende más del ancho de banda que de su óptica.
+- Las webcam: cada vez cobra más importancia con el auge de las videoconferencias de ordenador a ordenador. Hay numerosos modelos a precios muy asequibles. No conviene gastar excesivo dinero en ellas porque la calidad de la imagen que transmitan depende más del ancho de banda que de su óptica.
 
 
 

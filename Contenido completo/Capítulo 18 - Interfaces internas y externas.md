@@ -24,6 +24,7 @@ Algunos de los componentes y conexiones que forman parte de la placa y que se va
 - Ranuras de expansión.
 - Conectores internos y conectores eléctricos.
 - Chipset de control.
+
 Microprocesador El microprocesador es el elemento más importante del computador, es el cerebro de la máquina, se encarga de controlar todo el sistema. Un parámetro importante es la velocidad del procesador que se mide en mega-herzios (Mhz), es decir cantidad de “ordenes” por segundo que pueden ser ejecutadas por el procesador. Atendiendo a sus características físicas existen dos tipos:
 
 - Microprocesadores de slot.
@@ -74,12 +75,10 @@ Recuerde que:
 
 Existen diferentes tipos de ranuras, las más habituales en los computadores son las siguientes:
 
-- ISA: son las más antiguas, aunque hoy en día casi no se utilizan algunas placas las
-incorporan para insertar dispositivos antiguos.
+- ISA: son las más antiguas, aunque hoy en día casi no se utilizan algunas placas las incorporan para insertar dispositivos antiguos.
 
 - PCI: son las habituales en los computadores actuales.
-- AGP: normalmente solo hay una porque estas ranuras son de uso exclusivo para tarjetas de
-video: estas ranuras son aceleradoras de gráficos 3D.
+- AGP: normalmente solo hay una porque estas ranuras son de uso exclusivo para tarjetas de video: estas ranuras son aceleradoras de gráficos 3D.
 
 ![Figura 18.6](img/fig-1581.jpg)
 

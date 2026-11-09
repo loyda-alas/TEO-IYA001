@@ -75,10 +75,10 @@ Solución: En este caso se aplican las mismas reglas del caso anterior pero a la
 
 F (a,b,c,d) = c + ad Note que:
 
-- Los opcionales ayudan a hacer los grupos más grandes y por tanto se obtienen
-términos más pequeños.
+- Los opcionales ayudan a hacer los grupos más grandes y por tanto se obtienen términos más pequeños.
 
 - Los opcionales 2 y 3 no se utilizan como unos y no se agrupan.
+
 Aunque los mapas de Karnaugh permiten obtener el diseño óptimo, corresponde al diseñador utilizarlo adecuadamente o decidir cómo utilizarlo.
 
 ## 6.3. Síntesis de circuitos uniterminales y multiterminales
@@ -103,11 +103,9 @@ Note que en la tabla sólo hay 7 combinaciones, la que falta es opcional. La fun
 
 Para diseñar el circuito se debe utilizar compuertas NAND de 2 entradas. Se puede notar que el primer término de 3 variables, para esto se utilizará dos variables en un NAND y la salida de este con la otra variable en otra NAND. Pasa lo mismo con la función total que es de 3 términos; es decir, la función puede reescribirse de la siguiente manera: f(a,b,c) = ((a b) c) + ((a b) + (a c)) Existen dos métodos para realizar el diseño del circuito:
 
-- El primero es a partir del teorema de D' Morgan. Se puede convertir la expresión anterior en
-una expresión que se adapte al diseño con compuertas NAND.
+- El primero es a partir del teorema de D' Morgan. Se puede convertir la expresión anterior en una expresión que se adapte al diseño con compuertas NAND.
 
-- El otro método, es más sencillo pero largo. Se debe diseñar el circuito con compuertas
-básicas, para luego sustituir cada compuerta con su equivalente universal.
+- El otro método, es más sencillo pero largo. Se debe diseñar el circuito con compuertas básicas, para luego sustituir cada compuerta con su equivalente universal.
 
 El circuito formado con compuertas NAND de 2 entradas sería el siguiente:
 
@@ -120,6 +118,7 @@ Los circuitos multiterminales pueden ser:
 - Conversores de código.
 - Codificadores.
 - Decodificadores.
+
 Se estudiará en esta clase solo los conversores de código, que son circuitos multiterminales que convierte de un código presente en las entradas a otro código en la salida.
 
 Es importante señalar que para el diseño de estos circuitos se utilizan los mismos pasos que para el diseño de los circuitos uniterminales ya vistos con anterioridad, la diferencia radica en que se tendrán que obtener las funciones canónicas de cada una de las salidas y por ende simplificar cada una de ellas para su diseño.

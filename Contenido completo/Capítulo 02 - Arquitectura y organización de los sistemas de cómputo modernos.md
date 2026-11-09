@@ -4,8 +4,7 @@
 
 ## Objetivo
 
-- Caracterizar las arquitecturas y organización de los sistemas de cómputo modernos a través
-de la descripción de sus elementos fundamentales y sus respectivas funcionalidades.
+- Caracterizar las arquitecturas y organización de los sistemas de cómputo modernos a través de la descripción de sus elementos fundamentales y sus respectivas funcionalidades.
 
 ## 2.1. Introducción
 
@@ -41,16 +40,15 @@ Lugar donde se inserta el “cerebro” del ordenador. Durante varios años ha c
 
 Algunos tipos más comunes de bases, zócalo, o socket son:
 
-- PGA: son el modelo clásico, usado en el 386 y el 486; consiste en un cuadrado de
-conectores en forma de agujero donde se insertan las patitas del chip por pura presión.
+- PGA: son el modelo clásico, usado en el 386 y el 486; consiste en un cuadrado de conectores en forma de agujero donde se insertan las patitas del chip por pura presión.
 
 Según el chip, tiene más o menos agujeritos.
 
 - ZIF: Zero Insertion Force (socket), es decir, zócalo de fuerza de inserción nula.
+
 Eléctricamente es como un PGA, aunque gracias a un sistema mecánico permite introducir el micro sin necesidad de fuerza alguna, con lo que el peligro de roturas del chip por romperle una patita desaparece.
 
-- Tipo ranura: es un invento de Intel para enchufar los Pentium II, o más bien para
-desenchufar a su competencia, AMD y Cyrix.
+- Tipo ranura: es un invento de Intel para enchufar los Pentium II, o más bien para desenchufar a su competencia, AMD y Cyrix.
 
 Antes del PC, el procesador se soldaba en la placa base como cualquier otro componente. La generación PC introdujo la posibilidad de intercambiar al procesador y ello también influyó en el ámbito de los servidores.
 
@@ -73,10 +71,10 @@ Ello se debe a la excelente combinación de costo de producción por bit, capaci
 El Chipset es un conjunto de circuitos integrados que se encarga de realizar las funciones que el microprocesador delega en ellos. En los PC y otros sistemas él chipset está formado por 2 circuitos auxiliares al procesador principal:
 
 - El puente norte se usa como puente de enlace entre dicho procesador y la memoria.
+
 Controla las funciones de acceso hacia y entre el microprocesador, la memoria RAM, el puerto gráfico AGP, y las comunicaciones con el puente sur.
 
-- El puente sur controla los dispositivos asociados como son la controladora de discos IDE,
-puertos USB, Firewire, SATA, RAID, ranuras PCI, ranura AMR, ranura CNR, puertos infrarrojos, disquetera, LAN y una larga lista de todos los elementos que podamos imaginar integrados en la placa madre. Es el encargado de comunicar el procesador con el resto de los periféricos.
+- El puente sur controla los dispositivos asociados como son la controladora de discos IDE, puertos USB, Firewire, SATA, RAID, ranuras PCI, ranura AMR, ranura CNR, puertos infrarrojos, disquetera, LAN y una larga lista de todos los elementos que podamos imaginar integrados en la placa madre. Es el encargado de comunicar el procesador con el resto de los periféricos.
 
 ![Figura 2.4](img/fig-180.jpg)
 
@@ -129,28 +127,21 @@ Los conectores externos son todos los que permiten la comunicación del PC con e
 Los principales conectores son:
 
 - Teclado y mouse: mini-DIN o PS/2 en placas ATX y muchos diseños propietarios.
-- Puerto paralelo: también llamado “LPT1” (en los pocos casos que existen más de uno, el
-segundo sería LPT2). Es un conector hembra de unos 38 mm, con 25 pines agrupados en 2 hileras.
+- Puerto paralelo: también llamado “LPT1” (en los pocos casos que existen más de uno, el segundo sería LPT2). Es un conector hembra de unos 38 mm, con 25 pines agrupados en 2 hileras.
 
-- Puertos serie: o bien puertos “COM” o “RS232”. Suelen ser dos, uno estrecho de unos 17
-mm, con 9 pines agrupados en 2 hileras (habitualmente “COM1”). Puerto de juegos: o puerto para joystick o teclado midi. De tamaño algo mayor que el puerto serie estrecho, de unos 25 mm, con 15 pines agrupados en 2 hileras.
+- Puertos serie: o bien puertos “COM” o “RS232”. Suelen ser dos, uno estrecho de unos 17 mm, con 9 pines agrupados en 2 hileras (habitualmente “COM1”). Puerto de juegos: o puerto para joystick o teclado midi. De tamaño algo mayor que el puerto serie estrecho, de unos 25 mm, con 15 pines agrupados en 2 hileras.
 
-- Puerto VGA: suponiendo que nuestra tarjeta de vídeo sea de este tipo (incluyendo SVGA,
-XGA...). Aunque lo común es que no esté integrada en la placa base sino en una tarjeta de expansión, vamos a describirlo para evitar confusiones: de unos 17 mm, con 15 pines agrupados en 3 hileras.
+- Puerto VGA: suponiendo que nuestra tarjeta de vídeo sea de este tipo (incluyendo SVGA, XGA...). Aunque lo común es que no esté integrada en la placa base sino en una tarjeta de expansión, vamos a describirlo para evitar confusiones: de unos 17 mm, con 15 pines agrupados en 3 hileras.
 
-- Conectores de panel frontal: en estos pines se conectan todos los leds y pulsadores que
-encontramos en el frontal de nuestra caja, como el Reset o, en las cajas con fuente de alimentación ATX, el Power.
+- Conectores de panel frontal: en estos pines se conectan todos los leds y pulsadores que encontramos en el frontal de nuestra caja, como el Reset o, en las cajas con fuente de alimentación ATX, el Power.
 
 En las placas más modernas (ni siquiera en todas las ATX) pueden existir otros tipos de puertos como son:
 
-- Puerto USB: de forma estrecha y rectangular. Se supone que en unos años casi todo se
-conectará al USB, en una cadena de periféricos conectados al mismo cable.
+- Puerto USB: de forma estrecha y rectangular. Se supone que en unos años casi todo se conectará al USB, en una cadena de periféricos conectados al mismo cable.
 
-- Conector Wake-On-LAN: este conector, al que se enchufa un cable desde la tarjeta de red,
-ofrece la posibilidad de poner en marcha un equipo de forma remota enviando un determinado paquete a la tarjeta de red compatible con esta función.
+- Conector Wake-On-LAN: este conector, al que se enchufa un cable desde la tarjeta de red, ofrece la posibilidad de poner en marcha un equipo de forma remota enviando un determinado paquete a la tarjeta de red compatible con esta función.
 
-- Conector de módulo de infrarrojos. A estos conectores se enchufa el módulo de infrarrojos
-para enviar y recibir datos mediante luz infrarroja. Permite la misma velocidad que un puerto serie y de hecho la BIOS lo identifica como tal en el sistema.
+- Conector de módulo de infrarrojos. A estos conectores se enchufa el módulo de infrarrojos para enviar y recibir datos mediante luz infrarroja. Permite la misma velocidad que un puerto serie y de hecho la BIOS lo identifica como tal en el sistema.
 
 Los conectores internos son los que permiten la conexión de la motheboard con la fuente de alimentación, con los puertos USB delanteros de los chasis de los computadores, entre otros.
 
@@ -168,20 +159,15 @@ Nehalem es el nombre de la arquitectura de los primeros Core i. En estos, la mem
 
 Algunas de las principales tecnologías incorporadas son:
 
-- Escalabilidad dinámica: núcleos administrables, subprocesos, caché, interfaces y
-alimentación de energía para el desempeño ecológico a pedido.
+- Escalabilidad dinámica: núcleos administrables, subprocesos, caché, interfaces y alimentación de energía para el desempeño ecológico a pedido.
 
-- Escalabilidad del diseño y desempeño: para PCs compatibles con dos y más de ocho
-núcleos, y hasta más de 16 subprocesos mediante Intel® Hyper-Threading Technology, así como tamaños de caché escalables, interconexiones del sistema y controladores de memoria integrados.
+- Escalabilidad del diseño y desempeño: para PCs compatibles con dos y más de ocho núcleos, y hasta más de 16 subprocesos mediante Intel® Hyper-Threading Technology, así como tamaños de caché escalables, interconexiones del sistema y controladores de memoria integrados.
 
-- Desempeño inteligente a pedido: con Intel® Turbo Boost Technology que saca provecho de
-la energía y el margen térmico del procesador. Se aumenta el desempeño para las cargas de trabajo que ejecutan uno o varios subprocesos.
+- Desempeño inteligente a pedido: con Intel® Turbo Boost Technology que saca provecho de la energía y el margen térmico del procesador. Se aumenta el desempeño para las cargas de trabajo que ejecutan uno o varios subprocesos.
 
-- Memoria compartida escalable: que se distribuye entre cada procesador con los
-controladores de memoria integrados y las interconexiones de punto a punto de alta velocidad de Intel.
+- Memoria compartida escalable: que se distribuye entre cada procesador con los controladores de memoria integrados y las interconexiones de punto a punto de alta velocidad de Intel.
 
-- Caché compartida a multinivel: que aumenta el desempeño y la eficacia al reducir la
-latencia de acceso a los datos más utilizados.
+- Caché compartida a multinivel: que aumenta el desempeño y la eficacia al reducir la latencia de acceso a los datos más utilizados.
 
 ### 2.3.2. Sandy Bridge
 
@@ -192,14 +178,13 @@ Los procesadores Sandy Brigde, están compuestos por transistores cuadrados de 3
 Algunas de las principales tecnologías incorporadas son:
 
 - Soporte de instrucciones: se han añadido nuevas instrucciones que trabajan a 256 bits.
+
 Permiten cálculos complejos, para acelerar el tratamiento de imágenes, audio, vídeo y 3D.
 
-- Tarjeta gráfica integrada: en muchos casos incide en que no haga falta utilizar Tarjetas
-Gráficas, lo cual permite reducir costos.
+- Tarjeta gráfica integrada: en muchos casos incide en que no haga falta utilizar Tarjetas Gráficas, lo cual permite reducir costos.
 
 - Quick Sync: para acelerar la creación, edición y conversión de vídeos.
-- Overclock: permiten modificar la frecuencia de funcionamiento. Se puede aumentar mucho
-la velocidad, sin llegar a quemarse, incluso usando ventilación por aire.
+- Overclock: permiten modificar la frecuencia de funcionamiento. Se puede aumentar mucho la velocidad, sin llegar a quemarse, incluso usando ventilación por aire.
 
 ### 2.3.3. Ivy Brigde
 
@@ -207,14 +192,12 @@ Ivy Brigde es el nombre en clave para la microarquitectura de microprocesadores 
 
 Han incorporado:
 
-- Tecnología Transistores Tri-Gate: menos del 50% de consumo energético al mismo nivel de
-rendimiento respecto de los transistores planos.
+- Tecnología Transistores Tri-Gate: menos del 50% de consumo energético al mismo nivel de rendimiento respecto de los transistores planos.
 
 - Soporte para PCI Express 3.0.
 - Soporte para memoria RAM hasta 2800 MT/s en incrementos de 200 MHz.
 - Intel HD Graphics con soporte para DirectX 11, OpenGL 3.1, y OpenCL 1.1.
-- La GPU se tiene que posee hasta 16 unidades de ejecución, comparado con Sandy Bridge
-que su máximo es de 12.
+- La GPU se tiene que posee hasta 16 unidades de ejecución, comparado con Sandy Bridge que su máximo es de 12.
 
 - DDR3L de baja tensión para procesadores móviles.
 
@@ -224,11 +207,9 @@ Haswell es una versión mejorada de Ivy Brigde. Mantiene la tecnología de fabri
 
 Se les ha dotado de:
 
-- Menor consumo en standby. Esta es una de las razones por las que Haswell puede ser una
-auténtica revolución. Se puede dejar la PC encendido, actualizando twitter, Facebook, correo y otro tipo de aplicaciones sin que consuma la batería.
+- Menor consumo en standby. Esta es una de las razones por las que Haswell puede ser una auténtica revolución. Se puede dejar la PC encendido, actualizando twitter, Facebook, correo y otro tipo de aplicaciones sin que consuma la batería.
 
-- Chipset junto con CPU y GPU, todo en el mismo chip, logrando un consumo sensiblemente
-menor. Esta solución da lugar a un SoC más eficiente y que les permite ahorrar espacio. Esto es ideal para portátiles, pues permite que los equipos son cada vez sean más finos y pequeños, menos pesados y les dure más la batería.
+- Chipset junto con CPU y GPU, todo en el mismo chip, logrando un consumo sensiblemente menor. Esta solución da lugar a un SoC más eficiente y que les permite ahorrar espacio. Esto es ideal para portátiles, pues permite que los equipos son cada vez sean más finos y pequeños, menos pesados y les dure más la batería.
 
 ## 2.4. Unidades de discos
 
@@ -266,6 +247,7 @@ Se clasifican en:
 
 - Fuentes de alimentación colineales: basadas en condensadores.
 - Fuentes de alimentación conmutadas: basadas en transistores de conmutación.
+
 En los sistenas de cómputo de escritorio y servidores, la fuente de alimentación es tan importante como cualquier otro componente. En los primeros para soportar la expansión de hardware de alto consumo como las tarjetas de vídeo de gama alta y en los segundos para mantener un servicio estable y bajo nivel de roturas.
 
 Existen de dos tipos fundamentales: 1.

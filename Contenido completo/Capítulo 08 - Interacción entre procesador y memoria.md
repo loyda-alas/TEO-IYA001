@@ -4,8 +4,7 @@
 
 ## Objetivo
 
-- Describir la interacción entre procesador y memoria teniendo en cuenta las características de
-los buses de datos y direcciones en la arquitectura Von Neuman.
+- Describir la interacción entre procesador y memoria teniendo en cuenta las características de los buses de datos y direcciones en la arquitectura Von Neuman.
 
 ## 8.1. Introducción
 
@@ -15,14 +14,14 @@ En los microprocesadores se duplica la cantidad de componentes cada 18 meses apr
 
 No existe otra invención en la historia que haya avanzado tan aprisa por todo el mundo o haya llegado tan profundamente a tantos aspectos de la existencia humana. Hoy existen millones de microchips de algún tipo en uso. Nadie puede dudar que el microprocesador no sólo esté transformando los productos que usamos, sino también nuestra forma de vivir. Los Microprocesadores se utilizan en:
 
-- Industria: en equipos automatizados controlados por microprocesador por ejemplo en un
-UPS de alta capacidad.
+- Industria: en equipos automatizados controlados por microprocesador por ejemplo en un UPS de alta capacidad.
 
 - Informática: se utilizan en las computadoras personales o servidores.
 - Consumo Doméstico: televisores de plasma, LED o LCD, consolas de juego, etc.
 - Comercio y Banca: cajeros automáticos, sistemas contraincendios, circuito cerrado de TV.
 - Telecomunicaciones: equipos de emisión de señal controlada por microprocesadores.
 - Medición y Cálculo: en osciloscopios, calculadoras.
+
 Por su parte la memoria de un computador es una de sus elementos fundamentales para el buen funcionamiento de esta. Ha adquirido un papel protagónico en el funcionamiento de la misma, pues es tan importante saber las características del microprocesador como la cantidad de memoria que posee. Es allí donde el microprocesador de la PC almacena los datos y códigos de los programas. Es también un canal de comunicación entre el procesador y los periféricos. Por otra parte la estrecha relación que existe entre la velocidad de procesamiento del CPU y la velocidad de respuesta de la memoria puede afectar el comportamiento de la computadora, siendo uno de los principales rasgos determinísticos del rendimiento de esta. Si el cerebro de un computador es el procesador, se puede pensar en la memoria como las neuronas.
 
 ## 8.2. Microprocesador
@@ -117,31 +116,25 @@ Las líneas de dirección se utilizan para designar la fuente o el destino del d
 
 Las líneas de control se utilizan para controlar el acceso y el uso de las líneas de datos y de direcciones. Puesto que las líneas de datos y de direcciones son compartidas por todos los componentes, debe existir una forma de controlar su uso. Las señales de control transmiten tanto órdenes como información de temporización entre los módulos del sistema. Las señales de temporización indican la validez de los datos y las direcciones. Las señales de órdenes especifican las operaciones a realizar. Algunas líneas de control típicas son:
 
-- Escritura en memoria (Memory write): hace que el dato del bus se escriba en la posición
-direccionada.
+- Escritura en memoria (Memory write): hace que el dato del bus se escriba en la posición direccionada.
 
-- Lectura de memoria (Memory read): hace que el dato de la posición direccionada se sitúe
-en bus.
+- Lectura de memoria (Memory read): hace que el dato de la posición direccionada se sitúe en bus.
 
-- Escritura de EIS (I/O write): hace que el dato del bus se transfiera a través del puerto de E/S
-direccionado.
+- Escritura de EIS (I/O write): hace que el dato del bus se transfiera a través del puerto de E/S direccionado.
 
-- Lectura de E/S (F/S read): hace que el dato del puerto de E/S direccionado se sitúe en el
-bus.
+- Lectura de E/S (F/S read): hace que el dato del puerto de E/S direccionado se sitúe en el bus.
 
-- Transferencia reconocida (Transfer ACK): indica que el dato se ha aceptado o se ha situado
-en el bus.
+- Transferencia reconocida (Transfer ACK): indica que el dato se ha aceptado o se ha situado en el bus.
 
 - Petición de bus (Bus request): indica que un módulo necesita disponer del control del bus.
-- Cesión de bus (Bus grant): indica que se cede el control del bus a un módulo que lo había
-solicitado.
+- Cesión de bus (Bus grant): indica que se cede el control del bus a un módulo que lo había solicitado.
 
 - Petición de interrupción (Interrupt request): indica si hay una interrupción pendiente.
-- Interrupción reconocida (Interrupt ACK): señala que la interrupción pendiente se ha
-aceptado.
+- Interrupción reconocida (Interrupt ACK): señala que la interrupción pendiente se ha aceptado.
 
 - Reloj (clock): se utiliza para sincronizar las operaciones.
 - Inicio (reset): pone los módulos conectados en su estado inicial.
+
 El funcionamiento del bus se describe a continuación. Si un módulo desea enviar un dato a otro debe hacer dos cosas: (1) obtener el uso del bus y (2) transferir el dato a través del bus. Si un módulo desea pedir un dato a otro módulo, debe (1) obtener el uso del bus y (2) transferir la petición al otro módulo mediante las líneas de control y dirección apropiadas. Después debe esperar a que el segundo módulo envíe el dato.
 
 ## 8.4. Registros
@@ -154,27 +147,20 @@ Los procesadores de tipo RISC se caracterizan por disponer de muchos más regist
 
 ### 8.4.1. Registros de propósitos generales de intel
 
-- EAX: Acumulador, es el más utilizado, soporta cualquier operación, pero es imprescindible
-en las operaciones con puertos, divisiones y multiplicaciones, en los primeros microprocesadores no podía ser utilizado para direccionar memoria.
+- EAX: Acumulador, es el más utilizado, soporta cualquier operación, pero es imprescindible en las operaciones con puertos, divisiones y multiplicaciones, en los primeros microprocesadores no podía ser utilizado para direccionar memoria.
 
 - EBX: Registro base, ya que en los modelos anteriores su uso fundamental era como puntero.
-- ECX: Contador, su función fundamental es soportar las operaciones con ciclos, al igual que
-EAX, en los modelos anteriores no podía ser usado como puntero.
+- ECX: Contador, su función fundamental es soportar las operaciones con ciclos, al igual que EAX, en los modelos anteriores no podía ser usado como puntero.
 
-- EDX: De datos, es un segundo acumulador, apoya a EAX en las operaciones con puertos,
-multiplicaciones y divisiones, tampoco podía ser usado como puntero.
+- EDX: De datos, es un segundo acumulador, apoya a EAX en las operaciones con puertos, multiplicaciones y divisiones, tampoco podía ser usado como puntero.
 
-- ESP: Puntero al stack, como su nombre lo indica, es el encargado de apuntar a la primera
-posición libre en el stack, como curiosidad se debe decir, que en el 8086 este registro apuntaba al último ocupado, a partir de aquí se puede saber si la máquina posee un 8086 o un microprocesador superior
+- ESP: Puntero al stack, como su nombre lo indica, es el encargado de apuntar a la primera posición libre en el stack, como curiosidad se debe decir, que en el 8086 este registro apuntaba al último ocupado, a partir de aquí se puede saber si la máquina posee un 8086 o un microprocesador superior
 
-- EBP: Puntero auxiliar al stack, este registro está preparado para el trabajo con el stack,
-usado fundamentalmente en el proceso de sacar del stack parámetros de procedimientos; aunque puede ser usado como puntero si se siguen determinadas convenciones.
+- EBP: Puntero auxiliar al stack, este registro está preparado para el trabajo con el stack, usado fundamentalmente en el proceso de sacar del stack parámetros de procedimientos; aunque puede ser usado como puntero si se siguen determinadas convenciones.
 
-- EDI: Índice destino, usado principalmente como puntero, imprescindible en las instrucciones
-de cadena. Por defecto Trabaja con el DS.
+- EDI: Índice destino, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el DS.
 
-- ESI: Índice fuente, usado principalmente como puntero, imprescindible en las instrucciones
-de cadena. Por defecto Trabaja con el ES.
+- ESI: Índice fuente, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el ES.
 
 ### 8.4.2. Registros de segmento
 
@@ -190,8 +176,7 @@ Siguen siendo de 16 bits, al igual que en sus antecesores; su función es servir
 ### 8.4.3. Registros de estado y control
 
 - EIP: Puntero de Instrucciones, apunta a la próxima instrucción a ejecutar.
-- EFlags: Banderas que informan el estado en que queda el micro después de ejecutar una
-instrucción.
+- EFlags: Banderas que informan el estado en que queda el micro después de ejecutar una instrucción.
 
 ## 8.5. Conclusiones
 
