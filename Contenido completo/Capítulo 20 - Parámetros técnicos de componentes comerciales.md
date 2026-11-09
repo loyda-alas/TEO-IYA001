@@ -115,7 +115,7 @@ Algunas de las características esenciales para describir su funcionamiento son:
 | Phenom II X6 | 2600-3,76 GHz | 6 | 2 GHz HT | 95-125 W | 8 KB x 6 |
 | FX | 2800-4,3 GHz | 4, 6, 8 | 5, 2 GHz HT | 95-125 W | 2 MB x 2, 3, 4 |
 
-3. La frecuencia de reloj: es muy común que uno de los principales datos que se mencionan en catálogos y publicidad de ordenadores sea que cuenta con un procesador de, por ejemplo, 2 Megaherzios. Este dato se refiere a la frecuencia de reloj del procesador, es decir, la cantidad de información que es capaz de gestionar el procesador por segundo. Su importancia no es determinante para un usuario medio. 4.
+3. La frecuencia de reloj: es muy común que uno de los principales datos que se mencionan en catálogos y publicidad de ordenadores sea que cuenta con un procesador de, por ejemplo, 2 Megaherzios. Este dato se refiere a la frecuencia de reloj del procesador, es decir, la cantidad de información que es capaz de gestionar el procesador por segundo. Su importancia no es determinante para un usuario medio.
 4. La memoria de segundo nivel: junto a la frecuencia de reloj, define la eficiencia del procesador. Su capacidad se mide en Megabytes (millones de bytes, la unidad de información básica más usada) y se sitúa entre los 256 Kilobytes y los dos Megabytes (diez veces más). Siempre que se encuentre entre estos dos parámetros, no habrá problema alguno.
 
 #### La memoria RAM

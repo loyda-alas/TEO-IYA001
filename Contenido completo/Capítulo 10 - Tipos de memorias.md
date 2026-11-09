@@ -25,7 +25,7 @@ Las memorias ROM han evolucionado y se han clasificado según la tecnología con
 
 **Figura 10.1.** Memoria EPROM.
 
-3. EEPROM: Memorias borrables por mecanismos eléctricos y programables. Estas memorias evolucionaron directamente de las EPROM. Podían ser grabadas y borradas mediante mecanismos eléctricos, regularmente suministrados por los fabricantes que se comunicaban con las PC a través de los puertos series y paralelos de los computadores. Al igual que sus antecesoras EPROM, permitían que los diseños con memorias fueran factibles en costos, al no tener que desechar memorias por errores o pruebas de los mismos. 4.
+3. EEPROM: Memorias borrables por mecanismos eléctricos y programables. Estas memorias evolucionaron directamente de las EPROM. Podían ser grabadas y borradas mediante mecanismos eléctricos, regularmente suministrados por los fabricantes que se comunicaban con las PC a través de los puertos series y paralelos de los computadores. Al igual que sus antecesoras EPROM, permitían que los diseños con memorias fueran factibles en costos, al no tener que desechar memorias por errores o pruebas de los mismos.
 4. Flash EEPROM: Memorias borrables por mecanismos eléctricos y programables mediante tecnología Flash. Esta tecnología fue creada por Toshiba en 1980 y a finales de los años 90 tomó gran popularidad al diseñarse con la posibilidad de comunicarse mediante puerto USB. En sus inicios sus tamaños eran de pocos Megabytes de capacidad y en la actualidad sobrepasan los 64 Gb de almacenamiento. En el caso del BIOS de los computadores modernos, esta tecnología ha permitido que los mismos sean actualizables, es decir, reprogramables, para así mejorar el funcionamiento de las motherboards.
 
 ## 10.3. Memoria de acceso aleatorio: RAM
