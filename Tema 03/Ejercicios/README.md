@@ -10,7 +10,7 @@ PDF de la presentación: [Tema 03 - Ejercicios.pdf](Tema%2003%20-%20Ejercicios.p
 
 ## Ejercicios Sistemas de numeración
 
-Ejercicio 1
+### Ejercicio 1
 
 Expresa los siguientes números decimales en formato binario (8 bits), octal y hexadecimal
 
@@ -34,7 +34,7 @@ Expresa los siguientes números decimales en formato binario (8 bits), octal y h
 | 31 | 0001 1111 | 37 | 1F | 26 | 0001 1010 | 32 | 1A |
 | 46 | 0010 1110 | 56 | 2E | 74 | 0100 1010 | 112 | 4A |
 
-Ejercicio 2
+### Ejercicio 2
 
 Completa la tabla realizando las conversiones
 
@@ -58,14 +58,14 @@ Completa la tabla realizando las conversiones
 | 51 | 110011 | 63 | 33 | 63 | 111111 | 77 | 3F |
 | 58 | 111010 | 72 | 3A | 202 | 11001010 | 312 | CA |
 
-Ejercicio 3
+### Ejercicio 3
 
 Realice las siguientes operaciones
 
-(01100111)2 + (00110111)2 =
+(01100111)<sub>2</sub> + (00110111)<sub>2</sub> =
 
-(01100111)2 - (00110111)2 =
+(01100111)<sub>2</sub> - (00110111)<sub>2</sub> =
 
-(37)8 + (45)8 =
+(37)<sub>8</sub> + (45)<sub>8</sub> =
 
-(37)16 + (45)16 =
+(37)<sub>16</sub> + (45)<sub>16</sub> =

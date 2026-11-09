@@ -18,8 +18,7 @@ PDF de la presentación: [Tema 01 y 02.pdf](Tema%2001%20y%2002.pdf)
 
 [![ENIAC — primer computador electrónico](https://img.youtube.com/vi/uRtt7xxZL8w/hqdefault.jpg)](https://www.youtube.com/watch?v=uRtt7xxZL8w)
 
-
-Primer Computador Electrónico
+**Primer Computador Electrónico**
 
 ![Figura](img/fig-s06-p1.jpg)
 
@@ -29,16 +28,12 @@ Primer Computador Electrónico
 
 [![Primera generación — tubos de vacío](https://img.youtube.com/vi/OmNaQPWpaKQ/hqdefault.jpg)](https://www.youtube.com/watch?v=OmNaQPWpaKQ)
 
+**Tubo de Vacío 1946 - 1958**
 
-Tubo de Vacío 1946 - 1958
-
-El componente principal es el tubo de vacío
-
-Puede resolver problemas algebraicos y estadísticos con matrices
-
-Lenguaje Máquina
-
-Tarjetas Perforadas
+- El componente principal es el tubo de vacío
+- Puede resolver problemas algebraicos y estadísticos con matrices
+- Lenguaje Máquina
+- Tarjetas Perforadas
 
 ![Figura](img/fig-s07-p1.jpg)
 
@@ -50,8 +45,7 @@ Tarjetas Perforadas
 
 [![UNIVAC — primer computador comercial](https://img.youtube.com/vi/s7VBoVpKhi4/hqdefault.jpg)](https://www.youtube.com/watch?v=s7VBoVpKhi4)
 
-
-Primer Computador Comercial
+**Primer Computador Comercial**
 
 ![Figura](img/fig-s09-p1.jpg)
 
@@ -61,25 +55,23 @@ Primer Computador Comercial
 
 [![Segunda generación — transistores](https://img.youtube.com/vi/slXlx0o0JZA/hqdefault.jpg)](https://www.youtube.com/watch?v=slXlx0o0JZA)
 
+**Los Transistores**
 
-Los Transistores
-
-El componente principal es el transistor
-
-El transistor es un dispositivo más pequeño que los tubos de vacío, por lo tanto, el computador ocupa menos espacio y se abarata la fabricación
-
-Opera a mayor velocidad
+- El componente principal es el transistor
+- El transistor es un dispositivo más pequeño que los tubos de vacío, por lo tanto, el computador ocupa menos espacio y se abarata la fabricación
+- Opera a mayor velocidad
 
 ![Figura](img/fig-s10-p1.jpg)
 
 ![Figura](img/fig-s11-p1.jpg)
 
-## Y… que tiene que ver esto con la actualidad? música
+## Y… que tiene que ver esto con la actualidad?
+
+música
 
 **Vídeo:** Relación con la actualidad
 
 [![Relación con la actualidad](https://img.youtube.com/vi/KLJxAY8bsCk/hqdefault.jpg)](https://www.youtube.com/watch?v=KLJxAY8bsCk)
-
 
 ![Figura](img/fig-s13-p1.jpg)
 
@@ -89,40 +81,30 @@ Opera a mayor velocidad
 
 [![Tercera generación — circuitos integrados](https://img.youtube.com/vi/cFEKrYvrr7U/hqdefault.jpg)](https://www.youtube.com/watch?v=cFEKrYvrr7U)
 
-
 **Vídeo:** Vídeo adicional (short)
 
 [![Vídeo adicional (short)](https://img.youtube.com/vi/pjqoYyZhbtY/hqdefault.jpg)](https://www.youtube.com/watch?v=pjqoYyZhbtY)
-
 
 **Vídeo:** Vídeo adicional (short)
 
 [![Vídeo adicional (short)](https://img.youtube.com/vi/xkypLAJDnEY/hqdefault.jpg)](https://www.youtube.com/watch?v=xkypLAJDnEY)
 
-
 **Vídeo:** Vídeo adicional (short)
 
 [![Vídeo adicional (short)](https://img.youtube.com/vi/5hRs28Fx27c/hqdefault.jpg)](https://www.youtube.com/watch?v=5hRs28Fx27c)
-
 
 **Vídeo:** Vídeo adicional
 
 [![Vídeo adicional](https://img.youtube.com/vi/xrVPSCZ-Z-0/hqdefault.jpg)](https://www.youtube.com/watch?v=xrVPSCZ-Z-0)
 
+**Los Circuitos Integrados**
 
-Los Circuitos Integrados
-
-El componente principal es el circuito integrado
-
-Disminución del volumen y agrupación de elementos en una placa de silicio.
-
-Ahorro de energía
-
-Utilización de la computadora por varios usuarios al mismo tiempo.
-
-Reducción de espacio
-
-Multiprogramación
+- El componente principal es el circuito integrado
+- Disminución del volumen y agrupación de elementos en una placa de silicio.
+- Ahorro de energía
+- Utilización de la computadora por varios usuarios al mismo tiempo.
+- Reducción de espacio
+- Multiprogramación
 
 ![Figura](img/fig-s14-p1.png)
 
@@ -134,22 +116,19 @@ Multiprogramación
 
 [![Últimas generaciones (nota del presentador, desde 4:36)](https://img.youtube.com/vi/VJ3qydWTmvA/hqdefault.jpg)](https://www.youtube.com/watch?v=VJ3qydWTmvA)
 
-
 - Memoria Semiconductora
-
 - Microprocesador
-
 - INTEL
-
 - PowerPC
-
 - ARM
 
 ![Figura](img/fig-s16-p1.jpg)
 
 ## Arquitectura y organización de los sistemas de cómputo modernos
 
-## La arquitectura describe lo que hace la computadora. La organización describe cómo lo hace.
+> La arquitectura describe lo que hace la computadora.
+>
+> La organización describe cómo lo hace.
 
 ![Figura](img/fig-s20-p1.jpg)
 
@@ -167,6 +146,8 @@ Multiprogramación
 
 ![Figura](img/fig-s23-p1.jpg)
 
+> Arm Ltd. es una multinacional dedicada a los semiconductores y al desarrollo de software con sede en Cambridge, Reino Unido. *Wikipedia*
+
 ## Arquitectura y organización de los sistemas de cómputo modernos
 
 ![Figura](img/fig-s24-p1.jpg)
@@ -175,18 +156,14 @@ Multiprogramación
 
 ![Figura](img/fig-s25-p1.jpg)
 
-## Arquitectura Instrucciones (nº de puertas) Número de bits (ancho de puertas) Protocolos de entrada/salida (Ventanas)
+**Diferencias**
 
-Organización
-
-Señales de Control (menú autoservicio, etiquetamiento de baños)
-
-Interfaz (mesas)
-
-Memoria (Lista de órdenes)
+| Arquitectura | Organización |
+| --- | --- |
+| Instrucciones (nº de puertas) | Señales de Control (menú autoservicio, etiquetamiento de baños) |
+| Número de bits (ancho de puertas) | Interfaz (mesas) |
+| Protocolos de entrada/salida (Ventanas) | Memoria (Lista de órdenes) |
 
 ## Motherboard
-
-
 
 ![Motherboard — animación](img/anim-s27-motherboard.gif)
