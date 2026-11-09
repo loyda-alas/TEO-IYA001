@@ -1,6 +1,6 @@
 # Tema 19 y 20
 
-**Lectura en el contenido completo:** [Capítulo 19 — Tipos de sistemas de cómputo](../Contenido%20completo/Capitulo%2019%20-%20Tipos%20de%20sistemas%20de%20c%C3%B3mputo.md) · [Capítulo 20 — Parámetros técnicos de componentes comerciales](../Contenido%20completo/Capitulo%2020%20-%20Par%C3%A1metros%20t%C3%A9cnicos%20de%20componentes%20comerciales.md)
+**Lectura en el contenido completo:** [Capítulo 19 — Tipos de sistemas de cómputo](../Contenido%20completo/Cap%C3%ADtulo%2019%20-%20Tipos%20de%20sistemas%20de%20c%C3%B3mputo.md) · [Capítulo 20 — Parámetros técnicos de componentes comerciales](../Contenido%20completo/Cap%C3%ADtulo%2020%20-%20Par%C3%A1metros%20t%C3%A9cnicos%20de%20componentes%20comerciales.md)
 
 PDF de la presentación: [Tema 19 y 20.pdf](Tema%2019%20y%2020.pdf)
 

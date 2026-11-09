@@ -1,6 +1,6 @@
 # Tema 11 y 12
 
-**Lectura en el contenido completo:** [Capítulo 11 — Arquitecturas IA-32 e IA-64](../Contenido%20completo/Capitulo%2011%20-%20Arquitecturas%20IA-32%20e%20IA-64.md) · [Capítulo 12 — Set de instrucciones Intel](../Contenido%20completo/Capitulo%2012%20-%20Set%20de%20instrucciones%20Intel.md)
+**Lectura en el contenido completo:** [Capítulo 11 — Arquitecturas IA-32 e IA-64](../Contenido%20completo/Cap%C3%ADtulo%2011%20-%20Arquitecturas%20IA-32%20e%20IA-64.md) · [Capítulo 12 — Set de instrucciones Intel](../Contenido%20completo/Cap%C3%ADtulo%2012%20-%20Set%20de%20instrucciones%20Intel.md)
 
 PDF de la presentación: [Tema 11 y 12.pdf](Tema%2011%20y%2012.pdf)
 

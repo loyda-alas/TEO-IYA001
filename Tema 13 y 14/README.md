@@ -1,6 +1,6 @@
 # Tema 13 y 14
 
-**Lectura en el contenido completo:** [Capítulo 13 — Arquitectura de procesadores RISC](../Contenido%20completo/Capitulo%2013%20-%20Arquitectura%20de%20procesadores%20RISC.md) · [Capítulo 14 — Set de instrucciones ARM](../Contenido%20completo/Capitulo%2014%20-%20Set%20de%20instrucciones%20ARM.md)
+**Lectura en el contenido completo:** [Capítulo 13 — Arquitectura de procesadores RISC](../Contenido%20completo/Cap%C3%ADtulo%2013%20-%20Arquitectura%20de%20procesadores%20RISC.md) · [Capítulo 14 — Set de instrucciones ARM](../Contenido%20completo/Cap%C3%ADtulo%2014%20-%20Set%20de%20instrucciones%20ARM.md)
 
 PDF de la presentación: [Tema 13 y 14.pdf](Tema%2013%20y%2014.pdf)
 

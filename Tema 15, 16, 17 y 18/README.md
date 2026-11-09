@@ -1,6 +1,6 @@
 # Tema 15, 16, 17 y 18
 
-**Lectura en el contenido completo:** [Capítulo 15 — Hardware de entrada-salida y periféricos](../Contenido%20completo/Capitulo%2015%20-%20Hardware%20de%20entrada-salida%20y%20perif%C3%A9ricos.md) · [Capítulo 16 — Buses serie USB y PS-2](../Contenido%20completo/Capitulo%2016%20-%20Buses%20serie%20USB%20y%20PS-2.md) · [Capítulo 17 — Buses paralelo PCI y PCI Express](../Contenido%20completo/Capitulo%2017%20-%20Buses%20paralelo%20PCI%20y%20PCI%20Express.md) · [Capítulo 18 — Interfaces internas y externas](../Contenido%20completo/Capitulo%2018%20-%20Interfaces%20internas%20y%20externas.md)
+**Lectura en el contenido completo:** [Capítulo 15 — Hardware de entrada-salida y periféricos](../Contenido%20completo/Cap%C3%ADtulo%2015%20-%20Hardware%20de%20entrada-salida%20y%20perif%C3%A9ricos.md) · [Capítulo 16 — Buses serie USB y PS-2](../Contenido%20completo/Cap%C3%ADtulo%2016%20-%20Buses%20serie%20USB%20y%20PS-2.md) · [Capítulo 17 — Buses paralelo PCI y PCI Express](../Contenido%20completo/Cap%C3%ADtulo%2017%20-%20Buses%20paralelo%20PCI%20y%20PCI%20Express.md) · [Capítulo 18 — Interfaces internas y externas](../Contenido%20completo/Cap%C3%ADtulo%2018%20-%20Interfaces%20internas%20y%20externas.md)
 
 PDF de la presentación: [Tema 15, 16, 17 y 18.pdf](Tema%2015%2C%2016%2C%2017%20y%2018.pdf)
 
