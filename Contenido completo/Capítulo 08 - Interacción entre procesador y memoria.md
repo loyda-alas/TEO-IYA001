@@ -4,11 +4,11 @@
 
 ## Objetivo
 
-- Describir la interacción entre procesador y memoria teniendo en cuenta las características de los buses de datos y direcciones en la arquitectura Von Neuman.
+- Describir la interacción entre procesador y memoria teniendo en cuenta las características de los buses de datos y direcciones en la arquitectura Von Neumann.
 
 ## 8.1. Introducción
 
-El microprocesador es uno de los logros más importantes del siglo XX desde su invención en la década del 70. Hace un unas décadas atrás tal afirmación habría parecido absurda. Pero con el paso del tiempo, el microprocesador se acerca más al centro de nuestras vidas. Su presencia ha comenzado a cambiar la forma en que percibimos el mundo e incluso a nosotros mismos. Cada vez se hace más difícil pasar por alto el microprocesador como otro simple producto en una larga línea de innovaciones tecnológicas.
+El microprocesador es uno de los logros más importantes del siglo XX desde su invención en la década del 70. Hace unas décadas atrás tal afirmación habría parecido absurda. Pero con el paso del tiempo, el microprocesador se acerca más al centro de nuestras vidas. Su presencia ha comenzado a cambiar la forma en que percibimos el mundo e incluso a nosotros mismos. Cada vez se hace más difícil pasar por alto el microprocesador como otro simple producto en una larga línea de innovaciones tecnológicas.
 
 > En los microprocesadores se duplica la cantidad de componentes cada 18 meses aproximadamente. Esto lo predijo el cofundador de Intel Gordon Moore y se denomina Ley de Moore.
 
@@ -136,8 +136,8 @@ Los procesadores de tipo RISC se caracterizan por disponer de muchos más regist
 - EDX: De datos, es un segundo acumulador, apoya a EAX en las operaciones con puertos, multiplicaciones y divisiones, tampoco podía ser usado como puntero.
 - ESP: Puntero al stack, como su nombre lo indica, es el encargado de apuntar a la primera posición libre en el stack, como curiosidad se debe decir, que en el 8086 este registro apuntaba al último ocupado, a partir de aquí se puede saber si la máquina posee un 8086 o un microprocesador superior
 - EBP: Puntero auxiliar al stack, este registro está preparado para el trabajo con el stack, usado fundamentalmente en el proceso de sacar del stack parámetros de procedimientos; aunque puede ser usado como puntero si se siguen determinadas convenciones.
-- EDI: Índice destino, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el DS.
-- ESI: Índice fuente, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el ES.
+- EDI: Índice destino, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el ES.
+- ESI: Índice fuente, usado principalmente como puntero, imprescindible en las instrucciones de cadena. Por defecto Trabaja con el DS.
 
 ### 8.4.2. Registros de segmento
 
