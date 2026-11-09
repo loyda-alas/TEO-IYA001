@@ -158,9 +158,7 @@ Los conectores internos son los que permiten la conexión de la motheboard con l
 
 Los microprocesadores son los componentes que ejecutan las operaciones que se realizan por los computadores. En la clase anterior se mencionaron algunos de los más significativos dentro de la arquitectura de INTEL. Se debe tener en cuenta que en la actualidad existe otro fabricante que es quién compite directamente con INTEL y que tiene desarrollos muy interesantes, hacemos referencia de AMD.
 
-Los procesadores comerciales de INTEL actuales, están desarrollados bajo el nombre Core i, los cuales aparecieron en el año 2008 y hasta la fecha han evolucionado en 4 generaciones que han
-
-incorporado tecnologías que hacen muy eficientes a los computadores. A continuación una breve reseña de los procesadores de la serie Core i y sus generaciones.
+Los procesadores comerciales de INTEL actuales, están desarrollados bajo el nombre Core i, los cuales aparecieron en el año 2008 y hasta la fecha han evolucionado en 4 generaciones que han incorporado tecnologías que hacen muy eficientes a los computadores. A continuación una breve reseña de los procesadores de la serie Core i y sus generaciones.
 
 Aunque todavía hay segmentación del mercado en cuanto a fabricantes, el impulso reciente de los sistema móviles deja entrever que en el futuro deberá surgir una tecnología que integre las bondades del bajo consumo y simpleza de ARM con la potencia de cálculo y capacidad de multiprocesamiento de Intel y AMD.
 
@@ -185,7 +183,7 @@ controladores de memoria integrados y las interconexiones de punto a punto de al
 - Caché compartida a multinivel: que aumenta el desempeño y la eficacia al reducir la
 latencia de acceso a los datos más utilizados.
 
-### 2.3.2. Sandy bridge
+### 2.3.2. Sandy Bridge
 
 Nombre de la arquitectura sucesora de Nehalem, incorporada en el año 2011. Su numeración es ix-2XXX, donde el número 2 indica que es de la segunda generación. Incorporaron muchas funcionalidades debido a la reducción del tamaño de los transistores, lo que hizo es posible integrar más subsistemas en el procesador.
 
@@ -203,7 +201,7 @@ Gráficas, lo cual permite reducir costos.
 - Overclock: permiten modificar la frecuencia de funcionamiento. Se puede aumentar mucho
 la velocidad, sin llegar a quemarse, incluso usando ventilación por aire.
 
-### 2.3.3. Ivy brigde
+### 2.3.3. Ivy Brigde
 
 Ivy Brigde es el nombre en clave para la microarquitectura de microprocesadores desarrollada por Intel como sucesora de la Sandy Bridge. Incluye una tecnología de fabricación de los microprocesadores de 22 nanómetros y transistores Tri-Gate. Son retrocompatibles con la plataforma de Sandy Bridge y usan el mismo socket.
 
@@ -248,9 +246,7 @@ Unidades de estado sólido.
 
 Los HDD están formados por discos de metal magnetizado, que es donde se guardan los datos.
 
-Poseen un motor que hace girar los discos y cabezales accionados por electroimanes para leer la información. Incluyen un circuito electrónico de control, que incluye la interfaz con la PC y la
-
-memoria caché y un brazo actuador que mueve las cabezas sobre los discos. Todo lo anterior insertado dentro de una caja hermética (aunque no al vacío), que protege el conjunto.
+Poseen un motor que hace girar los discos y cabezales accionados por electroimanes para leer la información. Incluyen un circuito electrónico de control, que incluye la interfaz con la PC y la memoria caché y un brazo actuador que mueve las cabezas sobre los discos. Todo lo anterior insertado dentro de una caja hermética (aunque no al vacío), que protege el conjunto.
 
 Las unidades ópticas leen la información contenida en los discos a través de la reflexión de luz láser. Los discos son diseñados a partir de una base de resina (policarbonato) cubierto por aluminio y almacenamiento se produce a partir de marcas que se realizan en la base del disco, los cuales giran siempre a una velocidad constante.
 
@@ -276,9 +272,7 @@ Existen de dos tipos fundamentales: 1.
 
 AT: el suministro de corriente a la placa lo hacen mediante dos conectores planos de 6 pines cada uno. Esto provocaba errores de colocación, que podían llegar a provocar averías. Están en desuso. Se usaron hasta la llegada del Pentium MMX. 2.
 
-ATX: siempre están suministrando un canal de 5 v a la placa base para mantener constante su funcionamiento función. También permiten activarse mediante otros medios, como puede ser mediante la tarjeta de red o mediante el módem. Sus conectores, pasaron
-
-de ser dos de 6 pines a uno de 20. Con la salida del Pentium 4 se les añadió un conector independiente de 4 pines y 12 V.
+ATX: siempre están suministrando un canal de 5 v a la placa base para mantener constante su funcionamiento función. También permiten activarse mediante otros medios, como puede ser mediante la tarjeta de red o mediante el módem. Sus conectores, pasaron de ser dos de 6 pines a uno de 20. Con la salida del Pentium 4 se les añadió un conector independiente de 4 pines y 12 V.
 
 ![Figura 2.10](img/fig-241.jpg)
 
@@ -287,5 +281,3 @@ de ser dos de 6 pines a uno de 20. Con la salida del Pentium 4 se les añadió u
 ## 2.6. Conclusiones
 
 En esta clase se caracterizaron las arquitecturas y organización de los sistemas de cómputo modernos través de la descripción de sus elementos fundamentales y sus respectivas funcionalidades. Se describieron los componentes que conforman una motherboard, haciendo hincapié en los más importantes, como el Chipset y el Microprocesador. Se mostraron otros componentes de vital importancia para el funcionamiento de un computador, como lo es la fuente de alimentación y los discos ópticos.
-
-# Resumen
