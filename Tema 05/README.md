@@ -442,3 +442,9 @@ Requiere un profundo conocimiento del álgebra booleana y una considerable exper
 ![Figura](img/fig-s69-p2.jpg)
 
 ![Figura](img/fig-s70-p2.jpg)
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 4 · Parte 2](../Tema%2004/Parte%202/README.md) | [Índice](../README.md) | [Siguiente: Tema 5 · Ejercicios →](Ejercicios/README.md)

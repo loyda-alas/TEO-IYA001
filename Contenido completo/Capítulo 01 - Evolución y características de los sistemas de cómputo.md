@@ -235,3 +235,9 @@ Finalmente se tienen, cada año, computadores más rápidos y con muy buenas pre
 En este material se ha mostrado una breve reseña de la evolución de los computadores y sus principales características. En este recorrido por la historia se presentaron las generaciones de computadores que han existido, así como los componentes fundamentales que han marcado el desarrollo de cada generación.
 
 Un acápite fue dedicado a INTEL, el primero en fabricar un procesador y que en la actualidad mantiene el liderato mundial en el desarrollo y producción de estos componentes. Se habló también del Power PC, procesador de arquitectura RISC que también fue muy popular.
+
+<!-- navegación -->
+
+---
+
+[Índice](README.md) | [Siguiente: Capítulo 2 →](Cap%C3%ADtulo%2002%20-%20Arquitectura%20y%20organizaci%C3%B3n%20de%20los%20sistemas%20de%20c%C3%B3mputo%20modernos.md)

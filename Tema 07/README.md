@@ -305,3 +305,9 @@ Un contador en es un circuito secuencial construido a partir de biestables y pue
 6. Implementación del contador
 
    ![Figura](img/fig-s69-p1.png)
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 6 · Ejercicios](../Tema%2006/Ejercicios/README.md) | [Índice](../README.md) | [Siguiente: Tema 7 · Ejercicios →](Ejercicios/README.md)

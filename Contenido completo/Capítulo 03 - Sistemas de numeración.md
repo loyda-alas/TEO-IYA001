@@ -379,3 +379,9 @@ En la clase presentada se han mostrado los sistemas numéricos requeridos para e
 ![Figura 3.1](img/fig-326.jpg)
 
 **Figura 3.1.** Diagrama de flujo para conversión entre sistemas numéricos.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 2](Cap%C3%ADtulo%2002%20-%20Arquitectura%20y%20organizaci%C3%B3n%20de%20los%20sistemas%20de%20c%C3%B3mputo%20modernos.md) | [Índice](README.md) | [Siguiente: Capítulo 4 →](Cap%C3%ADtulo%2004%20-%20Representaci%C3%B3n%20digital%20de%20la%20informaci%C3%B3n.md)

@@ -173,3 +173,9 @@ Otro puerto que se puede encontrar en los computadores actuales es el puerto Fir
 ## 18.3. Conclusiones
 
 Saber cuáles son las principales características de las interfaces internas y externas permite que se pueda utilizar la PC más acorde a sus prestaciones y le permite al usuario configurarla para el entorno de trabajo deseado. Entender estos sistemas ayudará a solucionar los problemas de fallas o de funcionamiento de una computadora. Si bien ha habido muchos avances en la tecnología de microprocesador, la arquitectura básica de una computadora personal se ha mantenido relativamente constante desde la presentación de la primera.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 17](Cap%C3%ADtulo%2017%20-%20Buses%20paralelo%20PCI%20y%20PCI%20Express.md) | [Índice](README.md) | [Siguiente: Capítulo 19 →](Cap%C3%ADtulo%2019%20-%20Tipos%20de%20sistemas%20de%20c%C3%B3mputo.md)

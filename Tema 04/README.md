@@ -8,3 +8,9 @@ Este tema tiene dos partes:
 | --- | --- | --- |
 | Parte 1 | [Tema 4 · Parte 1](Parte%201/README.md) | [Tema 04 - Parte 1.pdf](Parte%201/Tema%2004%20-%20Parte%201.pdf) |
 | Parte 2 | [Tema 4 · Parte 2](Parte%202/README.md) | [Tema 04 - Parte 2.pdf](Parte%202/Tema%2004%20-%20Parte%202.pdf) |
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 3 · Ejercicios](../Tema%2003/Ejercicios/README.md) | [Índice](../README.md) | [Siguiente: Tema 4 · Parte 1 →](Parte%201/README.md)

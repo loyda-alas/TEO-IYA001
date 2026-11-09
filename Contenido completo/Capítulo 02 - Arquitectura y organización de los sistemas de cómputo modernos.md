@@ -245,3 +245,9 @@ Existen de dos tipos fundamentales:
 ## 2.6. Conclusiones
 
 En esta clase se caracterizaron las arquitecturas y organización de los sistemas de cómputo modernos través de la descripción de sus elementos fundamentales y sus respectivas funcionalidades. Se describieron los componentes que conforman una motherboard, haciendo hincapié en los más importantes, como el Chipset y el Microprocesador. Se mostraron otros componentes de vital importancia para el funcionamiento de un computador, como lo es la fuente de alimentación y los discos ópticos.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 1](Cap%C3%ADtulo%2001%20-%20Evoluci%C3%B3n%20y%20caracter%C3%ADsticas%20de%20los%20sistemas%20de%20c%C3%B3mputo.md) | [Índice](README.md) | [Siguiente: Capítulo 3 →](Cap%C3%ADtulo%2003%20-%20Sistemas%20de%20numeraci%C3%B3n.md)

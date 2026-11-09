@@ -170,3 +170,9 @@ Tienen como desventajas su tamaño reducido, en el orden de los megabytes. Tiene
 ## 10.4. Conclusiones
 
 En este material fueron presentados los tipos de memorias que se pueden encontrar en un computador. Se detallaron las memorias tipo SIMM y DIMM y se detallaron las tecnologías desarrolladas en cada caso. Se profundizó en las memorias DDR por ser las que usan los computadores actuales, mostrándose parámetros técnicos de estas, tales como ando de banda y velocidad de trabajo. De igual forma se mostraron las memorias caché, así como las tecnologías de doble y triple canal.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 9](Cap%C3%ADtulo%2009%20-%20Ejecuci%C3%B3n%20de%20c%C3%B3digo.md) | [Índice](README.md) | [Siguiente: Capítulo 11 →](Cap%C3%ADtulo%2011%20-%20Arquitecturas%20IA-32%20e%20IA-64.md)

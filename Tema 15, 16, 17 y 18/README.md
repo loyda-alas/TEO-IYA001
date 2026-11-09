@@ -178,3 +178,8 @@ Algunos de los componentes y conexiones que forman parte de la placa y que se va
 
 ![Figura](img/fig-s37-p2.jpg)
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 13 y 14](../Tema%2013%20y%2014/README.md) | [Índice](../README.md) | [Siguiente: Tema 19 y 20 →](../Tema%2019%20y%2020/README.md)

@@ -227,3 +227,9 @@ La introducción masiva de los dispositivos móviles ha generado muchas expectat
 Los dispositivos de comunicación permiten que el computador intercambie datos con un dispositivo remoto, que puede ser un dispositivo de interacción con humanos, como por ejemplo un terminal, un dispositivo de interacción con máquinas o incluso otro computador.
 
 En este tópico se dio a conocer el funcionamiento del hardware de entrada/salida del computador y periféricos. Se presentaron los principales periféricos con los que regularmente se trabaja en una PC: Monitor, Mouse y Teclado. También se conocieron los tipos de buses permiten la conexión de los diferentes periféricos y los registros que al más bajo nivel permiten el funcionamiento del conjunto del hardware de entrada y salida.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 14](Cap%C3%ADtulo%2014%20-%20Set%20de%20instrucciones%20ARM.md) | [Índice](README.md) | [Siguiente: Capítulo 16 →](Cap%C3%ADtulo%2016%20-%20Buses%20serie%20USB%20y%20PS-2.md)

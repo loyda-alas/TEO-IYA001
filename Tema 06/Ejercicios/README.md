@@ -25,3 +25,9 @@ PDF de la presentación: [Tema 06 - Ejercicios.pdf](Tema%2006%20-%20Ejercicios.p
 ![Figura](img/fig-s06-p1.jpg)
 
 ![Figura](img/fig-s06-p2.jpg)
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 6](../README.md) | [Índice](../../README.md) | [Siguiente: Tema 7 →](../../Tema%2007/README.md)

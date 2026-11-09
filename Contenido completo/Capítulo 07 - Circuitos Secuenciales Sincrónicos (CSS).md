@@ -287,3 +287,8 @@ Note que en este caso J=K=T, funciona como un biestable T:
 
 En la clase de hoy se comenzó el estudio de los CSS, viendo la definición de circuitos sincrónicos, los diferentes tipos de biestables que existen, así como su tabla característica y su tabla de excitación. Además se vio una de las aplicaciones de los CCS, los contadores, se conocieron sus aplicaciones prácticas y método de diseño.
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 6](Cap%C3%ADtulo%2006%20-%20Dise%C3%B1o%20y%20s%C3%ADntesis%20de%20circuitos%20l%C3%B3gicos%20combinacionales.md) | [Índice](README.md) | [Siguiente: Capítulo 8 →](Cap%C3%ADtulo%2008%20-%20Interacci%C3%B3n%20entre%20procesador%20y%20memoria.md)

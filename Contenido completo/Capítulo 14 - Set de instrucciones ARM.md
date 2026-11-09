@@ -218,3 +218,9 @@ El primero muestra un algoritmo basado en el famoso algoritmo de Euclides, para 
 ## 14.3. Conclusiones
 
 En esta conferencia se ha hecho un breve resumen del set de instrucciones de ARM. Así como las principales instrucciones que se utilizan. Como se puede observar ARM provee una arquitectura flexible soportada por un set de instrucciones muy robusto y diseñado para un uso de alto rendimiento con bajas prestaciones. Los procesadores basados en esta arquitectura proporcionan la potencia necesaria para que los productos electrónicos puedan desempeñar las funciones para las que fueron ideados. En la arquitectura ARM, con diseños en los que se integran más de 30.000 transistores, está presente en un gran número de dispositivos electrónicos en manos o utilizados por usuarios particulares y profesionales, y a diario se venden más de 16 millones de productos basados en esta arquitectura.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 13](Cap%C3%ADtulo%2013%20-%20Arquitectura%20de%20procesadores%20RISC.md) | [Índice](README.md) | [Siguiente: Capítulo 15 →](Cap%C3%ADtulo%2015%20-%20Hardware%20de%20entrada-salida%20y%20perif%C3%A9ricos.md)

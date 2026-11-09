@@ -80,3 +80,8 @@ Es un código sin pesos y no aritmético; es decir, no existen pesos específico
 
 ![Figura](img/fig-s22-p1.jpg)
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 4 · Parte 1](../Parte%201/README.md) | [Índice](../../README.md) | [Siguiente: Tema 5 →](../../Tema%2005/README.md)

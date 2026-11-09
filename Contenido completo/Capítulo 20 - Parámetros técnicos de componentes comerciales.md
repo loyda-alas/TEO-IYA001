@@ -192,3 +192,9 @@ Se describieron casi todos los componentes de los computadores modernos, los pri
 - [2] William Stallings (2006). Organización y arquitectura de computadores 7ª Edición. Ed. Prentice-Hall.
 - [3] Prieto, A., Rojas, F., Castillo, P. A. y Prieto, B. (2010). Tecnología y Estructura de computadores. Madrid: Ed. Udima.
 - [4] Hennessy, J. Y Patterson, D. (2007). Computer Architecture. A Quantitative Approach. Ed. Morgan Kaufmann.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 19](Cap%C3%ADtulo%2019%20-%20Tipos%20de%20sistemas%20de%20c%C3%B3mputo.md) | [Índice](README.md)

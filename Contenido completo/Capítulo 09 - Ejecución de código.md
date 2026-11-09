@@ -146,3 +146,9 @@ El procesador dispone de registros de diferente propósito, que son la interfaz 
 La comunicación del procesador con los controladores de entrada/salida se lleva a cabo por medio de los buses de dirección, datos y control. Dependiendo de la manera en que se conectan los componentes con estos buses se definen dos arquitecturas: Harvard y Von Neumann, esta última es la más utilizada en sistemas de cómputo mientras la primera se emplea dentro de los controladores y procesadores.
 
 El manejo de la entrada salida tiene tres formas: directamente a través de los puertos, que son las direcciones de cada dispositivo. Mediante mapeo en memoria o a través de interrupciones. Las interrupciones solo funcionan para la lectura, pero optimizan la ejecución de código al permitir que el procesador continúe la ejecución de código.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 8](Cap%C3%ADtulo%2008%20-%20Interacci%C3%B3n%20entre%20procesador%20y%20memoria.md) | [Índice](README.md) | [Siguiente: Capítulo 10 →](Cap%C3%ADtulo%2010%20-%20Tipos%20de%20memorias.md)

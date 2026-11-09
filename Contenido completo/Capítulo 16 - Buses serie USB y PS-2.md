@@ -125,3 +125,8 @@ En esta clase se dieron a conocer dos de los más importantes buses de los compu
 
 Los puertos PS2 en los computadores actuales están desapareciendo y en su lugar se está imponiendo el USB. Casi todos los periféricos, tanto de la rama de las tecnologías como los de la industria del ocio se comunican a través del PC esta vía. Incide en esto mucho, la elevada velocidad de intercambio de datos y la facilidad de conexión de los dispositivos.
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 15](Cap%C3%ADtulo%2015%20-%20Hardware%20de%20entrada-salida%20y%20perif%C3%A9ricos.md) | [Índice](README.md) | [Siguiente: Capítulo 17 →](Cap%C3%ADtulo%2017%20-%20Buses%20paralelo%20PCI%20y%20PCI%20Express.md)

@@ -249,3 +249,9 @@ loop:
 ![Figura](img/fig-s32-p1.jpg)
 
 ![Figura](img/fig-s33-p1.jpg)
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 8, 9 y 10](../Tema%2008%2C%2009%20y%2010/README.md) | [Índice](../README.md) | [Siguiente: Tema 13 y 14 →](../Tema%2013%20y%2014/README.md)

@@ -32,3 +32,8 @@ La arquitectura ARM incorpora varias características, algunas únicas y otras m
 
 ![Acceso a la memoria](img/fig-acceso-memoria.jpg)
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 11 y 12](../Tema%2011%20y%2012/README.md) | [Índice](../README.md) | [Siguiente: Tema 15, 16, 17 y 18 →](../Tema%2015%2C%2016%2C%2017%20y%2018/README.md)

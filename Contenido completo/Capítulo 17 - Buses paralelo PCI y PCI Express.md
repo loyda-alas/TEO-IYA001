@@ -113,3 +113,8 @@ En esta clase se trataron temas relacionados con los buses paralelos y PCI, de m
 
 La tendencia en el desarrollo de los computadores es la imponer el bus PCI express, por su bajo consumo de corriente y por sobre todo, su elevada velocidad de transmisión.
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 16](Cap%C3%ADtulo%2016%20-%20Buses%20serie%20USB%20y%20PS-2.md) | [Índice](README.md) | [Siguiente: Capítulo 18 →](Cap%C3%ADtulo%2018%20-%20Interfaces%20internas%20y%20externas.md)

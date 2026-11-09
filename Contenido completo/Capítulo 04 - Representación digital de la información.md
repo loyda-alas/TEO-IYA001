@@ -242,3 +242,9 @@ La mínima unidad de información es el bit, que en los sistemas actuales se man
 Los valores reales requieren un formato más complejo que el de los enteros con signo, destacándose las variantes de coma fija y coma flotante, esta última la más extendida y flexible; se basa en la notación científica.
 
 Una vez que se dispone de un sistema digital, es posible codificar la misma información de diferente modo, según las necesidades. En la práctica esto acarrea incompatibilidades que pueden menguarse de alguna manera utilizando estándares internacionales.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 3](Cap%C3%ADtulo%2003%20-%20Sistemas%20de%20numeraci%C3%B3n.md) | [Índice](README.md) | [Siguiente: Capítulo 5 →](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md)

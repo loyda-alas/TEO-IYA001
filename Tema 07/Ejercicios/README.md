@@ -33,3 +33,9 @@ Diseñar un contador que genere la siguiente secuencia binaria. Utilizar flip-fl
 Diseñar un contador que genere la siguiente secuencia binaria. Utilizar flip-flops J-K.
 
 0, 9, 1, 8, 2, 7, 3, 6, 4, 5, 0, ...
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 7](../README.md) | [Índice](../../README.md) | [Siguiente: Tema 8, 9 y 10 →](../../Tema%2008%2C%2009%20y%2010/README.md)

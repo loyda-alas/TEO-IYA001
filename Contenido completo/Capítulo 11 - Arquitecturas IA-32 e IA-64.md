@@ -194,3 +194,9 @@ IA-64 dispone de un gran número de registros, estos se pueden clasificar como s
 ## 11.4. Conclusiones
 
 La evolución de los sistemas de cómputo no siempre la dictan los avances tecnológicos. Un buen ejemplo es el intento de introducción de IA-64 de Intel. Aunque la tecnología es buena y constituye una mejora importante, no triunfó frente a las extensiones de IA-32, debido sobre todo a la falta de una estrategia de migración y al hecho real que supone un cambio de esa magnitud.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 10](Cap%C3%ADtulo%2010%20-%20Tipos%20de%20memorias.md) | [Índice](README.md) | [Siguiente: Capítulo 12 →](Cap%C3%ADtulo%2012%20-%20Set%20de%20instrucciones%20Intel.md)

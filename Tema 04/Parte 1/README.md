@@ -83,3 +83,9 @@ Pueden identificarse por tanto, dos tipos de señales: continuas y discretas
 ### Ejemplo de División:
 
 ![Figura](img/fig-s24-p1.jpg)
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 4](../README.md) | [Índice](../../README.md) | [Siguiente: Tema 4 · Parte 2 →](../Parte%202/README.md)

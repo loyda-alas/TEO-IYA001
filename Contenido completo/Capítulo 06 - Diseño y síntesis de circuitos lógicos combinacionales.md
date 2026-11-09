@@ -240,3 +240,8 @@ En la clase de hoy se estudió una forma de simplificar funciones lógicas para 
 
 Además se realizó la síntesis y diseño de los circuitos uniterminales y multiterminales a partir de la tabla de la verdad, en los cuales se emplearon diferentes tipos de compuertas.
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 5](Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md) | [Índice](README.md) | [Siguiente: Capítulo 7 →](Cap%C3%ADtulo%2007%20-%20Circuitos%20Secuenciales%20Sincr%C3%B3nicos%20%28CSS%29.md)

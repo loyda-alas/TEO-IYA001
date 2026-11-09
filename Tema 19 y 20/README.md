@@ -165,3 +165,9 @@ Interpreta las imágenes gráficas y es en sí misma un pequeño ordenador con p
 Prácticamente han desaparecido las pantallas "de tubo" (CRT) por su excesivo peso y volumen. Nuevas tecnologías de fabricación han desplazado a estos, las más notables son LCD y LED.
 
 Los LCD son por norma general mucho más económicos y fáciles de fabricar. En contraposición, OLED, aun es una tecnología complicada de fabricar, y aunque ahora son mucho más asequibles que hace algunos años, en términos de precio siempre salen perdiendo ante LCD.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 15, 16, 17 y 18](../Tema%2015%2C%2016%2C%2017%20y%2018/README.md) | [Índice](../README.md)

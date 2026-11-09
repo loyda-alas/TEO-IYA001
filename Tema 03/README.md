@@ -315,3 +315,9 @@ El número 11010010011<sub>BCD</sub> = 693<sub>10</sub>
 - Convierta 3700<sub>10</sub> a BCD.
 - Convierta 1000001001<sub>2</sub>, en un número hexadecimal.
 - Convierta 10001001<sub>2</sub>, en un número octal.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 1 y 2](../Tema%2001%20y%2002/README.md) | [Índice](../README.md) | [Siguiente: Tema 3 · Ejercicios →](Ejercicios/README.md)

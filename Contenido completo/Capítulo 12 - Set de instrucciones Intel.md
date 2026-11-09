@@ -411,3 +411,9 @@ RET ; con esta instrucción termina el procedimiento
 ```
 
 Se puede consultar la bibliografía [1] y [2] para ver el resto de las instrucciones que se pueden utilizar.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 11](Cap%C3%ADtulo%2011%20-%20Arquitecturas%20IA-32%20e%20IA-64.md) | [Índice](README.md) | [Siguiente: Capítulo 13 →](Cap%C3%ADtulo%2013%20-%20Arquitectura%20de%20procesadores%20RISC.md)

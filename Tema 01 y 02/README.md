@@ -167,3 +167,9 @@ música
 ## Motherboard
 
 ![Motherboard — animación](img/anim-s27-motherboard.gif)
+
+<!-- navegación -->
+
+---
+
+[Índice](../README.md) | [Siguiente: Tema 3 →](../Tema%2003/README.md)

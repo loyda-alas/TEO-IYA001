@@ -110,3 +110,8 @@ En el mundo actual, se hace imprescindible conocer cómo elegir un sistema de c�
 
 Debe quedar claro, que el mejor computador es aquel que se ajusta a nuestras necesidades y para ello se debe revisar el presupuesto, así como el tipo de uso que se les va a dar.
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 18](Cap%C3%ADtulo%2018%20-%20Interfaces%20internas%20y%20externas.md) | [Índice](README.md) | [Siguiente: Capítulo 20 →](Cap%C3%ADtulo%2020%20-%20Par%C3%A1metros%20t%C3%A9cnicos%20de%20componentes%20comerciales.md)

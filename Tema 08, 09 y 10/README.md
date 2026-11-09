@@ -259,3 +259,9 @@ Esta tecnología fue creada por Toshiba en 1980 y a finales de los años 90 tom�
 Cada vez que el procesador accede a la RAM, en la caché se guardan las direcciones de los datos utilizados, lo cual facilitará en futuros accesos una forma rápida de acceder a estos datos. Es decir, el procesador no tendrá que buscar el dato requerido en la RAM, al tener almacenada en la caché la dirección, puede acceder al dato con mayor rapidez.
 
 Las memorias caché son conocidas como ultra rápidas, pues son 5 o 6 veces más rápidas que las RAM. Se utiliza de puente entre el procesador y la memoria RAM y se empezaron a implantar en la época del Intel 386.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 7 · Ejercicios](../Tema%2007/Ejercicios/README.md) | [Índice](../README.md) | [Siguiente: Tema 11 y 12 →](../Tema%2011%20y%2012/README.md)

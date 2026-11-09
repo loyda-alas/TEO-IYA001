@@ -69,3 +69,9 @@ Realice las siguientes operaciones
 (37)<sub>8</sub> + (45)<sub>8</sub> =
 
 (37)<sub>16</sub> + (45)<sub>16</sub> =
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 3](../README.md) | [Índice](../../README.md) | [Siguiente: Tema 4 →](../../Tema%2004/README.md)

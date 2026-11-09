@@ -150,3 +150,9 @@ ARM dispone de varios modos de trabajo, aunque se destacan dos: usuario y sistem
 La relativa simpleza de la arquitectura facilita la escritura de código y el desarrollo de aplicaciones.
 
 La mayoría de los registros ARM son de propósito general y están a disposición del usuario.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 12](Cap%C3%ADtulo%2012%20-%20Set%20de%20instrucciones%20Intel.md) | [Índice](README.md) | [Siguiente: Capítulo 14 →](Cap%C3%ADtulo%2014%20-%20Set%20de%20instrucciones%20ARM.md)

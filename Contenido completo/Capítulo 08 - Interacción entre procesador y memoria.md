@@ -162,3 +162,9 @@ Siguen siendo de 16 bits, al igual que en sus antecesores; su función es servir
 ## 8.5. Conclusiones
 
 En esta conferencia se trató la interacción entre el procesador de un computador y la memoria principal. Para un mejor entendimiento se detallaron los componentes que forman al procesador, así como sus funciones y como intervienen en el procesamiento y comunicación de los datos. Se hizo énfasis en el funcionamiento de la ALU, la UC, los buses y registros, por ser los que siempre intervienen en el intercambio de datos e instrucciones, entre el procesador y la memoria.
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 7](Cap%C3%ADtulo%2007%20-%20Circuitos%20Secuenciales%20Sincr%C3%B3nicos%20%28CSS%29.md) | [Índice](README.md) | [Siguiente: Capítulo 9 →](Cap%C3%ADtulo%2009%20-%20Ejecuci%C3%B3n%20de%20c%C3%B3digo.md)

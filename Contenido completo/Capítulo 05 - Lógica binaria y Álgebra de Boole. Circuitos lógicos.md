@@ -307,3 +307,8 @@ Como se ha visto una función lógica puede expresarse en diferentes formas bole
 
 En la clase de hoy se estudiaron las principales definiciones del álgebra de conmutación y además se representaron funciones de conmutación (funciones lógicas) en sus formas canónicas, lo cual servirá de base a la hora de diseñar circuitos lógicos, que es uno de los principales objetivos de este tema.
 
+<!-- navegación -->
+
+---
+
+[← Anterior: Capítulo 4](Cap%C3%ADtulo%2004%20-%20Representaci%C3%B3n%20digital%20de%20la%20informaci%C3%B3n.md) | [Índice](README.md) | [Siguiente: Capítulo 6 →](Cap%C3%ADtulo%2006%20-%20Dise%C3%B1o%20y%20s%C3%ADntesis%20de%20circuitos%20l%C3%B3gicos%20combinacionales.md)

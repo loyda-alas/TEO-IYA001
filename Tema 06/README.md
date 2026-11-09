@@ -167,3 +167,9 @@ Los circuitos multiterminales pueden ser:
 ![Figura](img/fig-s34-p1.jpg)
 
 ![Figura](img/fig-s35-p1.jpg)
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 5 · Ejercicios](../Tema%2005/Ejercicios/README.md) | [Índice](../README.md) | [Siguiente: Tema 6 · Ejercicios →](Ejercicios/README.md)

@@ -44,3 +44,9 @@ PDF de la presentación: [Tema 05 - Ejercicios.pdf](Tema%2005%20-%20Ejercicios.p
    - Pulsador 3: pulsador del Teniente General.
 
    Diseña la tabla de verdad y su función lógica
+
+<!-- navegación -->
+
+---
+
+[← Anterior: Tema 5](../README.md) | [Índice](../../README.md) | [Siguiente: Tema 6 →](../../Tema%2006/README.md)
