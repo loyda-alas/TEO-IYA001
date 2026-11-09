@@ -10,18 +10,26 @@ PDF de la presentación: [Tema 07 - Ejercicios.pdf](Tema%2007%20-%20Ejercicios.p
 
 ## Ejercicios de Circuitos Secuenciales Sincrónicos (CSS)
 
-## Problema 1
+### Problema 1
 
-Para el contador asíncrono de la figura, dibujar el diagrama de tiempos completos para ocho impulsos de reloj, indicando las formas de onda de la señal de reloj, de Q0 y de Q1.
-
-Ejercicios de Circuitos Secuenciales Sincrónicos (CSS)
+Para el contador asíncrono de la figura, dibujar el diagrama de tiempos completos para ocho impulsos de reloj, indicando las formas de onda de la señal de reloj, de Q<sub>0</sub> y de Q<sub>1</sub>.
 
 ![Figura](img/fig-s04-p1.png)
 
-## Problema 2
+### Problema 2
 
-Ejercicios de Circuitos Secuenciales Sincrónicos (CSS)
+Diseñar un contador que genere la siguiente secuencia. Utilizar flip-flops J-K.
 
-Problema 3
+00, 10, 01, 11, 00 ...
 
-Problema 4
+### Problema 3
+
+Diseñar un contador que genere la siguiente secuencia binaria. Utilizar flip-flops J-K.
+
+1, 4, 3, 5, 7, 6, 2, 1 ...
+
+### Problema 4
+
+Diseñar un contador que genere la siguiente secuencia binaria. Utilizar flip-flops J-K.
+
+0, 9, 1, 8, 2, 7, 3, 6, 4, 5, 0, ...
