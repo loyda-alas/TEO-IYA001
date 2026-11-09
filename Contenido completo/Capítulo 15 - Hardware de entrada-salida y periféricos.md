@@ -168,7 +168,7 @@ El funcionamiento del mouse es muy básico, tres bytes de datos se envían como 
 
 El primer byte del paquete de datos del ratón contiene:
 
-- Dos bits que indican si se pulsó el botón derecho o el izquierdo del ratón (0 = no se pulsó, l = se pulsó).
+- Dos bits que indican si se pulsó el botón derecho o el izquierdo del ratón (0 = no se pulsó, 1 = se pulsó).
 
 - Dos bits para el ID del paquete (01).
 - Dos bits para la direcci6n de los ejes X y Y (0 = negativo (hacia atrás/izquierda) y 1 = positivo (hacia delante / derecha)).

@@ -27,19 +27,16 @@ El nombre analógico se origina en el hecho que este tipo de sistemas funciona c
 
 Para que un sistema digital sea capaz de interactuar con el mundo real debe traducir las variables continuas o hacer uso de una traducción previa. Un termómetro digital es un buen ejemplo del primer caso; el segundo caso lo puede ilustrar muy bien un reproductor de CDs. Esta traducción se denomina conversión Análogo/Digital y simplificadamente consiste en calcular periódicamente la amplitud del parámetro medido y asignar un código a dicha amplitud; la secuencia de códigos obtenida código es la señal digital.
 
-Las señales digitales, por ser discretas tienen varias ventajas respecto a las analógicas: 1.
+Las señales digitales, por ser discretas tienen varias ventajas respecto a las analógicas:
 
-Son exactamente reproductibles. Significa que pueden copiarse tantas veces como se necesite sin que se deterioren, pues en cada copia la señal se construye de nuevo. 2.
+1. Son exactamente reproductibles. Significa que pueden copiarse tantas veces como se necesite sin que se deterioren, pues en cada copia la señal se construye de nuevo.
+2. Alta inmunidad a los fenómenos físicos. Las señales analógicas son proclives a sufrir distorsión por interferencia y ruido, pero las digitales son prácticamente inmunes a dichos fenómenos.
 
-Alta inmunidad a los fenómenos físicos. Las señales analógicas son proclives a sufrir distorsión por interferencia y ruido, pero las digitales son prácticamente inmunes a dichos fenómenos.
+También tienen desventajas:
 
-También tienen desventajas: 1.
-
-Existe una pérdida inherente de la información original. 2.
-
-Requieren equipamiento complejo para su utilización y almacenamiento. 3.
-
-No es posible digitalizar señales de muy alta frecuencia.
+1. Existe una pérdida inherente de la información original.
+2. Requieren equipamiento complejo para su utilización y almacenamiento.
+3. No es posible digitalizar señales de muy alta frecuencia.
 
 Alguna vez durante el desarrollo de la electrónica y la computación, la conversión A/D resultó costosa por lo limitado del espacio de almacenamiento. En el presente ya se hace difícil encontrar sistemas digitales que no sean capaces de realizar su propia conversión: cámaras, teléfonos, relojes…
 
@@ -68,7 +65,15 @@ Estos sistemas de numeración se denominan posicionales, ya que el valor de un d
 
 El binario es el sistema de numeración posicional más simple que puede utilizarse, solo utiliza dos dígitos que por convención se han definido como 0 y 1. Dos dígitos significan dos estados en un circuito eléctrico lo que lo hace ideal para ser utilizado en sistemas digitales.
 
-La manera en la que se escriben valores numéricos en binario no se diferencia demasiado del decimal, como pudiera parecer a primera vista. Por ejemplo el número 126 en decimal, representa el valor: 126 = 1*102 + 2*101 + 6*100 En binario no es posible escribir 126 pero sí: 1111110 = 1*26 + 1*25 + 1*24 + 1*23 + 1*22 + 1*21 + 0*20 De modo que una secuencia de 0 y 1 adecuadamente ubicados pueden representar cualquier valor numérico. Es notable que en la medida que el sistema tiene menos dígitos se requiere mayor cantidad de cifras para representar un mismo valor. En los dos ejemplos anteriores se ha representado el valor 126; en decimal se necesitan 3 dígitos y 7 en binario.
+La manera en la que se escriben valores numéricos en binario no se diferencia demasiado del decimal, como pudiera parecer a primera vista. Por ejemplo el número 126 en decimal, representa el valor:
+
+126 = 1\*10<sup>2</sup> + 2\*10<sup>1</sup> + 6\*10<sup>0</sup>
+
+En binario no es posible escribir 126 pero sí:
+
+1111110 = 1\*2<sup>6</sup> + 1\*2<sup>5</sup> + 1\*2<sup>4</sup> + 1\*2<sup>3</sup> + 1\*2<sup>2</sup> + 1\*2<sup>1</sup> + 0\*2<sup>0</sup>
+
+De modo que una secuencia de 0 y 1 adecuadamente ubicados pueden representar cualquier valor numérico. Es notable que en la medida que el sistema tiene menos dígitos se requiere mayor cantidad de cifras para representar un mismo valor. En los dos ejemplos anteriores se ha representado el valor 126; en decimal se necesitan 3 dígitos y 7 en binario.
 
 En las implementaciones de los sistemas digitales modernos, se ha adoptado el nombre de bit para la mínima unidad de información que puede construirse; y por herencia histórica se ha adoptado el byte como unidad de almacenamiento, de tal modo que 1byte = 8bit. Lo que significa que con 1byte pueden manejarse 256 valores numéricos en el rango de 0 hasta 255.
 
@@ -85,7 +90,13 @@ Los valores de la derecha se llaman menos significativos, porque codifican las m
 
 De igual manera cuando un valor numérico se representa con más de un byte, se definen los bytes más significativos y los menos significativos.
 
-Las operaciones aritméticas en binario se rigen por las mismas leyes de acarreo, solo que se debe tener en cuenta que solo hay dos dígitos, de modo que si una suma arroja el valor 2, ocurre acarreo. Por ejemplo: 00101010101 + 11101011101 100010110010
+Las operaciones aritméticas en binario se rigen por las mismas leyes de acarreo, solo que se debe tener en cuenta que solo hay dos dígitos, de modo que si una suma arroja el valor 2, ocurre acarreo. Por ejemplo:
+
+```
+   00101010101
++  11101011101
+  100010110010
+```
 
 Solo se ha de tener en cuenta que:
 
@@ -125,7 +136,13 @@ El sistema hexadecimal se creó como alternativa para la visualización e impres
 
 Mientras que para calcular el valor de una representación binaria en decimal (y viceversa) se necesita sumar potencias de dos, en hexadecimal la traducción es casi inmediata, lo que resulta útil no solo para las personas, sino para agilizar el funcionamiento de los programas que manipular datos binarios.
 
-Por ejemplo el número binario de 20 bits: 11001010110101011110 requiere, para convertirlo en decimal sumar potencias como 524288 y 262144. Pero para el hexadecimal, basta con hacer: 1100 1010 1101 0101 1110 C A D 6 E Sin embargo, las operaciones matemáticas son mucho más complejas peor esto no es un problema ya que el sistema hexadecimal está diseñado explícitamente para representar en formato compacto bloques extensos de información almacenada en bytes.
+Por ejemplo el número binario de 20 bits: 11001010110101011110 requiere, para convertirlo en decimal sumar potencias como 524288 y 262144. Pero para el hexadecimal, basta con hacer:
+
+| 1100 | 1010 | 1101 | 0101 | 1110 |
+| --- | --- | --- | --- | --- |
+| C | A | D | 6 | E |
+
+Sin embargo, las operaciones matemáticas son mucho más complejas peor esto no es un problema ya que el sistema hexadecimal está diseñado explícitamente para representar en formato compacto bloques extensos de información almacenada en bytes.
 
 Existen dos convenciones para la representación de números hexadecimales. La más antigua es incluir el sufijo h al final de la cadena de dígitos: cad6eh. Los lenguajes de programación de alto nivel utilizan el prefijo 0x: 0xcad6e.
 
@@ -139,25 +156,43 @@ Para representar números con signo en binario se utiliza el bit más significat
 | --- | --- |
 | `0xxxxxxx` | $+xxxxxxx$ |
 | `1xxxxxxx` | $-xxxxxxx$ |
- De este modo el valor -10 podría ser: 10001010b. El problema con este proceder es que para hacer operaciones matemáticas habría que comprobar el signo antes y si alguno es negativo habrá que utilizar la resta en vez de la suma lo que se complica si el valor absoluto del negativo es mayor que el positivo.
 
-Una secuencia binaria puede ser lo mismo un texto, una imagen o valores numéricos de una hoja de cálculo. En realidad, los sistemas cómputo jamás comprenden el significado de los valores que manejan. El programa y su creador son los que explotan la utilidad de las representaciones numéricas.
+De este modo el valor -10 podría ser: 10001010b. El problema con este proceder es que para hacer operaciones matemáticas habría que comprobar el signo antes y si alguno es negativo habrá que utilizar la resta en vez de la suma lo que se complica si el valor absoluto del negativo es mayor que el positivo.
+
+> Una secuencia binaria puede ser lo mismo un texto, una imagen o valores numéricos de una hoja de cálculo. En realidad, los sistemas cómputo jamás comprenden el significado de los valores que manejan. El programa y su creador son los que explotan la utilidad de las representaciones numéricas.
 
 Un circuito que lleve a cabo esas operaciones puede realizarse, pero sería complejo y sobre todo costoso en términos de tiempo, en lugar de ellos se aplica un truco matemático llamado complemento a n. para el caso del sistema binario sería complemento a 2 y consiste en cambiar la representación natural en binario del valor por su opuesto, lo que significa que si se suman y el bit más significativo está activo, es equivalente a una resta. Lo realmente inteligente es haber logrado que la misma operación de suma o resta sea válida tanto para números con o sin signo.
 
-Por ejemplo, sean los valores 20 y 130 en decimal. Su suma es 150, en binario se tendría: 10100b + 10000010b = 10010110b. Si se utilizara el signo como se explicó antes, los valores binarios estarían indicando: 20 + (-2) = -22 lo que resulta claramente incorrecto. Sin embargo, adoptando el complemento a dos, se tendría que el valor natural 130 (10000010b) está codificando al valor con signo 27 - 2 = -126.
+Por ejemplo, sean los valores 20 y 130 en decimal. Su suma es 150, en binario se tendría: 10100b + 10000010b = 10010110b. Si se utilizara el signo como se explicó antes, los valores binarios estarían indicando: 20 + (-2) = -22 lo que resulta claramente incorrecto. Sin embargo, adoptando el complemento a dos, se tendría que el valor natural 130 (10000010b) está codificando al valor con signo 2<sup>7</sup> - 2 = -126.
 
-De este modo 20 - 126 = -106. El -106 en complemento a dos sería 27 - 106 = 22 con el bit más significativo activo: 10010110b demostrando que si se interpretan los números como complemento a dos, las operaciones de suma y resta son intercambiables. De ese modo, el bit de signo es una bandera que indica cómo interpretar el valor numérico en caso que se pretenda utilizar valores negativos.
+De este modo 20 - 126 = -106. El -106 en complemento a dos sería 2<sup>7</sup> - 106 = 22 con el bit más significativo activo: 10010110b demostrando que si se interpretan los números como complemento a dos, las operaciones de suma y resta son intercambiables. De ese modo, el bit de signo es una bandera que indica cómo interpretar el valor numérico en caso que se pretenda utilizar valores negativos.
 
 Representar números reales es un poco más complejo, sobre todo porque es un intento de representar un conjunto infinito. En realidad no es posible representar todos los valores reales, solo una pequeña parte de estos peor suficientes para aplicaciones prácticas.
 
-La manera más simple de hacer tal representación es incluir potencias negativas de dos: 1 0 0 1 0 , 0 1 0 1 0 24 23 22 2 20 2-1 2-2 2-3 2-4 2-5 Que representaría el valor 18, 3125. Esta nomenclatura se denomina de coma fija porque una vez que se definen los lugares después de la coma ya no pueden cambiarse. El inconveniente de este método es que está restringido a un conjunto predefinido de valores. Si en el caso anterior se quisieran utilizar valores que representen una millonésima sería imposible pues el valor más pequeño es 2-5.
+La manera más simple de hacer tal representación es incluir potencias negativas de dos:
 
-Para resolver este problema se utiliza la coma flotante. La idea es representar los valores enteros en notación científica de la manera: n=mantisa*baseexponente La mantisa en es un valor real con coma fija que se normaliza de tal modo que no tiene parte entera y su valor siempre resulta: 0.5 < |mantisa| < 1 El bit más significativo de un número en coma flotante es el signo de la mantisa. La base siempre es un entero positivo predefinido que no se representa en el valor binario, usualmente es 2; y el exponente es un número entero que se representa en una notación conocida como exceso n para evitar tener que gastar un bit en signo.
+| 1 | 0 | 0 | 1 | 0 | , | 0 | 1 | 0 | 1 | 0 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2 | 2<sup>0</sup> |  | 2<sup>-1</sup> | 2<sup>-2</sup> | 2<sup>-3</sup> | 2<sup>-4</sup> | 2<sup>-5</sup> |
+
+Que representaría el valor 18, 3125. Esta nomenclatura se denomina de coma fija porque una vez que se definen los lugares después de la coma ya no pueden cambiarse. El inconveniente de este método es que está restringido a un conjunto predefinido de valores. Si en el caso anterior se quisieran utilizar valores que representen una millonésima sería imposible pues el valor más pequeño es 2<sup>-5</sup>.
+
+Para resolver este problema se utiliza la coma flotante. La idea es representar los valores enteros en notación científica de la manera:
+
+n=mantisa\*base<sup>exponente</sup>
+
+La mantisa en es un valor real con coma fija que se normaliza de tal modo que no tiene parte entera y su valor siempre resulta:
+
+0.5 < \|mantisa\| < 1
+
+El bit más significativo de un número en coma flotante es el signo de la mantisa. La base siempre es un entero positivo predefinido que no se representa en el valor binario, usualmente es 2; y el exponente es un número entero que se representa en una notación conocida como exceso n para evitar tener que gastar un bit en signo.
 
 Los campos se ubican de la siguiente manera:
 
-S E F Dónde S es el bit de signo, E es el exponente y F codifica la parte fraccionaria de la mantisa.
+| S | E | F |
+| --- | --- | --- |
+
+Dónde S es el bit de signo, E es el exponente y F codifica la parte fraccionaria de la mantisa.
 
 La precisión con la que se representa un valor real dependerá de la cantidad de bits utilizados en cada campo. Se definen:
 
@@ -178,17 +213,15 @@ Cuando se crea un fichero de texto simple, cada símbolo escrito en este se trad
 
 ![Figura 4.2](img/fig-396.jpg)
 
-**Figura 4.2.** La representación de caracteres en un fichero de texto simples es en realidad una
+**Figura 4.2.** La representación de caracteres en un fichero de texto simples es en realidad una decodificación ASCII.
 
-decodificación ASCII.
+Se puede comprobar que lo que habitualmente se lee como números 0, 1, 2… se almacenan como valores de 1byte 30h, 31h, 32h…
 
-Se puede comprobar que lo que habitualmente se lee como números 0, 1, 2… se almacenan como valores de 1byte 30h, 31h, 32h… Es interesante que algunos valores del código como 0xD y 0xA no son imprimibles, esto se debe a que son símbolos de control, en este caso la combinación de los dos representa un cambio de línea. Hay otros símbolos para acciones como tabulación, cambio de página, etc… El código ASCII es una buena manera de comparar lo que consideran información las personas (el contenido del texto) con lo que se necesita para codificar esa representación.
+Es interesante que algunos valores del código como 0xD y 0xA no son imprimibles, esto se debe a que son símbolos de control, en este caso la combinación de los dos representa un cambio de línea. Hay otros símbolos para acciones como tabulación, cambio de página, etc… El código ASCII es una buena manera de comparar lo que consideran información las personas (el contenido del texto) con lo que se necesita para codificar esa representación.
 
 Con la globalización de las tecnologías de la información, ASCII quedó corto en cuanto a capacidad de representar caracteres distintos a los latinos. Por ejemplo el chino y el japonés tiene miles de jeroglíficos. Así mismo lenguajes como el ruso y el griego tienen caracteres que los distinguen y ASCII no es suficiente.
 
 En base a este problema se crearon varios formatos, desdichadamente poco o nada compatibles entre sí, pero que en esencia se basan en incrementar el número de bits para codificar símbolos:
-
-Normado bajo ISO 8859. Incorpora codificación universal para casi todos los idiomas y símbolos matemáticos. Aunque usa 31bit para codificar cada símbolo, es compatible con el ASCII original de 7bit.
 
 | Codificación | Descripción |
 | --- | --- |
