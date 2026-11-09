@@ -20,7 +20,6 @@ PDF de la presentación: [Tema 1 y 2.pdf](Tema%201%20y%202.pdf)
 
 Enlace: [https://www.youtube.com/watch?v=uRtt7xxZL8w](https://www.youtube.com/watch?v=uRtt7xxZL8w)
 
-
 Primer Computador Electrónico
 
 ![Figura](img/fig-s06-p1.jpg)
@@ -32,7 +31,6 @@ Primer Computador Electrónico
 [![Primera generación — tubos de vacío](https://img.youtube.com/vi/OmNaQPWpaKQ/hqdefault.jpg)](https://www.youtube.com/watch?v=OmNaQPWpaKQ)
 
 Enlace: [https://www.youtube.com/watch?v=OmNaQPWpaKQ](https://www.youtube.com/watch?v=OmNaQPWpaKQ)
-
 
 Tubo de Vacío 1946 - 1958
 
@@ -56,7 +54,6 @@ Tarjetas Perforadas
 
 Enlace: [https://www.youtube.com/watch?v=s7VBoVpKhi4](https://www.youtube.com/watch?v=s7VBoVpKhi4)
 
-
 Primer Computador Comercial
 
 ![Figura](img/fig-s09-p1.jpg)
@@ -68,7 +65,6 @@ Primer Computador Comercial
 [![Segunda generación — transistores](https://img.youtube.com/vi/slXlx0o0JZA/hqdefault.jpg)](https://www.youtube.com/watch?v=slXlx0o0JZA)
 
 Enlace: [https://www.youtube.com/watch?v=slXlx0o0JZA](https://www.youtube.com/watch?v=slXlx0o0JZA)
-
 
 Los Transistores
 
@@ -89,8 +85,6 @@ Opera a mayor velocidad
 [![Relación con la actualidad](https://img.youtube.com/vi/KLJxAY8bsCk/hqdefault.jpg)](https://www.youtube.com/watch?v=KLJxAY8bsCk)
 
 Enlace: [https://www.youtube.com/watch?v=KLJxAY8bsCk](https://www.youtube.com/watch?v=KLJxAY8bsCk)
-
-
 
 ![Figura](img/fig-s13-p1.jpg)
 
@@ -126,7 +120,6 @@ Enlace: [https://www.youtube.com/watch?v=5hRs28Fx27c](https://www.youtube.com/wa
 
 Enlace: [https://www.youtube.com/watch?v=xrVPSCZ-Z-0](https://www.youtube.com/watch?v=xrVPSCZ-Z-0)
 
-
 Los Circuitos Integrados
 
 El componente principal es el circuito integrado
@@ -152,7 +145,6 @@ Multiprogramación
 [![Últimas generaciones (nota del presentador, desde 4:36)](https://img.youtube.com/vi/VJ3qydWTmvA/hqdefault.jpg)](https://www.youtube.com/watch?v=VJ3qydWTmvA)
 
 Enlace: [https://www.youtube.com/watch?v=VJ3qydWTmvA](https://www.youtube.com/watch?v=VJ3qydWTmvA)
-
 
 - Memoria Semiconductora
 
@@ -203,3 +195,9 @@ Señales de Control (menú autoservicio, etiquetamiento de baños)
 Interfaz (mesas)
 
 Memoria (Lista de órdenes)
+
+## Motherboard
+
+
+
+![Motherboard — animación](img/anim-s27-motherboard.gif)

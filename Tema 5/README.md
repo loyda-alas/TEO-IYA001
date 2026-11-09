@@ -14,9 +14,10 @@ PDF de la presentación: [Tema 5.pdf](Tema%205.pdf)
 
 Enlace: [https://www.youtube.com/watch?v=LggsK5Tk4jY](https://www.youtube.com/watch?v=LggsK5Tk4jY)
 
-
-
 ## Circuitos Combinacionales y Secuenciales
+
+
+![Circuitos Combinacionales y Secuenciales](img/anim-s4-lógica-binaria-y-álgebra-de-boole-circui.gif)
 
 ![Figura](img/fig-s04-p1.png)
 

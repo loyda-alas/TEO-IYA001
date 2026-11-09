@@ -10,6 +10,8 @@ PDF de la presentación: [Tema 4 - 2da Parte.pdf](Tema%204%20-%202da%20Parte.pdf
 
 ![Figura](img/fig-s04-p1.png)
 
+![Animación — representación digital](img/anim-s4-animación-diapositiva-4.gif)
+
 ## Esquema Matrioshka
 
 ![Figura](img/fig-s05-p1.jpg)
@@ -89,3 +91,4 @@ Los primeros 32 caracteres ASCII son comandos no gráficos, que nunca se imprime
 ![Figura](img/fig-s24-p1.png)
 
 ![Figura](img/fig-s24-p2.png)
+

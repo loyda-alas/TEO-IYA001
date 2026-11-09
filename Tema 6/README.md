@@ -8,11 +8,19 @@ PDF de la presentación: [Tema 6.pdf](Tema%206.pdf)
 
 ## Diseño y síntesis de Circuitos lógicos Combinacionales
 
+
+![Animación introductoria](img/anim-s4-animación-diapositiva-4.gif)
+
+![Animación](img/anim-s5-animación-diapositiva-5.gif)
+
 ![Figura](img/fig-s04-p1.png)
 
 ![Figura](img/fig-s05-p1.png)
 
 ## Simplificación de funciones
+
+
+![Mapa de Karnaugh — introducción](img/anim-s6-diseño-y-síntesis-de-circuitos-lógicos-c.gif)
 
 Diseño y síntesis de Circuitos lógicos Combinacionales
 
@@ -177,3 +185,4 @@ Realizar el diseño de cada función teniendo en cuenta si hay términos repetid
 ![Figura](img/fig-s34-p1.jpg)
 
 ![Figura](img/fig-s35-p1.jpg)
+
