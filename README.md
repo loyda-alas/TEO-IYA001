@@ -1,38 +1,34 @@
 # Tecnología y Estructura de Ordenadores (TEO)
 
 **Asignatura:** Tecnología y Estructura de Ordenadores (IYA001)  
-**Universidad:** Universidad Europea del Atlántico  
+**Universidad:** Universidad Europea del Atlántico
 
-Material de clase en formato legible para GitHub: el documento de contenido completo de la asignatura y las presentaciones (texto en Markdown, imágenes y PDF).
+Material de clase en Markdown para GitHub: presentaciones de cada tema y el documento de contenido completo, enlazados entre sí.
 
-## Índice de presentaciones
+## Índice
 
-| # | Presentación | Markdown | PDF | Diapositivas |
-|---|--------------|----------|-----|--------------|
-| — | Contenido completo | [00-contenido-completo/README.md](00-contenido-completo/README.md) | [ContenidoCompleto.pdf](00-contenido-completo/ContenidoCompleto.pdf) | 276 págs. |
-| 1 | Tema 1 y 2 | [01-tema-1-y-2/README.md](01-tema-1-y-2/README.md) | [Tema 1 y 2.pdf](01-tema-1-y-2/Tema%201%20y%202.pdf) | 28 |
-| 2 | Tema 3 | [02-tema-3/README.md](02-tema-3/README.md) | [Tema 3.pdf](02-tema-3/Tema%203.pdf) | 49 |
-| 3 | Tema 3 - Ejercicios | [03-tema-3-ejercicios/README.md](03-tema-3-ejercicios/README.md) | [Tema 3 - Ejercicios.pdf](03-tema-3-ejercicios/Tema%203%20-%20Ejercicios.pdf) | 9 |
-| 4 | Tema 4 - 1era Parte | [04-tema-4-1era-parte/README.md](04-tema-4-1era-parte/README.md) | [Tema 4 - 1era Parte.pdf](04-tema-4-1era-parte/Tema%204%20-%201era%20Parte.pdf) | 26 |
-| 5 | Tema 4 - 2da Parte | [05-tema-4-2da-parte/README.md](05-tema-4-2da-parte/README.md) | [Tema 4 - 2da Parte.pdf](05-tema-4-2da-parte/Tema%204%20-%202da%20Parte.pdf) | 24 |
-| 6 | Tema 5 | [06-tema-5/README.md](06-tema-5/README.md) | [Tema 5.pdf](06-tema-5/Tema%205.pdf) | 71 |
-| 7 | Tema 5 - Ejercicios | [07-tema-5-ejercicios/README.md](07-tema-5-ejercicios/README.md) | [Tema 5 - Ejercicios.pdf](07-tema-5-ejercicios/Tema%205%20-%20Ejercicios.pdf) | 9 |
-| 8 | Tema 6 | [08-tema-6/README.md](08-tema-6/README.md) | [Tema 6.pdf](08-tema-6/Tema%206.pdf) | 36 |
-| 9 | Tema 6 - TEO - Ejercicios | [09-tema-6-ejercicios/README.md](09-tema-6-ejercicios/README.md) | [Tema 6 - TEO - Ejercicios.pdf](09-tema-6-ejercicios/Tema%206%20-%20TEO%20-%20Ejercicios.pdf) | 7 |
-| 10 | Tema 7 | [10-tema-7/README.md](10-tema-7/README.md) | [Tema 7.pdf](10-tema-7/Tema%207.pdf) | 72 |
-| 11 | Tema 7 - Ejercicios | [11-tema-7-ejercicios/README.md](11-tema-7-ejercicios/README.md) | [Tema 7 - Ejercicios.pdf](11-tema-7-ejercicios/Tema%207%20-%20Ejercicios.pdf) | 6 |
-| 12 | Tema 8, 9 y 10 | [12-tema-8-9-y-10/README.md](12-tema-8-9-y-10/README.md) | [Tema 8, 9 y 10.pdf](12-tema-8-9-y-10/Tema%208,%209%20y%2010.pdf) | 46 |
-| 13 | Tema 11 y 12 | [13-tema-11-y-12/README.md](13-tema-11-y-12/README.md) | [Tema 11 y 12.pdf](13-tema-11-y-12/Tema%2011%20y%2012.pdf) | 35 |
-| 14 | Tema 13 y 14 | [14-tema-13-y-14/README.md](14-tema-13-y-14/README.md) | [Tema 13 y 14.pdf](14-tema-13-y-14/Tema%2013%20y%2014.pdf) | 7 |
-| 15 | Tema 15, 16, 17 y 18 | [15-tema-15-16-17-y-18/README.md](15-tema-15-16-17-y-18/README.md) | [Tema 15, 16, 17 y 18.pdf](15-tema-15-16-17-y-18/Tema%2015,%2016,%2017%20y%2018.pdf) | 39 |
-| 16 | Tema 19 y 20 | [16-tema-19-y-20/README.md](16-tema-19-y-20/README.md) | [Tema 19 y 20.pdf](16-tema-19-y-20/Tema%2019%20y%2020.pdf) | 43 |
+| Tema | Presentación | Contenido completo | PDF |
+| --- | --- | --- | --- |
+| Contenido completo | — | [Índice](Contenido%20completo/README.md) | [ContenidoCompleto.pdf](Contenido%20completo/ContenidoCompleto.pdf) |
+| Tema 1 y 2 | [Tema 1 y 2](Tema%201%20y%202/README.md) | [Capitulo 1 - Evolución y características de los sistemas de cómputo](Contenido%20completo/Capitulo%201%20-%20Evoluci%C3%B3n%20y%20caracter%C3%ADsticas%20de%20los%20sistemas%20de%20c%C3%B3mputo.md) · [Capitulo 2 - Arquitectura y organización de los sistemas de cómputo modernos](Contenido%20completo/Capitulo%202%20-%20Arquitectura%20y%20organizaci%C3%B3n%20de%20los%20sistemas%20de%20c%C3%B3mputo%20modernos.md) | [Tema 1 y 2.pdf](Tema%201%20y%202/Tema%201%20y%202.pdf) |
+| Tema 3 | [Tema 3](Tema%203/README.md) | [Capitulo 3 - Sistemas de numeración](Contenido%20completo/Capitulo%203%20-%20Sistemas%20de%20numeraci%C3%B3n.md) | [Tema 3.pdf](Tema%203/Tema%203.pdf) |
+| Tema 3 - Ejercicios | [Tema 3 - Ejercicios](Tema%203%20-%20Ejercicios/README.md) | [Capitulo 3 - Sistemas de numeración](Contenido%20completo/Capitulo%203%20-%20Sistemas%20de%20numeraci%C3%B3n.md) | [Tema 3 - Ejercicios.pdf](Tema%203%20-%20Ejercicios/Tema%203%20-%20Ejercicios.pdf) |
+| Tema 4 - 1era Parte | [Tema 4 - 1era Parte](Tema%204%20-%201era%20Parte/README.md) | [Capitulo 4 - Representación digital de la información](Contenido%20completo/Capitulo%204%20-%20Representaci%C3%B3n%20digital%20de%20la%20informaci%C3%B3n.md) | [Tema 4 - 1era Parte.pdf](Tema%204%20-%201era%20Parte/Tema%204%20-%201era%20Parte.pdf) |
+| Tema 4 - 2da Parte | [Tema 4 - 2da Parte](Tema%204%20-%202da%20Parte/README.md) | [Capitulo 4 - Representación digital de la información](Contenido%20completo/Capitulo%204%20-%20Representaci%C3%B3n%20digital%20de%20la%20informaci%C3%B3n.md) | [Tema 4 - 2da Parte.pdf](Tema%204%20-%202da%20Parte/Tema%204%20-%202da%20Parte.pdf) |
+| Tema 5 | [Tema 5](Tema%205/README.md) | [Capitulo 5 - Lógica binaria y Álgebra de Boole. Circuitos lógicos](Contenido%20completo/Capitulo%205%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md) | [Tema 5.pdf](Tema%205/Tema%205.pdf) |
+| Tema 5 - Ejercicios | [Tema 5 - Ejercicios](Tema%205%20-%20Ejercicios/README.md) | [Capitulo 5 - Lógica binaria y Álgebra de Boole. Circuitos lógicos](Contenido%20completo/Capitulo%205%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md) | [Tema 5 - Ejercicios.pdf](Tema%205%20-%20Ejercicios/Tema%205%20-%20Ejercicios.pdf) |
+| Tema 6 | [Tema 6](Tema%206/README.md) | [Capitulo 6 - Diseño y síntesis de circuitos lógicos combinacionales](Contenido%20completo/Capitulo%206%20-%20Dise%C3%B1o%20y%20s%C3%ADntesis%20de%20circuitos%20l%C3%B3gicos%20combinacionales.md) | [Tema 6.pdf](Tema%206/Tema%206.pdf) |
+| Tema 6 - TEO - Ejercicios | [Tema 6 - TEO - Ejercicios](Tema%206%20-%20TEO%20-%20Ejercicios/README.md) | [Capitulo 6 - Diseño y síntesis de circuitos lógicos combinacionales](Contenido%20completo/Capitulo%206%20-%20Dise%C3%B1o%20y%20s%C3%ADntesis%20de%20circuitos%20l%C3%B3gicos%20combinacionales.md) | [Tema 6 - TEO - Ejercicios.pdf](Tema%206%20-%20TEO%20-%20Ejercicios/Tema%206%20-%20TEO%20-%20Ejercicios.pdf) |
+| Tema 7 | [Tema 7](Tema%207/README.md) | [Capitulo 7 - Circuitos Secuenciales Sincrónicos (CSS)](Contenido%20completo/Capitulo%207%20-%20Circuitos%20Secuenciales%20Sincr%C3%B3nicos%20%28CSS%29.md) | [Tema 7.pdf](Tema%207/Tema%207.pdf) |
+| Tema 7 - Ejercicios | [Tema 7 - Ejercicios](Tema%207%20-%20Ejercicios/README.md) | [Capitulo 7 - Circuitos Secuenciales Sincrónicos (CSS)](Contenido%20completo/Capitulo%207%20-%20Circuitos%20Secuenciales%20Sincr%C3%B3nicos%20%28CSS%29.md) | [Tema 7 - Ejercicios.pdf](Tema%207%20-%20Ejercicios/Tema%207%20-%20Ejercicios.pdf) |
+| Tema 8, 9 y 10 | [Tema 8, 9 y 10](Tema%208%2C%209%20y%2010/README.md) | [Capitulo 8 - Interacción entre procesador y memoria](Contenido%20completo/Capitulo%208%20-%20Interacci%C3%B3n%20entre%20procesador%20y%20memoria.md) · [Capitulo 9 - Ejecución de código](Contenido%20completo/Capitulo%209%20-%20Ejecuci%C3%B3n%20de%20c%C3%B3digo.md) · [Capitulo 10 - Tipos de memorias](Contenido%20completo/Capitulo%2010%20-%20Tipos%20de%20memorias.md) | [Tema 8, 9 y 10.pdf](Tema%208%2C%209%20y%2010/Tema%208%2C%209%20y%2010.pdf) |
+| Tema 11 y 12 | [Tema 11 y 12](Tema%2011%20y%2012/README.md) | [Capitulo 11 - Arquitecturas IA-32 e IA-64](Contenido%20completo/Capitulo%2011%20-%20Arquitecturas%20IA-32%20e%20IA-64.md) · [Capitulo 12 - Set de instrucciones Intel](Contenido%20completo/Capitulo%2012%20-%20Set%20de%20instrucciones%20Intel.md) | [Tema 11 y 12.pdf](Tema%2011%20y%2012/Tema%2011%20y%2012.pdf) |
+| Tema 13 y 14 | [Tema 13 y 14](Tema%2013%20y%2014/README.md) | [Capitulo 13 - Arquitectura de procesadores RISC](Contenido%20completo/Capitulo%2013%20-%20Arquitectura%20de%20procesadores%20RISC.md) · [Capitulo 14 - Set de instrucciones ARM](Contenido%20completo/Capitulo%2014%20-%20Set%20de%20instrucciones%20ARM.md) | [Tema 13 y 14.pdf](Tema%2013%20y%2014/Tema%2013%20y%2014.pdf) |
+| Tema 15, 16, 17 y 18 | [Tema 15, 16, 17 y 18](Tema%2015%2C%2016%2C%2017%20y%2018/README.md) | [Capitulo 15 - Hardware de entrada-salida y periféricos](Contenido%20completo/Capitulo%2015%20-%20Hardware%20de%20entrada-salida%20y%20perif%C3%A9ricos.md) · [Capitulo 16 - Buses serie USB y PS-2](Contenido%20completo/Capitulo%2016%20-%20Buses%20serie%20USB%20y%20PS-2.md) · [Capitulo 17 - Buses paralelo PCI y PCI Express](Contenido%20completo/Capitulo%2017%20-%20Buses%20paralelo%20PCI%20y%20PCI%20Express.md) · [Capitulo 18 - Interfaces internas y externas](Contenido%20completo/Capitulo%2018%20-%20Interfaces%20internas%20y%20externas.md) | [Tema 15, 16, 17 y 18.pdf](Tema%2015%2C%2016%2C%2017%20y%2018/Tema%2015%2C%2016%2C%2017%20y%2018.pdf) |
+| Tema 19 y 20 | [Tema 19 y 20](Tema%2019%20y%2020/README.md) | [Capitulo 19 - Tipos de sistemas de cómputo](Contenido%20completo/Capitulo%2019%20-%20Tipos%20de%20sistemas%20de%20c%C3%B3mputo.md) · [Capitulo 20 - Parámetros técnicos de componentes comerciales](Contenido%20completo/Capitulo%2020%20-%20Par%C3%A1metros%20t%C3%A9cnicos%20de%20componentes%20comerciales.md) | [Tema 19 y 20.pdf](Tema%2019%20y%2020/Tema%2019%20y%2020.pdf) |
 
 ## Organización
 
-Cada carpeta contiene:
-
-- `README.md` — diapositivas en Markdown (título, texto e imagen)
-- `img/slide-NN.png` — captura de cada diapositiva
-- `*.pdf` — exportación original de la presentación
-
-Las subcarpetas de Drive (Exámenes, Presentaciones de alumnos) y el resto de archivos no están incluidos aquí.
+- **Contenido completo/** — libro de la asignatura (PDF + un Markdown por capítulo).
+- **Tema …/** — presentación correspondiente (Markdown + PDF; solo figuras de contenido, sin capturas de diapositiva ni portadas).
+- Las carpetas de ejercicios enlazan al tema y al capítulo correspondientes.
