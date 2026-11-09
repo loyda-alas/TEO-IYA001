@@ -72,9 +72,7 @@ específico denominado registro de segmento, puede ser CS, DS, CS, ES, FS o GS y
 - Modo Protegido. Utiliza el par selector:desplazamiento. En este modo el direccionamiento es
 más complejo. El selector también es un registro de segmento, pero esta vez su contenido apunta a una entrada en una tabla de valores de 64bit denominados descriptores de segmento. En estos se codifica la manera de acceder a la memoria y entre los valores que contiene se encuentran la dirección inicial del segmento y su tamaño. De este modo desplazamiento también es un registro de uso general e indica la posición dentro del segmento descrito en el selector. La tabla de descriptores globales se apunta con un registro de propósito específico llamado GDTR.
 
-El 386 también introdujo una nueva forma de gestión de memoria: la paginación. Esta es la forma de manejo de memoria más flexible y versátil hasta el momento pues facilita enormemente la implementación de memoria virtual. Con la paginación el procesador separa explícitamente el espacio de direcciones de un programa de las direcciones válidas para la memoria instalada. Esto
-
-significa por ejemplo que el programa puede utilizar las direcciones de 3G a 4G aunque en el sistema solo haya instalados 258M de RAM ¡o 32M!
+El 386 también introdujo una nueva forma de gestión de memoria: la paginación. Esta es la forma de manejo de memoria más flexible y versátil hasta el momento pues facilita enormemente la implementación de memoria virtual. Con la paginación el procesador separa explícitamente el espacio de direcciones de un programa de las direcciones válidas para la memoria instalada. Esto significa por ejemplo que el programa puede utilizar las direcciones de 3G a 4G aunque en el sistema solo haya instalados 258M de RAM ¡o 32M!
 
 Para ello se trata a la memoria y al espacio de direcciones de un programa como un arreglo lineal de segmentos de tamaño y posición fijos denominados páginas. Es posible traducir las direcciones lógicas (las del programa) a las físicas (las de la RAM) mediante una tabla de páginas. Cada vez que un proceso emite un acceso a la memoria, el CPU consulta la tabla de páginas y encuentra la dirección física verdadera que debe leer o escribir. Cambiando páginas entre la memoria y el disco duro por ejemplo, se puede ejecutar un programa de cualquier tamaño, basta con cargar la página adecuada en la memoria antes de continuar. Si otro programa necesita espacio, se puede guardar temporalmente en disco alguna otra que no se esté utilizando.
 
@@ -157,9 +155,7 @@ El procesador ejecuta instrucciones de los dos caminos. Cuando el resultado de l
 
 La figura 11.7 ilustra el proceso, que evita los saltos imprescindibles de otra manera apoyándose en el paralelismo.
 
-Otra innovación importante de la arquitectura IA-64 es la especulación en el control, también conocida como carga especulativa. Permite al procesador cargar datos desde memoria antes de que el programa los necesite, para evitar retrasos por el acceso a memoria. Además, el procesador aplaza el informe de excepciones hasta que sea necesario comunicar la excepción. Se
-
-usa el término alzar (hoist) para hacer referencia al movimiento de una instrucción de carga a un punto anterior en el flujo de instrucciones.
+Otra innovación importante de la arquitectura IA-64 es la especulación en el control, también conocida como carga especulativa. Permite al procesador cargar datos desde memoria antes de que el programa los necesite, para evitar retrasos por el acceso a memoria. Además, el procesador aplaza el informe de excepciones hasta que sea necesario comunicar la excepción. Se usa el término alzar (hoist) para hacer referencia al movimiento de una instrucción de carga a un punto anterior en el flujo de instrucciones.
 
 ![Figura 11.7](img/fig-1009.jpg)
 
@@ -206,5 +202,3 @@ configurar lo que se conoce como pila de registros, que facilitan la implementac
 ## 11.4. Conclusiones
 
 La evolución de los sistemas de cómputo no siempre la dictan los avances tecnológicos. Un buen ejemplo es el intento de introducción de IA-64 de Intel. Aunque la tecnología es buena y constituye una mejora importante, no triunfó frente a las extensiones de IA-32, debido sobre todo a la falta de una estrategia de migración y al hecho real que supone un cambio de esa magnitud.
-
-# Resumen

@@ -196,5 +196,3 @@ instrucción.
 ## 8.5. Conclusiones
 
 En esta conferencia se trató la interacción entre el procesador de un computador y la memoria principal. Para un mejor entendimiento se detallaron los componentes que forman al procesador, así como sus funciones y como intervienen en el procesamiento y comunicación de los datos. Se hizo énfasis en el funcionamiento de la ALU, la UC, los buses y registros, por ser los que siempre intervienen en el intercambio de datos e instrucciones, entre el procesador y la memoria.
-
-# Resumen

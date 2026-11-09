@@ -16,9 +16,7 @@ A continuación se hará un análisis de los principales rasgos a tener en cuent
 
 ## 20.2. Componentes comerciales
 
-Motherboard La tarjeta madre es él componente principal de la computadora, de ella dependen todos los demás componentes para funcionar y estar conectados entre sí, así como también de ella dependen el tipo de procesador, memoria RAM, puertos de expansión, y demás componentes que se integren al equipo. Él no dimensionar tal importancia sumado a la cantidad de marcas,
-
-modelos, tamaños y características actuales, hacen difícil la tarea de elegir alguna, es por esto que mayormente se desvía toda la atención al precio. ¿Cómo identificar la tarjeta madre adecuada?
+Motherboard La tarjeta madre es él componente principal de la computadora, de ella dependen todos los demás componentes para funcionar y estar conectados entre sí, así como también de ella dependen el tipo de procesador, memoria RAM, puertos de expansión, y demás componentes que se integren al equipo. Él no dimensionar tal importancia sumado a la cantidad de marcas, modelos, tamaños y características actuales, hacen difícil la tarea de elegir alguna, es por esto que mayormente se desvía toda la atención al precio. ¿Cómo identificar la tarjeta madre adecuada?
 
 Otros factores además del precio se deben considerar, pero es importante comenzar por determinar el desempeño que se requiere, lo que se define básicamente en 5 niveles: 1.
 
@@ -136,9 +134,7 @@ una vez que la aguja está situada en la pista y sector correctos. Puede ser vel
 
 disco duro estándar.
 
-Actualmente se ha introducido la tecnología de las unidades de estado sólido, las tienen el mismo uso que los discos duros y emplean las mismas interfaces, pero no están formadas por discos mecánicos, sino por memorias de circuitos integrados para almacenar la información. El uso de esta clase de dispositivos anteriormente se limitaba a las supercomputadoras, por su elevado
-
-precio, aunque hoy en día ya son muchísimo más asequibles para el mercado doméstico. Hoy en las modernas computadoras se pueden mezclar estas dos tecnologías, teniendo los discos tradicionales para almacenar los datos y uno de estado sólido para la velocidad de lectura/ escritura.
+Actualmente se ha introducido la tecnología de las unidades de estado sólido, las tienen el mismo uso que los discos duros y emplean las mismas interfaces, pero no están formadas por discos mecánicos, sino por memorias de circuitos integrados para almacenar la información. El uso de esta clase de dispositivos anteriormente se limitaba a las supercomputadoras, por su elevado precio, aunque hoy en día ya son muchísimo más asequibles para el mercado doméstico. Hoy en las modernas computadoras se pueden mezclar estas dos tecnologías, teniendo los discos tradicionales para almacenar los datos y uno de estado sólido para la velocidad de lectura/ escritura.
 
 - La refrigeración: sirve para mantener la temperatura del procesador en valores bajos. El
 mecanismo habitual es un ventilador, que es el principal generador de ruido. Los modelos de refrigeración líquida son más eficientes, pero elevan bastante el consumo general de energía. Sin embargo, son recomendables para los videojugadores que fuerzan mucho el procesador.

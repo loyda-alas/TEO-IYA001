@@ -58,9 +58,7 @@ Modo usuario, USR, User Mode Sin privilegios, bajo el cual corren la mayoría de
 
 Modos “excepciones”  Modo supervisor, SVC Supervisor Mode, entra en este modo con el reset o cuando se ejecuta una interrupción de software, SWI, Software Interrupt . Modo protegido para sistema operativo. El mecanismo de protección asegura que el código del usuario no pueda obtener los privilegios del supervisor sin los controles apropiados a fin de asegurar que este código no intente operaciones ilegales.  Modo instrucción indefinida, UND, Undefined Mode, se usa este modo para manejar instrucciones indefinidas. Soporta emulación de software de coprocesadores de hardware.  Modo: interrupciones de alta prioridad, FIQ Fast Interrupt Request Mode, entra en este modo cuando aparece una interrupción de alta prioridad (fast). Soporta un proceso de transferencia de datos o canal de alta velocidad.  Modo: interrupciones de baja prioridad o normales, IRQ, Normal interrupt request Mode, entra en este modo cuando aparece una interrupción de baja prioridad (normal). Usado para manejar interrupciones de propósitos generales.  Modo aborto, ABT, Abort Mode, se usa para manejar violaciones de acceso a memoria.
 
-Aborto por una fallo de memoria al leer una instrucción (instruction fetch memory fault) o al acceder a un dato (data abort)  Modo sistema, SYS, System Mode, modo privilegiado que usa los mismos registros que el modo usuario. Corre tareas privilegiadas del sistema operativo (arquitectura ARM versión 4 y superiores) Se entra en ellos cuando aparece una excepción específica. Tienen acceso a todos los recursos y pueden cambiar libremente de modo. Cada uno de ellos tiene
-
-registros adicionales para evitar que cuando ocurre una excepción se arruinen los registros del modo usuario.
+Aborto por una fallo de memoria al leer una instrucción (instruction fetch memory fault) o al acceder a un dato (data abort)  Modo sistema, SYS, System Mode, modo privilegiado que usa los mismos registros que el modo usuario. Corre tareas privilegiadas del sistema operativo (arquitectura ARM versión 4 y superiores) Se entra en ellos cuando aparece una excepción específica. Tienen acceso a todos los recursos y pueden cambiar libremente de modo. Cada uno de ellos tiene registros adicionales para evitar que cuando ocurre una excepción se arruinen los registros del modo usuario.
 
 Al modo sistema, presente solamente a partir de la arquitectura ARM 4, no se entra con cualquier excepción y participa de los mismos registros que el modo usuario. Sin embargo, es un modo privilegiado y, por lo tanto, no está sujeto a las restricciones del modo usuario.
 
@@ -133,5 +131,3 @@ ARM dispone de varios modos de trabajo, aunque se destacan dos: usuario y sistem
 La relativa simpleza de la arquitectura facilita la escritura de código y el desarrollo de aplicaciones.
 
 La mayoría de los registros ARM son de propósito general y están a disposición del usuario.
-
-# Resumen

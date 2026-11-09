@@ -58,9 +58,7 @@ A la hora de poner la memoria hay que fijarse en la forma de la ranura ya que es
 
 **Figura 18.4.** Nótese como están distribuidas las ranuras de memoria en la placa base.
 
-BIOS BIOS (acrónimo de Basic Input-Output System, Sistema Básico de Entrada y Salida) es un pequeño programa incorporado en un chip de la placa base. Su finalidad es mantener cierta información
-
-básica en el arranque de la computadora. Esta información puede ser la configuración de nuestro disco duro, fecha hora del sistema prioridad de arranque, arranque desde la red, etc.
+BIOS BIOS (acrónimo de Basic Input-Output System, Sistema Básico de Entrada y Salida) es un pequeño programa incorporado en un chip de la placa base. Su finalidad es mantener cierta información básica en el arranque de la computadora. Esta información puede ser la configuración de nuestro disco duro, fecha hora del sistema prioridad de arranque, arranque desde la red, etc.
 
 Una de las características de esta memoria es que es una memoria ROM, que significa que no se borra cuando se apaga el computador. Cuando esto ocurre, la configuración permanece grabada gracias a una pila de 3 voltios que incorpora el computador. Esto permite tener actualizada la configuración acerca del arranque de la PC y además mantiene actualizada la fecha y hora del sistema. A veces fallos en el arranque se pueden deber al desgaste de la pila y es necesario reemplazarla.
 
@@ -139,9 +137,7 @@ La conexión de ratón y teclado se realiza normalmente a los puertos PS2, estos
 
 El puerto serie permite conectar dispositivos como un módem externo o un ratón de los antiguos, el puerto paralelo se utiliza principalmente para las impresoras, el VGA es el puerto para conectar el monitor es decir es la salida de la tarjeta de video, el puerto de Red es para conectar el computador a una red, es un conector RJ45, aparentemente como el del teléfono pero más grande, por último la salida de audio permite conectar los altavoces micrófono y auriculares al computador.
 
-En los computadores modernos estos puertos aparecen también en la parte delantera facilitando la conexión. En la figura 18.13 se muestra una computadora que tiene componentes denominados integrados. Se llaman así porque elementos como el audio la red o el vídeo, normalmente son tarjetas que se colocan en las ranuras de expansión, pero en los computadores
-
-actuales pueden venir integrados en el sistema, es decir forman parte de la placa y no se pueden quitar físicamente. Para quitarlos es necesario deshabilitarlos o en la BIOS o a través del panel de control del sistema si se trabaja en Windows.
+En los computadores modernos estos puertos aparecen también en la parte delantera facilitando la conexión. En la figura 18.13 se muestra una computadora que tiene componentes denominados integrados. Se llaman así porque elementos como el audio la red o el vídeo, normalmente son tarjetas que se colocan en las ranuras de expansión, pero en los computadores actuales pueden venir integrados en el sistema, es decir forman parte de la placa y no se pueden quitar físicamente. Para quitarlos es necesario deshabilitarlos o en la BIOS o a través del panel de control del sistema si se trabaja en Windows.
 
 ![Figura 18.13](img/fig-1617.jpg)
 
@@ -160,5 +156,3 @@ Otro puerto que se puede encontrar en los computadores actuales es el puerto Fir
 ## 18.3. Conclusiones
 
 Saber cuáles son las principales características de las interfaces internas y externas permite que se pueda utilizar la PC más acorde a sus prestaciones y le permite al usuario configurarla para el entorno de trabajo deseado. Entender estos sistemas ayudará a solucionar los problemas de fallas o de funcionamiento de una computadora. Si bien ha habido muchos avances en la tecnología de microprocesador, la arquitectura básica de una computadora personal se ha mantenido relativamente constante desde la presentación de la primera.
-
-# Resumen

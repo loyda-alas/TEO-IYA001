@@ -55,6 +55,61 @@ JK
 
 ### 7.3.1. Biestable rs (reset-set)
 
+**Tabla característica del biestable RS sincronizado**
+
+| $C_k$ | $R$ | $S$ | $Q_{n+1}$ |
+| --- | --- | --- | --- |
+| 0 | × | × | $Q_n$ |
+| 1 | 0 | 0 | $Q_n$ |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | — |
+
+**Tablas del biestable D**
+
+| $C_k$ | $D$ | $Q_{n+1}$ |
+| --- | --- | --- |
+| 0 | × | $Q_n$ |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+| $Q_n$ | $Q_{n+1}$ | $D$ |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+**Tablas del biestable T**
+
+| $T$ | $Q_{n+1}$ |
+| --- | --- |
+| 0 | $Q_n$ |
+| 1 | $\overline{Q_n}$ |
+
+| $Q_n$ | $Q_{n+1}$ | $T$ |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+**Tablas del biestable JK**
+
+| $J$ | $K$ | $Q_{n+1}$ |
+| --- | --- | --- |
+| 0 | 0 | $Q_n$ |
+| 0 | 1 | 0 |
+| 1 | 0 | 1 |
+| 1 | 1 | $\overline{Q_n}$ |
+
+| $Q_n$ | $Q_{n+1}$ | $J$ | $K$ |
+| --- | --- | --- | --- |
+| 0 | 0 | 0 | × |
+| 0 | 1 | 1 | × |
+| 1 | 0 | × | 1 |
+| 1 | 1 | × | 0 |
+
 Se construye con compuertas NAND o NOR con o sin reloj. Por ser RS el biestable más sencillo se tomará como referencia para establecer las ideas básicas para la compresión del funcionamiento de otros biestables. El biestable RS posee 2 entradas R y S que llaman RESET y SET respectivamente.
 
 Biestable RS con reloj Se analizará la influencia del reloj en el funcionamiento del circuito.

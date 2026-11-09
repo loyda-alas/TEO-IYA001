@@ -47,7 +47,7 @@ Aunque pueda parecer confuso, la secuencia de valores utilizados en los mapas de
 
 EJEMPLO 1 Simplificar la siguiente función.
 
-F(w, x, y, z) = m (1,3,4,5,9,11,12,13,14,15) Solución: Se tiene la función en forma de suma de productos y se corresponde el PE con el área en el mapa. Se ubican 1 en las áreas correspondientes a los PE que forman la función, al resto de las áreas les corresponden 0, pero no es necesario ponerlas.
+$$F(w, x, y, z) = \sum m(1,3,4,5,9,11,12,13,14,15)$$ Solución: Se tiene la función en forma de suma de productos y se corresponde el PE con el área en el mapa. Se ubican 1 en las áreas correspondientes a los PE que forman la función, al resto de las áreas les corresponden 0, pero no es necesario ponerlas.
 
 Consideraciones sobre los grupos. 1. Los grupos se forman con # de áreas potencia de 2, es decir 1, 2, 4, 8 y 16. 2. Se deben obtener la menor cantidad de grupos con la mayor cantidad de áreas en cada uno. 3. En cada grupo debe haber al menos un 1 no contenido en otro grupo. 4. Se aplica el teorema 6 a las áreas de cada grupo y las variables que representan al grupo son las que permanecen constantes en todas las áreas. 5. El 0 es variable negada y el 1 variable sin negar.
 
@@ -124,15 +124,29 @@ Se estudiará en esta clase solo los conversores de código, que son circuitos m
 
 Es importante señalar que para el diseño de estos circuitos se utilizan los mismos pasos que para el diseño de los circuitos uniterminales ya vistos con anterioridad, la diferencia radica en que se tendrán que obtener las funciones canónicas de cada una de las salidas y por ende simplificar cada una de ellas para su diseño.
 
-EJEMPLO 4 Diseñar el conversor de código mostrado en la tabla. Recordar y tener en cuenta que el número decimal corresponde el número binario de las entradas no siempre tiene que estar en orden. a b c F1 F2 F3 1 0 0 0 1 0 1 1 0 0 0 0 1 1 1 0 0 1 0 0 1 1 1 1 0 1 1 1 1 0 0 0 0 1 0 1 Pasos a seguir:
+EJEMPLO 4 Diseñar el conversor de código mostrado en la tabla. Recordar y tener en cuenta que el número decimal corresponde el número binario de las entradas no siempre tiene que estar en orden. | # | $a$ | $b$ | $c$ | $F_1$ | $F_2$ | $F_3$ |
+| --- | --- | --- | --- | --- | --- | --- |
+| 4 | 1 | 0 | 0 | 0 | 1 | 0 |
+| 6 | 1 | 1 | 0 | 0 | 0 | 0 |
+| 7 | 1 | 1 | 1 | 0 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 1 | 1 | 1 |
+| 3 | 0 | 1 | 1 | 1 | 1 | 0 |
+| 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 
-- Obtener cada función y simplificarlas por separado, utilizando los Mapas de
-Karnaugh.
+Pasos a seguir:
 
-F1 =  (0,1,3) +  (2,5) m  F2 =  (1,3,4) +  (2,5) m  F3 =  (0,1,7) +  (2,5) m 
+- Obtener cada función y simplificarlas por separado, utilizando los Mapas de Karnaugh.
 
-- Realizar el diseño de cada función teniendo en cuenta si hay términos repetidos.
-a\bc a\bc a\bc       F1 = a F2 = a c + a b F3 = a b + a c El diseño del circuito conversor de código empleando compuertas básicas sería:
+$$F_1 = \sum m(0,1,3) + \sum \Phi(2,5)$$
+
+$$F_2 = \sum m(1,3,4) + \sum \Phi(2,5)$$
+
+$$F_3 = \sum m(0,1,7) + \sum \Phi(2,5)$$ ón teniendo en cuenta si hay términos repetidos.
+a\bc a\bc a\bc       $$F_1 = a$$
+
+$$F_2 = \overline{a}c + ab$$
+
+$$F_3 = \overline{a}\overline{b} + ac$$ El diseño del circuito conversor de código empleando compuertas básicas sería:
 
 ## 6.4. Conclusiones
 

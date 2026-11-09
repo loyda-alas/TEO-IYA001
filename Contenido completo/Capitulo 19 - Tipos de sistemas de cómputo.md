@@ -46,9 +46,7 @@ Por ejemplo: el surtidor de gasolina que trabaja con dos magnitudes: la cantidad
 
 Las computadoras analógicas representan los números mediante una cantidad física, es decir, asignan valores numéricos por medio de la medición física de una propiedad real, como la longitud de un objeto, el ángulo entre dos líneas o la cantidad de voltaje que pasa a través de un punto en un circuito eléctrico. Las computadoras analógicas obtienen todos sus datos a partir de alguna forma de medición. Aun cuando es eficaz en algunas aplicaciones, este método de representar los datos es una limitación de las computadoras analógicas. La precisión de los datos usados en una computadora analógica está íntimamente ligada a la precisión con que pueden medirse. 2.
 
-Digitales: la computadora digital es la que acepta y procesa datos que han sido convertidos al sistema binario. La mayoría de las computadoras son digitales. Este tipo de
-
-computadoras opera sobre diversos tipos de datos alfabéticos, numéricos, imágenes, sonidos, videos. No se dedican a una tarea en específico, sino de propósito general, es decir, pueden usar gráficos, control de inventarios, diseño de nómina de contabilidad, etc.
+Digitales: la computadora digital es la que acepta y procesa datos que han sido convertidos al sistema binario. La mayoría de las computadoras son digitales. Este tipo de computadoras opera sobre diversos tipos de datos alfabéticos, numéricos, imágenes, sonidos, videos. No se dedican a una tarea en específico, sino de propósito general, es decir, pueden usar gráficos, control de inventarios, diseño de nómina de contabilidad, etc.
 
 Las computadoras digitales representan los datos o unidades separadas. Las calculadoras de bolsillo son ejemplos comunes de dispositivos construidos según los principios de la Computadora Digital. Para obtener resultados, las computadoras analógicas miden, mientras que las computadoras digitales cuentan. 3.
 
@@ -96,9 +94,7 @@ Microcomputadoras: la microcomputadora es conocida como computadora personal o P
 
 Es la más pequeña, gracias a los microprocesadores, más barata y más popular en el mercado. Puede funcionar como unidad independiente o estar en red con otras microcomputadoras o como un terminal de un “mainframe” para expandir sus capacidades. Puede ejecutar las mismas operaciones y usar los mismos programas que muchas computadoras superiores, aunque en menor capacidad. Las microcomputadoras, computadoras personales o PC como variadamente se les llama, constituyen el grupo de computadoras que cotidianamente se observa en el trabajo, en las oficinas y hogares. La mayoría de software y hardware están diseñados para este tipo de computadoras, generalmente se presentan como estación individual de trabajo (como en la casa), pero se puede conectar con otras computadoras y formar una red.
 
-Las microcomputadoras son las computadoras más accesibles para cualquier tipo de usuario, son máquinas personales de escritorio. Pequeñas solo en tamaño físico y accesibles económicamente, este tipo de computadoras son tan dinámicas, que lo mismo
-
-las puede utilizar un experto en el trabajo como un niño en casa, por esta razón las microcomputadoras son las más conocidas, y ofrecen un sin número de aplicaciones.
+Las microcomputadoras son las computadoras más accesibles para cualquier tipo de usuario, son máquinas personales de escritorio. Pequeñas solo en tamaño físico y accesibles económicamente, este tipo de computadoras son tan dinámicas, que lo mismo las puede utilizar un experto en el trabajo como un niño en casa, por esta razón las microcomputadoras son las más conocidas, y ofrecen un sin número de aplicaciones.
 
 En un principio solo era posible utilizarlas en ambiente monousuario, esto es un solo usuario a la vez, pero con los avances tecnológicos desde hace ya bastante tiempo este tipo de máquinas pueden ser utilizadas en ambientes multiusuarios, incluso como servidores de una red de computadoras. Pequeñas de bajo costo y para múltiples aplicaciones.
 

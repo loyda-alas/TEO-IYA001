@@ -14,9 +14,7 @@ En los primeros computadores electrónicos, todos los buses eran de tipo paralel
 
 ## 17.2. Arquitectura de los buses paralelos
 
-Un bus paralelo tiene conexiones físicas complejas, pero la lógica es sencilla, que lo hace útil en sistemas con poco poder de cómputo. En los primeros microcomputadores, el bus era
-
-simplemente la extensión del bus del procesador y los demás integrados “escuchaban” las líneas de direcciones, en espera de recibir instrucciones.
+Un bus paralelo tiene conexiones físicas complejas, pero la lógica es sencilla, que lo hace útil en sistemas con poco poder de cómputo. En los primeros microcomputadores, el bus era simplemente la extensión del bus del procesador y los demás integrados “escuchaban” las líneas de direcciones, en espera de recibir instrucciones.
 
 En este tipo de bus, los datos son enviados por bytes al mismo tiempo, con la ayuda de varias líneas que tienen funciones fijas. La cantidad de datos enviada es bastante grande, siendo igual al ancho de los datos por la frecuencia de funcionamiento. Este tipo de bus en particular es usado en el procesador, discos duros, tarjetas de expansión y de video, impresoras, entre otros.
 
@@ -55,9 +53,7 @@ proporciona una dirección inicial, puede transferir múltiples conjuntos de dat
 - La segunda característica es el soporte para el llamado arbitraje del bus (Bus mastering).
 Esta es una característica que permite que si múltiples dispositivos están habilitados para dominar el bus, tiene que haber un sistema de arbitraje para evitar que múltiples dispositivos intenten manejar el bus de manera simultánea. Un número de esquemas diferentes son usados para esto. Esta característica debe estar soportada por el chipset de la placa base. Actualmente todas las placas base modernas incluyen esta característica.
 
-El bus PCI puede ser configurado para que trabaje en modo síncrono o asíncrono, en función de cada placa base y del chipset integrado. En el modo síncrono, el más habitual en las placas base actuales PCI funciona a la mitad de la frecuencia de la memoria, que suele coincidir con la
-
-frecuencia base del bus de la placa base, la denominada frecuencia FSB (Front Side Bus).
+El bus PCI puede ser configurado para que trabaje en modo síncrono o asíncrono, en función de cada placa base y del chipset integrado. En el modo síncrono, el más habitual en las placas base actuales PCI funciona a la mitad de la frecuencia de la memoria, que suele coincidir con la frecuencia base del bus de la placa base, la denominada frecuencia FSB (Front Side Bus).
 
 Mientras que en el modo asíncrono la frecuencia del bus PCI puede ser configurada independientemente de la frecuencia de la memoria. Esta configuración se puede realizar solamente en aquellas placas base que lo permitan mediante jumpers o utilizando la BIOS.
 
@@ -79,9 +75,7 @@ Estas características son visibles en las siguientes figuras. La primera muestr
 
 **Figura 17.2.** Bus PCI 2.1 - 2.3.
 
-El PCI está diseñado para permitir una cierta variedad de configuraciones basadas en microprocesadores, incluyendo sistemas tanto de uno como de varios procesadores. Por
-
-consiguiente, proporciona un conjunto de funciones de uso general. Utiliza temporización síncrona y un esquema de arbitraje centralizado.
+El PCI está diseñado para permitir una cierta variedad de configuraciones basadas en microprocesadores, incluyendo sistemas tanto de uno como de varios procesadores. Por consiguiente, proporciona un conjunto de funciones de uso general. Utiliza temporización síncrona y un esquema de arbitraje centralizado.
 
 ![Figura 17.3](img/fig-1492.jpg)
 
