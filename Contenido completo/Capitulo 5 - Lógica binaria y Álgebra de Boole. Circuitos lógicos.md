@@ -26,9 +26,20 @@ Variable de conmutación: variable que solo puede tomar uno de dos valores posib
 
 Verdadero o falso, 1 ó 0. 2.
 
-Operaciones de conmutación: OR: la combinación OR de dos variables de conmutación resulta verdadera ó 1 cuando al menos una de ellas es verdadera ó 1. AND: la combinación AND de dos variables de conmutación resulta verdadera ó 1 cuando las dos variables son verdaderas ó 1. NOT: negado o complemento de una variable o función.
+Operaciones de conmutación:
 
-OR AND NOT X Y X+Y X Y X*Y X X 0 0 0 0 0 0 0 1 0 1 1 0 1 0 1 0 1 0 1 1 0 0 1 1 1 1 1 1 Nota: La prioridad de las operaciones es NOT, AND, OR. Se utilizan paréntesis para cambiar la prioridad. 3.
+- **OR:** la combinación OR de dos variables de conmutación resulta verdadera ó 1 cuando al menos una de ellas es verdadera ó 1.
+- **AND:** la combinación AND de dos variables de conmutación resulta verdadera ó 1 cuando las dos variables son verdaderas ó 1. NOT: negado o complemento de una variable o función.
+
+**Tablas de verdad — OR, AND y NOT**
+
+| OR | | | AND | | | NOT | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $X$ | $Y$ | $X+Y$ | $X$ | $Y$ | $X \cdot Y$ | $X$ | $\overline{X}$ |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 1 | 0 | 0 |  |  |
+| 1 | 1 | 1 | 1 | 1 | 1 |  |  | Nota: La prioridad de las operaciones es NOT, AND, OR. Se utilizan paréntesis para cambiar la prioridad. 3.
 
 Expresiones de conmutación: es la combinación de un número finito de variables de conmutación (X1, X2,…Xn) y constantes (0 y 1) por medio de operaciones de conmutación.
 
@@ -36,15 +47,28 @@ Ejemplo: X, Z + Y, Z + X, Z 4.
 
 Función de conmutación: una función de conmutación f (X1, X2, …Xn) es una correspondencia que asocia un elemento “0” ó “1” con cada una de las posibles combinaciones de las variables X1, X2,…Xn. Esta correspondencia se evidencia mediante la tabla de la verdad (TV) de la función.
 
-Ejemplo: T (X, Y, Z) = XZ + XZ + YZ es una función de conmutación.
+Ejemplo: $$T(X, Y, Z) = XZ + \overline{X}Z + Y\overline{Z}$$ es una función de conmutación.
 
 Su tabla de la verdad es:
 
-X Y Z T 0 0 0 1 0 0 1 1 T(0,0,0) = 0 0 + 0 0 + 0 0 = 1 * 0 + 0 * 1 + 1* 1 T = 0 + 0 + 1 T = 1 ……………… La TV define o representa a una sola función de conmutación, pero esta función puede escribirse con diferentes expresiones equivalentes entre sí. 0 1 0 0 0 1 1 1 1 0 0 1 1 0 1 0 1 1 0 1 1 1 1 0
+| $X$ | $Y$ | $Z$ | $T$ |
+| --- | --- | --- | --- |
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 1 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 0 |
+
+Ejemplo de evaluación: $$T(0,0,0)=1$$
+
+La TV define o representa a una sola función de conmutación, pero esta función puede escribirse con diferentes expresiones equivalentes entre sí.
 
 ¿Cuántas combinaciones existen?
 
-Hay 3 variables, cada una puede tomar 2 valores, por tanto: 23 = 8 combinaciones. 5.
+Hay 3 variables, cada una puede tomar 2 valores, por tanto: $2^3 = 8$ combinaciones. 5.
 
 Expresiones equivalentes: son aquellas que toman igual valor para las mismas combinaciones de entrada. Las expresiones equivalentes tienen las mismas Tablas de la Verdad.
 
@@ -60,13 +84,29 @@ Cada operación de conmutación se corresponde con una compuerta lógica.
 
 Compuerta OR Compuerta AND Compuerta NOT o inversor La tabla de la verdad (TV) de cada compuerta es igual a la de la operación que representa.
 
-OR AND NOT X Y X+Y X Y X*Y X X 0 0 0 0 0 0 0 1 0 1 1 0 1 0 1 0 1 0 1 1 0 0 1 1 1 1 1 1 2.
+**Tablas de verdad — OR, AND y NOT**
+
+| OR | | | AND | | | NOT | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $X$ | $Y$ | $X+Y$ | $X$ | $Y$ | $X \cdot Y$ | $X$ | $\overline{X}$ |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 1 | 0 | 0 |  |  |
+| 1 | 1 | 1 | 1 | 1 | 1 |  |  | 2.
 
 Compuertas Universales.
 
 Se considera que una función es universal cuando es posible representar cualquier función lógica solamente con funciones de su tipo. Las funciones que cumplen con la condición anterior son las funciones NOR y NAND. Las Tablas de Verdad (TV) de estas compuertas son:
 
-NOR NAND X Y (X+Y) X Y (X*Y) 0 0 1 0 0 1 0 1 0 0 1 1 1 0 0 1 0 1 1 1 0 1 1 0 La representación gráfica de estas funciones (compuertas lógicas) es:
+**Tablas de verdad — NOR y NAND**
+
+| NOR | | | NAND | | |
+| --- | --- | --- | --- | --- | --- |
+| $X$ | $Y$ | $\overline{(X+Y)}$ | $X$ | $Y$ | $\overline{(X \cdot Y)}$ |
+| 0 | 0 | 1 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 1 | 1 | 0 | La representación gráfica de estas funciones (compuertas lógicas) es:
 
 Compuerta NOR: (OR y NOT) Compuerta NAND: (AND y NOT) 3.
 
@@ -74,7 +114,18 @@ Compuertas Especiales.
 
 XOR: La función or exclusiva es considerada como una compuerta especial pues realiza más de una operación (suma, multiplicación y negación), sin embargo no es una compuerta universal pues con ella no se puede representar cualquier función.
 
-XOR X Y X  Y  (X, Y) = X Y + X Y = (X + Y) (X + Y) Se representa como:  = X  Y 0 0 0 0 1 1 1 0 1 1 1 0 La representación gráfica de esta función es:
+**XOR (OR exclusiva)**
+
+$$f(X, Y) = X \oplus Y = \overline{X}Y + X\overline{Y} = (X + Y)(\overline{X} + \overline{Y})$$
+
+Se representa como: $f = X \oplus Y$
+
+| $X$ | $Y$ | $X \oplus Y$ |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 | La representación gráfica de esta función es:
 
 ### 5.3.1. Equivalencias entre compuertas
 
@@ -100,7 +151,16 @@ Las formas canónicas son la forma más completa de representar una función. Co
 
 Dada la siguiente TV, obtener las formas canónicas:
 
-X Y Z f 0 0 0 0 0 0 1 0 0 1 0 1 0 1 1 0 1 0 0 1 1 0 1 0 1 1 0 0 1 1 1 1 Las funciones de conmutación, a partir de la TV se pueden obtener por dos vías:
+| $X$ | $Y$ | $Z$ | $f$ |
+| --- | --- | --- | --- |
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 1 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 1 | Las funciones de conmutación, a partir de la TV se pueden obtener por dos vías:
 
 - Forma Disyuntiva Normal.
 - Forma Conjuntiva Normal.
@@ -115,9 +175,18 @@ X = 1  X X = 0  X F1 =  (X,Y,Z) = XYZ + XYZ + XYZ A cada término de es
 
 La notación mi simboliza de forma abreviada los mintérminos de una función. i: número decimal que es equivalente al número binario que se obtiene al sustituir X por 1 y X por 0.
 
-Mintérmino Entrada binaria asociada Notación Mi X1 * X2 * X3 0 0 0 m0 X1 * X2 * X3 0 0 1 m1 X1 * X2 * X3 0 1 0 m2 X1 * X2 * X3 0 1 1 m3 X1 * X2 * X3 1 0 0 m4 X1 * X2 * X3 1 0 1 m5 X1 * X2 * X3 1 1 0 m6 X1 * X2 * X3 1 1 1 m7 Ejemplo: F1 =  (X,Y,Z) = XYZ + XYZ + XYZ = m2 + m4 + m7 = m (2, 4,7)
+| Mintérmino | Entrada binaria asociada | Notación $m_i$ |
+| --- | --- | --- |
+| $\overline{X_1}\overline{X_2}\overline{X_3}$ | 000 | $m_0$ |
+| $\overline{X_1}\overline{X_2}X_3$ | 001 | $m_1$ |
+| $\overline{X_1}X_2\overline{X_3}$ | 010 | $m_2$ |
+| $\overline{X_1}X_2X_3$ | 011 | $m_3$ |
+| $X_1\overline{X_2}\overline{X_3}$ | 100 | $m_4$ |
+| $X_1\overline{X_2}X_3$ | 101 | $m_5$ |
+| $X_1X_2\overline{X_3}$ | 110 | $m_6$ |
+| $X_1X_2X_3$ | 111 | $m_7$ | Ejemplo: $$F_1 = f(X,Y,Z) = m_2 + m_4 + m_7 = \sum m(2,4,7)$$
 
-### 5.4.2. Forma disyuntiva normal
+### 5.4.2. Forma conjuntiva normal
 
 Se basa en la operación AND de los términos o combinaciones que hacen 0 la función. Los términos o combinaciones lo componen el OR de las variables. De aquí se deriva el término Suma estándar (SE), que es el OR de todas las variables de la función complementadas o no. Es decir, para representar la función se unen en AND las SE para las cuales la función vale 0.
 
