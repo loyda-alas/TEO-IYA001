@@ -18,7 +18,9 @@ Adoptaron la estrategia de hacer el código de máquina incompatible con IA-32, 
 
 Los procesadores IA-32 tienen tres modos de operación, cada uno define y activa capacidades específicas y modos de codificación de instrucciones diferentes:
 
-Modo Real En este modo el procesador implementa el entorno de operación del 8086, con algunas extensiones: puede pasar por software al Modo Protegido o al Modo Mantenimiento del Sistema, puede utilizar registros de 32 bits, puede reconfigurar la ubicación del vector de interrupciones, ya que a pesar de que el 8086 no lo tenía, ahora existe y es accesible desde modo Real el registro IDTR fundamental para las interrupciones. Para honrar su compromiso de compatibilidad ascendente, todos los procesadores IA-32 e Intel64 arrancan en este Modo de Trabajo, pero solo pueden acceder al primer megabyte de la memoria.
+#### Modo Real
+
+En este modo el procesador implementa el entorno de operación del 8086, con algunas extensiones: puede pasar por software al Modo Protegido o al Modo Mantenimiento del Sistema, puede utilizar registros de 32 bits, puede reconfigurar la ubicación del vector de interrupciones, ya que a pesar de que el 8086 no lo tenía, ahora existe y es accesible desde modo Real el registro IDTR fundamental para las interrupciones. Para honrar su compromiso de compatibilidad ascendente, todos los procesadores IA-32 e Intel64 arrancan en este Modo de Trabajo, pero solo pueden acceder al primer megabyte de la memoria.
 
 La figura 11.1 muestra los registros básicos accesibles en Modo Real, así como el tamaño del espacio de direcciones.
 
@@ -26,13 +28,17 @@ La figura 11.1 muestra los registros básicos accesibles en Modo Real, así como
 
 **Figura 11.1.** Registros y espacio de direcciones en Modo Real.
 
-Modo Protegido Este es el modo por excelencia de los procesadores de esta familia inaugurado por el procesador 80286. En este modo se soporta la multitarea y se despliega un espacio de direccionamiento de hasta 4Gbytes, extensible virtualmente a 64Gbytes. A partir del procesador 80386 se lleva el modelo arquitectural a 32 bits y se introduce un sub-modo al que puede ponerse a una determinada tarea, denominado Virtual-8086 que permite que un programa diseñado para ejecutarse en un procesador 8086, pueda ejecutarse como una tarea en Modo Protegido. Esto fue muy útil para flexibilizar la migración de aplicaciones, pero ya no es utilizado (aunque se soporta) pues las limitaciones de memoria.
+#### Modo Protegido
+
+Este es el modo por excelencia de los procesadores de esta familia inaugurado por el procesador 80286. En este modo se soporta la multitarea y se despliega un espacio de direccionamiento de hasta 4Gbytes, extensible virtualmente a 64Gbytes. A partir del procesador 80386 se lleva el modelo arquitectural a 32 bits y se introduce un sub-modo al que puede ponerse a una determinada tarea, denominado Virtual-8086 que permite que un programa diseñado para ejecutarse en un procesador 8086, pueda ejecutarse como una tarea en Modo Protegido. Esto fue muy útil para flexibilizar la migración de aplicaciones, pero ya no es utilizado (aunque se soporta) pues las limitaciones de memoria.
 
 ![Figura 11.2](img/fig-955.jpg)
 
 **Figura 11.2.** Registros y espacio de direcciones en Modo Real.
 
-Modo Mantenimiento del Sistema Este modo fue introducido a partir de los modelos 386SL y 486SL para realizar funciones específicas para la plataforma de hardware en la cual funciona el procesador, sobre todo para ahorro de energía y seguridad; estos procesadores fueron los primeros diseñados para notebooks.
+#### Modo Mantenimiento del Sistema
+
+Este modo fue introducido a partir de los modelos 386SL y 486SL para realizar funciones específicas para la plataforma de hardware en la cual funciona el procesador, sobre todo para ahorro de energía y seguridad; estos procesadores fueron los primeros diseñados para notebooks.
 
 Al ingresar a este modo el procesador resguarda en forma automática el contexto completo de la tarea o programa interrumpido, y pasa a ejecutar código en un espacio de direcciones separado.
 
@@ -52,9 +58,7 @@ Es posible además, manejar distintos formatos de números enteros. La figura 11
 
 ![Figura 11.4](img/fig-964.jpg)
 
-**Figura 11.4.** Formatos de los diferentes tamaños de números enteros manejados en
-
-IA-32 e IA-64 y sus nombres.
+**Figura 11.4.** Formatos de los diferentes tamaños de números enteros manejados en IA-32 e IA-64 y sus nombres.
 
 La figura 11.5 ofrece un resumen del formato numérico y su escritura en memoria en formato Little-endian.
 
@@ -64,7 +68,9 @@ La figura 11.5 ofrece un resumen del formato numérico y su escritura en memoria
 
 ### 11.2.1. Funcionamiento
 
-Manejo de la memoria Todo acceso a memoria se realiza mediante una dirección. En los procesadores Intel, esta dirección se conforma a partir de un par que depende del modo de trabajo.
+#### Manejo de la memoria
+
+Todo acceso a memoria se realiza mediante una dirección. En los procesadores Intel, esta dirección se conforma a partir de un par que depende del modo de trabajo.
 
 - Modo Real. Utiliza el par segmento:desplazamiento. El segmento lo define un registro de uso específico denominado registro de segmento, puede ser CS, DS, CS, ES, FS o GS y su valor especifica un área de memoria de hasta 64K de tamaño. Para el desplazamiento en cambio, se puede utilizar cualquier registro de propósito general.
 - Modo Protegido. Utiliza el par selector:desplazamiento. En este modo el direccionamiento es más complejo. El selector también es un registro de segmento, pero esta vez su contenido apunta a una entrada en una tabla de valores de 64bit denominados descriptores de segmento. En estos se codifica la manera de acceder a la memoria y entre los valores que contiene se encuentran la dirección inicial del segmento y su tamaño. De este modo desplazamiento también es un registro de uso general e indica la posición dentro del segmento descrito en el selector. La tabla de descriptores globales se apunta con un registro de propósito específico llamado GDTR.
@@ -77,7 +83,9 @@ En realidad la memoria es un gran arreglo lineal de bytes. Todos los mecanismos 
 
 En los procesadores IA-32 las páginas tienen un tamaño fijo de 4K y la tabla de páginas está dividida en dos niveles. Uno llamado directorio de páginas en el que cada entrada apunta a una tabla de páginas que puede cubrir un espacio de 4M. Un registro de control llamado CR3, almacena la dirección del directorio de páginas. La paginación se activa o desactiva por medio de otro registro de control: CR0.
 
-Ejecución de código Además de las instrucciones básicas para asignación de valores, aritmética, manejo de registros y direcciones, se puede hacer uso de una pila (stack) que maneja el procesador. Esta pila es un área de memoria contigua, referenciada mediante el valor del registro SS (Stack Segment) del procesador. El tamaño de este segmento en el modo IA-32, puede llegar hasta 4 Gbytes. El segmento se recorre mediante un registro de propósito general, denominado puntero de pila (stack pointer), y que en estos procesadores según el modo de trabajo es el registro SP, ESP, o RSP (16, 32, o 64 bits respectivamente).
+#### Ejecución de código
+
+Además de las instrucciones básicas para asignación de valores, aritmética, manejo de registros y direcciones, se puede hacer uso de una pila (stack) que maneja el procesador. Esta pila es un área de memoria contigua, referenciada mediante el valor del registro SS (Stack Segment) del procesador. El tamaño de este segmento en el modo IA-32, puede llegar hasta 4 Gbytes. El segmento se recorre mediante un registro de propósito general, denominado puntero de pila (stack pointer), y que en estos procesadores según el modo de trabajo es el registro SP, ESP, o RSP (16, 32, o 64 bits respectivamente).
 
 Para guardar un dato en la pila, se puede utilizar la instrucción PUSH, y para retirarlo, la instrucción POP. Cada vez que ejecuta PUSH, el procesador primero decrementa el puntero de pila (SP, ESP, o RSP) y luego escribe el dato en la dirección indicada por el puntero dentro del segmento apuntado por SS. POP funciona a la inversa, el procesador lee el dato en la dirección que indica el puntero de pila, y luego lo incrementa. El incremento o decremento está en correspondencia con la cantidad de datos leídos o escritos. Las instrucciones PUSH y POP no pueden utilizarse con registros de 8bit.
 
@@ -89,9 +97,19 @@ La pila se utiliza para:
 
 Con la evolución de los procesadores IA-32 se han creado instrucciones especializadas en determinadas operaciones sobre conjuntos grandes de valores. El primer grupo de estas vio la luz con el procesador Pentium MMX, que incluyó instrucciones para extensiones multimedia (MMX instructions) Básicamente eran instrucciones que manipulaban los registros de la unidad de punto flotante (R0 al R7) como números enteros de 80bit, mediante los nombres MM0-MM7. Estas instrucciones fueron las precursoras de Intel para de las llamadas instrucciones SIMD, que son las siglas de Single Instruction Multiple Data. Significa que una misma acción puede hacerse sobre varios bytes a la vez, lo que es muy útil y eficiente en el tratamiento digital de vídeo y sonido. Con el tiempo las instrucciones SIMD de Intel han evolucionado mediante extensiones SSE (Siglas de Streaming SIMD Extensions) que cada vez utilizan registros de mayor tamaño e incorporan operaciones más complejas.
 
-Interrupciones Las interrupciones también funcionan dependiendo del modo de trabajo. A pesar de ello, el procesador jamás distingue entre interrupciones internas o externas. Todas las versiones de Intel pueden manejar hasta 256 interrupciones y corresponde al programador decidir cuáles serán para interrupciones externas. Las primeras 32 siempre están reservadas para Intel, para las llamadas excepciones. En la documentación se explica su manejo. Se destacan:
+#### Interrupciones
 
-Interrupción Función (Excepción) División por cero Código de instrucción no válido Error de protección general Fallo de página Error en instrucción SIMD 0 6 13 14 19 El procesador identifica las interrupciones en el bus de datos con un número (entre cero y 255) y con ese valor calcula una dirección dónde espera encontrar el código que debe ejecutarse para atender el evento.
+Las interrupciones también funcionan dependiendo del modo de trabajo. A pesar de ello, el procesador jamás distingue entre interrupciones internas o externas. Todas las versiones de Intel pueden manejar hasta 256 interrupciones y corresponde al programador decidir cuáles serán para interrupciones externas. Las primeras 32 siempre están reservadas para Intel, para las llamadas excepciones. En la documentación se explica su manejo. Se destacan:
+
+| Interrupción | Función (Excepción) |
+| --- | --- |
+| 0 | División por cero |
+| 6 | Código de instrucción no válido |
+| 13 | Error de protección general |
+| 14 | Fallo de página |
+| 19 | Error en instrucción SIMD |
+
+El procesador identifica las interrupciones en el bus de datos con un número (entre cero y 255) y con ese valor calcula una dirección dónde espera encontrar el código que debe ejecutarse para atender el evento.
 
 Con la introducción del Pentium, Intel dispuso un controlador avanzado de interrupciones (APIC) que puede manejar interrupciones virtuales y desde entonces pueden manejarse hasta 65536 interrupciones por núcleo en la práctica.
 
@@ -105,7 +123,9 @@ La motivación detrás de IA-64 era explotar el paralelismo y deshacerse del las
 
 Resulta de todos modos interesante porque supone un avance tecnológico que no ha tenido éxito no por ser defectuoso o erróneo, sino porque supone un cambio demasiado grande en el software.
 
-Los sistemas Intel y compatibles dominan1 el mercado por lo que en el mejor de los casos habría que recompilar, probar y luego redistribuir todo el software a nivel mundial. 1. El mercado y aplicaciones de computadores de uso general y altas prestaciones está dominado por Intel y AMD, pero recientemente se ha producido una explosión de dispositivos móviles que hacen interesante pensar en el futuro cercano.
+Los sistemas Intel y compatibles dominan<sup>1</sup> el mercado por lo que en el mejor de los casos habría que recompilar, probar y luego redistribuir todo el software a nivel mundial.
+
+<sup>1</sup> El mercado y aplicaciones de computadores de uso general y altas prestaciones está dominado por Intel y AMD, pero recientemente se ha producido una explosión de dispositivos móviles que hacen interesante pensar en el futuro cercano.
 
 ### 11.3.1. Funcionamiento
 
@@ -170,14 +190,6 @@ IA-64 dispone de un gran número de registros, estos se pueden clasificar como s
 - Registros de datos del monitor de prestaciones: usados como apoyo al hardware de monitorización de prestaciones.
 - Identificadores del procesador: describen características del procesador.
 - Registros de aplicación: conjuntamente con los del indicador del marco actual, permiten configurar lo que se conoce como pila de registros, que facilitan la implementación de la multitarea y el guardado de contextos en los sistemas operativos.
-
-
-
-<!-- tabla detectada en PDF p.153 -->
-
-| Interrupción | Función(Excepción) |
-| --- | --- |
-| 0 6 13 14 19 | Divisiónporcero Códigodeinstrucciónnoválido Errordeproteccióngeneral Fallodepágina ErroreninstrucciónSIMD |
 
 ## 11.4. Conclusiones
 
