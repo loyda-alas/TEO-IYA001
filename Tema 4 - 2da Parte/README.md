@@ -8,7 +8,6 @@ PDF de la presentación: [Tema 4 - 2da Parte.pdf](Tema%204%20-%202da%20Parte.pdf
 
 ## Representación digital de la Información
 
-![Figura](img/fig-s04-p1.png)
 
 ![Animación — representación digital](img/anim-s4-animación-diapositiva-4.gif)
 

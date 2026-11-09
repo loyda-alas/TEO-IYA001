@@ -53,20 +53,12 @@ Son inmunes al Ruido
 
 ![Analógico a Digital](img/anim-s7-representación-digital-de-la-información.gif)
 
-![Figura](img/fig-s07-p1.png)
 
 ## Digital a Analógico
 
 
+![Digital a Analógico](img/anim-s9-representación-digital-de-la-información.gif)
 
-
-![Digital a Analógico](img/anim-s8-representación-digital-de-la-información.gif)
-
-![Digital a Analógico (animación)](img/anim-s9-representación-digital-de-la-información.gif)
-
-![Figura](img/fig-s08-p1.png)
-
-![Figura](img/fig-s09-p1.png)
 
 ## Sistema binario - Operaciones aritméticas
 

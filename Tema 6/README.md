@@ -13,7 +13,6 @@ PDF de la presentación: [Tema 6.pdf](Tema%206.pdf)
 
 ![Animación](img/anim-s5-animación-diapositiva-5.gif)
 
-![Figura](img/fig-s04-p1.png)
 
 ![Figura](img/fig-s05-p1.png)
 
