@@ -1,0 +1,15 @@
+title: Tecnología y Estructura de Ordenadores (TEO)
+description: Material de clase de la asignatura IYA001 · Universidad Europea del Atlántico
+url: https://loyda-alas.github.io
+baseurl: /TEO-IYA001
+lang: es
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-seo-tag
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+relative_links:
+  enabled: true
+  collections: true
