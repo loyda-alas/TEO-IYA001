@@ -1,0 +1,14 @@
+<script>
+// En la web, los enlaces a .md del repositorio se convierten en las páginas HTML generadas.
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href]").forEach(function (a) {
+    var h = a.getAttribute("href");
+    if (/^([a-z]+:|\/\/|#)/i.test(h)) return;
+    var m = h.match(/^([^#?]*)\.md([#?].*)?$/i);
+    if (!m) return;
+    var p = m[1], rest = m[2] || "";
+    p = /(^|\/)README$/i.test(p) ? p.replace(/README$/i, "") : p + ".html";
+    a.setAttribute("href", (p || "./") + rest);
+  });
+});
+</script>
