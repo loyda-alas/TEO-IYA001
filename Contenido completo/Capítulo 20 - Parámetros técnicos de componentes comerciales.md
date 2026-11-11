@@ -89,7 +89,7 @@ Algunas de las características esenciales para describir su funcionamiento son:
 
 | Procesador | Frec. Reloj | Núcleos | Veloc. Bus | Pot. Térmica | Mem. Caché |
 | --- | --- | --- | --- | --- | --- |
-| Duron | 600-1800 MHz | 1 | 100-133 MHz | ,7 W-57 W | 128 KB |
+| Duron | 600-1800 MHz | 1 | 100-133 MHz | ,7 W-57 W (dato incompleto en el original) | 128 KB |
 | Athlon | 500-1400 MHz | 1 | 100-133 MHz | 31 W-72 W | 128 KB |
 | Athlon XP | 1333-2333 MHz | 1 | 133-266 MHz | 48,5-76,8 W | 128 KB |
 | Athlon XP | 1500-2200 MHz | 1 | 166-800 MHz | 35-62 W | 128 KB |
