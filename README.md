@@ -5,6 +5,8 @@
 
 Material de clase en Markdown para GitHub: presentaciones de cada tema y el documento de contenido completo, enlazados entre sí.
 
+Consulta [cómo usar este repositorio](COMO-USAR.md) si es la primera vez que entras. El material también está publicado en la [página web](https://loyda-alas.github.io/TEO-IYA001/).
+
 ## Índice
 
 | Tema | Presentación | Ejercicios | Contenido completo | PDF |
