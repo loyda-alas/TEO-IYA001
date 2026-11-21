@@ -33,3 +33,7 @@ desapilar:
 	INC D		    	; Avanzamos D a la siguiente casilla de la pantalla
 	DEC B			    ; Restamos 1 al contador de letras que faltan
 	JMP desapilar		; Volvemos arriba para sacar la siguiente letra
+
+; ----- Cerrar el programa -----
+fin:
+	HLT
