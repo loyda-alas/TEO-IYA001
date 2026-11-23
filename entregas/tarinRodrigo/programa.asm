@@ -1,3 +1,6 @@
+; Nombre: Rodrigo
+; Descripcion: Programa que determina si un numero es par o impar
+
 JMP start
 
 num:   DB 7		; Numero que vamos a probar
