@@ -13,7 +13,7 @@ Consulta [cómo usar este repositorio](COMO-USAR.md) si es la primera vez que en
 
 ## Entregas
 
-- [Programa en lenguaje ensamblador](Entregas/Programa%20en%20ensamblador.md): **Plazo cerrado:** la corrección está en los comentarios de cada pull request. [Cómo entregar](Entregas/README.md).
+- [Programa en lenguaje ensamblador](Entregas/Programa%20en%20ensamblador.md): **Plazo cerrado:** aún puedes entregar, pero el pull request quedará marcado como «Fuera de plazo». La corrección está en los comentarios de cada pull request. [Cómo entregar](Entregas/README.md).
 
 ## Índice
 

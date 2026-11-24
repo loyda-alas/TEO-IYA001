@@ -6,7 +6,7 @@ Las entregas son individuales y se hacen mediante *pull request* desde el fork d
 
 |Entrega|Fecha límite|Rama|
 |-|:-:|:-:|
-|[Programa en lenguaje ensamblador](Programa%20en%20ensamblador.md)|martes 24/nov/2026, 10:00 · **Plazo cerrado:** la corrección está en los comentarios de cada pull request|`programa-ensamblador`|
+|[Programa en lenguaje ensamblador](Programa%20en%20ensamblador.md)|martes 24/nov/2026, 10:00 · **Plazo cerrado:** aún puedes entregar, pero el pull request quedará marcado como «Fuera de plazo». La corrección está en los comentarios de cada pull request.|`programa-ensamblador`|
 
 </div>
 

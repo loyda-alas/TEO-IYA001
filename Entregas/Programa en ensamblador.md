@@ -1,6 +1,8 @@
 # Entrega: programa en lenguaje ensamblador
 
 > Fecha límite: **martes 24 de noviembre de 2026, 10:00** (hora de Madrid) · Rama: `programa-ensamblador`
+>
+> **Plazo cerrado:** aún puedes entregar, pero el pull request quedará marcado como «Fuera de plazo». La corrección está en los comentarios de cada pull request.
 
 Desarrolla un pequeño programa en lenguaje ensamblador con el [simulador de ensamblador](http://schweigi.github.io/assembler-simulator/index.html). Los programas se presentan ese mismo día en clase.
 
