@@ -21,5 +21,6 @@ Presentaciones que los equipos de la asignatura Tecnología y Estructura de Orde
     <tr><td>11</td><td>Arquitecturas IA-32 e IA-64</td><td>Arquitecturas IA-32 e IA-64</td><td>Gabriela Florián, José Manuel Viloria, Jhojan Uscuchagua</td><td><a href="11%20-%20Arquitecturas%20IA-32%20e%20IA-64.pdf">11 - Arquitecturas IA-32 e IA-64.pdf</a></td></tr>
     <tr><td>12</td><td>Set de instrucciones Intel</td><td>Set de instrucciones Intel</td><td>Javier Quisphe, Alex Salinas, Carlos Proaño, Michael Crespo</td><td><a href="12%20-%20Set%20de%20instrucciones%20Intel.pdf">12 - Set de instrucciones Intel.pdf</a></td></tr>
     <tr><td>13</td><td>Arquitectura RISC</td><td>Arquitectura de procesadores RISC</td><td>Daniel Godefroy, Darwin Madrid</td><td><a href="13%20-%20Arquitectura%20RISC.pdf">13 - Arquitectura RISC.pdf</a></td></tr>
+    <tr><td>14</td><td>Set de instrucciones ARM</td><td>Set de instrucciones ARM</td><td>Diego García, César Gómez, Aimar Gutiérrez</td><td><a href="14%20-%20Set%20de%20instrucciones%20ARM.pdf">14 - Set de instrucciones ARM.pdf</a></td></tr>
   </tbody>
 </table>
