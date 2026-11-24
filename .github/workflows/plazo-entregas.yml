@@ -1,0 +1,40 @@
+# Marca con la etiqueta «Fuera de plazo» los pull request de entrega abiertos después de la fecha límite.
+# Funciona con pull_request_target, que GitHub solo lee desde la rama main.
+# Solo pone la etiqueta: no cierra, no fusiona y no comenta.
+#
+# Para una entrega nueva, añade su rama en «branches» y una línea en el «case» de abajo
+# con la fecha límite en UTC (hora de Madrid menos 1 h en invierno, menos 2 h en verano).
+name: Plazo de las entregas
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+    branches:
+      - programa-ensamblador
+
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  plazo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Marcar fuera de plazo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          RAMA: ${{ github.event.pull_request.base.ref }}
+          CREADO: ${{ github.event.pull_request.created_at }}
+        run: |
+          case "$RAMA" in
+            programa-ensamblador) LIMITE="2026-11-24T09:00:00Z" ;;  # martes 24/nov/2026, 10:00 en Madrid
+            *) echo "La rama $RAMA no tiene fecha límite configurada."; exit 0 ;;
+          esac
+          if [ "$(date -u -d "$CREADO" +%s)" -gt "$(date -u -d "$LIMITE" +%s)" ]; then
+            gh pr edit "$PR" --repo "$REPO" --add-label "Fuera de plazo"
+            echo "PR #$PR fuera de plazo (límite $LIMITE, enviado $CREADO)."
+          else
+            echo "PR #$PR dentro de plazo (límite $LIMITE, enviado $CREADO)."
+          fi
