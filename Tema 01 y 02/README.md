@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 1 — Evolución y características de los sistemas de cómputo](../Contenido%20completo/Cap%C3%ADtulo%2001%20-%20Evoluci%C3%B3n%20y%20caracter%C3%ADsticas%20de%20los%20sistemas%20de%20c%C3%B3mputo.md) · [Capítulo 2 — Arquitectura y organización de los sistemas de cómputo modernos](../Contenido%20completo/Cap%C3%ADtulo%2002%20-%20Arquitectura%20y%20organizaci%C3%B3n%20de%20los%20sistemas%20de%20c%C3%B3mputo%20modernos.md)
 
+**Exposiciones de alumnos:** [Grupo 01 · Evolución sistemas de cómputo (PDF)](../Exposiciones-alumnos/01%20-%20Evoluci%C3%B3n%20sistemas%20de%20c%C3%B3mputo.pdf) · [Grupo 02 · Arquitectura y organización (PDF)](../Exposiciones-alumnos/02%20-%20Arquitectura%20y%20organizaci%C3%B3n.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 PDF de la presentación: [Tema 01 y 02.pdf](Tema%2001%20y%2002.pdf)
 
 ---

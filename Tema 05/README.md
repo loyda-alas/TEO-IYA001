@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 5 — Lógica binaria y Álgebra de Boole. Circuitos lógicos](../Contenido%20completo/Cap%C3%ADtulo%2005%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.%20Circuitos%20l%C3%B3gicos.md)
 
+**Exposiciones de alumnos:** [Grupo 05 · Lógica binaria y Álgebra de Boole (PDF)](../Exposiciones-alumnos/05%20-%20L%C3%B3gica%20binaria%20y%20%C3%81lgebra%20de%20Boole.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 PDF de la presentación: [Tema 05.pdf](Tema%2005.pdf)
 
 Ejercicios: [Tema 5 · Ejercicios](Ejercicios/README.md)

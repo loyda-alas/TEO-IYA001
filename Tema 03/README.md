@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 3 — Sistemas de numeración](../Contenido%20completo/Cap%C3%ADtulo%2003%20-%20Sistemas%20de%20numeraci%C3%B3n.md)
 
+**Exposiciones de alumnos:** [Grupo 03 · Sistemas de numeración (PDF)](../Exposiciones-alumnos/03%20-%20Sistemas%20de%20numeraci%C3%B3n.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 PDF de la presentación: [Tema 03.pdf](Tema%2003.pdf)
 
 Ejercicios: [Tema 3 · Ejercicios](Ejercicios/README.md)

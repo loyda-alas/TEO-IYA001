@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 4 — Representación digital de la información](../Contenido%20completo/Cap%C3%ADtulo%2004%20-%20Representaci%C3%B3n%20digital%20de%20la%20informaci%C3%B3n.md)
 
+**Exposiciones de alumnos:** [Grupo 04 · Representación digital (PDF)](../Exposiciones-alumnos/04%20-%20Representaci%C3%B3n%20digital.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 Este tema tiene dos partes:
 
 | Parte | Presentación | PDF |

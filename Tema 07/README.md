@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 7 — Circuitos Secuenciales Sincrónicos (CSS)](../Contenido%20completo/Cap%C3%ADtulo%2007%20-%20Circuitos%20Secuenciales%20Sincr%C3%B3nicos%20%28CSS%29.md)
 
+**Exposiciones de alumnos:** [Grupo 07 · Circuitos secuenciales síncronos (PDF)](../Exposiciones-alumnos/07%20-%20Circuitos%20secuenciales%20s%C3%ADncronos.pdf) · [Grupo 07 · Biestables y contadores digitales (PDF)](../Exposiciones-alumnos/07%20-%20Biestables%20y%20contadores%20digitales.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 PDF de la presentación: [Tema 07.pdf](Tema%2007.pdf)
 
 Ejercicios: [Tema 7 · Ejercicios](Ejercicios/README.md)

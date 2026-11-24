@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 6 — Diseño y síntesis de circuitos lógicos combinacionales](../Contenido%20completo/Cap%C3%ADtulo%2006%20-%20Dise%C3%B1o%20y%20s%C3%ADntesis%20de%20circuitos%20l%C3%B3gicos%20combinacionales.md)
 
+**Exposiciones de alumnos:** [Grupo 06 · Diseño circuitos combinacionales (PDF)](../Exposiciones-alumnos/06%20-%20Dise%C3%B1o%20circuitos%20combinacionales.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 PDF de la presentación: [Tema 06.pdf](Tema%2006.pdf)
 
 Ejercicios: [Tema 6 · Ejercicios](Ejercicios/README.md)

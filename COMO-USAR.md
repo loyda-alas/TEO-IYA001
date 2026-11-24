@@ -16,6 +16,7 @@ Las carpetas de los temas (`Tema 01 y 02`, `Tema 03`, …) siguen el orden del c
 - **Ejercicios.** Colección de problemas del tema, cuando los hay (temas 3, 5, 6 y 7). Están en una subcarpeta `Ejercicios` dentro del propio tema.
 - **Contenido completo.** El libro de la asignatura, un Markdown por capítulo (`Capítulo 01` … `Capítulo 20`). Cada tema enlaza a su(s) capítulo(s), y cada capítulo enlaza de vuelta a su presentación.
 - **PDF.** El mismo material en PDF, para descargar o imprimir: el de cada presentación (o de sus ejercicios) y el [libro completo](Contenido%20completo/ContenidoCompleto.pdf).
+- **Exposiciones de alumnos.** Las presentaciones en PDF que cada grupo expuso en clase, reunidas en [Exposiciones de alumnos](Exposiciones-alumnos/README.md). Cada tema enlaza, debajo de la lectura del contenido completo, a las exposiciones de sus capítulos.
 
 ## Cómo descargar un PDF o el repositorio entero
 

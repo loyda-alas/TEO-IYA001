@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 8 — Interacción entre procesador y memoria](../Contenido%20completo/Cap%C3%ADtulo%2008%20-%20Interacci%C3%B3n%20entre%20procesador%20y%20memoria.md) · [Capítulo 9 — Ejecución de código](../Contenido%20completo/Cap%C3%ADtulo%2009%20-%20Ejecuci%C3%B3n%20de%20c%C3%B3digo.md) · [Capítulo 10 — Tipos de memorias](../Contenido%20completo/Cap%C3%ADtulo%2010%20-%20Tipos%20de%20memorias.md)
 
+**Exposiciones de alumnos:** [Grupo 08 · Interacción procesador y memoria (PDF)](../Exposiciones-alumnos/08%20-%20Interacci%C3%B3n%20procesador%20y%20memoria.pdf) · [Grupo 09 · Ejecución de código (PDF)](../Exposiciones-alumnos/09%20-%20Ejecuci%C3%B3n%20de%20c%C3%B3digo.pdf) · [Grupo 10 · Tipos de memorias (PDF)](../Exposiciones-alumnos/10%20-%20Tipos%20de%20memorias.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 PDF de la presentación: [Tema 08, 09 y 10.pdf](Tema%2008%2C%2009%20y%2010.pdf)
 
 ---

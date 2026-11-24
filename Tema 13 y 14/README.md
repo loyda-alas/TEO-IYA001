@@ -2,6 +2,8 @@
 
 **Lectura en el contenido completo:** [Capítulo 13 — Arquitectura de procesadores RISC](../Contenido%20completo/Cap%C3%ADtulo%2013%20-%20Arquitectura%20de%20procesadores%20RISC.md) · [Capítulo 14 — Set de instrucciones ARM](../Contenido%20completo/Cap%C3%ADtulo%2014%20-%20Set%20de%20instrucciones%20ARM.md)
 
+**Exposiciones de alumnos:** [Grupo 13 · Arquitectura RISC (PDF)](../Exposiciones-alumnos/13%20-%20Arquitectura%20RISC.pdf) · [Grupo 14 · Set de instrucciones ARM (PDF)](../Exposiciones-alumnos/14%20-%20Set%20de%20instrucciones%20ARM.pdf) · [Todas las exposiciones](../Exposiciones-alumnos/README.md)
+
 PDF de la presentación: [Tema 13 y 14.pdf](Tema%2013%20y%2014.pdf)
 
 ---
