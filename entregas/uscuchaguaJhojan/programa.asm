@@ -4,7 +4,7 @@
 
 	JMP start
 ; El primer espacio es el String terminator 
-clon: 	DB 0,0,0,0,0,0
+clon: 	DB 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
 ; Palabra a verificar
 palabra: DB "PALINDROMO"
